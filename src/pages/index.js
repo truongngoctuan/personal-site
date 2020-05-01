@@ -10,12 +10,12 @@ import NovelList from "../components/molecules/novel-list";
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-{/* 
+
     <h1>Hi people</h1>
-    <p>Welcome to TRUONG Ngoc Tuan's site.</p> */}
+    <p>Welcome to TRUONG Ngoc Tuan's site.</p>
 
     <NovelList />
-    {/* <Link to="/page-2/">Go to page 2</Link> */}
+    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 );
 
