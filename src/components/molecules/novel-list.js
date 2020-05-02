@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { Link, navigate } from "gatsby";
+import { navigate } from "gatsby";
 import { makeStyles } from "@material-ui/core/styles";
-import { Card, Grid, Typography, Paper } from "@material-ui/core";
+import { Card, Grid, Typography } from "@material-ui/core";
 
 const NovelList = ({ items }) => {
   const classes = useStyles();
@@ -14,7 +14,7 @@ const NovelList = ({ items }) => {
             <Card
               className={classes.paper}
               elevation="8"
-              onClick={(e) => navigate("/novel-details")}
+              onClick={() => navigate("/novel-details")}
             >
               <img
                 className={classes.thumbnail}

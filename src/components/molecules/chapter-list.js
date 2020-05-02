@@ -1,15 +1,12 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { Grid, Typography } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
+import ChapterItem from "./chapter-item";
 
 const ChapterList = ({ items }) => (
   <Grid>
-    {items.map((item) => (
-      <Grid key={item.url}>
-        <Typography variant="body1" color="textPrimary">
-          {item.name}
-        </Typography>
-      </Grid>
+    {items.map((item, index) => (
+      <ChapterItem key={item.url} idx={index} url={item.url} name={item.name} />
     ))}
   </Grid>
 );

@@ -1,19 +1,29 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { Link, navigate } from "gatsby";
 import { makeStyles } from "@material-ui/core/styles";
-import { Card, Grid, Typography, Paper } from "@material-ui/core";
+import { Grid, Typography, Paper } from "@material-ui/core";
 
 const NovelInfo = ({ title, thumbnail, synopsis }) => {
   const classes = useStyles();
   return (
     <Grid container className={classes.root}>
-      <Grid xs="3">
-        <img src={thumbnail} />
+      <Grid xs="12" sm="3">
+        <Paper elevation="4">
+          <img
+            className={classes.thumbnail}
+            alt="novel-thumbnail"
+            src={thumbnail}
+          />
+        </Paper>
       </Grid>
-      <Grid xs="9">
-        <Typography color="textPrimary" variant="h3">{title}</Typography> <br />
-        <Typography color="textPrimary" variant="caption">{synopsis}</Typography>
+      <Grid className={classes.infoText} xs="12" sm="9">
+        <Typography color="textPrimary" variant="h3">
+          {title}
+        </Typography>
+        <br />
+        <Typography color="textPrimary" variant="caption">
+          {synopsis}
+        </Typography>
       </Grid>
     </Grid>
   );
@@ -21,8 +31,26 @@ const NovelInfo = ({ title, thumbnail, synopsis }) => {
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1
+    flexGrow: 1,
   },
+  paper: {
+    marginLeft: theme.spacing(1),
+    marginRight: theme.spacing(1),
+    maxWidth: 500,
+    cursor: "pointer",
+  },
+  thumbnail: {
+    borderRadius: theme.spacing(0.5),
+    // marginRight: theme.spacing(1),
+
+    width: "100%",
+    objectFit: "cover",
+    display: "block",
+    margin: "auto",
+  },
+  infoText: {
+    padding: theme.spacing(2)
+  }
 }));
 
 NovelInfo.propTypes = {
