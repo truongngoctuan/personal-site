@@ -3,9 +3,6 @@ import React from "react";
 import { Grid, Typography } from "@material-ui/core";
 
 class ChapterItem extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     const { idx, name } = this.props;
