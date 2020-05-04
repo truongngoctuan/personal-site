@@ -4,7 +4,7 @@ import { Grid } from "@material-ui/core";
 import ChapterItem from "./chapter-item";
 
 const ChapterList = ({ items }) => (
-  <Grid>
+  <Grid className="chapters-list">
     {items.map((item, index) => (
       <ChapterItem key={item.url} idx={index} url={item.url} name={item.name} />
     ))}

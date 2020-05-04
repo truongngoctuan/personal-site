@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby";
 
 import Header from "./header";
 import "./layout.css";
+import "./components.scss";
 import { Typography } from "@material-ui/core";
 
 const Layout = ({ children }) => {

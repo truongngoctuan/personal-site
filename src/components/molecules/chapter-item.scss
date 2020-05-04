@@ -1,0 +1,39 @@
+.chapter-item {
+  flex-grow: 1;
+  /* height: theme.spacing(4), */
+  height: 32px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+
+  display: flex;
+  flex-direction: row;
+  &--even {
+    background-color: #1f2025;
+  }
+
+  &--odd {
+    background-color: #17181b;
+  }
+
+  &:hover {
+    .chapter-item--even {
+      background-color: #1b2d4c;
+    }
+
+    .chapter-item--odd {
+      background-color: #1b2d4c;
+    }
+  }
+
+  &--text-idx {
+    width: 32px;
+    margin-right: 1px;
+    padding-top: 6px;
+  }
+
+  &--text {
+    padding-top: 6px;
+    flex-grow: 1;
+    padding-left: 32px;
+  }
+}
