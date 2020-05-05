@@ -18,7 +18,7 @@ const IndexPage = ({ count, increment }) => (
     <br />
     <Counter count={count} increment={increment} />
     <Link to="/page-2/">Go to page 2</Link>
-    <Link to="/app/">Go to reader app</Link>
+    <Link to="/app/novel-list">Go to reader app</Link>
   </Layout>
 );
 

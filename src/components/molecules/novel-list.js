@@ -14,7 +14,7 @@ const NovelList = ({ items }) => {
             <Card
               className={classes.paper}
               elevation={8}
-              onClick={() => navigate("/app/novel-details/10")}
+              onClick={() => navigate(`/app/novel-details/${item.codeName}`)}
             >
               <img
                 className={classes.thumbnail}

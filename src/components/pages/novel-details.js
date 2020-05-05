@@ -6,9 +6,9 @@ import NovelInfo from "../molecules/novel-info";
 import "./novel-details.scss";
 import { Typography } from "@material-ui/core";
 
-const NovelDetailsPage = ({ novelId }) => (
+const NovelDetailsPageContent = ({ codeName }) => (
   <div>
-    <Typography variant="body1">{novelId}</Typography>
+    <Typography variant="body1">{codeName}</Typography>
     <NovelInfo />
     <div className="novel-details-page--list">
       <ChapterList />
@@ -16,4 +16,4 @@ const NovelDetailsPage = ({ novelId }) => (
   </div>
 );
 
-export default NovelDetailsPage;
+export default NovelDetailsPageContent;
