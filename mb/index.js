@@ -1,8 +1,9 @@
 const mb = require("mountebank");
 const settings = require("./settings");
 const helloService = require("./hello-service");
-const customerService = require('./customer-service');
+const novelService = require('./novel-service');
 
+// https://www.digitalocean.com/community/tutorials/how-to-mock-services-using-mountebank-and-node-js
 const mbServerInstance = mb.create({
   port: settings.port,
   pidfile: "../mb.pid",
@@ -13,5 +14,5 @@ const mbServerInstance = mb.create({
 
 mbServerInstance.then(function() {
   helloService.addService();
-  customerService.addService();
+  novelService.addService();
 });

@@ -7,13 +7,13 @@ import { Card, Grid, Typography } from "@material-ui/core";
 const NovelList = ({ items }) => {
   const classes = useStyles();
   return (
-    <Grid container spacing="3" className={classes.root}>
+    <Grid container spacing={3} className={classes.root}>
       {items.map(
         (item) => (
-          <Grid item xs="6" sm="4" md="3">
+          <Grid key={item.codeName} item xs={6} sm={4} md={3}>
             <Card
               className={classes.paper}
-              elevation="8"
+              elevation={8}
               onClick={() => navigate("/app/novel-details/10")}
             >
               <img
@@ -46,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: theme.spacing(1),
     marginRight: theme.spacing(1),
     maxWidth: 500,
-    cursor: "pointer"
+    cursor: "pointer",
   },
   thumbnail: {
     width: "100%",
@@ -66,58 +66,7 @@ NovelList.propTypes = {
 };
 
 NovelList.defaultProps = {
-  items: [
-    {
-      codeName: "issth",
-      name: "I shall seal the heavens",
-      thumbnail: "https://cdn.wuxiaworld.com/images/covers/issth.jpg",
-    },
-    {
-      codeName: "bbb",
-      name: "I shall seal the heavens",
-      thumbnail: "https://cdn.wuxiaworld.com/images/covers/issth.jpg",
-    },
-    {
-      codeName: "bbb",
-      name: "I shall seal the heavens",
-      thumbnail: "https://cdn.wuxiaworld.com/images/covers/issth.jpg",
-    },
-    {
-      codeName: "bbb",
-      name: "I shall seal the heavens",
-      thumbnail: "https://cdn.wuxiaworld.com/images/covers/issth.jpg",
-    },
-    {
-      codeName: "bbb",
-      name: "I shall seal the heavens",
-      thumbnail: "https://cdn.wuxiaworld.com/images/covers/issth.jpg",
-    },
-    {
-      codeName: "bbb",
-      name: "I shall seal the heavens",
-      thumbnail: "https://cdn.wuxiaworld.com/images/covers/issth.jpg",
-    },
-    {
-      codeName: "bbb",
-      name: "I shall seal the heavens",
-      thumbnail: "https://cdn.wuxiaworld.com/images/covers/issth.jpg",
-    },
-    {
-      codeName: "bbb",
-      name: "I shall seal the heavens",
-      thumbnail: "https://cdn.wuxiaworld.com/images/covers/issth.jpg",
-    },
-    {
-      codeName: "bbb",
-      name: "I shall seal the heavens",
-      thumbnail: "https://cdn.wuxiaworld.com/images/covers/issth.jpg",
-    },
-    {
-      codeName: "bbb",
-      name: "I shall seal the heavens",
-      thumbnail: "https://cdn.wuxiaworld.com/images/covers/issth.jpg",
-    },
-  ],
+  items: [],
 };
 
 export default NovelList;

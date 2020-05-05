@@ -7,8 +7,8 @@ const NovelInfo = ({ title, thumbnail, synopsis }) => {
   const classes = useStyles();
   return (
     <Grid container className={classes.root}>
-      <Grid xs="12" sm="3">
-        <Paper elevation="4">
+      <Grid xs={12} sm={3}>
+        <Paper elevation={4}>
           <img
             className={classes.thumbnail}
             alt="novel-thumbnail"
@@ -16,7 +16,7 @@ const NovelInfo = ({ title, thumbnail, synopsis }) => {
           />
         </Paper>
       </Grid>
-      <Grid className={classes.infoText} xs="12" sm="9">
+      <Grid className={classes.infoText} xs={12} sm={9}>
         <Typography color="textPrimary" variant="h3">
           {title}
         </Typography>

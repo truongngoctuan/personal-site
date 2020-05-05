@@ -3,20 +3,18 @@ import { Router } from "@reach/router";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import DefaultPage from "../components/pages/default";
+import NovelListPageContent from "../components/pages/novel-list";
 import NovelDetailsPage from "../components/pages/novel-details";
+import { withPrefix } from "gatsby";
 
-const IndexPage = () => (
+const AppPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Router basepath="/app">
-      {/* <Profile path="/profile" />
-      <Details path="/details" />
-      <Login path="/login" /> */}
-      <NovelDetailsPage path="/novel-details/:novelId" />
-      <DefaultPage path="/" />
+    <Router>
+      <NovelDetailsPage path={withPrefix("/app/novel-details/:novelId")} />
+      <NovelListPageContent path={withPrefix("/app/novel-list")} />
     </Router>
   </Layout>
 );
 
-export default IndexPage;
+export default AppPage;
