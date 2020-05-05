@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{y9VM:function(e,a,t){"use strict";t.r(a);var n=t("q1tI"),l=t.n(n),r=t("YwZP"),p=t("Bl7J"),c=t("vrFN"),o=t("cPlH"),i=t("FyDd");a.default=function(){return l.a.createElement(p.a,null,l.a.createElement(c.a,{title:"Home"}),l.a.createElement(r.Router,{prefix:"personal-site"},l.a.createElement(i.a,{path:"/app/novel-details/:novelId"}),l.a.createElement(o.a,{path:"/app"})))}}}]);
+//# sourceMappingURL=component---src-pages-app-js-721f4e84b6415c890cc5.js.map
