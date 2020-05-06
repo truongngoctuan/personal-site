@@ -3,7 +3,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Grid, Typography, Paper } from "@material-ui/core";
 
-const NovelInfo = ({ title, thumbnail, synopsis }) => {
+const NovelInfo = ({ name, thumbnail, synopsis }) => {
   const classes = useStyles();
   return (
     <Grid container className={classes.root}>
@@ -18,7 +18,7 @@ const NovelInfo = ({ title, thumbnail, synopsis }) => {
       </Grid>
       <Grid className={classes.infoText} xs={12} sm={9}>
         <Typography color="textPrimary" variant="h3">
-          {title}
+          {name}
         </Typography>
         <br />
         <Typography color="textPrimary" variant="caption">
@@ -49,12 +49,14 @@ const useStyles = makeStyles((theme) => ({
     margin: "auto",
   },
   infoText: {
-    padding: theme.spacing(2)
-  }
+    padding: theme.spacing(2),
+  },
 }));
 
 NovelInfo.propTypes = {
-  title: PropTypes.string,
+  name: PropTypes.string,
+  thumbnail: PropTypes.string,
+  synopsis: PropTypes.string,
 };
 
 NovelInfo.defaultProps = {

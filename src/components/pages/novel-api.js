@@ -5,3 +5,10 @@ export async function getList() {
     .then((response) => response.data) // parse JSON from request
     .catch(err => console.log(err))
 }
+
+export async function getByCodeName(codeName) {
+  return axios.get(`${baseUrl}/novels/${codeName}`)
+    .then((response) => response.data) // parse JSON from request
+    .catch(err => console.log(err))
+}
+
