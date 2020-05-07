@@ -19,6 +19,7 @@ const reducer = (state, action) => {
 const initialState = {
   count: 0,
   novels: [],
+  novel: {}
 };
 
 const createStore = () => reduxCreateStore(reducer, initialState);

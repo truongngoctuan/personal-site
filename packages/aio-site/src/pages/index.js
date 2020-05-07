@@ -3,7 +3,6 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { Typography } from "@material-ui/core";
 import { Link } from "gatsby";
-import { connect } from "react-redux";
 
 const IndexPage = ({ count, increment }) => (
   <Layout>
@@ -29,13 +28,4 @@ const Counter = ({ count, increment }) => (
   </div>
 );
 
-const mapStateToProps = ({ count }) => {
-  return { count };
-};
-
-const mapDispatchToProps = (dispatch) => {
-  return { increment: () => dispatch({ type: `INCREMENT` }) };
-};
-
 export default IndexPage;
-// export default connect(mapStateToProps, mapDispatchToProps)(IndexPage);

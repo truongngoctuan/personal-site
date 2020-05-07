@@ -1,0 +1,15 @@
+{"message":"[mb:5000] mountebank v2.2.1 now taking orders - point your browser to http://localhost:5000/ for help","level":"info","timestamp":"2020-05-06T08:06:54.264Z"}
+{"message":"[mb:5000] POST /imposters","level":"info","timestamp":"2020-05-06T08:06:54.286Z"}
+{"message":"[http:5001] Open for business...","level":"info","timestamp":"2020-05-06T08:06:54.305Z"}
+{"message":"[mb:5000] POST /imposters","level":"info","timestamp":"2020-05-06T08:06:54.309Z"}
+{"message":"[http:5002] Open for business...","level":"info","timestamp":"2020-05-06T08:06:54.317Z"}
+{"message":"[http:5002] ::ffff:127.0.0.1:61659 => GET /api/novels","level":"info","timestamp":"2020-05-06T08:08:04.548Z"}
+{"message":"[http:5002] ::ffff:127.0.0.1:61735 => GET /api/novels/issth","level":"info","timestamp":"2020-05-06T08:09:44.545Z"}
+{"message":"[http:5002] ::ffff:127.0.0.1:61742 => GET /api/novels","level":"info","timestamp":"2020-05-06T08:09:49.779Z"}
+{"message":"[http:5002] ::ffff:127.0.0.1:61743 => GET /api/novels/issth","level":"info","timestamp":"2020-05-06T08:09:50.669Z"}
+{"message":"[http:5002] ::ffff:127.0.0.1:60893 => GET /api/novels","level":"info","timestamp":"2020-05-07T00:03:04.854Z"}
+{"message":"[http:5002] ::ffff:127.0.0.1:60907 => GET /api/novels/issth","level":"info","timestamp":"2020-05-07T00:03:19.717Z"}
+{"message":"[http:5002] ::ffff:127.0.0.1:62865 => GET /api/novels/issth","level":"info","timestamp":"2020-05-07T00:25:14.686Z"}
+{"message":"[http:5002] ::ffff:127.0.0.1:62891 => GET /api/novels/issth","level":"info","timestamp":"2020-05-07T00:25:31.397Z"}
+{"message":"[http:5002] ::ffff:127.0.0.1:56060 => GET /api/novels/issth","level":"info","timestamp":"2020-05-07T03:02:19.990Z"}
+{"message":"[http:5002] ::ffff:127.0.0.1:56068 => GET /api/novels/issth","level":"info","timestamp":"2020-05-07T03:02:24.246Z"}
