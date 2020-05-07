@@ -15,7 +15,7 @@ const Header = ({ siteTitle }) => (
               // background: `rebeccapurple`,
 
         margin: `0 auto`,
-        maxWidth: 960,
+        // maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
       }}
     >
@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `darkgrey`,
             textDecoration: `none`,
           }}
         >
