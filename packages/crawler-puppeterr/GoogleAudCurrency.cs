@@ -15,12 +15,12 @@ namespace crawler_puppeterr
 
     [FunctionName("GoogleAudCurrency")]
     public static async Task<IActionResult> Run(
-        [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
+        [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
         ILogger log)
     {
       log.LogInformation("C# HTTP trigger function processed a request.");
 
-      await new BrowserFetcher().DownloadAsync(BrowserFetcher.DefaultRevision);
+      //await new BrowserFetcher().DownloadAsync(BrowserFetcher.DefaultRevision);
 
       var queryPage = $"https://www.google.com/search?q={GoogleAudCurrency.query}";
       Console.WriteLine(queryPage);
