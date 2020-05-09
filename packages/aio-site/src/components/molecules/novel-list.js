@@ -1,65 +1,32 @@
 import PropTypes from "prop-types";
 import React from "react";
 import { navigate } from "gatsby";
-import { makeStyles } from "@material-ui/core/styles";
-import { Card, Grid, Typography } from "@material-ui/core";
+import { Typography } from "@material-ui/core";
 
 const NovelList = ({ items }) => {
-  const classes = useStyles();
   return (
-    <Grid container spacing={3} className={classes.root}>
-      {items.map(
-        (item) => (
-          <Grid key={item.codeName} item xs={6} sm={4} md={3}>
-            <Card
-              className={classes.paper}
-              elevation={8}
-              onClick={() => navigate(`/app/novel-details/${item.codeName}`)}
-            >
-              <img
-                className={classes.thumbnail}
-                alt="novel-thumbnail"
-                src={item.thumbnail}
-              />
-            </Card>
-            <div className={classes.subTitle}>
-              <Typography variant="subtitle2" color="textPrimary">
-                {item.name}
-              </Typography>
-              <Typography variant="caption" color="textSecondary">
-                2019
-              </Typography>
-            </div>
-          </Grid>
-        )
-        // <li key={item.url}><Link to="/novel-details">{item.name}</Link></li>
-      )}
-    </Grid>
+    <div className="flex flex-row flex-wrap">
+      {items.map((item) => (
+        <div key={item.codeName} className="flex flex-col w-32">
+          <img
+            className="shadow-lg rounded rounded-md max-w-full max-h-full h-40 object-cover cursor-pointer"
+            alt="novel-thumbnail"
+            src={item.thumbnail}
+            onClick={() => navigate(`/app/novel-details/${item.codeName}`)}
+          />
+          <div className="mt-1">
+            <Typography variant="subtitle2" color="textPrimary" noWrap>
+              {item.name}
+            </Typography>
+            <Typography variant="caption" color="textSecondary">
+              2019
+            </Typography>
+          </div>
+        </div>
+      ))}
+    </div>
   );
 };
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  paper: {
-    marginLeft: theme.spacing(1),
-    marginRight: theme.spacing(1),
-    maxWidth: 500,
-    cursor: "pointer",
-  },
-  thumbnail: {
-    width: "100%",
-    objectFit: "cover",
-    display: "block",
-    margin: "auto",
-  },
-  subTitle: {
-    marginLeft: theme.spacing(1),
-    marginRight: theme.spacing(1),
-    paddingTop: theme.spacing(1),
-  },
-}));
 
 NovelList.propTypes = {
   items: PropTypes.array,
