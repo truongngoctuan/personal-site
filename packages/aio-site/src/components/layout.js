@@ -31,16 +31,13 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `auto auto`,
-          // maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
+          maxWidth: 960,
         }}
       >
         <main>{children}</main>
-        <footer>
+        <footer className="px-2">
           <Typography variant="subtitle1" color="textPrimary">
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+            © {new Date().getFullYear()}, Built with TNT
           </Typography>
         </footer>
       </div>

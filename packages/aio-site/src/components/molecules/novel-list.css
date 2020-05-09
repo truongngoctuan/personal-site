@@ -1,3 +1,21 @@
 .novel-list {
-  
+  --novel-list-item-width: calc(theme("spacing.32") + theme("spacing.2") * 2);
+  @media (max-width: calc(9rem * 2)) {
+    max-width: calc(var(--novel-list-item-width));
+  }
+  @media (min-width: calc(9rem * 2)) and (max-width: calc(9rem * 3)) {
+    max-width: calc(var(--novel-list-item-width) * 2);
+  }
+  @media (min-width: calc(9rem * 3)) and (max-width: calc(9rem * 4)) {
+    max-width: calc(var(--novel-list-item-width) * 3);
+  }
+  @media (min-width: calc(9rem * 4)) and (max-width: calc(9rem * 5)) {
+    max-width: calc(var(--novel-list-item-width) * 4);
+  }
+  @media (min-width: calc(9rem * 5)) and (max-width: calc(9rem * 6)) {
+    max-width: calc(var(--novel-list-item-width) * 5);
+  }
+  @media (min-width: calc(9rem * 6)) {
+    max-width: calc(var(--novel-list-item-width) * 6);
+  }
 }

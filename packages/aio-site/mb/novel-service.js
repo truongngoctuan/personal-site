@@ -5,6 +5,7 @@ const fs = require("fs");
 function addService() {
   const novels = JSON.parse(fs.readFileSync("mb/data/novels.json"));
   const novel = novels[0];
+  console.log(novel);
 
   const stubs = [
     {
@@ -39,7 +40,7 @@ function addService() {
         {
           and: [
             { equals: { method: "GET" } },
-            { startsWith: { path: "/novels/" } },
+            { startsWith: { path: "/api/novels/" } },
           ],
         },
       ],

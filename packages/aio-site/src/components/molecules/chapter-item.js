@@ -13,12 +13,12 @@ class ChapterItem extends React.Component {
     return (
       <div className="chapter-item" role="button" tabIndex="0">
         <Grid className={["chapter-item--text-idx", itemBackgroundClass]}>
-          <Typography variant="body2" color="textSecondary" align="center">
+          <Typography className="text-gray-200" variant="body2" align="center">
             {idx + 1}
           </Typography>
         </Grid>
         <Grid className={["chapter-item--text", itemBackgroundClass]}>
-          <Typography variant="body2" color="textSecondary">
+          <Typography className="text-gray-200" variant="body2" color="textSecondary">
             {name}
           </Typography>
         </Grid>

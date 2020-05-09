@@ -15,6 +15,12 @@ const reducer = (state, action) => {
     });
   }
 
+  if (action.type === `NOVEL-GET`) {
+    return Object.assign({}, state, {
+      novel: action.data,
+    });
+  }
+
   if (action.type === `DASHBOARD-CURRENCY-GET`) {
     let dashboardCurrencies = _.cloneDeep(state.dashboardCurrencies);
     dashboardCurrencies[action.data.currencyCode] = action.data.value;

@@ -5,9 +5,9 @@ import { Typography } from "@material-ui/core";
 
 const NovelList = ({ items }) => {
   return (
-    <div className="flex flex-row flex-wrap">
+    <div className="novel-list flex flex-row flex-wrap mx-auto">
       {items.map((item) => (
-        <div key={item.codeName} className="flex flex-col w-32">
+        <div key={item.codeName} className="flex flex-col w-32 m-2">
           <img
             className="shadow-lg rounded rounded-md max-w-full max-h-full h-40 object-cover cursor-pointer"
             alt="novel-thumbnail"
@@ -15,12 +15,13 @@ const NovelList = ({ items }) => {
             onClick={() => navigate(`/app/novel-details/${item.codeName}`)}
           />
           <div className="mt-1">
-            <Typography variant="subtitle2" color="textPrimary" noWrap>
+            <p
+              className="font-sans text-base whitespace-no-wrap overflow-hidden text-gray-100"
+              style={{ textOverflow: "ellipsis" }}
+            >
               {item.name}
-            </Typography>
-            <Typography variant="caption" color="textSecondary">
-              2019
-            </Typography>
+            </p>
+            <p className="font-sans text-xs font-bold text-gray-600">2019</p>
           </div>
         </div>
       ))}

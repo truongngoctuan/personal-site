@@ -9,14 +9,15 @@ import { connect } from "react-redux";
 import { getByCodeName } from "./novel-api";
 
 const NovelDetailsPageContent = ({ codeName, novel, setNovel }) => {
+  console.log(novel)
   useEffect(() => {
     getByCodeName(codeName).then((resultData) => {
       setNovel(resultData);
     });
   }, []);
   return (
-    <div>
-      <Typography variant="body1">{codeName}</Typography>
+    <div className="m-4">
+      {/* <Typography variant="body1">{codeName}</Typography> */}
       <NovelInfo
         name={novel.name}
         thumbnail={novel.thumbnail}

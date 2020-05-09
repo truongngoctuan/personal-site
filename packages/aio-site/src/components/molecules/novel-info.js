@@ -17,11 +17,11 @@ const NovelInfo = ({ name, thumbnail, synopsis }) => {
         </Paper>
       </Grid>
       <Grid className={classes.infoText} xs={12} sm={9}>
-        <Typography color="textPrimary" variant="h3">
+        <Typography className="text-gray-200" variant="h2">
           {name}
         </Typography>
         <br />
-        <Typography color="textPrimary" variant="caption">
+        <Typography className="text-gray-200" variant="caption">
           {synopsis}
         </Typography>
       </Grid>
