@@ -1,0 +1,13 @@
+az group create --name poc-dashboard-currency-rg --location southeastasia
+az storage account create --name pocdashboardcurrency --location southeastasia --resource-group poc-dashboard-currency-rg --sku Standard_LRS
+
+az functionapp create `
+  --resource-group poc-dashboard-currency-rg `
+  --consumption-plan-location southeastasia `
+  --runtime dotnet --functions-version 3 `
+  --name poc-dashboard-currency `
+  --storage-account pocdashboardcurrency
+
+func azure functionapp publish poc-dashboard-currency
+
+az group delete --name poc-dashboard-currency-rg

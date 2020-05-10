@@ -11,4 +11,4 @@ az functionapp create --name poc-crawler-currency --storage-account  poccrawlerc
 # az functionapp appsettings set
 
 az functionapp cors show --resource-group poc-crawler-currency --name poc-crawler-currency
-az functionapp cors add --allowed-origins http://localhost:8000 https://truongngoctuan.github.io --resource-group poc-crawler-currency --name poc-crawler-currency
+az functionapp cors add --allowed-iiiorigins http://localhost:8000 https://truongngoctuan.github.io --resource-group poc-crawler-currency --name poc-crawler-currency

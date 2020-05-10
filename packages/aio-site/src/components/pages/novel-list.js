@@ -6,7 +6,9 @@ import { getList } from "./novel-api";
 const NovelListPageContent = ({ novels, setNovels }) => {
   useEffect(() => {
     getList().then((resultData) => {
-      setNovels(resultData);
+      if (resultData) {
+        setNovels(resultData);
+      }
     });
   }, []);
 

@@ -35,8 +35,48 @@ const reducer = (state, action) => {
 
 const initialState = {
   count: 0,
-  novels: [],
-  novel: {},
+  novels: [
+    {
+      codeName: "issth",
+      name: "I shall seal the heavens",
+      thumbnail: "https://cdn.wuxiaworld.com/images/covers/issth.jpg",
+    },
+    {
+      codeName: "overgeared",
+      name: "Overgeared",
+      thumbnail: "https://cdn.wuxiaworld.com/images/covers/og.jpg",
+    },
+    {
+      codeName: "renegade-immortal",
+      name: "Renegade Immortal",
+      thumbnail: "https://cdn.wuxiaworld.com/images/covers/rge.jpg",
+    },
+    {
+      codeName: "a-will-eternal",
+      name: "A Will Eternal",
+      thumbnail: "https://cdn.wuxiaworld.com/images/covers/awe.jpg",
+    },
+    {
+      codeName: "issth2",
+      name: "I shall seal the heavens",
+      thumbnail: "https://cdn.wuxiaworld.com/images/covers/issth.jpg",
+    },
+    {
+      codeName: "overgeared2",
+      name: "Overgeared",
+      thumbnail: "https://cdn.wuxiaworld.com/images/covers/og.jpg",
+    },
+    {
+      codeName: "renegade-immortal2",
+      name: "Renegade Immortal",
+      thumbnail: "https://cdn.wuxiaworld.com/images/covers/rge.jpg",
+    },
+  ],
+  novel: {
+    codeName: "issth",
+    name: "I shall seal the heavens",
+    thumbnail: "https://cdn.wuxiaworld.com/images/covers/issth.jpg",
+  },
   dashboardCurrencies: { USD: 23456.789 },
 };
 

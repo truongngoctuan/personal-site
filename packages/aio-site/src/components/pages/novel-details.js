@@ -9,10 +9,11 @@ import { connect } from "react-redux";
 import { getByCodeName } from "./novel-api";
 
 const NovelDetailsPageContent = ({ codeName, novel, setNovel }) => {
-  console.log(novel)
   useEffect(() => {
     getByCodeName(codeName).then((resultData) => {
-      setNovel(resultData);
+      if (resultData) {
+        setNovel(resultData);
+      }
     });
   }, []);
   return (
