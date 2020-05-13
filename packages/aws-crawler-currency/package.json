@@ -4,6 +4,11 @@
   "description": "Example demonstrates how to setup a simple HTTP GET endpoint",
   "author": "",
   "license": "MIT",
+  "scripts": {
+    "develop": "serverless invoke local --function audCurrency",
+    "deploy": "serverless deploy",
+    "destroy": "serverless remove"
+  },
   "dependencies": {
     "chrome-aws-lambda": "^3.0.4",
     "puppeteer-core": "^3.0.4"

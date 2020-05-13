@@ -10,17 +10,22 @@ exports.endpoint = async (event, context) => {
       args: chromium.args,
       defaultViewport: chromium.defaultViewport,
       executablePath: await chromium.executablePath,
-      headless: chromium.headless,
+      // headless: chromium.headless,
+      headless: true,
       ignoreHTTPSErrors: true,
     });
 
     let page = await browser.newPage();
 
-    await page.goto(
-      event.url || "https://github.com/alixaxel/chrome-aws-lambda"
+    const query = "aud+to+vnd";
+    const queryPage = `https://www.google.com/search?q=${query}`;
+
+    await page.goto(queryPage);
+    var attr = await page.$eval("[data-exchange-rate]", (obj) =>
+      obj.getAttribute("data-exchange-rate")
     );
 
-    result = await page.title();
+    result = parseFloat(attr);
   } catch (error) {
     return {
       statusCode: 200,

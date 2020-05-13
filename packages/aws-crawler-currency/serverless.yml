@@ -1,14 +1,15 @@
-service: serverless-simple-http-endpoint
+service: poc-dashboard-currency-crawler
 
 frameworkVersion: ">=1.1.0 <2.0.0"
 
 provider:
   name: aws
+  region: ap-southeast-1
   runtime: nodejs12.x
-  memorySize: 1600
+  memorySize: 1280
 
 functions:
-  currentTime:
+  audCurrency:
     handler: handler.endpoint
     events:
       - http:
