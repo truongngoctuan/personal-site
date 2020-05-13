@@ -1,0 +1,14 @@
+{
+  "name": "aws-serve-simple-http-endpoint",
+  "version": "1.0.0",
+  "description": "Example demonstrates how to setup a simple HTTP GET endpoint",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-aws-lambda": "^3.0.4",
+    "puppeteer-core": "^3.0.4"
+  },
+  "devDependencies": {
+    "puppeteer": "3.0.4"
+  }
+}
