@@ -1,5 +1,12 @@
-az group create --name poc-dashboard-currency-rg --location southeastasia
-az storage account create --name pocdashboardcurrency --location southeastasia --resource-group poc-dashboard-currency-rg --sku Standard_LRS
+az group create `
+--name poc-dashboard-currency-rg `
+--location southeastasia
+
+az storage account create `
+--name pocdashboardcurrency `
+--location southeastasia `
+--resource-group poc-dashboard-currency-rg `
+--sku Standard_LRS
 
 az functionapp create `
   --resource-group poc-dashboard-currency-rg `

@@ -8,13 +8,13 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-namespace dashboard_currency
+namespace dashboard_currency.Functions
 {
-    public static class CurrencyGetterAction
+    public static class GenericWebHooks
     {
-        [FunctionName("CurrencyGetterAction")]
+        [FunctionName("WebhooksPublishCrawlerEvents")]
         public static async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
+            [HttpTrigger(AuthorizationLevel.Function, "post", Route = null)] HttpRequest req,
             ILogger log)
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
