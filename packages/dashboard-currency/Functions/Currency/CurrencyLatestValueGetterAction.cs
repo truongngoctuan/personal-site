@@ -8,11 +8,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-namespace dashboard_currency.Functions
+namespace dashboard_currency.Functions.Currency
 {
-    public static class CurrencyGetterAction
+    public static class CurrencyLatestValueGetterAction
     {
-        [FunctionName("CurrencyGetterAction")]
+        [FunctionName("CurrencyLatestValueGetterAction")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
             ILogger log)

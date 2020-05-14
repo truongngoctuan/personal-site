@@ -15,6 +15,15 @@ az functionapp create `
   --name poc-dashboard-currency `
   --storage-account pocdashboardcurrency
 
+az eventgrid topic create `
+--name currency-events `
+-l southeastasia `
+-g poc-dashboard-currency-rg
+
+// https://currency-events.southeastasia-1.eventgrid.azure.net/api/events
+
+az eventgrid topic key list --name currency-events -g poc-dashboard-currency-rg --query "key1"
+
 func azure functionapp publish poc-dashboard-currency
 
 az group delete --name poc-dashboard-currency-rg
