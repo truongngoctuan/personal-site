@@ -4,9 +4,13 @@ frameworkVersion: ">=1.1.0 <2.0.0"
 
 provider:
   name: aws
+  stage: ${opt:stage, 'dev'}
   region: ap-southeast-1
   runtime: nodejs12.x
   memorySize: 1280
+  environment:
+    PUBLISH_URL: ${file(./config.${self:provider.stage}.json):PUBLISH_URL}
+    PUBLISH_API_KEY: ${file(./config.${self:provider.stage}.json):PUBLISH_API_KEY}
 
 functions:
   audCurrency:

@@ -7,11 +7,13 @@
   "scripts": {
     "develop": "serverless invoke local --function audCurrency",
     "deploy": "serverless deploy",
-    "destroy": "serverless remove"
+    "destroy": "serverless remove",
+    "prod:deploy": "sls deploy --stage prod"
   },
   "dependencies": {
     "chrome-aws-lambda": "^3.0.4",
-    "puppeteer-core": "^3.0.4"
+    "puppeteer-core": "^3.0.4",
+    "uuid": "8.0.0"
   },
   "devDependencies": {
     "puppeteer": "3.0.4"

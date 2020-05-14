@@ -1,9 +1,6 @@
 const chromium = require("chrome-aws-lambda");
-const currencyCrawler = require("./domain/currency-crawler");
-const sender = require("./domain/send-result");
 
-// https://bitsofco.de/how-to-use-puppeteer-in-a-netlify-aws-lambda-function/
-exports.endpoint = async (event, context) => {
+exports.crawCurrency = async function crawCurrency() {
   let result = null;
   let browser = null;
 
@@ -40,13 +37,4 @@ exports.endpoint = async (event, context) => {
       await browser.close();
     }
   }
-
-  await sender.sendResultToUrl("CrawlerCurrencies", { AUD: result });
-
-  return {
-    statusCode: 200,
-    body: JSON.stringify({
-      message: result,
-    }),
-  };
 };
