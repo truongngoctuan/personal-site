@@ -7,8 +7,8 @@ using Microsoft.Extensions.Logging;
 using dashboard_currency.Domain;
 using System;
 using System.Threading.Tasks;
-using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using dashboard_currency.Data;
 
 namespace dashboard_currency.Functions
 {
