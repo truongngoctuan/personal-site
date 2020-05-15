@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dashboard-currency", "dashboard-currency.csproj", "{D813CA8E-3217-4C47-A3F7-C8E1E2158212}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DashboardCurrency", "DashboardCurrency.csproj", "{D813CA8E-3217-4C47-A3F7-C8E1E2158212}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

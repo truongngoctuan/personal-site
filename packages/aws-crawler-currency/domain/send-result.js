@@ -27,7 +27,7 @@ async function sendResultToAzureEventGrid(eventType, data) {
     body: JSON.stringify(body),
   })
     .then(async (resp) => {
-      console.log(resp.status);
+      console.log("response status", resp.status);
       // console.log(await resp.json());
     })
     .catch((err) => console.error("ERR", err));
