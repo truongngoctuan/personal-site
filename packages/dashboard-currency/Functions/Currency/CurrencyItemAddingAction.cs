@@ -6,13 +6,16 @@ using Microsoft.Azure.WebJobs.Extensions.EventGrid;
 using Microsoft.Extensions.Logging;
 using dashboard_currency.Domain;
 using System;
+using System.Threading.Tasks;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace dashboard_currency.Functions
 {
     public static class CurrencyItemAddingAction
     {
         [FunctionName("CurrencyItemAddingAction")]
-        public async static void Run([EventGridTrigger]EventGridEvent eventGridEvent, ILogger log)
+        public async static Task Run([EventGridTrigger]EventGridEvent eventGridEvent, ILogger log)
         {
             try
             {
@@ -20,8 +23,7 @@ namespace dashboard_currency.Functions
                 log.LogInformation(eventGridEvent.Data.ToString());
 
                 ICurrencyRepository currencyRepository = new CurrencyRepository();
-
-                var eventData = (CrawlerCurrencyEvent)Convert.ChangeType(eventGridEvent.Data, typeof(CrawlerCurrencyEvent));
+                var eventData = (eventGridEvent.Data as JObject).ToObject<CrawlerCurrencyEvent>();
                 await currencyRepository.AddAsync(eventData);
             }
             catch (Exception ex)
@@ -34,6 +36,6 @@ namespace dashboard_currency.Functions
     class CrawlerCurrencyEvent: ICurrency
     {
         public string CurrencyCode { get; set; }
-        public decimal Value { get; set; }
+        public decimal Value { get; set; } 
     }
 }
