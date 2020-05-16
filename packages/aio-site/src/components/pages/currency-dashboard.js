@@ -17,12 +17,12 @@ const CurrencyDashboardPageContent = ({ currencies, setCurrency }) => {
   const audValue = currencies["AUD"] ? formatCurrency("VND", currencies["AUD"]) : "Loading";
   const usdValue = currencies["USD"] ? formatCurrency("VND", currencies["USD"]) : "Loading";;
 
-  // useEffect(() => {
-  //   const currencyCode = "AUD";
-  //   getLatestCurrency(currencyCode).then((resultData) => {
-  //     setCurrency(currencyCode, resultData);
-  //   });
-  // }, []);
+  useEffect(() => {
+    const currencyCode = "AUD";
+    getLatestCurrency(currencyCode).then((resultData) => {
+      setCurrency(currencyCode, resultData.value);
+    });
+  }, []);
   return (
     <div>
       <Typography className="" variant="h2" color="primary">

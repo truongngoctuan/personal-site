@@ -5,10 +5,10 @@ module.exports = {
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `TRUONG Ngoc Tuan`,
   },
-  proxy: {
-    prefix: "/api",
-    url: "http://localhost:5002",
-  },
+  // proxy: {
+  //   prefix: "/api",
+  //   url: "http://localhost:5002",
+  // },
   plugins: [
     `gatsby-plugin-postcss`,
     `gatsby-theme-material-ui`,

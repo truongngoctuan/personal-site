@@ -24,6 +24,15 @@ az eventgrid topic create `
 
 az eventgrid topic key list --name currency-events -g poc-dashboard-currency-rg --query "key1"
 
-func azure functionapp publish poc-dashboard-currency
+func azure functionapp publish poc-dashboard-currency --dotnet-cli-params .\DashboardCurrency.csproj
+
+az functionapp config appsettings list `
+--name poc-dashboard-currency `
+--resource-group poc-dashboard-currency-rg
+
+az functionapp config appsettings set `
+--name poc-dashboard-currency `
+--resource-group poc-dashboard-currency-rg `
+--settings "MongoConnectionString=mongodb+srv://dev-mongodb-access:u7NFj4hB2YkNjyF@cluster0-uvltq.mongodb.net/currency-dev?retryWrites=true&w=majority"
 
 az group delete --name poc-dashboard-currency-rg

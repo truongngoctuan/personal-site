@@ -13,7 +13,8 @@
   "dependencies": {
     "chrome-aws-lambda": "^3.0.4",
     "puppeteer-core": "^3.0.4",
-    "uuid": "8.0.0"
+    "uuid": "8.0.0",
+    "node-fetch": "2.6.0"
   },
   "devDependencies": {
     "puppeteer": "3.0.4"

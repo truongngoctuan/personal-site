@@ -41,7 +41,10 @@ exports.endpoint = async (event, context) => {
     }
   }
 
-  await sender.sendResultToUrl("CrawlerCurrencies", { AUD: result });
+  await sender.sendResultToUrl("CrawlerCurrencies", {
+    currencyCode: "AUD",
+    value: result,
+  });
 
   return {
     statusCode: 200,
