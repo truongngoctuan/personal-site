@@ -35,6 +35,12 @@ const IndexPage = ({ count, increment }) => {
         >
           Go to novel reader app
         </button>
+        <button
+          className="px-4 py-2 rounded-full shadow-md bg-orange-500 hover:bg-orange-600 text-white m-2"
+          onClick={() => navigate(`/text-reader`)}
+        >
+          Go to test text reader app
+        </button>
       </div>
     </Layout>
   );
