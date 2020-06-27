@@ -9,7 +9,7 @@ import AppLayout from "../components/app-layout";
 const AppPage = () => (
   <AppLayout>
     <SEO title="novel reader" />
-    <div className="flex-grow flex a">
+    <div className="flex-grow flex">
       <Router className="flex-grow flex">
         <ReaderMainPageContent path={withPrefix("/text-reader")} />
         <ReaderMainPageContent path={withPrefix("/text-reader/reader-main-page")} />

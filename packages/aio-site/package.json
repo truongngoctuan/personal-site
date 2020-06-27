@@ -22,7 +22,8 @@
     "react-helmet": "^5.2.1",
     "redux": "4.0.5",
     "react-redux": "7.2.0",
-    "axios": "0.19.2"
+    "axios": "0.19.2",
+    "gatsby-plugin-prefetch-google-fonts": "1.4.3"
   },
   "devDependencies": {
     "prettier": "^1.19.1",

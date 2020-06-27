@@ -1,16 +1,55 @@
-import React from "react";
+import React, { useRef, useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { Typography } from "@material-ui/core";
 import "./reader-main-page.css";
+import {
+  getTextWidth,
+  getTextHeight,
+  getTextHeightPElement,
+} from "../text-helper";
 
 const ReaderMainPageContent = ({ paragraphs }) => {
+  const [lines, setLines] = useState(0);
+
+  const ref = useRef(null);
+  useEffect(() => {
+    const containerWidth = ref.current ? ref.current.offsetWidth : 0;
+    const containerHeight = ref.current ? ref.current.offsetHeight : 0;
+    console.log("container text width", containerWidth);
+    console.log("container text height", containerHeight);
+
+    const font = "18px Roboto";
+
+    const wh = getTextWidth(paragraphs[0], font);
+    console.log(wh);
+
+    const textHeight = Math.floor(wh.actualHeight * 1.43);
+
+    const lines = Math.floor(containerHeight / textHeight);
+    console.log("lines ", lines);
+    setLines(lines);
+  }, [ref.current]);
+
+  let ps = [];
+  for (let index = 0; index < lines; index++) {
+    ps.push(
+      <p className="text-displayed" key={index}>
+        {paragraphs[0]}
+      </p>
+    );
+  }
+
   return (
-    <div className="flex-grow p-4">
-      <div className="text-display">
-        {paragraphs.map((para) => (
-          <Typography>{para}</Typography>
-        ))}
+    <div className="text-display flex-grow flex flex-col p-2">
+      <Typography className="mb-4" variant="h4">Chapper 1: Curabitur eu venenatis mauris</Typography>
+      <div className="text-display--main-content flex-grow" ref={ref}>
+        {/* {<p>{paragraphs[2]}</p>} */}
+        {ps}
+        {/* <div>{paragraphs[0]}</div>
+        {paragraphs.map((para, idx) => (
+          <Typography key={idx}>{para}</Typography>
+        ))} */}
       </div>
     </div>
   );
@@ -22,6 +61,7 @@ ReaderMainPageContent.propTypes = {
 
 ReaderMainPageContent.defaultProps = {
   paragraphs: [
+    "Lorem ipsum dolor sit, consectetur adipisci.",
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce magna ipsum, semper ornare laoreet non, cursus in nunc. Fusce rhoncus augue eu elit dignissim, in elementum turpis euismod. Etiam in massa a tortor hendrerit porttitor. Duis mattis convallis convallis. Sed et pretium nisl. Maecenas in ultricies odio, sit amet congue dolor. Morbi leo dui, accumsan sed consectetur venenatis, maximus nec odio. Donec mattis nunc id ultricies ullamcorper. Vestibulum viverra in dui sed lobortis. Mauris fermentum, tortor at egestas faucibus, nulla quam consectetur nunc, a vulputate purus ex at metus.",
     "Suspendisse fermentum porta libero laoreet pellentesque. Aliquam a dolor sed mi euismod ornare in non sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam tempus, nulla malesuada condimentum porta, metus dolor consectetur erat, et lacinia sem dolor in risus. Vestibulum ac ligula feugiat, vestibulum ante vitae, semper diam. Sed justo purus, eleifend sit amet aliquam non, interdum eget dui. Nunc a ipsum nec elit accumsan gravida vel et felis. Fusce augue velit, cursus non gravida at, pellentesque in tortor. Aliquam suscipit egestas sem, quis feugiat est gravida sed. Mauris luctus iaculis lacinia. Nam lacinia, arcu sed scelerisque iaculis, nunc ipsum scelerisque nibh, a euismod urna velit at orci. Suspendisse in turpis sed erat finibus convallis in eu elit. Quisque pulvinar, erat at finibus molestie, ligula eros luctus sapien, consequat pharetra sem enim ut ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla sed condimentum ex.",
     "Morbi in velit maximus, pretium nulla et, pharetra turpis. Curabitur eu venenatis mauris, eu pharetra nunc. Fusce at porttitor nibh. Suspendisse potenti. Fusce nulla nunc, euismod a pretium vitae, ornare non velit. Nam convallis tincidunt urna, in molestie nisl gravida et. Curabitur lobortis elementum facilisis.",
