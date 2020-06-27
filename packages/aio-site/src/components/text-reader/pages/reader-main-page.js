@@ -8,9 +8,11 @@ import {
   getTextHeight,
   getTextHeightPElement,
 } from "../text-helper";
+import { fitText } from "../text-layout";
 
 const ReaderMainPageContent = ({ paragraphs }) => {
   const [lines, setLines] = useState(0);
+  const [fittedParagraphs, setFittedParagraphs] = useState(0);
 
   const ref = useRef(null);
   useEffect(() => {
@@ -29,6 +31,15 @@ const ReaderMainPageContent = ({ paragraphs }) => {
     const lines = Math.floor(containerHeight / textHeight);
     console.log("lines ", lines);
     setLines(lines);
+
+    const result = fitText(
+      paragraphs[2],
+      font,
+      containerWidth,
+      containerHeight
+    );
+    setFittedParagraphs(result.fitted.text);
+    console.log("fitted text results", result);
   }, [ref.current]);
 
   let ps = [];
@@ -42,10 +53,13 @@ const ReaderMainPageContent = ({ paragraphs }) => {
 
   return (
     <div className="text-display flex-grow flex flex-col p-2">
-      <Typography className="mb-4" variant="h4">Chapper 1: Curabitur eu venenatis mauris</Typography>
+      <Typography className="mb-4" variant="h4">
+        Chapper 1: Curabitur eu venenatis mauris
+      </Typography>
       <div className="text-display--main-content flex-grow" ref={ref}>
-        {/* {<p>{paragraphs[2]}</p>} */}
-        {ps}
+        {/* <p className="text-displayed"><span>Suspendisse </span></p> */}
+        {<p className="text-displayed">{fittedParagraphs}</p>}
+        {/* {ps} */}
         {/* <div>{paragraphs[0]}</div>
         {paragraphs.map((para, idx) => (
           <Typography key={idx}>{para}</Typography>
