@@ -3,10 +3,10 @@ import { getTextWidth } from "./text-helper";
 export function fitText(longText, font, maxWidth, maxHeight) {
   console.log(maxWidth, maxHeight);
   const lineHeight =
-    getTextWidth(
+    Math.floor(getTextWidth(
       "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
       font
-    ).actualHeight * 1.43;
+    ).actualHeight * 1.43);
   const maxLines = Math.floor(maxHeight / lineHeight);
   console.log("line height", lineHeight);
   console.log("max lines", maxLines);
@@ -21,8 +21,8 @@ export function fitText(longText, font, maxWidth, maxHeight) {
     // calculate break point
     let lineWidth = 0;
     let lineText = null;
-    let measureNextWord = getTextWidth(words[iWord] + " ", font);
-    console.log(" w: " + words[iWord] + " " + measureNextWord.width);
+    let measureNextWord = getTextWidth(words[iWord], font);
+    // console.log(" w: " + words[iWord] + " " + measureNextWord.width);
     while (
       iWord < maxPosition &&
       lineWidth + measureNextWord.width < maxWidth
@@ -35,8 +35,8 @@ export function fitText(longText, font, maxWidth, maxHeight) {
       lineWidth += measureNextWord.width;
       // console.log(" line width", lineWidth)
       iWord++;
-      measureNextWord = getTextWidth(words[iWord] + " ", font);
-      // console.log(" w: " + words[iWord] + " " + measureNextWord.width);
+      measureNextWord = getTextWidth(" " + words[iWord], font);
+      console.log(" w: " + words[iWord] + " " + measureNextWord.width);
     }
     console.log("l: " + lineText);
 
@@ -49,14 +49,16 @@ export function fitText(longText, font, maxWidth, maxHeight) {
     iLine++;
   }
 
+  const result = {
+    text: fitText,
+    height: lineHeight * (iLine + 1),
+  };
+
   return {
-    fitted: {
-      text: fitText,
-      height: 100,
-    },
+    fitted: result,
     leftOver: {
       text: "",
-      height: maxHeight - 100,
+      height: maxHeight - result.height,
     },
   };
 }

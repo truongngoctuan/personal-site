@@ -21,7 +21,7 @@ const ReaderMainPageContent = ({ paragraphs }) => {
     console.log("container text width", containerWidth);
     console.log("container text height", containerHeight);
 
-    const font = "18px Roboto";
+    const font = "18px Lato";
 
     const wh = getTextWidth(paragraphs[0], font);
     console.log(wh);
@@ -32,34 +32,43 @@ const ReaderMainPageContent = ({ paragraphs }) => {
     console.log("lines ", lines);
     setLines(lines);
 
-    const result = fitText(
-      paragraphs[2],
-      font,
-      containerWidth,
-      containerHeight
-    );
-    setFittedParagraphs(result.fitted.text);
-    console.log("fitted text results", result);
+    let formattedParagraphs = [];
+    let fittedContainerHeight = containerHeight;
+    for (let iParagraph = 0; iParagraph < paragraphs.length; iParagraph++) {
+      const paragraph = paragraphs[iParagraph];
+      
+      const result = fitText(
+        paragraph,
+        font,
+        containerWidth,
+        fittedContainerHeight
+      );
+      formattedParagraphs.push(result.fitted.text);
+      fittedContainerHeight -= result.fitted.height;
+
+      console.log("fitted text results", result);
+    }
+    setFittedParagraphs(formattedParagraphs);
   }, [ref.current]);
 
   let ps = [];
-  for (let index = 0; index < lines; index++) {
+  for (let iFittedParagraph = 0; iFittedParagraph < lines; iFittedParagraph++) {
     ps.push(
-      <p className="text-displayed" key={index}>
-        {paragraphs[0]}
+      <p className="text-displayed" key={iFittedParagraph}>
+        {fittedParagraphs[iFittedParagraph]}
       </p>
     );
   }
 
   return (
-    <div className="text-display flex-grow flex flex-col p-2">
+    <div className="text-display flex-grow flex flex-col px-2 py-2">
       <Typography className="mb-4" variant="h4">
         Chapper 1: Curabitur eu venenatis mauris
       </Typography>
       <div className="text-display--main-content flex-grow" ref={ref}>
-        {/* <p className="text-displayed"><span>Suspendisse </span></p> */}
-        {<p className="text-displayed">{fittedParagraphs}</p>}
-        {/* {ps} */}
+        <p className="text-displayed"><span>magnaa</span></p>
+        {/* {<p className="text-displayed">{fittedParagraphs}</p>} */}
+        {ps}
         {/* <div>{paragraphs[0]}</div>
         {paragraphs.map((para, idx) => (
           <Typography key={idx}>{para}</Typography>

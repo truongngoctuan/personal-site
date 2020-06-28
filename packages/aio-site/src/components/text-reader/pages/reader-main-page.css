@@ -3,7 +3,7 @@
   max-height: calc(100vh - 56px - 28px);
   &--main-content {
     /* background-color: aqua; */
-    border-width: 1px;
+    /* border-width: 1px; */
     border-color: brown;
     max-height: 100%;
     overflow-x: hidden;
@@ -14,7 +14,7 @@
 }
 
 p.text-displayed {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;
   /* font-family: Roboto; */
   font-size: 18px;
   /* line-height: 1; */
