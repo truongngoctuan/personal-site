@@ -3,11 +3,7 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { Typography } from "@material-ui/core";
 import "./reader-main-page.css";
-import {
-  getTextWidth,
-  getTextHeight,
-  getTextHeightPElement,
-} from "../text-helper";
+import { getTextWidth } from "../text-helper";
 import { fitText } from "../text-layout";
 
 const ReaderMainPageContent = ({ paragraphs }) => {
@@ -36,7 +32,7 @@ const ReaderMainPageContent = ({ paragraphs }) => {
     let fittedContainerHeight = containerHeight;
     for (let iParagraph = 0; iParagraph < paragraphs.length; iParagraph++) {
       const paragraph = paragraphs[iParagraph];
-      
+
       const result = fitText(
         paragraph,
         font,
@@ -66,7 +62,8 @@ const ReaderMainPageContent = ({ paragraphs }) => {
         Chapper 1: Curabitur eu venenatis mauris
       </Typography>
       <div className="text-display--main-content flex-grow" ref={ref}>
-        <p className="text-displayed"><span>magnaa</span></p>
+        {/* <div><span>asdf</span></div> */}
+        {/* <p className="text-displayed"><span>magnaa</span></p> */}
         {/* {<p className="text-displayed">{fittedParagraphs}</p>} */}
         {ps}
         {/* <div>{paragraphs[0]}</div>
