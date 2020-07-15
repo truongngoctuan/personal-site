@@ -1,5 +1,6 @@
 /data/*
 /output/*
+/processed-*
 
 __pycache__
 public/**/*.*

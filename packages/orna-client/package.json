@@ -2,7 +2,10 @@
   "scripts": {
     "start2": "node index.js",
     "start": "python main.py",
-    "env": "pipenv shell"
+    "env": "pipenv shell",
+    "convert-html": "ebook-convert.exe .\\processed-html\\a-will-eternal-test.html output\\test-a-will--html.mobi --minimum-line-height 150 --mobi-file-type new",
+    "convert-md": "ebook-convert.exe .\\processed-md\\a-will-eternal-test-md.md output\\test-a-will--md.mobi --formatting-type markdown --minimum-line-height 240 --mobi-file-type new",
+    "convert-to-awz": "ebook-convert.exe .\\processed-md\\a-will-eternal-test-md.md output\\test-a-will--azw3.azw3 --formatting-type markdown --minimum-line-height 240"
   },
   "dependencies": {
     "request": "^2.88.2",
