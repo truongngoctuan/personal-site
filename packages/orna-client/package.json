@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start2": "node index.js",
+    "start": "python main.py",
+    "env": "pipenv shell"
+  },
+  "dependencies": {
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  }
+}
