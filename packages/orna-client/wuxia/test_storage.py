@@ -4,6 +4,8 @@ import wuxia.apis_client as apis
 
 from bs4 import BeautifulSoup
 
+NOVEL_CODE_NAME = "a-will-eternal"
+
 
 def loadChapterContent():
     baseDir = "data"
@@ -32,8 +34,23 @@ def loadChapterList():
                 baseDir, chapterItem["slug"], jsonChapterContent)
 
 
-def convertToHtmlFile():
+def loadChapterComment():
+    baseDir = "data/a-will-eternal"
+
+    jsonData = fileStorage.loadJson(baseDir, "chapter-list")
+    jsonData["items"]
+    for tomeItem in jsonData["items"]:
+        print(tomeItem["title"])
+
+        for chapterItem in tomeItem["chapters"]:
+            chapterId = chapterItem["id"]
+            print(chapterItem["slug"] + " " + str(chapterId))
+
+            jsonChapterComment = apis.getChapterComment(
+                NOVEL_CODE_NAME, chapterId)
+            fileStorage.dumpJsonFile(
+                baseDir + "/comments", "comment-" + str(chapterId), jsonChapterComment)
 
 
 def exec():
-    convertToHtmlFile()
+    loadChapterComment()

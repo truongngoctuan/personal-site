@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <link href="ebook.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>{{title}}</h1>
+    {{content}}
+    <img
+      src="images/pkvkbfmy.iwl.jpg"
+      style="width: 400px;"
+    />
+    <p><b>Comments:</b></p>
+    {{#each comments}}
+    <p><b>{{poster}}</b> {{upVotes}} {{downVotes}} - {{content}}</p>
+    {{/each}
+  </body>
+</html>

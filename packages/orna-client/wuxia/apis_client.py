@@ -18,6 +18,8 @@ authorizedHeaders = {
     "Accept-Encoding": "gzip, deflate, br"
 }
 
+BASE_URL = "https://www.wuxiaworld.com/api/"
+
 
 def login():
     body = {
@@ -42,7 +44,7 @@ def login():
 def getChapterList(novelCodeName):
     headers = authorizedHeaders
     response = requests.get(
-        "https://www.wuxiaworld.com/api/novels/chapters/" + novelCodeName, headers=headers)
+        BASE_URL + "novels/chapters/" + novelCodeName, headers=headers)
 
     if response.status_code == 200:
         jsonData = response.json()
@@ -54,7 +56,22 @@ def getChapterList(novelCodeName):
 def getChapterContent(novelCodeName, chapterCodeName):
     headers = authorizedHeaders
     response = requests.get(
-        "https://www.wuxiaworld.com/api/novels/chapters/" + novelCodeName + "/" + chapterCodeName, headers=headers)
+        BASE_URL + "novels/chapters/" + novelCodeName + "/" + chapterCodeName, headers=headers)
+
+    if response.status_code == 200:
+        jsonData = response.json()
+        return jsonData
+
+    return ""
+
+
+def getChapterComment(novelCodeName, commentId):
+    headers = authorizedHeaders
+    params = {
+        "page": 1
+    }
+    response = requests.get(
+        BASE_URL + "comments/" + str(commentId) + "/top", headers=headers, params=params)
 
     if response.status_code == 200:
         jsonData = response.json()

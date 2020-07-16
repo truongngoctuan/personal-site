@@ -1,0 +1,11 @@
+<html>
+  <head>
+    <link href="ebook.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Table of Contents</h1>
+    {{#each chapters}}
+    <a href="{{slug}}.html">{{title}}</a></p>
+    {{/each}}
+  </body>
+</html>
