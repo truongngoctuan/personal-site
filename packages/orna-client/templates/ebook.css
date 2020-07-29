@@ -1,0 +1,84 @@
+/* Style Sheet for ePub Books */
+
+/* Set margins at 2% (This gives a white border around the book) */
+
+body {
+  /* margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%; */
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+/* Text indent will make a paragraph indent, like putting a tab at the beginning of each new paragraph
+The margin settings get rid of the white space between paragraphs, again so it looks more like a book
+The text-align line justifies the margins. If you don't want them justified, change it to left, or remove that line
+You don't have to specify a font, but you can */
+
+p {
+  /* text-indent: 0.15in; */
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 1em;
+  text-align: left;
+  line-height: 1.5em;
+  /* font-family: "Times New Roman"; */
+  /* font-family: "Amazon Ember"; */
+  /* color: red; */
+}
+
+/* Here we make our headings centered
+We've also made the headings the same font as the body text */
+
+/* h1 { text-align: center;
+    font-family:"Times New Roman"; }
+h2 { text-align: center;
+    font-family:"Times New Roman"; }
+h3 { text-align: center;
+    font-family:"Times New Roman"; }
+*/
+blockquote {
+  text-indent: 0, 25 pouce;
+  margin-left: 0, 25 pouce;
+  margin-right: 0, 25 pouce;
+  /* font-family: "Times New Roman"; */
+}
+
+.comment-lvl-1 {
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+.comment-lvl-2 {
+  margin-left: 0.15in;
+  margin-bottom: 20px;
+}
+
+.comment-lvl-3 {
+  margin-left: 0.3in;
+  margin-bottom: 20px;
+}
+
+.comment-lvl-4 {
+  margin-left: 0.45in;
+  margin-bottom: 20px;
+}
+
+.comment-lvl-5 {
+  margin-left: 0.6in;
+  margin-bottom: 20px;
+}
+
+.comment-lvl-6 {
+  margin-left: 0.75in;
+  margin-bottom: 20px;
+}
+
+.comment-lvl-7 {
+  margin-left: 0.9in;
+  margin-bottom: 20px;
+}

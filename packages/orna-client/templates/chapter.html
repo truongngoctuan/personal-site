@@ -1,17 +1,20 @@
 <html>
   <head>
-    <link href="ebook.css" rel="stylesheet" type="text/css" />
+    <link href="../ebook.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>{{title}}</h1>
-    {{content}}
-    <img
-      src="images/pkvkbfmy.iwl.jpg"
-      style="width: 400px;"
-    />
+    <h2>{{title}}</h2>
+    {{{content}}}
+    <br />
+    {{{translatorThoughts}}}
+    <br />
     <p><b>Comments:</b></p>
     {{#each comments}}
-    <p><b>{{poster}}</b> {{upVotes}} {{downVotes}} - {{content}}</p>
-    {{/each}
+    <div class="comment-lvl-{{depth}}">
+      <b>{{poster}}</b> {{upVotes}}&uarr; {{downVotes}}&darr;
+      <br />
+      {{{content}}}
+    </div>
+    {{/each}}
   </body>
 </html>

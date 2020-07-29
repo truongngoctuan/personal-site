@@ -8,10 +8,10 @@ def exec():
     test.exec()
     return
 
-    novel = {
-        "codeName": "a-will-eternal"
-    }
-    baseDir = "data/"
+    # novel = {
+    #     "codeName": "a-will-eternal"
+    # }
+    # baseDir = "data/"
 
-    chapterList = apis.getChapterList("a-will-eternal")
-    fileStorage.dumpJsonFile(baseDir, "chapter-list", chapterList)
+    # chapterList = apis.getChapterList("a-will-eternal")
+    # fileStorage.dumpJsonFile(baseDir, "chapter-list", chapterList)
