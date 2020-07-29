@@ -4,52 +4,9 @@ import wuxia.apis_client as apis
 
 from bs4 import BeautifulSoup
 
+import asyncio
+
 NOVEL_CODE_NAME = "a-will-eternal"
-
-
-def loadChapterContent():
-    baseDir = "data"
-
-    jsonData = fileStorage.loadJson(baseDir, "chapter-622")
-
-    htmlContent = jsonData["item"]["content"]
-    # print(htmlContent)
-    soup = BeautifulSoup(htmlContent, 'html.parser')
-
-    print(soup.get_text())
-
-
-def loadChapterList():
-    baseDir = "data"
-
-    jsonData = fileStorage.loadJson(baseDir, "chapter-list")
-    jsonData["items"]
-    for tomeItem in jsonData["items"]:
-        print(tomeItem["title"])
-        for chapterItem in tomeItem["chapters"]:
-            print(chapterItem["slug"])
-            jsonChapterContent = apis.getChapterContent(
-                "a-will-eternal", chapterItem["slug"])
-            fileStorage.dumpJsonFile(
-                baseDir, chapterItem["slug"], jsonChapterContent)
-
-
-def loadChapterComment():
-    baseDir = "data/a-will-eternal"
-
-    jsonData = fileStorage.loadJson(baseDir, "chapter-list")
-    jsonData["items"]
-    for tomeItem in jsonData["items"]:
-        print(tomeItem["title"])
-
-        for chapterItem in tomeItem["chapters"]:
-            chapterId = chapterItem["id"]
-            print(chapterItem["slug"] + " " + str(chapterId))
-
-            jsonChapterComment = apis.getChapterComment(
-                NOVEL_CODE_NAME, chapterId)
-            fileStorage.dumpJsonFile(
-                baseDir + "/comments", "comment-" + str(chapterId), jsonChapterComment)
 
 
 def processChapters():
@@ -70,7 +27,40 @@ def processChapters():
             result = processChapter(
                 inputBaseDir, chapterSlug, chapterId, chapterTitle)
 
-            fileStorage.dumpJsonFile(outputBaseDir + "/chapters", chapterSlug, result)
+            fileStorage.dumpJsonFile(
+                outputBaseDir + "/chapters", chapterSlug, result)
+
+
+def processAndDumpChapter(inputBaseDir, chapterSlug, chapterId, chapterTitle, outputBaseDir):
+    print("START " + str(chapterSlug))
+    result = processChapter(inputBaseDir, chapterSlug, chapterId, chapterTitle)
+    fileStorage.dumpJsonFile(outputBaseDir + "/chapters", chapterSlug, result)
+    print("END " + str(chapterSlug))
+
+
+async def processChaptersAsync(loop, executor):
+
+    inputBaseDir = "data/" + NOVEL_CODE_NAME
+    outputBaseDir = "processed-json/" + NOVEL_CODE_NAME
+
+    jsonData = fileStorage.loadJson(inputBaseDir, "chapter-list")
+    jsonData["items"]
+
+    fs = []
+    for tomeItem in jsonData["items"]:
+        print(tomeItem["title"])
+
+        for chapterItem in tomeItem["chapters"]:
+            chapterSlug = chapterItem["slug"]
+            chapterId = chapterItem["id"]
+            print(chapterSlug + " " + str(chapterId))
+
+            chapterTitle = chapterItem["name"]
+
+            fs.append(loop.run_in_executor(executor, processAndDumpChapter, inputBaseDir,
+                                           chapterSlug, chapterId, chapterTitle, outputBaseDir))
+
+    await asyncio.wait(fs, return_when=asyncio.ALL_COMPLETED)
 
 
 def processChapter(baseDir, chapterSlug, chapterId, chapterTitle):
@@ -114,20 +104,9 @@ def recursiveProcessComments(comments):
             }
             newComments.append(newComment)
             if len(comment["children"]) > 0:
-                newChildrenComments = recursiveProcessComments(comment["children"])
+                newChildrenComments = recursiveProcessComments(
+                    comment["children"])
                 if len(newChildrenComments) > 0:
                     newComments.extend(newChildrenComments)
 
-    return newComments 
-
-
-def exec():
-    processChapters()
-
-    # baseDir = "data/a-will-eternal"
-    # chapterSlug = "awe-chapter-532"
-    # chapterId = 53346
-    # chapterTitle = "Chapter 532: Wronged!"
-    # result = processChapter(baseDir, chapterSlug, chapterId, chapterTitle)
-
-    # fileStorage.dumpJsonFile(baseDir, "test", result)
+    return newComments

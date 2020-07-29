@@ -1,17 +1,13 @@
 import wuxia.apis_client as apis
 import json
-import wuxia.test_storage as test
+import wuxia.processor as processor
 import wuxia.file_storage as fileStorage
 
+import concurrent.futures
+import asyncio
+import time
 
 def exec():
-    test.exec()
-    return
-
-    # novel = {
-    #     "codeName": "a-will-eternal"
-    # }
-    # baseDir = "data/"
-
-    # chapterList = apis.getChapterList("a-will-eternal")
-    # fileStorage.dumpJsonFile(baseDir, "chapter-list", chapterList)
+    loop = asyncio.get_event_loop()
+    executor = concurrent.futures.ThreadPoolExecutor(max_workers=8)
+    loop.run_until_complete(processor.processChaptersAsync(loop, executor))
