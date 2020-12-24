@@ -8,49 +8,68 @@ import concurrent.futures
 import asyncio
 import time
 
-NOVEL_CODE_NAME = "a-will-eternal"
+NOVEL_CODE_NAME = "rmji"  # A Record of a Mortal’s Journey to Immortality
+BASE_DIR = "data" + "/" + NOVEL_CODE_NAME
+SUB_DIR_CHAPTERS = "/chapters"
+SUB_DIR_COMMENTS = "/comments"
 
-
-def loadChapterContent():
-    baseDir = "data"
-
-    jsonData = fileStorage.loadJson(baseDir, "chapter-622")
-
-    htmlContent = jsonData["item"]["content"]
-    # print(htmlContent)
-    soup = BeautifulSoup(htmlContent, 'html.parser')
-
-    print(soup.get_text())
+CHAPTER_LIST_FILE_NAME = "chapter-list"
 
 
 def loadChapterList():
-    baseDir = "data"
+    jsonChapterListContent = apis.getChapterList(NOVEL_CODE_NAME)
+    fileStorage.dumpJsonFile(
+        BASE_DIR, CHAPTER_LIST_FILE_NAME, jsonChapterListContent)
 
-    jsonData = fileStorage.loadJson(baseDir, "chapter-list")
-    jsonData["items"]
+
+# def loadChapterContent():
+#     jsonData = fileStorage.loadJson(BASE_DIR, "chapter-622")
+
+#     htmlContent = jsonData["item"]["content"]
+#     # print(htmlContent)
+#     soup = BeautifulSoup(htmlContent, 'html.parser')
+
+#     print(soup.get_text())
+
+
+def loadChapter(chapterItem):
+    if not(fileStorage.isFileExist(BASE_DIR + SUB_DIR_CHAPTERS, chapterItem["slug"])):
+        jsonChapterContent = apis.getChapterContent(
+                    NOVEL_CODE_NAME, chapterItem["slug"])
+        fileStorage.dumpJsonFile(
+            BASE_DIR + SUB_DIR_CHAPTERS, chapterItem["slug"], jsonChapterContent)
+
+
+async def loadChapters(loop, executor):
+    jsonData = fileStorage.loadJson(BASE_DIR, CHAPTER_LIST_FILE_NAME)
+
+    fs = []
     for tomeItem in jsonData["items"]:
         print(tomeItem["title"])
         for chapterItem in tomeItem["chapters"]:
             print(chapterItem["slug"])
-            jsonChapterContent = apis.getChapterContent(
-                "a-will-eternal", chapterItem["slug"])
-            fileStorage.dumpJsonFile(
-                baseDir, chapterItem["slug"], jsonChapterContent)
+            fs.append(loop.run_in_executor(executor, loadChapter, chapterItem))
+
+    await asyncio.wait(fs, return_when=asyncio.ALL_COMPLETED)
 
 
-def loadChapterComment():
-    baseDir = "data/a-will-eternal"
+def loadChapterComment(chapterId):
+    if not(fileStorage.isFileExist(BASE_DIR + SUB_DIR_COMMENTS, "comment-" + str(chapterId))):
+        jsonChapterComment=apis.getChapterComment(
+            NOVEL_CODE_NAME, chapterId)
+        fileStorage.dumpJsonFile(
+            BASE_DIR + SUB_DIR_COMMENTS, "comment-" + str(chapterId), jsonChapterComment)
 
-    jsonData = fileStorage.loadJson(baseDir, "chapter-list")
-    jsonData["items"]
+
+async def loadChaptersComment(loop, executor):
+    jsonData=fileStorage.loadJson(BASE_DIR, CHAPTER_LIST_FILE_NAME)
+    fs = []
     for tomeItem in jsonData["items"]:
         print(tomeItem["title"])
 
         for chapterItem in tomeItem["chapters"]:
-            chapterId = chapterItem["id"]
+            chapterId=chapterItem["id"]
             print(chapterItem["slug"] + " " + str(chapterId))
+            fs.append(loop.run_in_executor(executor, loadChapterComment, chapterId))
 
-            jsonChapterComment = apis.getChapterComment(
-                NOVEL_CODE_NAME, chapterId)
-            fileStorage.dumpJsonFile(
-                baseDir + "/comments", "comment-" + str(chapterId), jsonChapterComment)
+    await asyncio.wait(fs, return_when=asyncio.ALL_COMPLETED) 

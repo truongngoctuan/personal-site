@@ -6,7 +6,7 @@
     "convert-html2mobi": "ebook-convert.exe .\\processed-html\\a-will-eternal-test.html output\\test-a-will--html.mobi --minimum-line-height 150 --mobi-file-type new",
     "convert-md": "ebook-convert.exe .\\processed-md\\a-will-eternal-test-md.md output\\test-a-will--md.mobi --formatting-type markdown --minimum-line-height 240 --mobi-file-type new",
     "convert-html2azw": "ebook-convert.exe .\\processed-html\\a-will-eternal-test.html output\\test-a-will--azw3.azw3 --minimum-line-height 150",
-    "convert-html2azw2": "ebook-convert.exe .\\processed-html\\a-will-eternal\\a-will-eternal_1001_1315.html output\\a-will-eternal_1001_1315--azw3.azw3"
+    "convert-html2azw2": "ebook-convert.exe .\\processed-html\\rmji\\rmji_1_1666.html output\\mrji_1_1666.azw3"
   },
   "dependencies": {
     "handlebars": "4.7.6"

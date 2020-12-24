@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 import asyncio
 
-NOVEL_CODE_NAME = "a-will-eternal"
+NOVEL_CODE_NAME = "rmji"
 
 
 def processChapters():
@@ -76,6 +76,7 @@ def processChapter(baseDir, chapterSlug, chapterId, chapterTitle):
 
     return {
         "title": chapterTitle,
+        "spoilerTitle": jsonChapterData["item"]["spoilerTitle"], 
         "content": htmlContent,
         "translatorThoughts": translatorThoughts,
         "comments": comments

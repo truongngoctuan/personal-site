@@ -2,9 +2,9 @@ const fs = require("fs");
 const path = require("path");
 const Handlebars = require("handlebars");
 
-const NOVEL_CODE_NAME = "a-will-eternal";
-const FROM_CHAPTER = 1001;
-const TO_CHAPTER = 1315;
+const NOVEL_CODE_NAME = "rmji";
+const FROM_CHAPTER = 1;
+const TO_CHAPTER = 1666;
 const INPUT_BASE_DIR = "data";
 const INPUT_JSON_BASE_DIR = "processed-json";
 const OUTPUT_BASE_DIR = "processed-html";
