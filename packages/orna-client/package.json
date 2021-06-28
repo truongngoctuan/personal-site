@@ -11,6 +11,6 @@
     "to-azw12": "ebook-convert.exe .\\processed-html\\rmji\\tome_12\\rmji_tome_12_1_2272.html output\\mrji_tome_12.azw3"
   },
   "dependencies": {
-    "handlebars": "4.7.6"
+    "handlebars": "4.7.7"
   }
 }
