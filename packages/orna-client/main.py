@@ -13,5 +13,5 @@ a = {
 }
 logging.debug(a)
 
-# runner.loadChapters()
-runner.exec()
+runner.loadChapters()
+# runner.exec()

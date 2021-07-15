@@ -25,3 +25,13 @@ def isFileExist(dir, fileName):
     currentPath = Path(dir, fileName + ".json")
     print(currentPath)
     return currentPath.exists()
+
+# folder
+
+def isFolderExist(dir):
+    currentPath = Path(dir)
+    print(currentPath)
+    return currentPath.exists()
+
+def mkdir(dir):
+    os.mkdir(dir)

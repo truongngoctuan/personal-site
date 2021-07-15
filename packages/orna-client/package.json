@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "01-fetch": "python main_load_chapter.py i-shall-seal-the-heavens",
     "convert-html": "node index.js",
     "start": "python main.py",
     "env": "pipenv shell",

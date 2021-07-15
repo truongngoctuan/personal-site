@@ -8,15 +8,13 @@ import asyncio
 import time
 
 
-def loadChapters():
-    codeName = ""
-
+def loadChapters(novel_code):
     loop = asyncio.get_event_loop()
     executor = concurrent.futures.ThreadPoolExecutor(max_workers=16)
 
-    loader.loadChapterList()
-    loop.run_until_complete(loader.loadChapters(loop, executor))
-    loop.run_until_complete(loader.loadChaptersComment(loop, executor))
+    loader.loadChapterList(novel_code)
+    loop.run_until_complete(loader.loadChapters(loop, executor, novel_code))
+    loop.run_until_complete(loader.loadChaptersComment(loop, executor, novel_code))
 
 
 def exec():
