@@ -1,47 +1,75 @@
 import wuxia.file_storage as fileStorage
 import asyncio
 
-def processAndDumpChapter(inputBaseDir, chapterSlug, chapterId, chapterTitle, outputBaseDir):
-    print("START " + str(chapterSlug))
-    result = processChapter(inputBaseDir, chapterSlug, chapterId, chapterTitle)
-    fileStorage.dumpJsonFile(outputBaseDir + "/chapters", chapterSlug, result)
-    print("END " + str(chapterSlug))
+
+def getInputBaseDir(novel_code):
+    return "data/" + novel_code
+
+
+def getOutputBaseDir(novel_code):
+    return "processed-json/" + novel_code
+
+
+def getInputSubDirChapters(novel_code):
+    return getInputBaseDir(novel_code) + "/chapters"
+
+
+def getInputSubDirComments(novel_code):
+    return getInputBaseDir(novel_code) + "/comments"
+
+
+def getOutputSubDirChapters(novel_code):
+    return getOutputBaseDir(novel_code) + "/chapters"
+
+
+def processAndDumpChapter(novel_code, chapterSlug, chapterId, chapterTitle):
+    result = processChapter(novel_code, chapterSlug, chapterId, chapterTitle)
+    if not result:
+        print("\tNOTHING " + str(chapterSlug) + " " + str(chapterId))
+        return
+    fileStorage.dumpJsonFile(getOutputSubDirChapters(
+        novel_code), chapterSlug, result)
+    print("\tEND " + str(chapterSlug) + " " + str(chapterId))
 
 
 async def processChaptersAsync(loop, executor, novel_code):
-    inputBaseDir = "data/" + novel_code
-    outputBaseDir = "processed-json/" + novel_code
+    inputBaseDir = getInputBaseDir(novel_code)
+    outputBaseDir = getOutputBaseDir(novel_code)
+    dirChapters = getInputSubDirChapters(novel_code)
 
     if not(fileStorage.isFolderExist(outputBaseDir)):
         fileStorage.mkdir(outputBaseDir)
-    
-    if not(fileStorage.isFolderExist(outputBaseDir + "/chapters")):
-        fileStorage.mkdir(outputBaseDir + "/chapters")
+
+    if not(fileStorage.isFolderExist(dirChapters)):
+        fileStorage.mkdir(dirChapters)
 
     jsonData = fileStorage.loadJson(inputBaseDir, "chapter-list")
     jsonData["items"]
 
     fs = []
     for tomeItem in jsonData["items"]:
-        print(tomeItem["title"])
+        print("TOME TITLE: " + tomeItem["title"])
 
         for chapterItem in tomeItem["chapters"]:
             chapterSlug = chapterItem["slug"]
             chapterId = chapterItem["id"]
-            print(chapterSlug + " " + str(chapterId))
+            # print(chapterSlug + " " + str(chapterId))
 
             chapterTitle = chapterItem["name"]
 
-            fs.append(loop.run_in_executor(executor, processAndDumpChapter, inputBaseDir,
-                                           chapterSlug, chapterId, chapterTitle, outputBaseDir))
+            fs.append(loop.run_in_executor(executor, processAndDumpChapter, novel_code,
+                                           chapterSlug, chapterId, chapterTitle))
 
-    await asyncio.wait(fs, return_when=asyncio.ALL_COMPLETED)
+        await asyncio.wait(fs, return_when=asyncio.ALL_COMPLETED)
 
 
-def processChapter(baseDir, chapterSlug, chapterId, chapterTitle):
-    jsonChapterData = fileStorage.loadJson(baseDir + "/chapters", chapterSlug)
+def processChapter(novel_code, chapterSlug, chapterId, chapterTitle):
+    jsonChapterData = fileStorage.loadJson(
+        getInputSubDirChapters(novel_code), chapterSlug)
+    if not jsonChapterData:
+        return
     jsonCommentData = fileStorage.loadJson(
-        baseDir + "/comments", "comment-" + str(chapterId))
+        getInputSubDirComments(novel_code), "comment-" + str(chapterId))
 
     htmlContent = processContent(jsonChapterData["item"]["content"])
     translatorThoughts = processTranslatorThoughts(
@@ -51,7 +79,7 @@ def processChapter(baseDir, chapterSlug, chapterId, chapterTitle):
 
     return {
         "title": chapterTitle,
-        "spoilerTitle": jsonChapterData["item"]["spoilerTitle"], 
+        "spoilerTitle": jsonChapterData["item"]["spoilerTitle"],
         "content": htmlContent,
         "translatorThoughts": translatorThoughts,
         "comments": comments
