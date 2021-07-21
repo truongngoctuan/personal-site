@@ -3,8 +3,8 @@
     "00-novel-code": "set NOVEL_CODE=i-shall-seal-the-heavens & echo $NOVEL_CODE",
     "01-fetch": "pipenv run python main_load_chapter.py",
     "02-process-json": "pipenv run python main.py",
-    "convert-html": "node index.js",
-    "start": "python main.py",
+    "03-convert-html": "node index.js",
+    "04-k": "ebook-convert.exe .\\processed-html\\i-shall-seal-the-heavens\\tome_1\\tome_1.html output\\i-shall-seal-the-heavens_tome_1.azw3",
     "env": "pipenv shell",
     "convert-html2mobi": "ebook-convert.exe .\\processed-html\\a-will-eternal-test.html output\\test-a-will--html.mobi --minimum-line-height 150 --mobi-file-type new",
     "convert-md": "ebook-convert.exe .\\processed-md\\a-will-eternal-test-md.md output\\test-a-will--md.mobi --formatting-type markdown --minimum-line-height 240 --mobi-file-type new",
@@ -14,6 +14,7 @@
     "to-azw12": "ebook-convert.exe .\\processed-html\\rmji\\tome_12\\rmji_tome_12_1_2272.html output\\mrji_tome_12.azw3"
   },
   "dependencies": {
+    "dotenv": "^10.0.0",
     "handlebars": "4.7.6"
   }
 }

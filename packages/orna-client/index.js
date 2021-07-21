@@ -1,20 +1,24 @@
 const fs = require("fs");
 const path = require("path");
+require('dotenv').config();
+
 const Handlebars = require("handlebars");
 
-const NOVEL_CODE_NAME = "rmji";
+const NOVEL_CODE_NAME = process.env.NOVEL_CODE;
 const FROM_CHAPTER = 1;
-const TO_CHAPTER = 2272;
 const INPUT_BASE_DIR = "data";
 const INPUT_JSON_BASE_DIR = "processed-json";
 const OUTPUT_BASE_DIR = "processed-html";
 const OUTPUT_SUB_DIR_CHAPTERS = "chapters"
 
+if (!fs.existsSync(path.join(OUTPUT_BASE_DIR))) {
+  fs.mkdirSync(path.join(OUTPUT_BASE_DIR));
+}
+
 // -- cleanup
-fs.rmdirSync(path.join(OUTPUT_BASE_DIR), { recursive: true })
+fs.rmdirSync(path.join(OUTPUT_BASE_DIR, NOVEL_CODE_NAME), { recursive: true })
 
 // -- add new template
-fs.mkdirSync(path.join(OUTPUT_BASE_DIR));
 fs.mkdirSync(path.join(OUTPUT_BASE_DIR, NOVEL_CODE_NAME));
 // fs.mkdirSync(path.join(OUTPUT_BASE_DIR, NOVEL_CODE_NAME, OUTPUT_SUB_DIR_CHAPTERS));
 
@@ -44,8 +48,8 @@ chaptersJsonData["items"].forEach((tomeItem) => {
   chaptersParams.chapters = [];
   chaptersParams.tomeTitle = tomeTitle;
 
-  fs.mkdirSync(path.join(OUTPUT_BASE_DIR, NOVEL_CODE_NAME, `tome_${tomeIdx + 1}`));
-  fs.mkdirSync(path.join(OUTPUT_BASE_DIR, NOVEL_CODE_NAME, `tome_${tomeIdx + 1}`, OUTPUT_SUB_DIR_CHAPTERS));
+  fs.mkdirSync(path.join(OUTPUT_BASE_DIR, NOVEL_CODE_NAME, `tome_${tomeIdx}`));
+  fs.mkdirSync(path.join(OUTPUT_BASE_DIR, NOVEL_CODE_NAME, `tome_${tomeIdx}`, OUTPUT_SUB_DIR_CHAPTERS));
 
   tomeItem["chapters"].forEach((chapterItem) => {
     const chapterId = chapterItem["id"];
@@ -54,19 +58,21 @@ chaptersJsonData["items"].forEach((tomeItem) => {
     const chapterNumber = chapterItem["number"];
 
     // console.log(`${chapterId}, ${chapterNumber}, ${chapterSlug}`);
-
-    if (FROM_CHAPTER <= chapterNumber && chapterNumber <= TO_CHAPTER) {
-      chaptersParams.chapters.push({
-        slug: chapterSlug,
-        title: chapterTittle,
-      });
+    const jsonInputChapterFile = `${INPUT_JSON_BASE_DIR}/${NOVEL_CODE_NAME}/${OUTPUT_SUB_DIR_CHAPTERS}/${chapterSlug}.json`;
+    if (!fs.existsSync(jsonInputChapterFile)) {
+      return;
     }
+
+    chaptersParams.chapters.push({
+      slug: chapterSlug,
+      title: chapterTittle,
+    });
   });
 
   const tocResult = tocTemplate(chaptersParams);
-  
+
   fs.writeFileSync(
-    `${OUTPUT_BASE_DIR}/${NOVEL_CODE_NAME}/tome_${tomeIdx + 1}/${NOVEL_CODE_NAME}_tome_${tomeIdx + 1}_${FROM_CHAPTER}_${TO_CHAPTER}.html`,
+    `${OUTPUT_BASE_DIR}/${NOVEL_CODE_NAME}/tome_${tomeIdx}/tome_${tomeIdx}.html`,
     tocResult
   );
 
@@ -87,23 +93,21 @@ chaptersJsonData["items"].forEach((tomeItem) => {
     const chapterNumber = chapterItem["number"];
 
     // console.log(`${chapterId}, ${chapterNumber}, ${chapterSlug}`);
+    const jsonInputChapterFile = `${INPUT_JSON_BASE_DIR}/${NOVEL_CODE_NAME}/${OUTPUT_SUB_DIR_CHAPTERS}/${chapterSlug}.json`;
+    if (!fs.existsSync(jsonInputChapterFile)) {
+      return;
+    }
 
     const chapterJsonData = JSON.parse(
       fs
-        .readFileSync(
-          `${INPUT_JSON_BASE_DIR}/${NOVEL_CODE_NAME}/${OUTPUT_SUB_DIR_CHAPTERS}/${chapterSlug}.json`
-        )
+        .readFileSync(jsonInputChapterFile)
         .toString("utf-8")
     );
-    if (chapterNumber === 1) {
-      console.log(chapterJsonData);
-    }
-    
 
     const chapterResult = chapterTemplate(chapterJsonData);
 
     fs.writeFileSync(
-      `${OUTPUT_BASE_DIR}/${NOVEL_CODE_NAME}/tome_${tomeIdx + 1}/${OUTPUT_SUB_DIR_CHAPTERS}/${chapterSlug}.html`,
+      `${OUTPUT_BASE_DIR}/${NOVEL_CODE_NAME}/tome_${tomeIdx}/${OUTPUT_SUB_DIR_CHAPTERS}/${chapterSlug}.html`,
       chapterResult
     );
   });
