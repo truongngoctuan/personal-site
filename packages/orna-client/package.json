@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "01-fetch": "python main_load_chapter.py i-shall-seal-the-heavens",
+    "00-novel-code": "set NOVEL_CODE=i-shall-seal-the-heavens & echo $NOVEL_CODE",
+    "01-fetch": "pipenv run python main_load_chapter.py",
+    "02-process-json": "pipenv run python main.py",
     "convert-html": "node index.js",
     "start": "python main.py",
     "env": "pipenv shell",

@@ -1,17 +1,10 @@
+import os
 import wuxia.main as runner
-import logging
-logging.basicConfig(level=logging.DEBUG)
+from dotenv import load_dotenv
 
-logging.debug("testing")
-print("hello world")
+load_dotenv()  # take environment variables from .env.
 
-a = {
-    "b": "asdf",
-    "c": {
-        "a1": True
-    }
-}
-logging.debug(a)
+novel_code = os.environ['NOVEL_CODE']
+print(novel_code)
 
-runner.loadChapters()
-# runner.exec()
+runner.processChapters(novel_code)

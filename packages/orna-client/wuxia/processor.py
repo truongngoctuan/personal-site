@@ -1,35 +1,5 @@
 import wuxia.file_storage as fileStorage
-import json
-import wuxia.apis_client as apis
-
-from bs4 import BeautifulSoup
-
 import asyncio
-
-NOVEL_CODE_NAME = "rmji"
-
-
-def processChapters():
-    inputBaseDir = "data/" + NOVEL_CODE_NAME
-    outputBaseDir = "processed-json/" + NOVEL_CODE_NAME
-
-    jsonData = fileStorage.loadJson(inputBaseDir, "chapter-list")
-    jsonData["items"]
-    for tomeItem in jsonData["items"]:
-        print(tomeItem["title"])
-
-        for chapterItem in tomeItem["chapters"]:
-            chapterSlug = chapterItem["slug"]
-            chapterId = chapterItem["id"]
-            print(chapterSlug + " " + str(chapterId))
-
-            chapterTitle = chapterItem["name"]
-            result = processChapter(
-                inputBaseDir, chapterSlug, chapterId, chapterTitle)
-
-            fileStorage.dumpJsonFile(
-                outputBaseDir + "/chapters", chapterSlug, result)
-
 
 def processAndDumpChapter(inputBaseDir, chapterSlug, chapterId, chapterTitle, outputBaseDir):
     print("START " + str(chapterSlug))
@@ -38,10 +8,15 @@ def processAndDumpChapter(inputBaseDir, chapterSlug, chapterId, chapterTitle, ou
     print("END " + str(chapterSlug))
 
 
-async def processChaptersAsync(loop, executor):
+async def processChaptersAsync(loop, executor, novel_code):
+    inputBaseDir = "data/" + novel_code
+    outputBaseDir = "processed-json/" + novel_code
 
-    inputBaseDir = "data/" + NOVEL_CODE_NAME
-    outputBaseDir = "processed-json/" + NOVEL_CODE_NAME
+    if not(fileStorage.isFolderExist(outputBaseDir)):
+        fileStorage.mkdir(outputBaseDir)
+    
+    if not(fileStorage.isFolderExist(outputBaseDir + "/chapters")):
+        fileStorage.mkdir(outputBaseDir + "/chapters")
 
     jsonData = fileStorage.loadJson(inputBaseDir, "chapter-list")
     jsonData["items"]
