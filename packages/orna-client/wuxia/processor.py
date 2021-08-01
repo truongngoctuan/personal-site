@@ -71,7 +71,11 @@ def processChapter(novel_code, chapterSlug, chapterId, chapterTitle):
     jsonCommentData = fileStorage.loadJson(
         getInputSubDirComments(novel_code), "comment-" + str(chapterId))
 
+    htmlContent = ""
     htmlContent = processContent(jsonChapterData["item"]["content"])
+    # process html content a bit
+    htmlContent = htmlContent.replace("<p><strong>" + chapterTitle + "</strong></p>", "")
+
     translatorThoughts = processTranslatorThoughts(
         jsonChapterData["item"]["translatorThoughts"])
 
@@ -80,6 +84,8 @@ def processChapter(novel_code, chapterSlug, chapterId, chapterTitle):
     return {
         "title": chapterTitle,
         "spoilerTitle": jsonChapterData["item"]["spoilerTitle"],
+        "published": jsonChapterData["item"]["published"] * 1000,
+        "novelTranslatorUserName": jsonChapterData["item"]["novelTranslatorUserName"],
         "content": htmlContent,
         "translatorThoughts": translatorThoughts,
         "comments": comments
@@ -105,6 +111,7 @@ def recursiveProcessComments(comments):
                 "depth": comment["depth"],
                 "upVotes": comment["upVotes"],
                 "downVotes": comment["downVotes"],
+                "timeCommented": comment["timeCommented"] * 1000
             }
             newComments.append(newComment)
             if len(comment["children"]) > 0:

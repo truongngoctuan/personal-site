@@ -3,15 +3,30 @@
     <link href="../../../../templates/ebook.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h2>{{title}}</h2>
+    {{#if spoilerTitle}}
+      <h2>Chapter x: *******************</h2>
+    {{else}}
+      <h2>{{title}}</h2>
+    {{/if}}
+    <div class="sub-title">
+      {{novelTranslatorUserName}} - {{timeCommentedFormatter published}}
+    </div>
     {{{content}}}
+    <br />
+    
+    <br />
+
+    {{#if spoilerTitle}}
+      <h2>{{title}}</h2>
+    {{/if}}
+
     <br />
     {{{translatorThoughts}}}
     <br />
     <p><b>Comments:</b></p>
     {{#each comments}}
     <div class="comment-lvl-{{depth}}">
-      <b>{{poster}}</b> {{upVotes}}&uarr; {{downVotes}}&darr;
+      <b>{{poster}}</b> {{upVotes}}&uarr; {{downVotes}}&darr; - {{timeCommentedFormatter timeCommented}}
       <br />
       {{{content}}}
     </div>

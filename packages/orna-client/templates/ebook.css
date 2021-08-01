@@ -48,6 +48,10 @@ blockquote {
   /* font-family: "Times New Roman"; */
 }
 
+.sub-title {
+  text-align: right;
+}
+
 .comment-lvl-1 {
   margin-left: 0px;
   margin-bottom: 20px;

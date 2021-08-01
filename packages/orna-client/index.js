@@ -4,6 +4,12 @@ require('dotenv').config();
 
 const Handlebars = require("handlebars");
 
+Handlebars.registerHelper('timeCommentedFormatter', function (timeCommented) {
+  return new Date(timeCommented).toLocaleDateString("en-US", {
+    year: 'numeric', month: 'short', day: 'numeric'
+  });
+});
+
 const NOVEL_CODE_NAME = process.env.NOVEL_CODE;
 const FROM_CHAPTER = 1;
 const INPUT_BASE_DIR = "data";
