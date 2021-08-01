@@ -19,5 +19,5 @@ def loadChapters(novel_code):
 
 def processChapters(novel_code):
     loop = asyncio.get_event_loop()
-    executor = concurrent.futures.ThreadPoolExecutor(max_workers=8)
+    executor = concurrent.futures.ThreadPoolExecutor(max_workers=16)
     loop.run_until_complete(processor.processChaptersAsync(loop, executor, novel_code))
