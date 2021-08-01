@@ -4,6 +4,7 @@
     "01-fetch": "pipenv run python main_load_chapter.py",
     "02-process-json": "pipenv run python main.py",
     "03-convert-html": "node index.js",
+    "04-convert-kindle": "pipenv run python main_convert_kindle.py",
     "04-k1": "ebook-convert.exe .\\processed-html\\i-shall-seal-the-heavens\\tome_1\\tome_1.html output\\i-shall-seal-the-heavens_tome_1.azw3",
     "04-k": "ebook-convert.exe .\\processed-html\\i-shall-seal-the-heavens\\tome_2\\tome_2.html output\\i-shall-seal-the-heavens_tome_2.azw3",
     "env": "pipenv shell",
