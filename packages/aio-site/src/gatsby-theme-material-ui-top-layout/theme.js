@@ -1,8 +1,8 @@
-import { createMuiTheme } from "@material-ui/core";
+import { createTheme } from "@material-ui/core";
 
 // change theme
 // https://www.gatsbyjs.org/packages/gatsby-theme-material-ui
-const theme = createMuiTheme({
+const theme = createTheme({
   palette: {
     // type: "dark",
     // background: {

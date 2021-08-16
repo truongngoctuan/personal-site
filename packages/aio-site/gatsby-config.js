@@ -10,7 +10,6 @@ module.exports = {
   //   url: "http://localhost:5002",
   // },
   plugins: [
-    `gatsby-plugin-postcss`,
     `gatsby-theme-material-ui`,
     `gatsby-plugin-react-helmet`,
     {
