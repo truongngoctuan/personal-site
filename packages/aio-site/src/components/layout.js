@@ -12,7 +12,6 @@ import { useStaticQuery, graphql } from "gatsby";
 import Header from "./header";
 import "./layout.css";
 import "./components.css";
-import { Typography } from "@material-ui/core";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -28,7 +27,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
+      <div className="prose prose-lg"
         style={{
           margin: `auto auto`,
           maxWidth: 960,
@@ -36,9 +35,9 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer className="px-2">
-          <Typography variant="subtitle1" color="textPrimary">
+          <h2>
             © {new Date().getFullYear()}, Built with TNT
-          </Typography>
+          </h2>
         </footer>
       </div>
     </>

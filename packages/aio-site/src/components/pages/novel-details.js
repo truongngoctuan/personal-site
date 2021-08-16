@@ -4,7 +4,6 @@ import ChapterList from "../molecules/chapter-list";
 import NovelInfo from "../molecules/novel-info";
 
 import "./novel-details.css";
-import { Typography } from "@material-ui/core";
 import { connect } from "react-redux";
 import { getByCodeName } from "./novel-api";
 

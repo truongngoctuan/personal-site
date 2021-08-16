@@ -1,14 +1,13 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { Grid } from "@material-ui/core";
 import ChapterItem from "./chapter-item";
 
 const ChapterList = ({ items }) => (
-  <Grid className="chapters-list">
+  <div className="chapters-list">
     {items.map((item, index) => (
       <ChapterItem key={item.url} idx={index} url={item.url} name={item.name} />
     ))}
-  </Grid>
+  </div>
 );
 
 ChapterList.propTypes = {

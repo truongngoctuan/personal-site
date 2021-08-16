@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { Grid, Typography } from "@material-ui/core";
 
 class ChapterItem extends React.Component {
 
@@ -12,16 +11,16 @@ class ChapterItem extends React.Component {
 
     return (
       <div className="chapter-item" role="button" tabIndex="0">
-        <Grid className={["chapter-item--text-idx", itemBackgroundClass]}>
-          <Typography className="text-gray-200" variant="body2" align="center">
+        <div className={["chapter-item--text-idx", itemBackgroundClass]}>
+          <p className="text-gray-200">
             {idx + 1}
-          </Typography>
-        </Grid>
-        <Grid className={["chapter-item--text", itemBackgroundClass]}>
-          <Typography className="text-gray-200" variant="body2" color="textSecondary">
+          </p>
+        </div>
+        <div className={["chapter-item--text", itemBackgroundClass]}>
+          <p className="text-gray-200">
             {name}
-          </Typography>
-        </Grid>
+          </p>
+        </div>
       </div>
     );
   }

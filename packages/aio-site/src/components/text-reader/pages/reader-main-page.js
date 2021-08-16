@@ -1,7 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
-import { Typography } from "@material-ui/core";
 import "./reader-main-page.css";
 import { getTextWidth } from "../text-helper";
 import { fitText } from "../text-layout";
@@ -58,9 +57,9 @@ const ReaderMainPageContent = ({ paragraphs }) => {
 
   return (
     <div className="text-display flex-grow flex flex-col px-2 py-2">
-      <Typography className="mb-4" variant="h4">
+      <h4 className="mb-4">
         Chapper 1: Curabitur eu venenatis mauris
-      </Typography>
+      </h4>
       <div className="text-display--main-content flex-grow" ref={ref}>
         {/* <div><span>asdf</span></div> */}
         {/* <p className="text-displayed"><span>magnaa</span></p> */}

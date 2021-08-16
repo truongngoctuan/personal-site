@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import { AppBar } from "@material-ui/core"
+// import { AppBar } from "@material-ui/core"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
     }}
   >
-    <AppBar position="static" color="inherit"
+    {/* <AppBar position="static" color="inherit"
       style={{
               // background: `rebeccapurple`,
 
@@ -30,7 +30,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-    </AppBar>
+    </AppBar> */}
   </header>
 )
 

@@ -7,12 +7,8 @@
 
 import React from "react";
 import PropTypes from "prop-types";
-import { useStaticQuery, graphql } from "gatsby";
-
-import Header from "./header";
 import "./layout.css";
 import "./components.css";
-import { Typography } from "@material-ui/core";
 
 const AppLayout = ({ children }) => {
   const title = "NOVEL";
@@ -47,9 +43,9 @@ const AppLayout = ({ children }) => {
       </nav>
       <main className="flex-grow flex">{children}</main>
       <footer className="px-2">
-        <Typography variant="subtitle1" className="text-white">
+        <span>
           © {new Date().getFullYear()}, Built with TNT
-        </Typography>
+        </span>
       </footer>
     </div>
   );

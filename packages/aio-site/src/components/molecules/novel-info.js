@@ -1,57 +1,55 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import { Grid, Typography, Paper } from "@material-ui/core";
 
 const NovelInfo = ({ name, thumbnail, synopsis }) => {
-  const classes = useStyles();
+  const classes = {};
   return (
-    <Grid container className={classes.root}>
-      <Grid xs={12} sm={3}>
-        <Paper elevation={4}>
+    <div className={classes.root}>
+      <div xs={12} sm={3}>
+        <div className="bg-white shadow-lg rounded-lg">
           <img
             className={classes.thumbnail}
             alt="novel-thumbnail"
             src={thumbnail}
           />
-        </Paper>
-      </Grid>
-      <Grid className={classes.infoText} xs={12} sm={9}>
-        <Typography className="text-gray-200" variant="h2">
+        </div>
+      </div>
+      <div className={classes.infoText} xs={12} sm={9}>
+        <h2 className="text-gray-200">
           {name}
-        </Typography>
+        </h2>
         <br />
-        <Typography className="text-gray-200" variant="caption">
+        <h3 className="text-gray-200">
           {synopsis}
-        </Typography>
-      </Grid>
-    </Grid>
+        </h3>
+      </div>
+    </div>
   );
 };
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  paper: {
-    marginLeft: theme.spacing(1),
-    marginRight: theme.spacing(1),
-    maxWidth: 500,
-    cursor: "pointer",
-  },
-  thumbnail: {
-    borderRadius: theme.spacing(0.5),
-    // marginRight: theme.spacing(1),
+// const useStyles = makeStyles((theme) => ({
+//   root: {
+//     flexGrow: 1,
+//   },
+//   paper: {
+//     marginLeft: theme.spacing(1),
+//     marginRight: theme.spacing(1),
+//     maxWidth: 500,
+//     cursor: "pointer",
+//   },
+//   thumbnail: {
+//     borderRadius: theme.spacing(0.5),
+//     // marginRight: theme.spacing(1),
 
-    width: "100%",
-    objectFit: "cover",
-    display: "block",
-    margin: "auto",
-  },
-  infoText: {
-    padding: theme.spacing(2),
-  },
-}));
+//     width: "100%",
+//     objectFit: "cover",
+//     display: "block",
+//     margin: "auto",
+//   },
+//   infoText: {
+//     padding: theme.spacing(2),
+//   },
+// }));
 
 NovelInfo.propTypes = {
   name: PropTypes.string,

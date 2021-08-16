@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseUrl = "/api"; // "localhost:5002";
+const baseUrl = "localhost:5002";
 export async function getList() {
   return axios
     .get(`${baseUrl}/novels`)

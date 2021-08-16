@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-
-import { Typography, Card, Divider } from "@material-ui/core";
 import { connect } from "react-redux";
 import { getLatestCurrency } from "./currency-api";
 
@@ -25,35 +23,31 @@ const CurrencyDashboardPageContent = ({ currencies, setCurrency }) => {
   }, []);
   return (
     <div>
-      <Typography className="" variant="h2" color="primary">
+      <h2>
         QUICK DASHBOARD
-      </Typography>
+      </h2>
 
       <div className="flex flex-row flex-wrap">
-        <Card
-          className="w-full md:w-1/3 lg:w-1/4 xl:w-1/5 m-2 py-4"
-          elevation={2}
+        <div
+          className="w-full md:w-1/3 lg:w-1/4 xl:w-1/5 m-2 py-4 shadow-lg bg-white rounded-lg"
         >
-          <Typography className="px-6" variant="h4" color="secondary">
+          <h4 className="px-6">
             AUD to VND
-          </Typography>
-          <Divider></Divider>
-          <Typography className="mt-2 px-6" variant="h2">
+          </h4>
+          <h2 className="mt-2 px-6">
             {audValue}
-          </Typography>
-        </Card>
-        <Card
-          className="w-full md:w-1/3 lg:w-1/4 xl:w-1/5 m-2 py-4"
-          elevation={2}
+          </h2>
+        </div>
+        <div
+          className="w-full md:w-1/3 lg:w-1/4 xl:w-1/5 m-2 py-4 shadow-lg bg-white rounded-lg"
         >
-          <Typography className="px-6" variant="h4" color="secondary">
+          <h4 className="px-6">
             USD to VND
-          </Typography>
-          <Divider></Divider>
-          <Typography className="mt-2 px-6" variant="h2">
+          </h4>
+          <h2 className="mt-2 px-6">
             {usdValue}
-          </Typography>
-        </Card>
+          </h2>
+        </div>
       </div>
     </div>
   );
