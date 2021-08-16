@@ -21,11 +21,15 @@ if (!fs.existsSync(path.join(OUTPUT_BASE_DIR))) {
   fs.mkdirSync(path.join(OUTPUT_BASE_DIR));
 }
 
+if (!fs.existsSync(path.join(OUTPUT_BASE_DIR, NOVEL_CODE_NAME))) {
+  fs.mkdirSync(path.join(OUTPUT_BASE_DIR, NOVEL_CODE_NAME));
+}
+
 // -- cleanup
-fs.rmdirSync(path.join(OUTPUT_BASE_DIR, NOVEL_CODE_NAME), { recursive: true })
+// fs.rmdirSync(path.join(OUTPUT_BASE_DIR, NOVEL_CODE_NAME), { recursive: true })
 
 // -- add new template
-fs.mkdirSync(path.join(OUTPUT_BASE_DIR, NOVEL_CODE_NAME));
+// fs.mkdirSync(path.join(OUTPUT_BASE_DIR, NOVEL_CODE_NAME));
 // fs.mkdirSync(path.join(OUTPUT_BASE_DIR, NOVEL_CODE_NAME, OUTPUT_SUB_DIR_CHAPTERS));
 
 const chapterTemplateStr = fs
@@ -54,9 +58,10 @@ chaptersJsonData["items"].forEach((tomeItem) => {
   chaptersParams.chapters = [];
   chaptersParams.tomeTitle = tomeTitle;
 
-  fs.mkdirSync(path.join(OUTPUT_BASE_DIR, NOVEL_CODE_NAME, `tome_${tomeIdx}`));
-  fs.mkdirSync(path.join(OUTPUT_BASE_DIR, NOVEL_CODE_NAME, `tome_${tomeIdx}`, OUTPUT_SUB_DIR_CHAPTERS));
-
+  if (!fs.existsSync(path.join(OUTPUT_BASE_DIR, NOVEL_CODE_NAME, `tome_${tomeIdx}`))) {
+    fs.mkdirSync(path.join(OUTPUT_BASE_DIR, NOVEL_CODE_NAME, `tome_${tomeIdx}`));
+    fs.mkdirSync(path.join(OUTPUT_BASE_DIR, NOVEL_CODE_NAME, `tome_${tomeIdx}`, OUTPUT_SUB_DIR_CHAPTERS));
+  }
   tomeItem["chapters"].forEach((chapterItem) => {
     const chapterId = chapterItem["id"];
     const chapterSlug = chapterItem["slug"];
