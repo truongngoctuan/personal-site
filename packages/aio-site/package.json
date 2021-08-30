@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "TRUONG Ngoc Tuan <tntuan0712494@gmail.com>",
   "dependencies": {
+    "@mdx-js/react": "^1.6.22",
     "@tailwindcss/typography": "^0.4.1",
     "axios": "0.21.1",
     "gatsby": "^3.11.1",
