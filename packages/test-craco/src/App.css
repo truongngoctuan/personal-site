@@ -40,3 +40,8 @@
 .test-bg-color {
   background-color: orange;
 }
+
+.h2-bg-color {
+  background-color: orangered;
+  color: brown;
+}

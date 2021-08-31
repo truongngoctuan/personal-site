@@ -1,36 +1,15 @@
 import React from "react";
 import { MDXProvider, mdx } from "@mdx-js/react";
-
-import logo from "./logo.svg";
 import "./App.css";
+import { useEffect, useState } from "react";
 
-const compiledCode = `
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-  /* @jsxRuntime classic */
-
-  /* @jsx mdx */
-
-  /* @jsxFrag mdx.Fragment */
-  const MDXLayout = "wrapper";
-
-  function MDXContent({
-    components,
-    ...props
-  }) {
-    return mdx(MDXLayout, _extends({
-      components: components
-    }, props), mdx("h1", null, "hi"), mdx("h2", null, "hello"));
-  }
-
-  MDXContent.isMDXComponent = true;
-`;
 const h1 = (props) => {
   const onClick = () => alert("clicked");
   return <h1 className="test-bg-color" onClick={onClick} {...props} />;
 };
 const components = {
   h1,
+  h2: (props) => <h2 className="h2-bg-color" {...props} />,
 };
 
 const run = (code) => {
@@ -52,26 +31,44 @@ const run = (code) => {
 };
 
 function App() {
+  const [compiledCode, setCompiledCode] = useState(`
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+
+/* @jsxFrag mdx.Fragment */
+const MDXLayout = "wrapper";
+
+function MDXContent({
+  components,
+  ...props
+}) {
+  return mdx(MDXLayout, _extends({
+    components: components
+  }, props), mdx("h1", null, "Loading data..."));
+}
+
+MDXContent.isMDXComponent = true;
+  `);
+
+  useEffect(() => {
+    async function requestData() {
+      const responseText = await (await fetch("data-out.txt")).text();
+      setCompiledCode(responseText);
+    }
+    requestData();
+  }, []);
+
   const Content = run(compiledCode);
 
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <MDXProvider components={components}>
           <Content />
         </MDXProvider>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );

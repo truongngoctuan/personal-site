@@ -14,7 +14,7 @@ const value = fs.readFileSync("data.html", "utf8");
 // const processed = compiler.runSync(parsed);
 // console.log("processed", processed);
 
-// const jsx = hastToJsx(processed, { wrapper: "fragment" });
+// const jsx = hastToJsx(processed, { wrapper: "fragment" }); 
 // console.log("jsx", jsx);
 
 const run = async (value, options = {}) => {
@@ -38,6 +38,5 @@ const run = async (value, options = {}) => {
 
 (async function main() {
   const compiledCode = await run(value, { fragment: true });
-  fs.writeFileSync("data-out.js", compiledCode);
-  console.log("compiled code", compiledCode);
+  fs.writeFileSync("data-out.ts", compiledCode);
 })();

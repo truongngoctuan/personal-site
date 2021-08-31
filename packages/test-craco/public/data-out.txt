@@ -1,0 +1,33 @@
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+
+/* @jsxFrag mdx.Fragment */
+const MDXLayout = "wrapper";
+
+function MDXContent({
+  components,
+  ...props
+}) {
+  return mdx(MDXLayout, _extends({
+    components: components
+  }, props), mdx("h2", null, "Chapter 1: Scholar Meng Hao"), mdx("div", {
+    className: "sub-title"
+  }, "Deathblade - May 18, 2015"), mdx("p", null, "The State of Zhao was a very small nation [1. The State of Zhao is named after the historical", mdx("a", {
+    href: "https://en.wikipedia.org/wiki/Zhao_%28state%29",
+    target: "_blank",
+    parentName: "p"
+  }, "State of Zhao"), "]. Like other smallnations in the lands of South Heaven, its people admired the Great Tang [2. The Great Tang is named after thehistorical ", mdx("a", {
+    href: "https://en.wikipedia.org/wiki/Tang_dynasty",
+    target: "_blank",
+    parentName: "p"
+  }, "Tang Dynasty"), "] in the EasternLands, and they admired Chang’an [3. Chang'an is named after the historical Chinese city ", mdx("a", {
+    href: "https://en.wikipedia.org/wiki/Chang%27an",
+    target: "_blank",
+    parentName: "p"
+  }, "Chang'an"), "]. Not only did the kingcarry this admiration, all scholars in the State of Zhao did. They could see it, almost as if they stood atopthe Tower of Tang in the capital city, oh so far away."));
+}
+
+MDXContent.isMDXComponent = true;
