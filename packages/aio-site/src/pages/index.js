@@ -62,6 +62,7 @@ const run = (code) => {
 
 const IndexPage = ({ count, increment }) => {
   const Content = run(compiledCode);
+  console.log("render");
   return (
     <Layout>
       <SEO title="Home" />
