@@ -5,6 +5,6 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "deploy": "git add packages/test-next-tailwind/out/* -f && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages"
+    "deploy": "git add packages/test-next-tailwind/out/* -f && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin master"
   }
 }
