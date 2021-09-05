@@ -10,7 +10,7 @@ const h1 = (props) => {
 };
 const components = {
   h1,
-  h2: (props) => <h2 className="h2-bg-color" {...props} />,
+  h2: (props) => <h2 className="bg-orange-500" {...props} />,
 };
 
 const run = (code) => {
@@ -54,13 +54,13 @@ function MDXContent({
 MDXContent.isMDXComponent = true;
   `);
 
-  // useEffect(() => {
-  //   async function requestData() {
-  //     const responseText = await (await fetch("data-out.txt")).text();
-  //     setCompiledCode(responseText);
-  //   }
-  //   requestData();
-  // }, []);
+  useEffect(() => {
+    async function requestData() {
+      const responseText = await (await fetch("data-out.txt")).text();
+      setCompiledCode(responseText);
+    }
+    requestData();
+  }, []);
 
   const Content = run(compiledCode);
 
@@ -71,7 +71,7 @@ MDXContent.isMDXComponent = true;
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+      <main className="prose flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <MDXProvider components={components}>
           <Content />
         </MDXProvider>
@@ -84,8 +84,7 @@ MDXContent.isMDXComponent = true;
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
+          Powered by tntuan
         </a>
       </footer>
     </div>
