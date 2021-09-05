@@ -4,9 +4,9 @@ const debug = process.env.NODE_ENV !== "production";
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-	basePath: '/personal-site',
+  basePath: !debug ? "/personal-site" : "",
   //assetPrefix: '',
-  assetPrefix: !debug ? '/personal-site/' : '',
-}
+  assetPrefix: !debug ? "/personal-site/" : "",
+};
 
 module.exports = nextConfig
