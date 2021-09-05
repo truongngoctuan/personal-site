@@ -4,7 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && touch out/CNAME && echo \"https://truongngoctuan.github.io/personal-site/\" >> out/CNAME && gh-pages -d out"
+    "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && touch out/CNAME && echo \"https://truongngoctuan.github.io/personal-site/\" >> out/CNAME && gh-pages -d out -t true"
   },
   "dependencies": {
     "next": "latest",
