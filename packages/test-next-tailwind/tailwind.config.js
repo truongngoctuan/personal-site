@@ -21,7 +21,9 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      borderColor: ["hover"],
+    },
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
 };

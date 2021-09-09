@@ -11,7 +11,10 @@ type CardGameProps = {
 export const CardGame = ({ data, ...rest }: CardGameProps) => {
   const { thumbnailImage, name } = data;
   return (
-    <div className="card bg-gray-400" {...rest}>
+    <div
+      className="card bg-gray-400 ring-2 ring-transparent hover:ring-gray-200"
+      {...rest}
+    >
       <figure>
         <img src={thumbnailImage} />
       </figure>
