@@ -5,7 +5,6 @@ import { useNovelsList } from "./api/novels";
 
 export default function Home() {
   const { novels, isLoading, isError } = useNovelsList();
-  console.log("novels", novels);
   return (
     <div className="flex flex-col items-center justify-center justify-items-stretch min-h-screen py-2">
       <Head>
@@ -19,10 +18,10 @@ export default function Home() {
         </div>
         <div className="m-2 grid grid-cols-3 gap-2">
           {!isLoading &&
-            novels.map((cardData) => (
+            novels.map((novel) => (
               // todo fix key === href
-              <Link key={cardData.id} href="/novels/first-novel">
-                <CardGame data={cardData} />
+              <Link key={`/novels/${novel.id}`} href={`/novels/${novel.id}`}>
+                <CardGame data={novel} />
               </Link>
             ))}
         </div>
