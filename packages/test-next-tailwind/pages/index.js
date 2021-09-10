@@ -1,10 +1,11 @@
+import React from "react";
 import Head from "next/head";
 import Link from "next/link";
-import CardGame from "../components/organisms/CardGame/CardGame";
+import { CardGameWithHref } from "../components/organisms/CardGame/CardGame";
 import { useNovelsList } from "./api/novels";
 
 export default function Home() {
-  const { novels, isLoading, isError } = useNovelsList();
+  const { novels, isLoading } = useNovelsList();
   return (
     <div className="flex flex-col items-center justify-center justify-items-stretch min-h-screen py-2">
       <Head>
@@ -19,9 +20,8 @@ export default function Home() {
         <div className="m-2 grid grid-cols-3 gap-2">
           {!isLoading &&
             novels.map((novel) => (
-              // todo fix key === href
-              <Link key={`/novels/${novel.id}`} href={`/novels/${novel.id}`}>
-                <CardGame data={novel} />
+              <Link key={novel.id} href={`/novels/${novel.id}`} passHref>
+                <CardGameWithHref data={novel} />
               </Link>
             ))}
         </div>

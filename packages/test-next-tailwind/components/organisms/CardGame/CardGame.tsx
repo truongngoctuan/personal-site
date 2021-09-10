@@ -5,9 +5,10 @@ export type Game = {
   name: string;
 };
 
-type CardGameProps = {
+export type CardGameProps = {
   data: Game;
 } & React.HTMLAttributes<HTMLDivElement>;
+
 export const CardGame = ({ data, ...rest }: CardGameProps) => {
   const { thumbnailImage, name } = data;
   return (
@@ -33,3 +34,7 @@ export const CardGame = ({ data, ...rest }: CardGameProps) => {
 };
 
 export default CardGame;
+
+export const CardGameWithHref = React.forwardRef<CardGameProps>(
+  (props: CardGameProps, ref) => <CardGame {...props} />
+);

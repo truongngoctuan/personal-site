@@ -11,3 +11,26 @@ export function useNovelsList() {
     isError: error,
   };
 }
+
+export function useNovelChapters(novelSlug) {
+  if (!novelSlug) {
+    return {
+      tomes: [],
+      isLoading: true,
+      isError: false,
+    };
+  }
+  const { data, error } = useSWR(
+    `/novels/${novelSlug}/chapter-list.json`,
+    fetcherText
+  );
+
+  const jsonData = data ? JSON.parse(data) : { items: [] };
+  const tomes = jsonData.items;
+
+  return {
+    tomes,
+    isLoading: !error && !data,
+    isError: error,
+  };
+}

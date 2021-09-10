@@ -1,7 +1,18 @@
+import { useNovelChapters } from "../api/novels";
 import Layout from "../layout";
+import Tome from "../../components/organisms/Tome/Tome";
 
 export default function Post({ slug }) {
-  return <Layout>hello</Layout>;
+  const { tomes, isLoading } = useNovelChapters(slug);
+  return (
+    <Layout>
+      <>
+        {tomes.map((tome) => (
+          <Tome key={tome.title} data={tome}></Tome>
+        ))}
+      </>
+    </Layout>
+  );
 }
 
 function getFakeNovels() {

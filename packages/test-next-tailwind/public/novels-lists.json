@@ -52,6 +52,58 @@
 		]
 	},
 	{
+		"id": "i-shall-seal-the-heavens",
+		"name": "Cyberpunk 2077",
+		"backgroundImage": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg",
+		"thumbnailImage": "https://media.rawg.io/media/crop/600/400/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg",
+		"rating": 4.04,
+		"metacritic": 68,
+		"parentPlatforms": [
+			{
+				"platform": {
+					"id": 1,
+					"name": "PC",
+					"__typename": "PlatformDetails"
+				},
+				"__typename": "Platform"
+			},
+			{
+				"platform": {
+					"id": 2,
+					"name": "PlayStation",
+					"__typename": "PlatformDetails"
+				},
+				"__typename": "Platform"
+			},
+			{
+				"platform": {
+					"id": 3,
+					"name": "Xbox",
+					"__typename": "PlatformDetails"
+				},
+				"__typename": "Platform"
+			}
+		],
+		"__typename": "Game",
+		"genres": [
+			{
+				"id": 3,
+				"name": "Adventure",
+				"__typename": "Genre"
+			},
+			{
+				"id": 4,
+				"name": "Action",
+				"__typename": "Genre"
+			},
+			{
+				"id": 5,
+				"name": "RPG",
+				"__typename": "Genre"
+			}
+		]
+	},
+	{
 		"id": 326292,
 		"name": "Fall Guys: Ultimate Knockout",
 		"backgroundImage": "https://media.rawg.io/media/games/5eb/5eb49eb2fa0738fdb5bacea557b1bc57.jpg",
