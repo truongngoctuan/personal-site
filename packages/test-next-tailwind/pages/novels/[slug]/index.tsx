@@ -1,6 +1,6 @@
-import { useNovelChapters } from "../api/novels";
-import Layout from "../layout";
-import Tome from "../../components/organisms/Tome/Tome";
+import { useNovelChapters } from "../../api/novels";
+import Layout from "../../layout";
+import Tome from "../../../components/organisms/Tome/Tome";
 
 export default function Post({ slug }) {
   const { tomes, isLoading } = useNovelChapters(slug);
@@ -8,7 +8,7 @@ export default function Post({ slug }) {
     <Layout>
       <>
         {tomes.map((tome) => (
-          <Tome key={tome.title} data={tome}></Tome>
+          <Tome key={tome.title} novelSlug={slug} data={tome}></Tome>
         ))}
       </>
     </Layout>

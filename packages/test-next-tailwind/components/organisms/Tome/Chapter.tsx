@@ -9,7 +9,7 @@ const Chapter = ({ novelSlug, data, ...rest }: ChapterProps) => {
   const { slug, name } = data;
   return (
     <Link href={`/novels/${novelSlug}/chapters/${data.slug}`} {...rest}>
-      {name}
+      <a className="hover:text-orange-900">{name}</a>
     </Link>
   );
 };
