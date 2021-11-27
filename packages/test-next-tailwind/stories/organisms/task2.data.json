@@ -1,0 +1,48 @@
+{
+  "type": "task2",
+  "title": "Task 2: Some people think that hosting an international sports event is good for the country, while some people think it is bad. Discuss both views and state your opinion.",
+  "plan": [
+    {
+      "type": "title-text",
+      "title": "Introduction",
+      "content": "refer to the task question. My opinion: it is bad"
+    },
+    {
+      "type": "title-text",
+      "title": "Paragraph 2",
+      "content": "advantages for the host country: health is promoted - youth take up sport and want to copy their national heroes; the economy is promoted - a chance for the host nation to attract tourists (eg. Olympic Games)"
+    },
+    {
+      "type": "title-text",
+      "title": "Paragraph 3",
+      "content": "disadvantages for the host county: (1) only a few sectors make money - hotels, restaurants, sports merchandising. Most local people do not benefit (2) they are a waste of public money, which should be spent on hospitals, schools, welfare (eg Brazil and 2014 World Cup)"
+    },
+    {
+      "type": "title-text",
+      "title": "Conclusion",
+      "content": "It is bad for countries to host international sports events"
+    }
+  ],
+  "essay": [
+    {
+      "type": "html",
+      "content": "<p class=\"calibre1\">It is true that there are conflicting views about the benefits of hosting major international sports events. <b class=\"calibre2\">While</b> some argue that such events are advantageous for the host nation, I agree with those who believe that they are a waste of money which could be better spent. </p>"
+    },
+    {
+      "type": "html",
+      "content": "<p class=\"calibre1\"><b class=\"calibre2\">On the one hand, </b>advocates of hosting international sports events focus on the stimulus which they give to promoting health and economic prosperity.  Health is promoted through wide public interest in these events, in which new world records may be set, and a fierce competitive spirit is fostered.  Extensive sports coverage on TV fires the imagination of the youth of the host country, all keen to take up sport and emulate their national heroes. <b class=\"calibre2\">In terms of </b>the economy<b class=\"calibre2\">, </b>hospitality and tourism benefit from the influx of sports fans from all over the world.  An event such as the Olympic Games, <b class=\"calibre2\">for</b> <b class=\"calibre2\">example</b>, provides a kind of shop window for the host nation to advertise its attractions for tourists. <b class=\"calibre2\"> </b></p>"
+    },
+    {
+      "type": "html",
+      "content": "<p class=\"calibre1\"><b class=\"calibre2\">On the other hand, </b>I support the argument that too much value is placed on sport. </p>"
+    },
+    {
+      "type": "html",
+      "content": "<p class=\"calibre1\"><b class=\"calibre2\">Firstly, </b>  such international events are simply an opportunity to make money for hotels, restaurants, and businesses involved in sports merchandising.  The vast majority of local people experience no improvement in their standard of living. <b class=\"calibre2\">Secondly, </b>if the government of the host nation provides funding for these events, then it must curb public spending on hospitals, schools and a welfare state to help the poor. <b class=\"calibre2\">For instance</b>, the Brazilian government spent money on building stadiums for the 2014 World Cup, and now it lacks money to deal with the corona virus pandemic. </p>"
+    },
+    {
+      "type": "html",
+      "content": "<p class=\"calibre1\"><b class=\"calibre2\">In conclusion, </b>only a few benefit when a country hosts an international sports event, <b class=\"calibre2\">whereas</b> life simply becomes harder for most of its citizens. <b class=\"calibre2\"> </b></p>"
+    }
+  ]
+}
