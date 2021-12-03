@@ -1,6 +1,7 @@
 import { COLORS, DivDebug } from "@/components/atoms/DivDebug";
 import { ArticleTask2 } from "@/writing/typings";
 import React from "react";
+// import styles from "./styles.css";
 
 export type ParagraphRendererProps = {
   data: ArticleTask2;
@@ -12,7 +13,7 @@ export const ParagraphRenderer = ({
 }: ParagraphRendererProps) => {
   return (
     <div
-      className="card bordered prose prose-sm p-2"
+      className="card bordered prose p-2"
       style={{
         width: "50%",
         margin: "auto",
@@ -30,6 +31,13 @@ export const ParagraphRenderer = ({
           </p>
         ))}
       <DivDebug />
+      {/* <style jsx>{styles}</style> */}
+      <style jsx>{`
+        p {
+          color: orange;
+          @apply p-32
+        }
+      `}</style>
     </div>
   );
 };

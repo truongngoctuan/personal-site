@@ -19,9 +19,14 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@/components/*": ["components/*"],
-      "@/writing/*": ["writing/*"]
-    }
+      "@/components/*": [
+        "components/*"
+      ],
+      "@/writing/*": [
+        "writing/*"
+      ]
+    },
+    "incremental": true
   },
   "include": [
     "next-env.d.ts",
