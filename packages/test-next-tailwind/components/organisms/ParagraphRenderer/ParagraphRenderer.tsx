@@ -1,43 +1,40 @@
 import { COLORS, DivDebug } from "@/components/atoms/DivDebug";
 import { ArticleTask2 } from "@/writing/typings";
 import React from "react";
-// import styles from "./styles.css";
 
 export type ParagraphRendererProps = {
   data: ArticleTask2;
 } & React.HTMLAttributes<HTMLDivElement>;
 
 export const ParagraphRenderer = ({
+  className,
   data,
-  ...rest
 }: ParagraphRendererProps) => {
   return (
     <div
-      className="card bordered prose p-2"
-      style={{
-        width: "50%",
-        margin: "auto",
-        height: "1000px",
-        backgroundColor: COLORS[5],
-      }}
-      {...rest}
+      className={`${className} card bordered rounded-md shadow-md prose p-4 h-full m-auto w-1/2 bg-white`}
     >
-      <h3>{data.title}</h3>
+      <h2 className="title">{data.title}</h2>
       <h4>Essay plan:</h4>
-      {data.plan &&
-        data.plan.map((p) => (
-          <p>
-            {p.title}: {p.content}
-          </p>
-        ))}
-      <DivDebug />
-      {/* <style jsx>{styles}</style> */}
-      <style jsx>{`
-        p {
-          color: orange;
-          @apply p-32
-        }
-      `}</style>
+      <div className="essay-plan--container flex flex-row flex-wrap">
+        {data.plan &&
+          data.plan.map((p) => (
+            <>
+              <div className="essay-plan--title">{p.title}</div>
+              <div className="essay-plan--content">{p.content}</div>
+            </>
+          ))}
+      </div>
+      <h4>Essay:</h4>
+      <div className="essay--container">
+        {data.essay &&
+          data.essay.map((p) => (
+            <p
+              className="essay--content"
+              dangerouslySetInnerHTML={{ __html: p.content }}
+            ></p>
+          ))}
+      </div>
     </div>
   );
 };
