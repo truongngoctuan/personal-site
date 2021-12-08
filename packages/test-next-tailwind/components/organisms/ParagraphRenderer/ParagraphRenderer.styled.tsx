@@ -1,11 +1,10 @@
 import { COLORS } from "@/components/atoms/DivDebug";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import OriginParagraphRenderer, {
   ParagraphRendererProps,
 } from "./ParagraphRenderer";
 
-type compType = React.ComponentType<ParagraphRendererProps>;
-const ParagraphRenderer: compType = styled(OriginParagraphRenderer)`
+const sharedStyles = css`
   & {
     .title {
       margin-top: 8px;
@@ -27,6 +26,13 @@ const ParagraphRenderer: compType = styled(OriginParagraphRenderer)`
       &--content {
       }
     }
+  }
+`;
+
+type compType = React.ComponentType<ParagraphRendererProps>;
+const ParagraphRenderer: compType = styled(OriginParagraphRenderer)`
+  ${sharedStyles}
+  & {
   }
 `;
 
