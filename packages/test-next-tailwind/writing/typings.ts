@@ -16,7 +16,7 @@ type BlockTitleText = {
   content: string;
 }
 
-type BlockHtml = {
+export type BlockHtml = {
   type: "html";
   content: string;
 }

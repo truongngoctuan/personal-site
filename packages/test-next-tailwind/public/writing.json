@@ -24,6 +24,7 @@
         "content": "It is bad for countries to host international sports events"
       }
     ],
+    "essayType": "raw-html",
     "essay": [
       {
         "type": "html",
@@ -72,6 +73,7 @@
         "content": "It is bad for countries to host international sports events"
       }
     ],
+    "essayType": "structured",
     "essay": [
       {
         "type": "enhanced",
@@ -198,6 +200,7 @@
   },
   {
     "type": "task2",
+    "essayType": "processed-html",
     "essay": [
       {
         "type": "enhanced",

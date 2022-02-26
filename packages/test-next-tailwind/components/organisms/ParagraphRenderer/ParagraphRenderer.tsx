@@ -1,6 +1,7 @@
 import { COLORS, DivDebug } from "@/components/atoms/DivDebug";
 import { ArticleTask2 } from "@/writing/typings";
 import React from "react";
+import Essay2 from "../Essay2/Essay2.styled";
 
 export type ParagraphRendererProps = {
   data: ArticleTask2;
@@ -26,15 +27,7 @@ export const ParagraphRenderer = ({
           ))}
       </div>
       <h4>Essay:</h4>
-      <div className="essay--container">
-        {data.essay &&
-          data.essay.map((p) => (
-            <p
-              className="essay--content"
-              dangerouslySetInnerHTML={{ __html: p.content }}
-            ></p>
-          ))}
-      </div>
+      {data.essay && <Essay2 essay={data.essay} />}
     </div>
   );
 };

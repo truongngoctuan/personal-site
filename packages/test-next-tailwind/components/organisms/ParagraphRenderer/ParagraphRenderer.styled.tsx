@@ -4,7 +4,8 @@ import OriginParagraphRenderer, {
   ParagraphRendererProps,
 } from "./ParagraphRenderer";
 
-const sharedStyles = css`
+type compType = React.ComponentType<ParagraphRendererProps>;
+const ParagraphRenderer: compType = styled(OriginParagraphRenderer)`
   & {
     .title {
       margin-top: 8px;
@@ -22,17 +23,6 @@ const sharedStyles = css`
         padding: 6px 0;
       }
     }
-    .essay {
-      &--content {
-      }
-    }
-  }
-`;
-
-type compType = React.ComponentType<ParagraphRendererProps>;
-const ParagraphRenderer: compType = styled(OriginParagraphRenderer)`
-  ${sharedStyles}
-  & {
   }
 `;
 
