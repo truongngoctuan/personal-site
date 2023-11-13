@@ -55,9 +55,9 @@ namespace ContentEdit.Core
       result = result.Replace("”", "\"");
 
       // imgs png to webp, updating image url as well
+      result = ImagesUpdater.Update(taskDesc, result);
 
       File.WriteAllText(markdownFilePath, result);
-
     }
   }
 }

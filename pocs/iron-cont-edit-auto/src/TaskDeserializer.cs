@@ -9,11 +9,13 @@ namespace ContentEdit.Core
       return tasks.Select(t =>
       {
         var urlSplits = t.Split("/");
+        var slug = urlSplits[urlSplits.Length - 2];
         return new TaskDesc
         {
           Site = t.Contains("ironpdf") ? "ironpdf.com" : "ironsoftware.com",
-          Slug = urlSplits[urlSplits.Length - 2],
-          RelativePathMarkdownFile = t.Replace(urlSplits[0], "").Trim('/') + ".md"
+          Slug = slug,
+          RelativePathMarkdownFile = t.Replace(urlSplits[0], "").Trim('/') + ".md",
+          RelativePathImagesFolder = $"/static-assets/pdf/blog/{slug}/"
         };
       }).ToArray();
     }

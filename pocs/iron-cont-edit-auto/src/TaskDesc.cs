@@ -5,5 +5,6 @@ namespace ContentEdit.Core
     public required string Site { get; set; }
     public required string Slug { get; set; }
     public required string RelativePathMarkdownFile { get; set; }
+    public required string RelativePathImagesFolder { get; set; }
   }
 }
