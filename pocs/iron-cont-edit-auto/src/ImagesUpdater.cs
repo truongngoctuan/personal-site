@@ -14,7 +14,7 @@ namespace ContentEdit.Core
 
       if (!Directory.Exists(imageFolder))
       {
-        Console.WriteLine($"folder taskDesc.RelativePathImagesFolde NOT FOUND");
+        Console.WriteLine($"folder {taskDesc.RelativePathImagesFolder} NOT FOUND");
         return markdownContent;
       }
 
@@ -26,18 +26,20 @@ namespace ContentEdit.Core
         var fileName = Path.GetFileName(imagePath);
         var fileExtension = Path.GetExtension(imagePath);
         Console.WriteLine($"fileName={fileName}");
-
-        using (var image = Image.Load(imagePath))
+        if (!File.Exists(imagePath.Replace(fileExtension, ".webp")))
         {
-          image.SaveAsWebp(imagePath.Replace(fileExtension, ".webp"), new WebpEncoder
+          using (var image = Image.Load(imagePath))
           {
-            Quality = 80,
-            FileFormat = WebpFileFormatType.Lossy
-          });
+            var encoder = new WebpEncoder
+            {
+              Quality = 80,
+              FileFormat = WebpFileFormatType.Lossy
+            };
+            image.SaveAsWebp(imagePath.Replace(fileExtension, ".webp"), encoder);
+          }
         }
-
         // remove old file
-        // File.Delete(imagePath);
+        File.Delete(imagePath);
 
         // replace png file with webp one
         markdownContent = markdownContent.Replace(fileName, fileName.Replace(fileExtension, ".webp"));

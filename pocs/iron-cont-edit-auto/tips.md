@@ -1,3 +1,8 @@
+links
+/how-to/license-keys/#trial-license
+
+
+
 
 smart Find and replace for Image `(.+?)` or `(.*?)`
 
@@ -41,4 +46,10 @@ smart Find and replace for Image `(.+?)` or `(.*?)`
 
 ```
 [$3]($1)
+```
+
+```
+
+<a class="js-modal-open" href="#trial-license" data-modal-id="trial-license">(.+?)</a>
+[$1](trial-license)
 ```

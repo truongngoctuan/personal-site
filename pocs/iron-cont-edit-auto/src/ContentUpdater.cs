@@ -29,6 +29,12 @@ namespace ContentEdit.Core
 
       var raw = File.ReadAllText(markdownFilePath);
       var result = raw;
+      var isCRLF = result.Contains("\r\n");
+
+      // replce h2 tag with proper heading
+      var heading2Pattern = """<h2>(.+?)</h2>""";
+      var heading2Replacement = $"## $1";
+      result = Regex.Replace(result, heading2Pattern, heading2Replacement);
 
       // replace with markdown img and description
       //handle warpper
@@ -44,8 +50,12 @@ namespace ContentEdit.Core
       // replace with markdown urls
       var urlPattern = """<a href="(.+?)"(.*?)>(.+?)</a>""";
       var urlReplacement = "[$3]($1)";
-
       result = Regex.Replace(result, urlPattern, urlReplacement);
+
+      var urlPattern2 = """<a class="js-modal-open" href="#trial-license" data-modal-id="trial-license">(.+?)</a>""";
+      var urlReplacement2 = "[$1](trial-license)";
+      result = Regex.Replace(result, urlPattern2, urlReplacement2);
+
 
       // remove special characters
       result = result.Replace(" ", " ");
@@ -53,6 +63,17 @@ namespace ContentEdit.Core
       result = result.Replace("’", "'");
       result = result.Replace("“", "\"");
       result = result.Replace("”", "\"");
+
+      //remove spaces after paragraph end
+      if (isCRLF)
+      {
+        result = Regex.Replace(result, "\\.\\s" + "\\r\\n", ".\r\n");
+      }
+      else
+      {
+        result = Regex.Replace(result, "\\.\\s" + "\\n", ".\n\n"); //downt know why
+      }
+
 
       // imgs png to webp, updating image url as well
       result = ImagesUpdater.Update(taskDesc, result);

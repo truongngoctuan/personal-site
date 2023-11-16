@@ -23,7 +23,6 @@ namespace HelloWorld
     {
       var blogIndexes =
                 JsonSerializer.Deserialize<BlogIndex>(jsonString);
-      Console.WriteLine(blogIndexes?.Categories.Count());
       var posts = blogIndexes?.Categories.SelectMany(s => s.CategoryPosts);
       if (posts == null)
       {
