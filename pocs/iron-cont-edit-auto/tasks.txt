@@ -1,5 +1,5 @@
-ironpdf.com/blog/pdf-tools/how-to-separate-pdf-pages/
-ironpdf.com/blog/pdf-tools/how-to-delete-page-pdf/
-ironpdf.com/blog/using-ironpdf/csharp-open-pdf-tutorial/
-ironpdf.com/blog/using-ironpdf/csharp-create-pdf-file-programmatically/
-ironpdf.com/blog/using-ironpdf/how-remove-password-pdf/
+ironsoftware.com/csharp/ocr/blog/using-ironocr/subtitle-ocr-csharp-tutorial/
+ironsoftware.com/csharp/ocr/blog/using-ironocr/get-text-ocr-screenshot-csharp-tutorial/
+ironsoftware.com/csharp/ocr/blog/using-ironocr/invoice-ocr-csharp-tutorial/
+ironsoftware.com/csharp/ocr/blog/using-ironocr/license-plate-ocr-csharp-tutorial/
+ironsoftware.com/csharp/ocr/blog/using-ironocr/ocr-driver-license-tutorial/

@@ -10,14 +10,28 @@ namespace ContentEdit.Core
       {
         var urlSplits = t.Split("/");
         var slug = urlSplits[urlSplits.Length - 2];
+        var site = t.Contains("ironpdf") ? "ironpdf.com" : "ironsoftware.com";
+        var staticAssetsPath = $"/static-assets/pdf/blog/{slug}/";
+        if (site == "ironsoftware.com")
+        {
+          if (t.Contains("ocr"))
+          {
+            staticAssetsPath = $"/static-assets/ocr/blog/{slug}/";
+          }
+          // add more type
+        }
         return new TaskDesc
         {
-          Site = t.Contains("ironpdf") ? "ironpdf.com" : "ironsoftware.com",
+          Site = site,
           Slug = slug,
           RelativePathMarkdownFile = t.Replace(urlSplits[0], "").Trim('/') + ".md",
-          RelativePathImagesFolder = $"/static-assets/pdf/blog/{slug}/"
+          RelativePathImagesFolder = staticAssetsPath,
+          RelativePathBlogIndexJsonFile = $"json/{String.Join("/", urlSplits[Range.EndAt(urlSplits.Length - 3 - 1)])}/blog/index.json"
         };
       }).ToArray();
     }
   }
 }
+
+///ironsoftware.com/csharp/ocr/blog/using-ironocr/subtitle-ocr-csharp-tutorial/
+///static-assets          /ocr/blog/subtitle-ocr-csharp-tutorial/subtitle-ocr-csharp-tutorial-1.webp

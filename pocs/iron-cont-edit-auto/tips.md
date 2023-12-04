@@ -26,6 +26,20 @@ smart Find and replace for Image `(.+?)` or `(.*?)`
     <img src="/static-assets/pdf/blog/how-to-delete-page-pdf/how-to-delete-page-pdf-1.png" alt="PDF Page Delete" class="img-responsive add-shadow">
     <p class="content__image-caption">PDF Page Delete</p>
 </div>
+
+<div (.+?)
+    <div (.+?)
+        <img src="(.+?)(\d{1,2})(.{4,5})" alt="(.*?)"(.*?)>
+        <p (.+?)
+    </div>
+</div>
+
+<div class="content-img-align-center">
+    <div class="center-image-wrapper">
+        <img src="/static-assets/ocr/blog/ocr-screenshot-csharp-tutorial/ocr-screenshot-csharp-tutorial-1.webp" alt="How to OCR Get Text From Screenshot in C#, Figure 1: New Project" class="img-responsive add-shadow">
+        <p class="content__image-caption">Creating a New Project in Visual Studio</p>
+    </div>
+</div>
 ```
 
 ```

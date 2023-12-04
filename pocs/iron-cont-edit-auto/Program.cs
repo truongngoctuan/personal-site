@@ -8,33 +8,29 @@ namespace HelloWorld
 
     static void Main(string[] args)
     {
-      processTasks("ironpdf.com", File.ReadAllText(Path.Join(
-        StringFolder.PROJECT_REPOSITORY,
-        StringFolder.RELATIVE_FOLDER,
-        StringFolder.IRONPDF_INDEX_FILE)));
-
-      // processTasks("ironsoftware.com", File.ReadAllText(Path.Join(
-      // StringFolder.PROJECT_REPOSITORY,
-      // StringFolder.RELATIVE_FOLDER,
-      // StringFolder.IRONSOFTWARE_INDEX_FILE)));
+      processTasks();
     }
 
-    static void processTasks(string site, string jsonString)
+    static void processTasks()
     {
-      var blogIndexes =
-                JsonSerializer.Deserialize<BlogIndex>(jsonString);
-      var posts = blogIndexes?.Categories.SelectMany(s => s.CategoryPosts);
-      if (posts == null)
-      {
-        Console.WriteLine("Posts NOT FOUND");
-        return;
-      }
-
-      var tasks = TaskDeserializer.TaskDeserialize("tasks.txt")
-        .Where(t => t.Site == site);
+      var tasks = TaskDeserializer.TaskDeserialize("tasks.txt");
 
       foreach (var task in tasks)
       {
+        var jsonString = File.ReadAllText(Path.Join(
+       StringFolder.PROJECT_REPOSITORY,
+       StringFolder.RELATIVE_FOLDER,
+       task.RelativePathBlogIndexJsonFile));
+
+        var blogIndexes =
+                JsonSerializer.Deserialize<BlogIndex>(jsonString);
+        var posts = blogIndexes?.Categories.SelectMany(s => s.CategoryPosts);
+        if (posts == null)
+        {
+          Console.WriteLine("Posts NOT FOUND");
+          return;
+        }
+
         ContentUpdater.Update(task, posts);
       }
     }

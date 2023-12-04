@@ -38,13 +38,23 @@ namespace ContentEdit.Core
 
       // replace with markdown img and description
       //handle warpper
-      var imgPattern3 = """<div (.+?)>(\n)(\s*)(.+?)?(\s*)<img src="(.+?)(\d{1,2})(.{4})" alt="(.*?)"(.*?)>(\n)(\s*)(.+?)?\n</div>""";
+      var imgPattern3 = """<div (.+?)>(\n)(\s*)(.+?)?(\s*)<img src="(.+?)(\d{1,2})(.{4,5})" alt="(.*?)"(.*?)>(\n)(\s*)(.+?)?\n</div>""";
       var imgReplacement3 = $"![{matchedPost.PostHeader}, Figure $7: $9]($6$7$8)\n**$9**";
       result = Regex.Replace(result, imgPattern3, imgReplacement3);
 
       var imgPattern1 = """<div (.+?)\n(\s*)<img src="(.+?)(\d{1,2})(.{4})" alt="(.*?)"(.*?)>(.|\n*?)</div>""";
       var imgReplacement1 = $"![{matchedPost.PostHeader}, Figure $4: $6]($3$4$5)\n**$6**";
       result = Regex.Replace(result, imgPattern1, imgReplacement1);
+
+      var imgPattern4 = """<div (.+?)(\n)    <div (.+?)(\n)        <img src="(.+?)(\d{1,2})(.{4,5})" alt="(.*?)"(.*?)>(\n)        <p (.+?)(\n)    </div>(\n)</div>""";
+      var imgReplacement4 = $"![{matchedPost.PostHeader}, Figure $6: $8]($5$6$7)\n**$8**";
+      result = Regex.Replace(result, imgPattern4, imgReplacement4);
+      //       < div class="content-img-align-center">
+      //     <div class="center-image-wrapper">
+      //         <img src = "/static-assets/ocr/blog/ocr-screenshot-csharp-tutorial/ocr-screenshot-csharp-tutorial-1.webp" alt="How to OCR Get Text From Screenshot in C#, Figure 1: New Project" class="img-responsive add-shadow">
+      //         <p class="content__image-caption">Creating a New Project in Visual Studio</p>
+      //     </div>
+      // </div>
 
 
       // replace with markdown urls
@@ -55,7 +65,6 @@ namespace ContentEdit.Core
       var urlPattern2 = """<a class="js-modal-open" href="#trial-license" data-modal-id="trial-license">(.+?)</a>""";
       var urlReplacement2 = "[$1](trial-license)";
       result = Regex.Replace(result, urlPattern2, urlReplacement2);
-
 
       // remove special characters
       result = result.Replace(" ", " ");
@@ -68,10 +77,20 @@ namespace ContentEdit.Core
       if (isCRLF)
       {
         result = Regex.Replace(result, "\\.\\s" + "\\r\\n", ".\r\n");
+        result = Regex.Replace(result, "\\:\\s" + "\\r\\n", ":\r\n");
       }
       else
       {
         result = Regex.Replace(result, "\\.\\s" + "\\n", ".\n\n"); //downt know why
+        result = Regex.Replace(result, "\\:\\s" + "\\n", ":\n\n");
+      }
+
+      //remove duplicate empty lines
+      if (isCRLF) {
+        result = Regex.Replace(result, "\\r\\n\\r\\n\\r\\n", "\r\n\r\n");
+      }
+      else {
+        result = Regex.Replace(result, "\\n\\n\\n", "\n\n");
       }
 
 
