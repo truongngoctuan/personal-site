@@ -31,10 +31,51 @@ namespace ContentEdit.Core
       var result = raw;
       var isCRLF = result.Contains("\r\n");
 
-      // replce h2 tag with proper heading
-      var heading2Pattern = """<h2>(.+?)</h2>""";
-      var heading2Replacement = $"## $1";
-      result = Regex.Replace(result, heading2Pattern, heading2Replacement);
+      // replace common technical terms
+      result = result.Replace("Window form", "Windows Forms", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("C#.NET", "C# .NET", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("dotnet core", ".NET Core", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("dot net core", ".NET Core", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("dotnet ", ".NET ", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace(".net core", ".NET Core", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("asp mvc", "ASP.NET MVC", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("nuget ", "NuGet ", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("console application", "Console Application");
+      result = result.Replace(".NET framework", ".NET Framework", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("-> ", "> ");
+      result = result.Replace("Tools>", "**Tools** >", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("Tools >", "**Tools** >", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("NuGet Package manager", "NuGet Package Manager", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("package manager console", "Package Manager Console", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("Manage NuGet Packages manager for Solution", "Manage NuGet Packages for Solution", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("Manage NuGet Package manager for Solution", "Manage NuGet Packages for Solution", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("NuGet Packages manager for Solution", "Manage NuGet Packages for Solution", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("NuGet Package manager for Solution", "Manage NuGet Packages for Solution", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("> Manage NuGet Packages for Solution", "> **Manage NuGet Packages for Solution**", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("> NuGet Package manager", "> **NuGet Package Manager**", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("> Package Manager Console", "> **Package Manager Console**", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("** => **", "** > **");
+      result = result.Replace("pdf file", "PDF file");
+      result = result.Replace("Pdf file", "PDF file");
+      result = result.Replace("pdf document", "PDF document");
+      result = result.Replace("Pdf document", "PDF document");
+
+      result = result.Replace("\"Next\" button", "**Next** button", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("Next button", "**Next** button", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("\"Create\" button", "**Create** button", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("Create button", "**Create** button", StringComparison.OrdinalIgnoreCase);
+
+      result = result.Replace("javascript", "JavaScript", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("Web Forms Applications", "Web Forms Applications", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("Web Form Applications", "Web Forms Applications", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("Console Application", "Console Application", StringComparison.OrdinalIgnoreCase);
+
+      // result = result.Replace("", "", StringComparison.OrdinalIgnoreCase);
+
+      // // replce h2 tag with proper heading
+      // var heading2Pattern = """<h2>(.+?)</h2>""";
+      // var heading2Replacement = $"## $1";
+      // result = Regex.Replace(result, heading2Pattern, heading2Replacement);
 
       // replace with markdown img and description
       //handle warpper
@@ -42,7 +83,11 @@ namespace ContentEdit.Core
       var imgReplacement3 = $"![{matchedPost.PostHeader}, Figure $7: $9]($6$7$8)\n**$9**";
       result = Regex.Replace(result, imgPattern3, imgReplacement3);
 
-      var imgPattern1 = """<div (.+?)\n(\s*)<img src="(.+?)(\d{1,2})(.{4})" alt="(.*?)"(.*?)>(.|\n*?)</div>""";
+      var imgPattern5 = """<div (.+?)(\n)    <img src="(.+?)(\d{1,2})(.{3,5})" alt="(.*?)"(.*?)>(\n)</div>""";
+      var imgReplacement5 = $"![{matchedPost.PostHeader}, Figure $4: $6]($3$4$5)\n**$6**";
+      result = Regex.Replace(result, imgPattern5, imgReplacement5);
+
+      var imgPattern1 = """<div (.+?)\n(\s*)<img src="(.+?)(\d{1,2})(.{4,5})" alt="(.*?)"(.*?)>(.|\n*?)</div>""";
       var imgReplacement1 = $"![{matchedPost.PostHeader}, Figure $4: $6]($3$4$5)\n**$6**";
       result = Regex.Replace(result, imgPattern1, imgReplacement1);
 
@@ -70,6 +115,7 @@ namespace ContentEdit.Core
       result = result.Replace(" ", " ");
       result = result.Replace(" ", " ");
       result = result.Replace("’", "'");
+      result = result.Replace("‘", "'");
       result = result.Replace("“", "\"");
       result = result.Replace("”", "\"");
 

@@ -18,6 +18,14 @@ namespace ContentEdit.Core
           {
             staticAssetsPath = $"/static-assets/ocr/blog/{slug}/";
           }
+          if (t.Contains("excel"))
+          {
+            staticAssetsPath = $"/static-assets/excel/blog/{slug}/";
+          }
+          if (t.Contains("using-ironbarcode"))
+          {
+            staticAssetsPath = $"/static-assets/barcode/blog/{slug}/";
+          }
           // add more type
         }
         return new TaskDesc
