@@ -111,6 +111,21 @@ namespace ContentEdit.Core
       var urlReplacement2 = "[$1](trial-license)";
       result = Regex.Replace(result, urlPattern2, urlReplacement2);
 
+      // replace images annotation with duplicated information
+      for (int i = 1; i < 15; i++)
+      {
+        result = result.Replace($"{matchedPost.PostHeader}, Figure {i}: {matchedPost.PostHeader}, Figure {i}",
+        $"{matchedPost.PostHeader}, Figure {i}");
+        result = result.Replace($"**{matchedPost.PostHeader}, Figure {i}: ", "**");
+        Console.WriteLine($"**{matchedPost.PostHeader}, Figure {i}: ");
+      }
+      // var urlPattern10 = $"{matchedPost.PostHeader}, Figure (\\d)\\: {matchedPost.PostHeader}, Figure (\\d+)";
+      // var urlReplacement10 = $"{matchedPost.PostHeader}, Figure $1:";
+      // result = Regex.Replace(result, urlPattern10, urlReplacement10);
+
+      // ![How to Generate an Excel File on Razor Pages, Figure 2: 
+      // **How to Generate an Excel File in Razor Pages, Figure 2: 
+
       // remove special characters
       result = result.Replace(" ", " ");
       result = result.Replace(" ", " ");
@@ -118,6 +133,10 @@ namespace ContentEdit.Core
       result = result.Replace("‘", "'");
       result = result.Replace("“", "\"");
       result = result.Replace("”", "\"");
+      result = result.Replace("“", "\"");
+      result = result.Replace("”", "\"");
+
+
 
       //remove spaces after paragraph end
       if (isCRLF)
