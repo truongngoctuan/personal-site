@@ -38,6 +38,9 @@ namespace ContentEdit.Core
       result = result.Replace("dot net core", ".NET Core", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("dotnet ", ".NET ", StringComparison.OrdinalIgnoreCase);
       result = result.Replace(".net core", ".NET Core", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace(" net", " .NET");
+      result = result.Replace("net ", ".NET ");
+      result = result.Replace(".Net", ".NET");
       result = result.Replace("asp mvc", "ASP.NET MVC", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("nuget ", "NuGet ", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("console application", "Console Application");
@@ -69,6 +72,11 @@ namespace ContentEdit.Core
       result = result.Replace("Web Forms Applications", "Web Forms Applications", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("Web Form Applications", "Web Forms Applications", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("Console Application", "Console Application", StringComparison.OrdinalIgnoreCase);
+
+      result = result.Replace("Iron Barcode", "IronBarcode", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("Iron OCR", "IronOCR", StringComparison.OrdinalIgnoreCase);
+
+      // result = result.Replace("IronBarCode", "IronBarcode");
 
       // result = result.Replace("", "", StringComparison.OrdinalIgnoreCase);
 
@@ -117,7 +125,6 @@ namespace ContentEdit.Core
         result = result.Replace($"{matchedPost.PostHeader}, Figure {i}: {matchedPost.PostHeader}, Figure {i}",
         $"{matchedPost.PostHeader}, Figure {i}");
         result = result.Replace($"**{matchedPost.PostHeader}, Figure {i}: ", "**");
-        Console.WriteLine($"**{matchedPost.PostHeader}, Figure {i}: ");
       }
       // var urlPattern10 = $"{matchedPost.PostHeader}, Figure (\\d)\\: {matchedPost.PostHeader}, Figure (\\d+)";
       // var urlReplacement10 = $"{matchedPost.PostHeader}, Figure $1:";
@@ -161,6 +168,7 @@ namespace ContentEdit.Core
 
       // imgs png to webp, updating image url as well
       result = ImagesUpdater.Update(taskDesc, result);
+      result = TechnicalLinkAdder.Update(taskDesc, result);
 
       File.WriteAllText(markdownFilePath, result);
     }

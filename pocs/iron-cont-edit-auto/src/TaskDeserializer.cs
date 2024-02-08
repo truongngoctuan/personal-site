@@ -12,24 +12,30 @@ namespace ContentEdit.Core
         var slug = urlSplits[urlSplits.Length - 2];
         var site = t.Contains("ironpdf") ? "ironpdf.com" : "ironsoftware.com";
         var staticAssetsPath = $"/static-assets/pdf/blog/{slug}/";
+        var taskType = TaskType.IronPDF;
+
         if (site == "ironsoftware.com")
         {
           if (t.Contains("ocr"))
           {
+            taskType = TaskType.IronOCR;
             staticAssetsPath = $"/static-assets/ocr/blog/{slug}/";
           }
           if (t.Contains("excel"))
           {
+            taskType = TaskType.IronXL;
             staticAssetsPath = $"/static-assets/excel/blog/{slug}/";
           }
           if (t.Contains("using-ironbarcode"))
           {
+            taskType = TaskType.IronBarcode;
             staticAssetsPath = $"/static-assets/barcode/blog/{slug}/";
           }
           // add more type
         }
         return new TaskDesc
         {
+          TaskType = taskType,
           Site = site,
           Slug = slug,
           RelativePathMarkdownFile = t.Replace(urlSplits[0], "").Trim('/') + ".md",
