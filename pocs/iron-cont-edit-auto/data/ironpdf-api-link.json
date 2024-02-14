@@ -1,0 +1,1978 @@
+[
+  {
+    "Key": "IAnnotation",
+    "Href": "/object-reference/api/IronPdf.Annotations.IAnnotation.html"
+  },
+  {
+    "Key": "PdfAnnotationCollection",
+    "Href": "/object-reference/api/IronPdf.Annotations.PdfAnnotationCollection.html"
+  },
+  {
+    "Key": "ClearItems",
+    "Href": "/object-reference/api/IronPdf.Annotations.PdfAnnotationCollection.html#IronPdf_Annotations_PdfAnnotationCollection_ClearItems"
+  },
+  {
+    "Key": "PdfAnnotationCollection.ClearItems",
+    "Href": "/object-reference/api/IronPdf.Annotations.PdfAnnotationCollection.html#IronPdf_Annotations_PdfAnnotationCollection_ClearItems"
+  },
+  {
+    "Key": "RemoveAllAnnotationsForPage",
+    "Href": "/object-reference/api/IronPdf.Annotations.PdfAnnotationCollection.html#IronPdf_Annotations_PdfAnnotationCollection_RemoveAllAnnotationsForPage_System_Int32_"
+  },
+  {
+    "Key": "PdfAnnotationCollection.RemoveAllAnnotationsForPage",
+    "Href": "/object-reference/api/IronPdf.Annotations.PdfAnnotationCollection.html#IronPdf_Annotations_PdfAnnotationCollection_RemoveAllAnnotationsForPage_System_Int32_"
+  },
+  {
+    "Key": "TextAnnotation",
+    "Href": "/object-reference/api/IronPdf.Annotations.TextAnnotation.html"
+  },
+  {
+    "Key": "TextAnnotation.AnnotationIcon",
+    "Href": "/object-reference/api/IronPdf.Annotations.TextAnnotation.AnnotationIcon.html"
+  },
+  {
+    "Key": "AspxToPdf",
+    "Href": "/object-reference/api/IronPdf.AspxToPdf.html"
+  },
+  {
+    "Key": "AspxToPdf.FileBehavior",
+    "Href": "/object-reference/api/IronPdf.AspxToPdf.FileBehavior.html"
+  },
+  {
+    "Key": "RenderThisPageAsPdf",
+    "Href": "/object-reference/api/IronPdf.AspxToPdf.html#IronPdf_AspxToPdf_RenderThisPageAsPdf_IronPdf_AspxToPdf_FileBehavior_System_String_IronPdf_ChromePdfRenderOptions_"
+  },
+  {
+    "Key": "AspxToPdf.RenderThisPageAsPdf",
+    "Href": "/object-reference/api/IronPdf.AspxToPdf.html#IronPdf_AspxToPdf_RenderThisPageAsPdf_IronPdf_AspxToPdf_FileBehavior_System_String_IronPdf_ChromePdfRenderOptions_"
+  },
+  {
+    "Key": "BookmarkDestinations",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.BookmarkDestinations.html"
+  },
+  {
+    "Key": "IPdfBookMarkCollection",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.IPdfBookMarkCollection.html"
+  },
+  {
+    "Key": "AddBookMarkAtEnd",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.IPdfBookMarkCollection.html#IronPdf_Bookmarks_IPdfBookMarkCollection_AddBookMarkAtEnd_System_String_System_Int32_"
+  },
+  {
+    "Key": "IPdfBookMarkCollection.AddBookMarkAtEnd",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.IPdfBookMarkCollection.html#IronPdf_Bookmarks_IPdfBookMarkCollection_AddBookMarkAtEnd_System_String_System_Int32_"
+  },
+  {
+    "Key": "AddBookMarkAtStart",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.IPdfBookMarkCollection.html#IronPdf_Bookmarks_IPdfBookMarkCollection_AddBookMarkAtStart_System_String_System_Int32_"
+  },
+  {
+    "Key": "IPdfBookMarkCollection.AddBookMarkAtStart",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.IPdfBookMarkCollection.html#IronPdf_Bookmarks_IPdfBookMarkCollection_AddBookMarkAtStart_System_String_System_Int32_"
+  },
+  {
+    "Key": "GetAllBookmarks",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.IPdfBookMarkCollection.html#IronPdf_Bookmarks_IPdfBookMarkCollection_GetAllBookmarks"
+  },
+  {
+    "Key": "IPdfBookMarkCollection.GetAllBookmarks",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.IPdfBookMarkCollection.html#IronPdf_Bookmarks_IPdfBookMarkCollection_GetAllBookmarks"
+  },
+  {
+    "Key": "GetBookmarkAfter",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.IPdfBookMarkCollection.html#IronPdf_Bookmarks_IPdfBookMarkCollection_GetBookmarkAfter_IronPdf_Bookmarks_IPdfBookmark_"
+  },
+  {
+    "Key": "IPdfBookMarkCollection.GetBookmarkAfter",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.IPdfBookMarkCollection.html#IronPdf_Bookmarks_IPdfBookMarkCollection_GetBookmarkAfter_IronPdf_Bookmarks_IPdfBookmark_"
+  },
+  {
+    "Key": "GetBookmarkBefore",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.IPdfBookMarkCollection.html#IronPdf_Bookmarks_IPdfBookMarkCollection_GetBookmarkBefore_IronPdf_Bookmarks_IPdfBookmark_"
+  },
+  {
+    "Key": "IPdfBookMarkCollection.GetBookmarkBefore",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.IPdfBookMarkCollection.html#IronPdf_Bookmarks_IPdfBookMarkCollection_GetBookmarkBefore_IronPdf_Bookmarks_IPdfBookmark_"
+  },
+  {
+    "Key": "GetEnumerator",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.IPdfBookMarkCollection.html#IronPdf_Bookmarks_IPdfBookMarkCollection_GetEnumerator"
+  },
+  {
+    "Key": "IPdfBookMarkCollection.GetEnumerator",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.IPdfBookMarkCollection.html#IronPdf_Bookmarks_IPdfBookMarkCollection_GetEnumerator"
+  },
+  {
+    "Key": "InsertBookMarkAfter",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.IPdfBookMarkCollection.html#IronPdf_Bookmarks_IPdfBookMarkCollection_InsertBookMarkAfter_System_String_System_Int32_IronPdf_Bookmarks_IPdfBookmark_"
+  },
+  {
+    "Key": "IPdfBookMarkCollection.InsertBookMarkAfter",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.IPdfBookMarkCollection.html#IronPdf_Bookmarks_IPdfBookMarkCollection_InsertBookMarkAfter_System_String_System_Int32_IronPdf_Bookmarks_IPdfBookmark_"
+  },
+  {
+    "Key": "InsertBookMarkBefore",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.IPdfBookMarkCollection.html#IronPdf_Bookmarks_IPdfBookMarkCollection_InsertBookMarkBefore_System_String_System_Int32_IronPdf_Bookmarks_IPdfBookmark_"
+  },
+  {
+    "Key": "IPdfBookMarkCollection.InsertBookMarkBefore",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.IPdfBookMarkCollection.html#IronPdf_Bookmarks_IPdfBookMarkCollection_InsertBookMarkBefore_System_String_System_Int32_IronPdf_Bookmarks_IPdfBookmark_"
+  },
+  {
+    "Key": "RemoveBookMark",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.IPdfBookMarkCollection.html#IronPdf_Bookmarks_IPdfBookMarkCollection_RemoveBookMark_IronPdf_Bookmarks_IPdfBookmark_"
+  },
+  {
+    "Key": "IPdfBookMarkCollection.RemoveBookMark",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.IPdfBookMarkCollection.html#IronPdf_Bookmarks_IPdfBookMarkCollection_RemoveBookMark_IronPdf_Bookmarks_IPdfBookmark_"
+  },
+  {
+    "Key": "RemoveBookMarkAt",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.IPdfBookMarkCollection.html#IronPdf_Bookmarks_IPdfBookMarkCollection_RemoveBookMarkAt_System_Int32_"
+  },
+  {
+    "Key": "IPdfBookMarkCollection.RemoveBookMarkAt",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.IPdfBookMarkCollection.html#IronPdf_Bookmarks_IPdfBookMarkCollection_RemoveBookMarkAt_System_Int32_"
+  },
+  {
+    "Key": "PdfBookMark",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.PdfBookMark.html"
+  },
+  {
+    "Key": "PdfBookMarkCollection",
+    "Href": "/object-reference/api/IronPdf.Bookmarks.PdfBookMarkCollection.html"
+  },
+  {
+    "Key": "ChromeClientAccessor",
+    "Href": "/object-reference/api/IronPdf.ChromeClientAccessor.html"
+  },
+  {
+    "Key": "ChromeHttpLoginCredentials",
+    "Href": "/object-reference/api/IronPdf.ChromeHttpLoginCredentials.html"
+  },
+  {
+    "Key": "Finalize",
+    "Href": "/object-reference/api/IronPdf.ChromeHttpLoginCredentials.html#IronPdf_ChromeHttpLoginCredentials_Finalize"
+  },
+  {
+    "Key": "ChromeHttpLoginCredentials.Finalize",
+    "Href": "/object-reference/api/IronPdf.ChromeHttpLoginCredentials.html#IronPdf_ChromeHttpLoginCredentials_Finalize"
+  },
+  {
+    "Key": "ChromePdfRenderer",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html"
+  },
+  {
+    "Key": "ApplyCookies",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_ApplyCookies_System_String_IronPdf_ChromeHttpLoginCredentials_"
+  },
+  {
+    "Key": "ChromePdfRenderer.ApplyCookies",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_ApplyCookies_System_String_IronPdf_ChromeHttpLoginCredentials_"
+  },
+  {
+    "Key": "RenderHtmlAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderHtmlAsPdf_System_String_System_String_System_String_"
+  },
+  {
+    "Key": "ChromePdfRenderer.RenderHtmlAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderHtmlAsPdf_System_String_System_String_System_String_"
+  },
+  {
+    "Key": "RenderHtmlAsPdfAsync",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderHtmlAsPdfAsync_System_String_System_Uri_"
+  },
+  {
+    "Key": "ChromePdfRenderer.RenderHtmlAsPdfAsync",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderHtmlAsPdfAsync_System_String_System_Uri_"
+  },
+  {
+    "Key": "RenderHtmlAsPdfForExtension",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderHtmlAsPdfForExtension_System_String_"
+  },
+  {
+    "Key": "ChromePdfRenderer.RenderHtmlAsPdfForExtension",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderHtmlAsPdfForExtension_System_String_"
+  },
+  {
+    "Key": "RenderHtmlAsPdfForExtensionAsync",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderHtmlAsPdfForExtensionAsync_System_String_"
+  },
+  {
+    "Key": "ChromePdfRenderer.RenderHtmlAsPdfForExtensionAsync",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderHtmlAsPdfForExtensionAsync_System_String_"
+  },
+  {
+    "Key": "RenderHtmlFileAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderHtmlFileAsPdf_System_String_"
+  },
+  {
+    "Key": "ChromePdfRenderer.RenderHtmlFileAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderHtmlFileAsPdf_System_String_"
+  },
+  {
+    "Key": "RenderHtmlFileAsPdfAsync",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderHtmlFileAsPdfAsync_System_String_"
+  },
+  {
+    "Key": "ChromePdfRenderer.RenderHtmlFileAsPdfAsync",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderHtmlFileAsPdfAsync_System_String_"
+  },
+  {
+    "Key": "RenderMarkdownFileAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderMarkdownFileAsPdf_System_String_"
+  },
+  {
+    "Key": "ChromePdfRenderer.RenderMarkdownFileAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderMarkdownFileAsPdf_System_String_"
+  },
+  {
+    "Key": "RenderMarkdownStringAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderMarkdownStringAsPdf_System_String_"
+  },
+  {
+    "Key": "ChromePdfRenderer.RenderMarkdownStringAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderMarkdownStringAsPdf_System_String_"
+  },
+  {
+    "Key": "RenderPdfDocumentFromFile",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderPdfDocumentFromFile_IronPdf_ChromePdfRenderOptions_IronPdf_ChromeHttpLoginCredentials_System_String_"
+  },
+  {
+    "Key": "ChromePdfRenderer.RenderPdfDocumentFromFile",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderPdfDocumentFromFile_IronPdf_ChromePdfRenderOptions_IronPdf_ChromeHttpLoginCredentials_System_String_"
+  },
+  {
+    "Key": "RenderRtfFileAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderRtfFileAsPdf_System_String_"
+  },
+  {
+    "Key": "ChromePdfRenderer.RenderRtfFileAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderRtfFileAsPdf_System_String_"
+  },
+  {
+    "Key": "RenderRtfStringAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderRtfStringAsPdf_System_String_"
+  },
+  {
+    "Key": "ChromePdfRenderer.RenderRtfStringAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderRtfStringAsPdf_System_String_"
+  },
+  {
+    "Key": "RenderUrlAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderUrlAsPdf_System_String_"
+  },
+  {
+    "Key": "ChromePdfRenderer.RenderUrlAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderUrlAsPdf_System_String_"
+  },
+  {
+    "Key": "RenderUrlAsPdfAsync",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderUrlAsPdfAsync_System_String_"
+  },
+  {
+    "Key": "ChromePdfRenderer.RenderUrlAsPdfAsync",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderUrlAsPdfAsync_System_String_"
+  },
+  {
+    "Key": "RenderZipFileAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderZipFileAsPdf_System_String_System_String_"
+  },
+  {
+    "Key": "ChromePdfRenderer.RenderZipFileAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_RenderZipFileAsPdf_System_String_System_String_"
+  },
+  {
+    "Key": "StaticRenderHtmlAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_StaticRenderHtmlAsPdf_System_String_IronPdf_ChromePdfRenderOptions_System_String_"
+  },
+  {
+    "Key": "ChromePdfRenderer.StaticRenderHtmlAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_StaticRenderHtmlAsPdf_System_String_IronPdf_ChromePdfRenderOptions_System_String_"
+  },
+  {
+    "Key": "StaticRenderHtmlAsPdfAsync",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_StaticRenderHtmlAsPdfAsync_System_String_System_Uri_IronPdf_ChromePdfRenderOptions_"
+  },
+  {
+    "Key": "ChromePdfRenderer.StaticRenderHtmlAsPdfAsync",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_StaticRenderHtmlAsPdfAsync_System_String_System_Uri_IronPdf_ChromePdfRenderOptions_"
+  },
+  {
+    "Key": "StaticRenderHTMLFileAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_StaticRenderHTMLFileAsPdf_System_String_IronPdf_ChromePdfRenderOptions_"
+  },
+  {
+    "Key": "ChromePdfRenderer.StaticRenderHTMLFileAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_StaticRenderHTMLFileAsPdf_System_String_IronPdf_ChromePdfRenderOptions_"
+  },
+  {
+    "Key": "StaticRenderHTMLFileAsPdfAsync",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_StaticRenderHTMLFileAsPdfAsync_System_String_IronPdf_ChromePdfRenderOptions_"
+  },
+  {
+    "Key": "ChromePdfRenderer.StaticRenderHTMLFileAsPdfAsync",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_StaticRenderHTMLFileAsPdfAsync_System_String_IronPdf_ChromePdfRenderOptions_"
+  },
+  {
+    "Key": "StaticRenderUrlAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_StaticRenderUrlAsPdf_System_String_IronPdf_ChromePdfRenderOptions_"
+  },
+  {
+    "Key": "ChromePdfRenderer.StaticRenderUrlAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_StaticRenderUrlAsPdf_System_String_IronPdf_ChromePdfRenderOptions_"
+  },
+  {
+    "Key": "StaticRenderUrlAsPdfAsync",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_StaticRenderUrlAsPdfAsync_System_String_IronPdf_ChromePdfRenderOptions_"
+  },
+  {
+    "Key": "ChromePdfRenderer.StaticRenderUrlAsPdfAsync",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_StaticRenderUrlAsPdfAsync_System_String_IronPdf_ChromePdfRenderOptions_"
+  },
+  {
+    "Key": "StaticRenderZipFileAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_StaticRenderZipFileAsPdf_System_String_System_String_IronPdf_ChromePdfRenderOptions_"
+  },
+  {
+    "Key": "ChromePdfRenderer.StaticRenderZipFileAsPdf",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_StaticRenderZipFileAsPdf_System_String_System_String_IronPdf_ChromePdfRenderOptions_"
+  },
+  {
+    "Key": "StaticRenderZipFileAsPdfAsync",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_StaticRenderZipFileAsPdfAsync_System_String_System_String_IronPdf_ChromePdfRenderOptions_"
+  },
+  {
+    "Key": "ChromePdfRenderer.StaticRenderZipFileAsPdfAsync",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderer.html#IronPdf_ChromePdfRenderer_StaticRenderZipFileAsPdfAsync_System_String_System_String_IronPdf_ChromePdfRenderOptions_"
+  },
+  {
+    "Key": "ChromePdfRenderOptions",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderOptions.html"
+  },
+  {
+    "Key": "Clone",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderOptions.html#IronPdf_ChromePdfRenderOptions_Clone"
+  },
+  {
+    "Key": "ChromePdfRenderOptions.Clone",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderOptions.html#IronPdf_ChromePdfRenderOptions_Clone"
+  },
+  {
+    "Key": "SetCustomPaperSizeinCentimeters",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderOptions.html#IronPdf_ChromePdfRenderOptions_SetCustomPaperSizeinCentimeters_System_Double_System_Double_"
+  },
+  {
+    "Key": "ChromePdfRenderOptions.SetCustomPaperSizeinCentimeters",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderOptions.html#IronPdf_ChromePdfRenderOptions_SetCustomPaperSizeinCentimeters_System_Double_System_Double_"
+  },
+  {
+    "Key": "SetCustomPaperSizeInInches",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderOptions.html#IronPdf_ChromePdfRenderOptions_SetCustomPaperSizeInInches_System_Double_System_Double_"
+  },
+  {
+    "Key": "ChromePdfRenderOptions.SetCustomPaperSizeInInches",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderOptions.html#IronPdf_ChromePdfRenderOptions_SetCustomPaperSizeInInches_System_Double_System_Double_"
+  },
+  {
+    "Key": "SetCustomPaperSizeinMilimeters",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderOptions.html#IronPdf_ChromePdfRenderOptions_SetCustomPaperSizeinMilimeters_System_Double_System_Double_"
+  },
+  {
+    "Key": "ChromePdfRenderOptions.SetCustomPaperSizeinMilimeters",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderOptions.html#IronPdf_ChromePdfRenderOptions_SetCustomPaperSizeinMilimeters_System_Double_System_Double_"
+  },
+  {
+    "Key": "SetCustomPaperSizeinPixelsOrPoints",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderOptions.html#IronPdf_ChromePdfRenderOptions_SetCustomPaperSizeinPixelsOrPoints_System_Double_System_Double_System_Int32_"
+  },
+  {
+    "Key": "ChromePdfRenderOptions.SetCustomPaperSizeinPixelsOrPoints",
+    "Href": "/object-reference/api/IronPdf.ChromePdfRenderOptions.html#IronPdf_ChromePdfRenderOptions_SetCustomPaperSizeinPixelsOrPoints_System_Double_System_Double_System_Int32_"
+  },
+  {
+    "Key": "DocxPdfRenderOptions",
+    "Href": "/object-reference/api/IronPdf.DocxPdfRenderOptions.html"
+  },
+  {
+    "Key": "DocxToPdfRenderer",
+    "Href": "/object-reference/api/IronPdf.DocxToPdfRenderer.html"
+  },
+  {
+    "Key": "RenderDocxAsPdf",
+    "Href": "/object-reference/api/IronPdf.DocxToPdfRenderer.html#IronPdf_DocxToPdfRenderer_RenderDocxAsPdf_System_String_IronPdf_DocxPdfRenderOptions_System_String_"
+  },
+  {
+    "Key": "DocxToPdfRenderer.RenderDocxAsPdf",
+    "Href": "/object-reference/api/IronPdf.DocxToPdfRenderer.html#IronPdf_DocxToPdfRenderer_RenderDocxAsPdf_System_String_IronPdf_DocxPdfRenderOptions_System_String_"
+  },
+  {
+    "Key": "RenderDocxAsPdfAsync",
+    "Href": "/object-reference/api/IronPdf.DocxToPdfRenderer.html#IronPdf_DocxToPdfRenderer_RenderDocxAsPdfAsync_System_String_IronPdf_DocxPdfRenderOptions_"
+  },
+  {
+    "Key": "DocxToPdfRenderer.RenderDocxAsPdfAsync",
+    "Href": "/object-reference/api/IronPdf.DocxToPdfRenderer.html#IronPdf_DocxToPdfRenderer_RenderDocxAsPdfAsync_System_String_IronPdf_DocxPdfRenderOptions_"
+  },
+  {
+    "Key": "BarcodeEncoding",
+    "Href": "/object-reference/api/IronPdf.Editing.BarcodeEncoding.html"
+  },
+  {
+    "Key": "BarcodeStamper",
+    "Href": "/object-reference/api/IronPdf.Editing.BarcodeStamper.html"
+  },
+  {
+    "Key": "HorizontalAlignment",
+    "Href": "/object-reference/api/IronPdf.Editing.HorizontalAlignment.html"
+  },
+  {
+    "Key": "HtmlStamper",
+    "Href": "/object-reference/api/IronPdf.Editing.HtmlStamper.html"
+  },
+  {
+    "Key": "ImageStamper",
+    "Href": "/object-reference/api/IronPdf.Editing.ImageStamper.html"
+  },
+  {
+    "Key": "Length",
+    "Href": "/object-reference/api/IronPdf.Editing.Length.html"
+  },
+  {
+    "Key": "ToCentimeter",
+    "Href": "/object-reference/api/IronPdf.Editing.Length.html#IronPdf_Editing_Length_ToCentimeter_System_Nullable_System_Double__"
+  },
+  {
+    "Key": "Length.ToCentimeter",
+    "Href": "/object-reference/api/IronPdf.Editing.Length.html#IronPdf_Editing_Length_ToCentimeter_System_Nullable_System_Double__"
+  },
+  {
+    "Key": "ToInch",
+    "Href": "/object-reference/api/IronPdf.Editing.Length.html#IronPdf_Editing_Length_ToInch_System_Nullable_System_Double__"
+  },
+  {
+    "Key": "Length.ToInch",
+    "Href": "/object-reference/api/IronPdf.Editing.Length.html#IronPdf_Editing_Length_ToInch_System_Nullable_System_Double__"
+  },
+  {
+    "Key": "ToMillimeter",
+    "Href": "/object-reference/api/IronPdf.Editing.Length.html#IronPdf_Editing_Length_ToMillimeter_System_Nullable_System_Double__"
+  },
+  {
+    "Key": "Length.ToMillimeter",
+    "Href": "/object-reference/api/IronPdf.Editing.Length.html#IronPdf_Editing_Length_ToMillimeter_System_Nullable_System_Double__"
+  },
+  {
+    "Key": "ToPixel",
+    "Href": "/object-reference/api/IronPdf.Editing.Length.html#IronPdf_Editing_Length_ToPixel_System_Nullable_System_Double__"
+  },
+  {
+    "Key": "Length.ToPixel",
+    "Href": "/object-reference/api/IronPdf.Editing.Length.html#IronPdf_Editing_Length_ToPixel_System_Nullable_System_Double__"
+  },
+  {
+    "Key": "ToPoints",
+    "Href": "/object-reference/api/IronPdf.Editing.Length.html#IronPdf_Editing_Length_ToPoints_System_Nullable_System_Double__"
+  },
+  {
+    "Key": "Length.ToPoints",
+    "Href": "/object-reference/api/IronPdf.Editing.Length.html#IronPdf_Editing_Length_ToPoints_System_Nullable_System_Double__"
+  },
+  {
+    "Key": "MeasurementUnit",
+    "Href": "/object-reference/api/IronPdf.Editing.MeasurementUnit.html"
+  },
+  {
+    "Key": "Stamper",
+    "Href": "/object-reference/api/IronPdf.Editing.Stamper.html"
+  },
+  {
+    "Key": "StampLayer",
+    "Href": "/object-reference/api/IronPdf.Editing.StampLayer.html"
+  },
+  {
+    "Key": "TextStamper",
+    "Href": "/object-reference/api/IronPdf.Editing.TextStamper.html"
+  },
+  {
+    "Key": "VerticalAlignment",
+    "Href": "/object-reference/api/IronPdf.Editing.VerticalAlignment.html"
+  },
+  {
+    "Key": "ChromeGpuModes",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.ChromeGpuModes.html"
+  },
+  {
+    "Key": "PersistentThreadLocalChromeClient",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.PersistentThreadLocalChromeClient.html"
+  },
+  {
+    "Key": "AddHtmlHeadersAndFooters",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.PersistentThreadLocalChromeClient.html#IronPdf_Engines_Chrome_PersistentThreadLocalChromeClient_AddHtmlHeadersAndFooters_IronSoftware_IPdfDocumentId_System_String_System_String_IronPdf_ChromePdfRenderOptions_System_Collections_Generic_IEnumerable_System_Int32__System_String_System_String_System_String_"
+  },
+  {
+    "Key": "PersistentThreadLocalChromeClient.AddHtmlHeadersAndFooters",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.PersistentThreadLocalChromeClient.html#IronPdf_Engines_Chrome_PersistentThreadLocalChromeClient_AddHtmlHeadersAndFooters_IronSoftware_IPdfDocumentId_System_String_System_String_IronPdf_ChromePdfRenderOptions_System_Collections_Generic_IEnumerable_System_Int32__System_String_System_String_System_String_"
+  },
+  {
+    "Key": "AddStamp",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.PersistentThreadLocalChromeClient.html#IronPdf_Engines_Chrome_PersistentThreadLocalChromeClient_AddStamp_IronSoftware_IPdfDocumentId_System_String_System_String_IronPdf_Editing_Stamper_System_Collections_Generic_IEnumerable_IronPdf_Pages_IPdfPage__"
+  },
+  {
+    "Key": "PersistentThreadLocalChromeClient.AddStamp",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.PersistentThreadLocalChromeClient.html#IronPdf_Engines_Chrome_PersistentThreadLocalChromeClient_AddStamp_IronSoftware_IPdfDocumentId_System_String_System_String_IronPdf_Editing_Stamper_System_Collections_Generic_IEnumerable_IronPdf_Pages_IPdfPage__"
+  },
+  {
+    "Key": "ClearCookies",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.PersistentThreadLocalChromeClient.html#IronPdf_Engines_Chrome_PersistentThreadLocalChromeClient_ClearCookies"
+  },
+  {
+    "Key": "PersistentThreadLocalChromeClient.ClearCookies",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.PersistentThreadLocalChromeClient.html#IronPdf_Engines_Chrome_PersistentThreadLocalChromeClient_ClearCookies"
+  },
+  {
+    "Key": "Dispose",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.PersistentThreadLocalChromeClient.html#IronPdf_Engines_Chrome_PersistentThreadLocalChromeClient_Dispose"
+  },
+  {
+    "Key": "PersistentThreadLocalChromeClient.Dispose",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.PersistentThreadLocalChromeClient.html#IronPdf_Engines_Chrome_PersistentThreadLocalChromeClient_Dispose"
+  },
+  {
+    "Key": "RenderPDFFromFile",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.PersistentThreadLocalChromeClient.html#IronPdf_Engines_Chrome_PersistentThreadLocalChromeClient_RenderPDFFromFile_IronPdf_ChromePdfRenderOptions_IronPdf_ChromeHttpLoginCredentials_System_String_"
+  },
+  {
+    "Key": "PersistentThreadLocalChromeClient.RenderPDFFromFile",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.PersistentThreadLocalChromeClient.html#IronPdf_Engines_Chrome_PersistentThreadLocalChromeClient_RenderPDFFromFile_IronPdf_ChromePdfRenderOptions_IronPdf_ChromeHttpLoginCredentials_System_String_"
+  },
+  {
+    "Key": "RenderPDFFromHTML",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.PersistentThreadLocalChromeClient.html#IronPdf_Engines_Chrome_PersistentThreadLocalChromeClient_RenderPDFFromHTML_System_String_System_Uri_System_String_IronPdf_ChromePdfRenderOptions_IronPdf_ChromeHttpLoginCredentials_"
+  },
+  {
+    "Key": "PersistentThreadLocalChromeClient.RenderPDFFromHTML",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.PersistentThreadLocalChromeClient.html#IronPdf_Engines_Chrome_PersistentThreadLocalChromeClient_RenderPDFFromHTML_System_String_System_Uri_System_String_IronPdf_ChromePdfRenderOptions_IronPdf_ChromeHttpLoginCredentials_"
+  },
+  {
+    "Key": "RenderPDFFromImages",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.PersistentThreadLocalChromeClient.html#IronPdf_Engines_Chrome_PersistentThreadLocalChromeClient_RenderPDFFromImages_System_Collections_Generic_List_System_String__System_Collections_Generic_IEnumerable_System_ValueTuple_System_Byte___System_String___IronPdf_Imaging_ImageBehavior_IronPdf_ChromePdfRenderOptions_"
+  },
+  {
+    "Key": "PersistentThreadLocalChromeClient.RenderPDFFromImages",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.PersistentThreadLocalChromeClient.html#IronPdf_Engines_Chrome_PersistentThreadLocalChromeClient_RenderPDFFromImages_System_Collections_Generic_List_System_String__System_Collections_Generic_IEnumerable_System_ValueTuple_System_Byte___System_String___IronPdf_Imaging_ImageBehavior_IronPdf_ChromePdfRenderOptions_"
+  },
+  {
+    "Key": "RenderPDFFromURI",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.PersistentThreadLocalChromeClient.html#IronPdf_Engines_Chrome_PersistentThreadLocalChromeClient_RenderPDFFromURI_System_Uri_IronPdf_ChromePdfRenderOptions_IronPdf_ChromeHttpLoginCredentials_"
+  },
+  {
+    "Key": "PersistentThreadLocalChromeClient.RenderPDFFromURI",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.PersistentThreadLocalChromeClient.html#IronPdf_Engines_Chrome_PersistentThreadLocalChromeClient_RenderPDFFromURI_System_Uri_IronPdf_ChromePdfRenderOptions_IronPdf_ChromeHttpLoginCredentials_"
+  },
+  {
+    "Key": "RenderPDFFromZIP",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.PersistentThreadLocalChromeClient.html#IronPdf_Engines_Chrome_PersistentThreadLocalChromeClient_RenderPDFFromZIP_System_Byte___System_String_IronPdf_ChromePdfRenderOptions_IronPdf_ChromeHttpLoginCredentials_"
+  },
+  {
+    "Key": "PersistentThreadLocalChromeClient.RenderPDFFromZIP",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.PersistentThreadLocalChromeClient.html#IronPdf_Engines_Chrome_PersistentThreadLocalChromeClient_RenderPDFFromZIP_System_Byte___System_String_IronPdf_ChromePdfRenderOptions_IronPdf_ChromeHttpLoginCredentials_"
+  },
+  {
+    "Key": "VirtualPaperLayoutManager",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.VirtualPaperLayoutManager.html"
+  },
+  {
+    "Key": "UseChromeDefaultRendering",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.VirtualPaperLayoutManager.html#IronPdf_Engines_Chrome_VirtualPaperLayoutManager_UseChromeDefaultRendering"
+  },
+  {
+    "Key": "VirtualPaperLayoutManager.UseChromeDefaultRendering",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.VirtualPaperLayoutManager.html#IronPdf_Engines_Chrome_VirtualPaperLayoutManager_UseChromeDefaultRendering"
+  },
+  {
+    "Key": "UseContinuousFeedRendering",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.VirtualPaperLayoutManager.html#IronPdf_Engines_Chrome_VirtualPaperLayoutManager_UseContinuousFeedRendering_System_Double_System_Int32_"
+  },
+  {
+    "Key": "VirtualPaperLayoutManager.UseContinuousFeedRendering",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.VirtualPaperLayoutManager.html#IronPdf_Engines_Chrome_VirtualPaperLayoutManager_UseContinuousFeedRendering_System_Double_System_Int32_"
+  },
+  {
+    "Key": "UseFitToPageRendering",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.VirtualPaperLayoutManager.html#IronPdf_Engines_Chrome_VirtualPaperLayoutManager_UseFitToPageRendering_System_Int32_"
+  },
+  {
+    "Key": "VirtualPaperLayoutManager.UseFitToPageRendering",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.VirtualPaperLayoutManager.html#IronPdf_Engines_Chrome_VirtualPaperLayoutManager_UseFitToPageRendering_System_Int32_"
+  },
+  {
+    "Key": "UseResponsiveCssRendering",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.VirtualPaperLayoutManager.html#IronPdf_Engines_Chrome_VirtualPaperLayoutManager_UseResponsiveCssRendering_System_Int32_"
+  },
+  {
+    "Key": "VirtualPaperLayoutManager.UseResponsiveCssRendering",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.VirtualPaperLayoutManager.html#IronPdf_Engines_Chrome_VirtualPaperLayoutManager_UseResponsiveCssRendering_System_Int32_"
+  },
+  {
+    "Key": "UseScaledRendering",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.VirtualPaperLayoutManager.html#IronPdf_Engines_Chrome_VirtualPaperLayoutManager_UseScaledRendering_System_Int32_"
+  },
+  {
+    "Key": "VirtualPaperLayoutManager.UseScaledRendering",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.VirtualPaperLayoutManager.html#IronPdf_Engines_Chrome_VirtualPaperLayoutManager_UseScaledRendering_System_Int32_"
+  },
+  {
+    "Key": "WaitFor",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html"
+  },
+  {
+    "Key": "AllFontsLoaded",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_AllFontsLoaded_System_Int32_"
+  },
+  {
+    "Key": "WaitFor.AllFontsLoaded",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_AllFontsLoaded_System_Int32_"
+  },
+  {
+    "Key": "HtmlElementByClassName",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_HtmlElementByClassName_System_String_System_Int32_"
+  },
+  {
+    "Key": "WaitFor.HtmlElementByClassName",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_HtmlElementByClassName_System_String_System_Int32_"
+  },
+  {
+    "Key": "HtmlElementById",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_HtmlElementById_System_String_System_Int32_"
+  },
+  {
+    "Key": "WaitFor.HtmlElementById",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_HtmlElementById_System_String_System_Int32_"
+  },
+  {
+    "Key": "HtmlElementByName",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_HtmlElementByName_System_String_System_Int32_"
+  },
+  {
+    "Key": "WaitFor.HtmlElementByName",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_HtmlElementByName_System_String_System_Int32_"
+  },
+  {
+    "Key": "HtmlElementByTagName",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_HtmlElementByTagName_System_String_System_Int32_"
+  },
+  {
+    "Key": "WaitFor.HtmlElementByTagName",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_HtmlElementByTagName_System_String_System_Int32_"
+  },
+  {
+    "Key": "HtmlQuerySelector",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_HtmlQuerySelector_System_String_System_Int32_"
+  },
+  {
+    "Key": "WaitFor.HtmlQuerySelector",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_HtmlQuerySelector_System_String_System_Int32_"
+  },
+  {
+    "Key": "JavaScript",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_JavaScript_System_Int32_"
+  },
+  {
+    "Key": "WaitFor.JavaScript",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_JavaScript_System_Int32_"
+  },
+  {
+    "Key": "NetworkIdle",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_NetworkIdle_System_Int32_System_Int32_System_Int32_"
+  },
+  {
+    "Key": "WaitFor.NetworkIdle",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_NetworkIdle_System_Int32_System_Int32_System_Int32_"
+  },
+  {
+    "Key": "NetworkIdle0",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_NetworkIdle0_System_Int32_"
+  },
+  {
+    "Key": "WaitFor.NetworkIdle0",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_NetworkIdle0_System_Int32_"
+  },
+  {
+    "Key": "NetworkIdle2",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_NetworkIdle2_System_Int32_"
+  },
+  {
+    "Key": "WaitFor.NetworkIdle2",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_NetworkIdle2_System_Int32_"
+  },
+  {
+    "Key": "PageLoad",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_PageLoad"
+  },
+  {
+    "Key": "WaitFor.PageLoad",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_PageLoad"
+  },
+  {
+    "Key": "RenderDelay",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_RenderDelay_System_Int32_"
+  },
+  {
+    "Key": "WaitFor.RenderDelay",
+    "Href": "/object-reference/api/IronPdf.Engines.Chrome.WaitFor.html#IronPdf_Engines_Chrome_WaitFor_RenderDelay_System_Int32_"
+  },
+  {
+    "Key": "StringDelegate",
+    "Href": "/object-reference/api/IronPdf.Engines.Marshalers.StringDelegate.html"
+  },
+  {
+    "Key": "BeginInvoke",
+    "Href": "/object-reference/api/IronPdf.Engines.Marshalers.StringDelegate.html#IronPdf_Engines_Marshalers_StringDelegate_BeginInvoke_System_String_System_AsyncCallback_System_Object_"
+  },
+  {
+    "Key": "StringDelegate.BeginInvoke",
+    "Href": "/object-reference/api/IronPdf.Engines.Marshalers.StringDelegate.html#IronPdf_Engines_Marshalers_StringDelegate_BeginInvoke_System_String_System_AsyncCallback_System_Object_"
+  },
+  {
+    "Key": "EndInvoke",
+    "Href": "/object-reference/api/IronPdf.Engines.Marshalers.StringDelegate.html#IronPdf_Engines_Marshalers_StringDelegate_EndInvoke_System_IAsyncResult_"
+  },
+  {
+    "Key": "StringDelegate.EndInvoke",
+    "Href": "/object-reference/api/IronPdf.Engines.Marshalers.StringDelegate.html#IronPdf_Engines_Marshalers_StringDelegate_EndInvoke_System_IAsyncResult_"
+  },
+  {
+    "Key": "Invoke",
+    "Href": "/object-reference/api/IronPdf.Engines.Marshalers.StringDelegate.html#IronPdf_Engines_Marshalers_StringDelegate_Invoke_System_String_"
+  },
+  {
+    "Key": "StringDelegate.Invoke",
+    "Href": "/object-reference/api/IronPdf.Engines.Marshalers.StringDelegate.html#IronPdf_Engines_Marshalers_StringDelegate_Invoke_System_String_"
+  },
+  {
+    "Key": "SystemClientAccessor",
+    "Href": "/object-reference/api/IronPdf.Engines.SystemClientAccessor.html"
+  },
+  {
+    "Key": "IronPdfAssemblyVersionMismatchException",
+    "Href": "/object-reference/api/IronPdf.Exceptions.IronPdfAssemblyVersionMismatchException.html"
+  },
+  {
+    "Key": "IronPdfNativeException",
+    "Href": "/object-reference/api/IronPdf.Exceptions.IronPdfNativeException.html"
+  },
+  {
+    "Key": "IronPdfProductException",
+    "Href": "/object-reference/api/IronPdf.Exceptions.IronPdfProductException.html"
+  },
+  {
+    "Key": "CheckBoxField",
+    "Href": "/object-reference/api/IronPdf.Forms.CheckBoxField.html"
+  },
+  {
+    "Key": "ComboBoxField",
+    "Href": "/object-reference/api/IronPdf.Forms.ComboBoxField.html"
+  },
+  {
+    "Key": "CommonFormField",
+    "Href": "/object-reference/api/IronPdf.Forms.CommonFormField.html"
+  },
+  {
+    "Key": "SetFont",
+    "Href": "/object-reference/api/IronPdf.Forms.CommonFormField.html#IronPdf_Forms_CommonFormField_SetFont_IronSoftware_Drawing_FontTypes_System_Double_"
+  },
+  {
+    "Key": "CommonFormField.SetFont",
+    "Href": "/object-reference/api/IronPdf.Forms.CommonFormField.html#IronPdf_Forms_CommonFormField_SetFont_IronSoftware_Drawing_FontTypes_System_Double_"
+  },
+  {
+    "Key": "FormField",
+    "Href": "/object-reference/api/IronPdf.Forms.FormField.html"
+  },
+  {
+    "Key": "FormFieldTypes",
+    "Href": "/object-reference/api/IronPdf.Forms.FormFieldTypes.html"
+  },
+  {
+    "Key": "IFormField",
+    "Href": "/object-reference/api/IronPdf.Forms.IFormField.html"
+  },
+  {
+    "Key": "PdfForm",
+    "Href": "/object-reference/api/IronPdf.Forms.PdfForm.html"
+  },
+  {
+    "Key": "GetFieldByAnnotationIndex",
+    "Href": "/object-reference/api/IronPdf.Forms.PdfForm.html#IronPdf_Forms_PdfForm_GetFieldByAnnotationIndex_System_Int32_"
+  },
+  {
+    "Key": "PdfForm.GetFieldByAnnotationIndex",
+    "Href": "/object-reference/api/IronPdf.Forms.PdfForm.html#IronPdf_Forms_PdfForm_GetFieldByAnnotationIndex_System_Int32_"
+  },
+  {
+    "Key": "GetFieldByName",
+    "Href": "/object-reference/api/IronPdf.Forms.PdfForm.html#IronPdf_Forms_PdfForm_GetFieldByName_System_String_"
+  },
+  {
+    "Key": "PdfForm.GetFieldByName",
+    "Href": "/object-reference/api/IronPdf.Forms.PdfForm.html#IronPdf_Forms_PdfForm_GetFieldByName_System_String_"
+  },
+  {
+    "Key": "RenameField",
+    "Href": "/object-reference/api/IronPdf.Forms.PdfForm.html#IronPdf_Forms_PdfForm_RenameField_System_String_System_String_"
+  },
+  {
+    "Key": "PdfForm.RenameField",
+    "Href": "/object-reference/api/IronPdf.Forms.PdfForm.html#IronPdf_Forms_PdfForm_RenameField_System_String_System_String_"
+  },
+  {
+    "Key": "TextField",
+    "Href": "/object-reference/api/IronPdf.Forms.TextField.html"
+  },
+  {
+    "Key": "IronPdfConnectionConfiguration",
+    "Href": "/object-reference/api/IronPdf.GrpcLayer.IronPdfConnectionConfiguration.html"
+  },
+  {
+    "Key": "IronPdfConnectionType",
+    "Href": "/object-reference/api/IronPdf.GrpcLayer.IronPdfConnectionType.html"
+  },
+  {
+    "Key": "HtmlFormatOptions",
+    "Href": "/object-reference/api/IronPdf.HtmlFormatOptions.html"
+  },
+  {
+    "Key": "HtmlHeaderFooter",
+    "Href": "/object-reference/api/IronPdf.HtmlHeaderFooter.html"
+  },
+  {
+    "Key": "ImageToPdfConverter",
+    "Href": "/object-reference/api/IronPdf.ImageToPdfConverter.html"
+  },
+  {
+    "Key": "ImageToPdf",
+    "Href": "/object-reference/api/IronPdf.ImageToPdfConverter.html#IronPdf_ImageToPdfConverter_ImageToPdf_IronSoftware_Drawing_AnyBitmap_IronPdf_Imaging_ImageBehavior_IronPdf_ChromePdfRenderOptions_"
+  },
+  {
+    "Key": "ImageToPdfConverter.ImageToPdf",
+    "Href": "/object-reference/api/IronPdf.ImageToPdfConverter.html#IronPdf_ImageToPdfConverter_ImageToPdf_IronSoftware_Drawing_AnyBitmap_IronPdf_Imaging_ImageBehavior_IronPdf_ChromePdfRenderOptions_"
+  },
+  {
+    "Key": "ImageBehavior",
+    "Href": "/object-reference/api/IronPdf.Imaging.ImageBehavior.html"
+  },
+  {
+    "Key": "ImageType",
+    "Href": "/object-reference/api/IronPdf.Imaging.ImageType.html"
+  },
+  {
+    "Key": "IMargins",
+    "Href": "/object-reference/api/IronPdf.IMargins.html"
+  },
+  {
+    "Key": "Installation",
+    "Href": "/object-reference/api/IronPdf.Installation.html"
+  },
+  {
+    "Key": "CleanupTempImages",
+    "Href": "/object-reference/api/IronPdf.Installation.html#IronPdf_Installation_CleanupTempImages_System_Nullable_System_TimeSpan__"
+  },
+  {
+    "Key": "Installation.CleanupTempImages",
+    "Href": "/object-reference/api/IronPdf.Installation.html#IronPdf_Installation_CleanupTempImages_System_Nullable_System_TimeSpan__"
+  },
+  {
+    "Key": "ConnectToIronPdfHost",
+    "Href": "/object-reference/api/IronPdf.Installation.html#IronPdf_Installation_ConnectToIronPdfHost_IronPdf_GrpcLayer_IronPdfConnectionConfiguration_"
+  },
+  {
+    "Key": "Installation.ConnectToIronPdfHost",
+    "Href": "/object-reference/api/IronPdf.Installation.html#IronPdf_Installation_ConnectToIronPdfHost_IronPdf_GrpcLayer_IronPdfConnectionConfiguration_"
+  },
+  {
+    "Key": "Initialize",
+    "Href": "/object-reference/api/IronPdf.Installation.html#IronPdf_Installation_Initialize"
+  },
+  {
+    "Key": "Installation.Initialize",
+    "Href": "/object-reference/api/IronPdf.Installation.html#IronPdf_Installation_Initialize"
+  },
+  {
+    "Key": "IPdfRenderOptions",
+    "Href": "/object-reference/api/IronPdf.IPdfRenderOptions.html"
+  },
+  {
+    "Key": "LayerMode",
+    "Href": "/object-reference/api/IronPdf.LayerMode.html"
+  },
+  {
+    "Key": "License",
+    "Href": "/object-reference/api/IronPdf.License.html"
+  },
+  {
+    "Key": "IsValidLicense",
+    "Href": "/object-reference/api/IronPdf.License.html#IronPdf_License_IsValidLicense_System_String_"
+  },
+  {
+    "Key": "License.IsValidLicense",
+    "Href": "/object-reference/api/IronPdf.License.html#IronPdf_License_IsValidLicense_System_String_"
+  },
+  {
+    "Key": "Logger",
+    "Href": "/object-reference/api/IronPdf.Logging.Logger.html"
+  },
+  {
+    "Key": "ClearLogFiles",
+    "Href": "/object-reference/api/IronPdf.Logging.Logger.html#IronPdf_Logging_Logger_ClearLogFiles"
+  },
+  {
+    "Key": "Logger.ClearLogFiles",
+    "Href": "/object-reference/api/IronPdf.Logging.Logger.html#IronPdf_Logging_Logger_ClearLogFiles"
+  },
+  {
+    "Key": "Logger.LoggingModes",
+    "Href": "/object-reference/api/IronPdf.Logging.Logger.LoggingModes.html"
+  },
+  {
+    "Key": "PdfCustomMetadataProperties",
+    "Href": "/object-reference/api/IronPdf.MetaData.PdfCustomMetadataProperties.html"
+  },
+  {
+    "Key": "Add",
+    "Href": "/object-reference/api/IronPdf.MetaData.PdfCustomMetadataProperties.html#IronPdf_MetaData_PdfCustomMetadataProperties_Add_System_String_System_String_"
+  },
+  {
+    "Key": "PdfCustomMetadataProperties.Add",
+    "Href": "/object-reference/api/IronPdf.MetaData.PdfCustomMetadataProperties.html#IronPdf_MetaData_PdfCustomMetadataProperties_Add_System_String_System_String_"
+  },
+  {
+    "Key": "Remove",
+    "Href": "/object-reference/api/IronPdf.MetaData.PdfCustomMetadataProperties.html#IronPdf_MetaData_PdfCustomMetadataProperties_Remove_System_String_"
+  },
+  {
+    "Key": "PdfCustomMetadataProperties.Remove",
+    "Href": "/object-reference/api/IronPdf.MetaData.PdfCustomMetadataProperties.html#IronPdf_MetaData_PdfCustomMetadataProperties_Remove_System_String_"
+  },
+  {
+    "Key": "PdfMetaData",
+    "Href": "/object-reference/api/IronPdf.MetaData.PdfMetaData.html"
+  },
+  {
+    "Key": "GetMetaDataDictionary",
+    "Href": "/object-reference/api/IronPdf.MetaData.PdfMetaData.html#IronPdf_MetaData_PdfMetaData_GetMetaDataDictionary"
+  },
+  {
+    "Key": "PdfMetaData.GetMetaDataDictionary",
+    "Href": "/object-reference/api/IronPdf.MetaData.PdfMetaData.html#IronPdf_MetaData_PdfMetaData_GetMetaDataDictionary"
+  },
+  {
+    "Key": "Keys",
+    "Href": "/object-reference/api/IronPdf.MetaData.PdfMetaData.html#IronPdf_MetaData_PdfMetaData_Keys"
+  },
+  {
+    "Key": "PdfMetaData.Keys",
+    "Href": "/object-reference/api/IronPdf.MetaData.PdfMetaData.html#IronPdf_MetaData_PdfMetaData_Keys"
+  },
+  {
+    "Key": "RemoveMetaDataKey",
+    "Href": "/object-reference/api/IronPdf.MetaData.PdfMetaData.html#IronPdf_MetaData_PdfMetaData_RemoveMetaDataKey_System_String_"
+  },
+  {
+    "Key": "PdfMetaData.RemoveMetaDataKey",
+    "Href": "/object-reference/api/IronPdf.MetaData.PdfMetaData.html#IronPdf_MetaData_PdfMetaData_RemoveMetaDataKey_System_String_"
+  },
+  {
+    "Key": "SetMetaDataDictionary",
+    "Href": "/object-reference/api/IronPdf.MetaData.PdfMetaData.html#IronPdf_MetaData_PdfMetaData_SetMetaDataDictionary_System_Collections_Generic_Dictionary_System_String_System_String__"
+  },
+  {
+    "Key": "PdfMetaData.SetMetaDataDictionary",
+    "Href": "/object-reference/api/IronPdf.MetaData.PdfMetaData.html#IronPdf_MetaData_PdfMetaData_SetMetaDataDictionary_System_Collections_Generic_Dictionary_System_String_System_String__"
+  },
+  {
+    "Key": "IPdfPage",
+    "Href": "/object-reference/api/IronPdf.Pages.IPdfPage.html"
+  },
+  {
+    "Key": "PdfPage",
+    "Href": "/object-reference/api/IronPdf.Pages.PdfPage.html"
+  },
+  {
+    "Key": "PdfPageDescriptor",
+    "Href": "/object-reference/api/IronPdf.Pages.PdfPageDescriptor.html"
+  },
+  {
+    "Key": "PdfPagesCollection",
+    "Href": "/object-reference/api/IronPdf.Pages.PdfPagesCollection.html"
+  },
+  {
+    "Key": "PdfAttachment",
+    "Href": "/object-reference/api/IronPdf.PdfAttachment.html"
+  },
+  {
+    "Key": "PdfAttachmentCollection",
+    "Href": "/object-reference/api/IronPdf.PdfAttachmentCollection.html"
+  },
+  {
+    "Key": "AddAttachment",
+    "Href": "/object-reference/api/IronPdf.PdfAttachmentCollection.html#IronPdf_PdfAttachmentCollection_AddAttachment_System_String_System_Byte___"
+  },
+  {
+    "Key": "PdfAttachmentCollection.AddAttachment",
+    "Href": "/object-reference/api/IronPdf.PdfAttachmentCollection.html#IronPdf_PdfAttachmentCollection_AddAttachment_System_String_System_Byte___"
+  },
+  {
+    "Key": "RemoveAttachment",
+    "Href": "/object-reference/api/IronPdf.PdfAttachmentCollection.html#IronPdf_PdfAttachmentCollection_RemoveAttachment_IronPdf_PdfAttachment_"
+  },
+  {
+    "Key": "PdfAttachmentCollection.RemoveAttachment",
+    "Href": "/object-reference/api/IronPdf.PdfAttachmentCollection.html#IronPdf_PdfAttachmentCollection_RemoveAttachment_IronPdf_PdfAttachment_"
+  },
+  {
+    "Key": "PdfAVersions",
+    "Href": "/object-reference/api/IronPdf.PdfAVersions.html"
+  },
+  {
+    "Key": "PdfClientAccessor",
+    "Href": "/object-reference/api/IronPdf.PdfClientAccessor.html"
+  },
+  {
+    "Key": "PdfDocument",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html"
+  },
+  {
+    "Key": "AddBackgroundPdf",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AddBackgroundPdf_IronPdf_PdfDocument_System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.AddBackgroundPdf",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AddBackgroundPdf_IronPdf_PdfDocument_System_Int32_"
+  },
+  {
+    "Key": "AddBackgroundPdfToPage",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AddBackgroundPdfToPage_System_Int32_IronPdf_PdfDocument_System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.AddBackgroundPdfToPage",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AddBackgroundPdfToPage_System_Int32_IronPdf_PdfDocument_System_Int32_"
+  },
+  {
+    "Key": "AddBackgroundPdfToPageRange",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AddBackgroundPdfToPageRange_System_Collections_Generic_IEnumerable_System_Int32__IronPdf_PdfDocument_System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.AddBackgroundPdfToPageRange",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AddBackgroundPdfToPageRange_System_Collections_Generic_IEnumerable_System_Int32__IronPdf_PdfDocument_System_Int32_"
+  },
+  {
+    "Key": "AddForegroundOverlayPdf",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AddForegroundOverlayPdf_IronPdf_PdfDocument_System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.AddForegroundOverlayPdf",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AddForegroundOverlayPdf_IronPdf_PdfDocument_System_Int32_"
+  },
+  {
+    "Key": "AddForegroundOverlayPdfToPage",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AddForegroundOverlayPdfToPage_System_Int32_IronPdf_PdfDocument_System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.AddForegroundOverlayPdfToPage",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AddForegroundOverlayPdfToPage_System_Int32_IronPdf_PdfDocument_System_Int32_"
+  },
+  {
+    "Key": "AddForegroundOverlayPdfToPageRange",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AddForegroundOverlayPdfToPageRange_System_Collections_Generic_IEnumerable_System_Int32__IronPdf_PdfDocument_System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.AddForegroundOverlayPdfToPageRange",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AddForegroundOverlayPdfToPageRange_System_Collections_Generic_IEnumerable_System_Int32__IronPdf_PdfDocument_System_Int32_"
+  },
+  {
+    "Key": "AddHtmlFooters",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AddHtmlFooters_IronPdf_HtmlHeaderFooter_System_Double_System_Double_System_Double_System_Int32_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "PdfDocument.AddHtmlFooters",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AddHtmlFooters_IronPdf_HtmlHeaderFooter_System_Double_System_Double_System_Double_System_Int32_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "AddHtmlHeaders",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AddHtmlHeaders_IronPdf_HtmlHeaderFooter_System_Double_System_Double_System_Double_System_Int32_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "PdfDocument.AddHtmlHeaders",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AddHtmlHeaders_IronPdf_HtmlHeaderFooter_System_Double_System_Double_System_Double_System_Int32_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "AddTextFooters",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AddTextFooters_IronPdf_TextHeaderFooter_System_Double_System_Double_System_Double_System_Int32_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "PdfDocument.AddTextFooters",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AddTextFooters_IronPdf_TextHeaderFooter_System_Double_System_Double_System_Double_System_Int32_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "AddTextHeaders",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AddTextHeaders_IronPdf_TextHeaderFooter_System_Double_System_Double_System_Double_System_Int32_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "PdfDocument.AddTextHeaders",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AddTextHeaders_IronPdf_TextHeaderFooter_System_Double_System_Double_System_Double_System_Int32_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "AddTextHeadersAndFooters",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AddTextHeadersAndFooters_IronPdf_ChromePdfRenderOptions_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "PdfDocument.AddTextHeadersAndFooters",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AddTextHeadersAndFooters_IronPdf_ChromePdfRenderOptions_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "AppendPdf",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AppendPdf_IronPdf_PdfDocument_"
+  },
+  {
+    "Key": "PdfDocument.AppendPdf",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_AppendPdf_IronPdf_PdfDocument_"
+  },
+  {
+    "Key": "ApplyMultipleStamps",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ApplyMultipleStamps_System_Collections_Generic_IEnumerable_IronPdf_Editing_Stamper__System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "PdfDocument.ApplyMultipleStamps",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ApplyMultipleStamps_System_Collections_Generic_IEnumerable_IronPdf_Editing_Stamper__System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "ApplyMultipleStampsAsync",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ApplyMultipleStampsAsync_System_Collections_Generic_IEnumerable_IronPdf_Editing_Stamper__"
+  },
+  {
+    "Key": "PdfDocument.ApplyMultipleStampsAsync",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ApplyMultipleStampsAsync_System_Collections_Generic_IEnumerable_IronPdf_Editing_Stamper__"
+  },
+  {
+    "Key": "ApplyStamp",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ApplyStamp_IronPdf_Editing_Stamper_"
+  },
+  {
+    "Key": "PdfDocument.ApplyStamp",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ApplyStamp_IronPdf_Editing_Stamper_"
+  },
+  {
+    "Key": "ApplyStampAsync",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ApplyStampAsync_IronPdf_Editing_Stamper_"
+  },
+  {
+    "Key": "PdfDocument.ApplyStampAsync",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ApplyStampAsync_IronPdf_Editing_Stamper_"
+  },
+  {
+    "Key": "ApplyWatermark",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ApplyWatermark_System_String_System_Int32_IronPdf_Editing_VerticalAlignment_IronPdf_Editing_HorizontalAlignment_"
+  },
+  {
+    "Key": "PdfDocument.ApplyWatermark",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ApplyWatermark_System_String_System_Int32_IronPdf_Editing_VerticalAlignment_IronPdf_Editing_HorizontalAlignment_"
+  },
+  {
+    "Key": "CompressImages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_CompressImages_System_Int32_System_Boolean_"
+  },
+  {
+    "Key": "PdfDocument.CompressImages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_CompressImages_System_Int32_System_Boolean_"
+  },
+  {
+    "Key": "ConvertToPdfA",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ConvertToPdfA_IronPdf_PdfAVersions_System_String_"
+  },
+  {
+    "Key": "PdfDocument.ConvertToPdfA",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ConvertToPdfA_IronPdf_PdfAVersions_System_String_"
+  },
+  {
+    "Key": "ConvertToPdfUA",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ConvertToPdfUA_IronPdf_PdfUAVersions_"
+  },
+  {
+    "Key": "PdfDocument.ConvertToPdfUA",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ConvertToPdfUA_IronPdf_PdfUAVersions_"
+  },
+  {
+    "Key": "CopyPage",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_CopyPage_System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.CopyPage",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_CopyPage_System_Int32_"
+  },
+  {
+    "Key": "CopyPages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_CopyPages_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "PdfDocument.CopyPages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_CopyPages_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "DrawBitmap",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_DrawBitmap_IronSoftware_Drawing_AnyBitmap_System_Collections_Generic_IEnumerable_System_Int32__System_Collections_Generic_IEnumerable_System_Double__System_Collections_Generic_IEnumerable_System_Double__System_Collections_Generic_IEnumerable_System_Double__System_Collections_Generic_IEnumerable_System_Double__IronPdf_PixelFormat_"
+  },
+  {
+    "Key": "PdfDocument.DrawBitmap",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_DrawBitmap_IronSoftware_Drawing_AnyBitmap_System_Collections_Generic_IEnumerable_System_Int32__System_Collections_Generic_IEnumerable_System_Double__System_Collections_Generic_IEnumerable_System_Double__System_Collections_Generic_IEnumerable_System_Double__System_Collections_Generic_IEnumerable_System_Double__IronPdf_PixelFormat_"
+  },
+  {
+    "Key": "DrawText",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_DrawText_System_String_System_String_System_Double_System_Int32_System_Double_System_Double_IronSoftware_Drawing_Color_System_Double_"
+  },
+  {
+    "Key": "PdfDocument.DrawText",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_DrawText_System_String_System_String_System_Double_System_Int32_System_Double_System_Double_IronSoftware_Drawing_Color_System_Double_"
+  },
+  {
+    "Key": "Equals",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_Equals_System_Object_"
+  },
+  {
+    "Key": "PdfDocument.Equals",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_Equals_System_Object_"
+  },
+  {
+    "Key": "ExtractAllBitmaps",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractAllBitmaps"
+  },
+  {
+    "Key": "PdfDocument.ExtractAllBitmaps",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractAllBitmaps"
+  },
+  {
+    "Key": "ExtractAllImages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractAllImages"
+  },
+  {
+    "Key": "PdfDocument.ExtractAllImages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractAllImages"
+  },
+  {
+    "Key": "ExtractAllRawImages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractAllRawImages"
+  },
+  {
+    "Key": "PdfDocument.ExtractAllRawImages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractAllRawImages"
+  },
+  {
+    "Key": "ExtractAllText",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractAllText"
+  },
+  {
+    "Key": "PdfDocument.ExtractAllText",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractAllText"
+  },
+  {
+    "Key": "ExtractBitmapsFromPage",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractBitmapsFromPage_System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.ExtractBitmapsFromPage",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractBitmapsFromPage_System_Int32_"
+  },
+  {
+    "Key": "ExtractBitmapsFromPages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractBitmapsFromPages_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "PdfDocument.ExtractBitmapsFromPages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractBitmapsFromPages_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "ExtractImagesFromPage",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractImagesFromPage_System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.ExtractImagesFromPage",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractImagesFromPage_System_Int32_"
+  },
+  {
+    "Key": "ExtractImagesFromPages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractImagesFromPages_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "PdfDocument.ExtractImagesFromPages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractImagesFromPages_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "ExtractRawImagesFromPage",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractRawImagesFromPage_System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.ExtractRawImagesFromPage",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractRawImagesFromPage_System_Int32_"
+  },
+  {
+    "Key": "ExtractRawImagesFromPages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractRawImagesFromPages_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "PdfDocument.ExtractRawImagesFromPages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractRawImagesFromPages_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "ExtractTextFromPage",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractTextFromPage_System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.ExtractTextFromPage",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractTextFromPage_System_Int32_"
+  },
+  {
+    "Key": "ExtractTextFromPages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractTextFromPages_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "PdfDocument.ExtractTextFromPages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ExtractTextFromPages_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "Flatten",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_Flatten_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "PdfDocument.Flatten",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_Flatten_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "FromFile",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_FromFile_System_String_System_String_System_String_System_Boolean_"
+  },
+  {
+    "Key": "PdfDocument.FromFile",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_FromFile_System_String_System_String_System_String_System_Boolean_"
+  },
+  {
+    "Key": "FromUrl",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_FromUrl_System_Uri_System_String_System_String_"
+  },
+  {
+    "Key": "PdfDocument.FromUrl",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_FromUrl_System_Uri_System_String_System_String_"
+  },
+  {
+    "Key": "GetHashCode",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_GetHashCode"
+  },
+  {
+    "Key": "PdfDocument.GetHashCode",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_GetHashCode"
+  },
+  {
+    "Key": "GetInstalledFonts",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_GetInstalledFonts"
+  },
+  {
+    "Key": "PdfDocument.GetInstalledFonts",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_GetInstalledFonts"
+  },
+  {
+    "Key": "GetPageRotation",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_GetPageRotation_System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.GetPageRotation",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_GetPageRotation_System_Int32_"
+  },
+  {
+    "Key": "GetPrintDocument",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_GetPrintDocument_System_Drawing_Printing_PrinterSettings_System_Drawing_Printing_PrintController_"
+  },
+  {
+    "Key": "PdfDocument.GetPrintDocument",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_GetPrintDocument_System_Drawing_Printing_PrinterSettings_System_Drawing_Printing_PrintController_"
+  },
+  {
+    "Key": "GetRevision",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_GetRevision_System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.GetRevision",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_GetRevision_System_Int32_"
+  },
+  {
+    "Key": "GetVerifiedSignatures",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_GetVerifiedSignatures"
+  },
+  {
+    "Key": "PdfDocument.GetVerifiedSignatures",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_GetVerifiedSignatures"
+  },
+  {
+    "Key": "IncrementReference",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_IncrementReference"
+  },
+  {
+    "Key": "PdfDocument.IncrementReference",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_IncrementReference"
+  },
+  {
+    "Key": "InsertPdf",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_InsertPdf_IronPdf_PdfDocument_System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.InsertPdf",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_InsertPdf_IronPdf_PdfDocument_System_Int32_"
+  },
+  {
+    "Key": "Merge",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_Merge_IronPdf_PdfDocument_IronPdf_PdfDocument_"
+  },
+  {
+    "Key": "PdfDocument.Merge",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_Merge_IronPdf_PdfDocument_IronPdf_PdfDocument_"
+  },
+  {
+    "Key": "Implicit",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_op_Implicit_IronSoftware_PdfDocumentId__IronPdf_PdfDocument"
+  },
+  {
+    "Key": "PdfDocument.Implicit",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_op_Implicit_IronSoftware_PdfDocumentId__IronPdf_PdfDocument"
+  },
+  {
+    "Key": "PageToBitmap",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_PageToBitmap_System_Int32_System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.PageToBitmap",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_PageToBitmap_System_Int32_System_Int32_"
+  },
+  {
+    "Key": "PrependPdf",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_PrependPdf_IronPdf_PdfDocument_"
+  },
+  {
+    "Key": "PdfDocument.PrependPdf",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_PrependPdf_IronPdf_PdfDocument_"
+  },
+  {
+    "Key": "Print",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_Print"
+  },
+  {
+    "Key": "PdfDocument.Print",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_Print"
+  },
+  {
+    "Key": "PrintToFile",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_PrintToFile_System_Int32_System_String_"
+  },
+  {
+    "Key": "PdfDocument.PrintToFile",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_PrintToFile_System_Int32_System_String_"
+  },
+  {
+    "Key": "RasterizeToImageFiles",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_RasterizeToImageFiles_System_String_IronPdf_Imaging_ImageType_System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.RasterizeToImageFiles",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_RasterizeToImageFiles_System_String_IronPdf_Imaging_ImageType_System_Int32_"
+  },
+  {
+    "Key": "RemovePage",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_RemovePage_System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.RemovePage",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_RemovePage_System_Int32_"
+  },
+  {
+    "Key": "RemovePages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_RemovePages_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "PdfDocument.RemovePages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_RemovePages_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "RemoveSignatures",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_RemoveSignatures"
+  },
+  {
+    "Key": "PdfDocument.RemoveSignatures",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_RemoveSignatures"
+  },
+  {
+    "Key": "ReplaceTextOnAllPages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ReplaceTextOnAllPages_System_String_System_String_"
+  },
+  {
+    "Key": "PdfDocument.ReplaceTextOnAllPages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ReplaceTextOnAllPages_System_String_System_String_"
+  },
+  {
+    "Key": "ReplaceTextOnPage",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ReplaceTextOnPage_System_Int32_System_String_System_String_"
+  },
+  {
+    "Key": "PdfDocument.ReplaceTextOnPage",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ReplaceTextOnPage_System_Int32_System_String_System_String_"
+  },
+  {
+    "Key": "ReplaceTextOnPages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ReplaceTextOnPages_System_Int32___System_String_System_String_"
+  },
+  {
+    "Key": "PdfDocument.ReplaceTextOnPages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ReplaceTextOnPages_System_Int32___System_String_System_String_"
+  },
+  {
+    "Key": "Resize",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_Resize_IronPdf_Editing_Length_IronPdf_Editing_Length_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "PdfDocument.Resize",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_Resize_IronPdf_Editing_Length_IronPdf_Editing_Length_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "ResizePage",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ResizePage_System_Int32_System_Double_System_Double_"
+  },
+  {
+    "Key": "PdfDocument.ResizePage",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ResizePage_System_Int32_System_Double_System_Double_"
+  },
+  {
+    "Key": "SaveAs",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_SaveAs_System_String_System_Boolean_"
+  },
+  {
+    "Key": "PdfDocument.SaveAs",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_SaveAs_System_String_System_Boolean_"
+  },
+  {
+    "Key": "SaveAsHtml",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_SaveAsHtml_System_String_System_Boolean_System_String_System_Collections_Generic_IEnumerable_System_Int32__IronPdf_HtmlFormatOptions_"
+  },
+  {
+    "Key": "PdfDocument.SaveAsHtml",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_SaveAsHtml_System_String_System_Boolean_System_String_System_Collections_Generic_IEnumerable_System_Int32__IronPdf_HtmlFormatOptions_"
+  },
+  {
+    "Key": "SaveAsPdfA",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_SaveAsPdfA_System_String_IronPdf_PdfAVersions_System_String_"
+  },
+  {
+    "Key": "PdfDocument.SaveAsPdfA",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_SaveAsPdfA_System_String_IronPdf_PdfAVersions_System_String_"
+  },
+  {
+    "Key": "SaveAsPdfUA",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_SaveAsPdfUA_System_String_IronPdf_PdfUAVersions_"
+  },
+  {
+    "Key": "PdfDocument.SaveAsPdfUA",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_SaveAsPdfUA_System_String_IronPdf_PdfUAVersions_"
+  },
+  {
+    "Key": "SaveAsRevision",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_SaveAsRevision_System_String_"
+  },
+  {
+    "Key": "PdfDocument.SaveAsRevision",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_SaveAsRevision_System_String_"
+  },
+  {
+    "Key": "SaveAsSvg",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_SaveAsSvg_System_String_"
+  },
+  {
+    "Key": "PdfDocument.SaveAsSvg",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_SaveAsSvg_System_String_"
+  },
+  {
+    "Key": "SetAllPageRotations",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_SetAllPageRotations_IronPdf_Rendering_PdfPageRotation_"
+  },
+  {
+    "Key": "PdfDocument.SetAllPageRotations",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_SetAllPageRotations_IronPdf_Rendering_PdfPageRotation_"
+  },
+  {
+    "Key": "SetPageRotation",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_SetPageRotation_System_Int32_IronPdf_Rendering_PdfPageRotation_"
+  },
+  {
+    "Key": "PdfDocument.SetPageRotation",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_SetPageRotation_System_Int32_IronPdf_Rendering_PdfPageRotation_"
+  },
+  {
+    "Key": "SetPageRotations",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_SetPageRotations_System_Collections_Generic_IEnumerable_System_Int32__IronPdf_Rendering_PdfPageRotation_"
+  },
+  {
+    "Key": "PdfDocument.SetPageRotations",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_SetPageRotations_System_Collections_Generic_IEnumerable_System_Int32__IronPdf_Rendering_PdfPageRotation_"
+  },
+  {
+    "Key": "Sign",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_Sign_IronPdf_Signing_PdfSignature_IronPdf_Signing_SignaturePermissions_"
+  },
+  {
+    "Key": "PdfDocument.Sign",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_Sign_IronPdf_Signing_PdfSignature_IronPdf_Signing_SignaturePermissions_"
+  },
+  {
+    "Key": "SignWithFile",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_SignWithFile_System_String_System_String_System_String_IronPdf_Signing_SignaturePermissions_"
+  },
+  {
+    "Key": "PdfDocument.SignWithFile",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_SignWithFile_System_String_System_String_System_String_IronPdf_Signing_SignaturePermissions_"
+  },
+  {
+    "Key": "SignWithStore",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_SignWithStore_System_String_System_Security_Cryptography_X509Certificates_StoreLocation_IronPdf_Signing_SignaturePermissions_"
+  },
+  {
+    "Key": "PdfDocument.SignWithStore",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_SignWithStore_System_String_System_Security_Cryptography_X509Certificates_StoreLocation_IronPdf_Signing_SignaturePermissions_"
+  },
+  {
+    "Key": "ToBitmap",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ToBitmap_System_Collections_Generic_IEnumerable_System_Int32__System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.ToBitmap",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ToBitmap_System_Collections_Generic_IEnumerable_System_Int32__System_Int32_"
+  },
+  {
+    "Key": "ToHtmlString",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ToHtmlString_System_Boolean_System_String_System_Collections_Generic_IEnumerable_System_Int32__IronPdf_HtmlFormatOptions_"
+  },
+  {
+    "Key": "PdfDocument.ToHtmlString",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ToHtmlString_System_Boolean_System_String_System_Collections_Generic_IEnumerable_System_Int32__IronPdf_HtmlFormatOptions_"
+  },
+  {
+    "Key": "ToJpegImages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ToJpegImages_System_String_System_Collections_Generic_IEnumerable_System_Int32__System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.ToJpegImages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ToJpegImages_System_String_System_Collections_Generic_IEnumerable_System_Int32__System_Int32_"
+  },
+  {
+    "Key": "ToMultiPageTiffImage",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ToMultiPageTiffImage_System_String_System_Collections_Generic_IEnumerable_System_Int32__System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.ToMultiPageTiffImage",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ToMultiPageTiffImage_System_String_System_Collections_Generic_IEnumerable_System_Int32__System_Int32_"
+  },
+  {
+    "Key": "ToPngImages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ToPngImages_System_String_System_Collections_Generic_IEnumerable_System_Int32__System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.ToPngImages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ToPngImages_System_String_System_Collections_Generic_IEnumerable_System_Int32__System_Int32_"
+  },
+  {
+    "Key": "ToSvgString",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ToSvgString_System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.ToSvgString",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ToSvgString_System_Int32_"
+  },
+  {
+    "Key": "ToTiffImages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ToTiffImages_System_String_System_Collections_Generic_IEnumerable_System_Int32__System_Int32_"
+  },
+  {
+    "Key": "PdfDocument.ToTiffImages",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_ToTiffImages_System_String_System_Collections_Generic_IEnumerable_System_Int32__System_Int32_"
+  },
+  {
+    "Key": "TrySaveAs",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_TrySaveAs_System_String_"
+  },
+  {
+    "Key": "PdfDocument.TrySaveAs",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_TrySaveAs_System_String_"
+  },
+  {
+    "Key": "VerifyPdfSignatures",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_VerifyPdfSignatures"
+  },
+  {
+    "Key": "PdfDocument.VerifyPdfSignatures",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_VerifyPdfSignatures"
+  },
+  {
+    "Key": "VerifyPdfSignaturesInFile",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_VerifyPdfSignaturesInFile_System_String_"
+  },
+  {
+    "Key": "PdfDocument.VerifyPdfSignaturesInFile",
+    "Href": "/object-reference/api/IronPdf.PdfDocument.html#IronPdf_PdfDocument_VerifyPdfSignaturesInFile_System_String_"
+  },
+  {
+    "Key": "PdfDocumentExtensions",
+    "Href": "/object-reference/api/IronPdf.PdfDocumentExtensions.html"
+  },
+  {
+    "Key": "ToDocument",
+    "Href": "/object-reference/api/IronPdf.PdfDocumentExtensions.html#IronPdf_PdfDocumentExtensions_ToDocument_IronSoftware_IPdfDocumentId_System_String_System_String_"
+  },
+  {
+    "Key": "PdfDocumentExtensions.ToDocument",
+    "Href": "/object-reference/api/IronPdf.PdfDocumentExtensions.html#IronPdf_PdfDocumentExtensions_ToDocument_IronSoftware_IPdfDocumentId_System_String_System_String_"
+  },
+  {
+    "Key": "PdfUAVersions",
+    "Href": "/object-reference/api/IronPdf.PdfUAVersions.html"
+  },
+  {
+    "Key": "PixelFormat",
+    "Href": "/object-reference/api/IronPdf.PixelFormat.html"
+  },
+  {
+    "Key": "PdfPrintDocument",
+    "Href": "/object-reference/api/IronPdf.PrintDoc.PdfPrintDocument.html"
+  },
+  {
+    "Key": "OnBeforePrintPage",
+    "Href": "/object-reference/api/IronPdf.PrintDoc.PdfPrintDocument.html#IronPdf_PrintDoc_PdfPrintDocument_OnBeforePrintPage_System_Drawing_Printing_PrintPageEventArgs_"
+  },
+  {
+    "Key": "PdfPrintDocument.OnBeforePrintPage",
+    "Href": "/object-reference/api/IronPdf.PrintDoc.PdfPrintDocument.html#IronPdf_PrintDoc_PdfPrintDocument_OnBeforePrintPage_System_Drawing_Printing_PrintPageEventArgs_"
+  },
+  {
+    "Key": "OnBeforeQueryPageSettings",
+    "Href": "/object-reference/api/IronPdf.PrintDoc.PdfPrintDocument.html#IronPdf_PrintDoc_PdfPrintDocument_OnBeforeQueryPageSettings_System_Drawing_Printing_QueryPageSettingsEventArgs_"
+  },
+  {
+    "Key": "PdfPrintDocument.OnBeforeQueryPageSettings",
+    "Href": "/object-reference/api/IronPdf.PrintDoc.PdfPrintDocument.html#IronPdf_PrintDoc_PdfPrintDocument_OnBeforeQueryPageSettings_System_Drawing_Printing_QueryPageSettingsEventArgs_"
+  },
+  {
+    "Key": "OnBeginPrint",
+    "Href": "/object-reference/api/IronPdf.PrintDoc.PdfPrintDocument.html#IronPdf_PrintDoc_PdfPrintDocument_OnBeginPrint_System_Drawing_Printing_PrintEventArgs_"
+  },
+  {
+    "Key": "PdfPrintDocument.OnBeginPrint",
+    "Href": "/object-reference/api/IronPdf.PrintDoc.PdfPrintDocument.html#IronPdf_PrintDoc_PdfPrintDocument_OnBeginPrint_System_Drawing_Printing_PrintEventArgs_"
+  },
+  {
+    "Key": "OnPrintPage",
+    "Href": "/object-reference/api/IronPdf.PrintDoc.PdfPrintDocument.html#IronPdf_PrintDoc_PdfPrintDocument_OnPrintPage_System_Drawing_Printing_PrintPageEventArgs_"
+  },
+  {
+    "Key": "PdfPrintDocument.OnPrintPage",
+    "Href": "/object-reference/api/IronPdf.PrintDoc.PdfPrintDocument.html#IronPdf_PrintDoc_PdfPrintDocument_OnPrintPage_System_Drawing_Printing_PrintPageEventArgs_"
+  },
+  {
+    "Key": "OnQueryPageSettings",
+    "Href": "/object-reference/api/IronPdf.PrintDoc.PdfPrintDocument.html#IronPdf_PrintDoc_PdfPrintDocument_OnQueryPageSettings_System_Drawing_Printing_QueryPageSettingsEventArgs_"
+  },
+  {
+    "Key": "PdfPrintDocument.OnQueryPageSettings",
+    "Href": "/object-reference/api/IronPdf.PrintDoc.PdfPrintDocument.html#IronPdf_PrintDoc_PdfPrintDocument_OnQueryPageSettings_System_Drawing_Printing_QueryPageSettingsEventArgs_"
+  },
+  {
+    "Key": "PdfPrintMultiplePages",
+    "Href": "/object-reference/api/IronPdf.PrintDoc.PdfPrintMultiplePages.html"
+  },
+  {
+    "Key": "PdfPrintSettings",
+    "Href": "/object-reference/api/IronPdf.PrintDoc.PdfPrintSettings.html"
+  },
+  {
+    "Key": "PdfCssMediaType",
+    "Href": "/object-reference/api/IronPdf.Rendering.PdfCssMediaType.html"
+  },
+  {
+    "Key": "PdfPageRotation",
+    "Href": "/object-reference/api/IronPdf.Rendering.PdfPageRotation.html"
+  },
+  {
+    "Key": "PdfPaperOrientation",
+    "Href": "/object-reference/api/IronPdf.Rendering.PdfPaperOrientation.html"
+  },
+  {
+    "Key": "PdfPaperSize",
+    "Href": "/object-reference/api/IronPdf.Rendering.PdfPaperSize.html"
+  },
+  {
+    "Key": "PdfPaperSizeConverter",
+    "Href": "/object-reference/api/IronPdf.Rendering.PdfPaperSizeConverter.html"
+  },
+  {
+    "Key": "ToMillimeters",
+    "Href": "/object-reference/api/IronPdf.Rendering.PdfPaperSizeConverter.html#IronPdf_Rendering_PdfPaperSizeConverter_ToMillimeters_IronPdf_Rendering_PdfPaperSize_"
+  },
+  {
+    "Key": "PdfPaperSizeConverter.ToMillimeters",
+    "Href": "/object-reference/api/IronPdf.Rendering.PdfPaperSizeConverter.html#IronPdf_Rendering_PdfPaperSizeConverter_ToMillimeters_IronPdf_Rendering_PdfPaperSize_"
+  },
+  {
+    "Key": "PdfRenderingEngine",
+    "Href": "/object-reference/api/IronPdf.Rendering.PdfRenderingEngine.html"
+  },
+  {
+    "Key": "RequestContexts",
+    "Href": "/object-reference/api/IronPdf.Rendering.RequestContexts.html"
+  },
+  {
+    "Key": "PdfEditSecurity",
+    "Href": "/object-reference/api/IronPdf.Security.PdfEditSecurity.html"
+  },
+  {
+    "Key": "PdfPrintSecurity",
+    "Href": "/object-reference/api/IronPdf.Security.PdfPrintSecurity.html"
+  },
+  {
+    "Key": "PdfSecuritySettings",
+    "Href": "/object-reference/api/IronPdf.Security.PdfSecuritySettings.html"
+  },
+  {
+    "Key": "MakePdfDocumentReadOnly",
+    "Href": "/object-reference/api/IronPdf.Security.PdfSecuritySettings.html#IronPdf_Security_PdfSecuritySettings_MakePdfDocumentReadOnly_System_String_"
+  },
+  {
+    "Key": "PdfSecuritySettings.MakePdfDocumentReadOnly",
+    "Href": "/object-reference/api/IronPdf.Security.PdfSecuritySettings.html#IronPdf_Security_PdfSecuritySettings_MakePdfDocumentReadOnly_System_String_"
+  },
+  {
+    "Key": "RemovePasswordsAndEncryption",
+    "Href": "/object-reference/api/IronPdf.Security.PdfSecuritySettings.html#IronPdf_Security_PdfSecuritySettings_RemovePasswordsAndEncryption"
+  },
+  {
+    "Key": "PdfSecuritySettings.RemovePasswordsAndEncryption",
+    "Href": "/object-reference/api/IronPdf.Security.PdfSecuritySettings.html#IronPdf_Security_PdfSecuritySettings_RemovePasswordsAndEncryption"
+  },
+  {
+    "Key": "VerifiedSignature",
+    "Href": "/object-reference/api/IronPdf.Signing.Inspection.VerifiedSignature.html"
+  },
+  {
+    "Key": "PdfSignature",
+    "Href": "/object-reference/api/IronPdf.Signing.PdfSignature.html"
+  },
+  {
+    "Key": "LoadSignatureImageFromFile",
+    "Href": "/object-reference/api/IronPdf.Signing.PdfSignature.html#IronPdf_Signing_PdfSignature_LoadSignatureImageFromFile_System_String_System_Int32_IronSoftware_Drawing_CropRectangle_"
+  },
+  {
+    "Key": "PdfSignature.LoadSignatureImageFromFile",
+    "Href": "/object-reference/api/IronPdf.Signing.PdfSignature.html#IronPdf_Signing_PdfSignature_LoadSignatureImageFromFile_System_String_System_Int32_IronSoftware_Drawing_CropRectangle_"
+  },
+  {
+    "Key": "LoadSignatureImageFromStream",
+    "Href": "/object-reference/api/IronPdf.Signing.PdfSignature.html#IronPdf_Signing_PdfSignature_LoadSignatureImageFromStream_System_IO_Stream_System_Int32_IronSoftware_Drawing_CropRectangle_"
+  },
+  {
+    "Key": "PdfSignature.LoadSignatureImageFromStream",
+    "Href": "/object-reference/api/IronPdf.Signing.PdfSignature.html#IronPdf_Signing_PdfSignature_LoadSignatureImageFromStream_System_IO_Stream_System_Int32_IronSoftware_Drawing_CropRectangle_"
+  },
+  {
+    "Key": "PdfSignatureExtensions",
+    "Href": "/object-reference/api/IronPdf.Signing.PdfSignatureExtensions.html"
+  },
+  {
+    "Key": "SignPdfFile",
+    "Href": "/object-reference/api/IronPdf.Signing.PdfSignatureExtensions.html#IronPdf_Signing_PdfSignatureExtensions_SignPdfFile_IronPdf_Signing_PdfSignature_System_String_System_Boolean_System_String_System_String_"
+  },
+  {
+    "Key": "PdfSignatureExtensions.SignPdfFile",
+    "Href": "/object-reference/api/IronPdf.Signing.PdfSignatureExtensions.html#IronPdf_Signing_PdfSignatureExtensions_SignPdfFile_IronPdf_Signing_PdfSignature_System_String_System_Boolean_System_String_System_String_"
+  },
+  {
+    "Key": "PdfSignatureImage",
+    "Href": "/object-reference/api/IronPdf.Signing.PdfSignatureImage.html"
+  },
+  {
+    "Key": "SignaturePermissions",
+    "Href": "/object-reference/api/IronPdf.Signing.SignaturePermissions.html"
+  },
+  {
+    "Key": "TextAlignment",
+    "Href": "/object-reference/api/IronPdf.TextAlignment.html"
+  },
+  {
+    "Key": "TextHeaderFooter",
+    "Href": "/object-reference/api/IronPdf.TextHeaderFooter.html"
+  },
+  {
+    "Key": "UseMargins",
+    "Href": "/object-reference/api/IronPdf.UseMargins.html"
+  },
+  {
+    "Key": "ExceptionHelper",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.ExceptionHelper.html"
+  },
+  {
+    "Key": "Message",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.ExceptionHelper.html#IronSoftware_Exceptions_ExceptionHelper_Message_System_String_System_String_System_String_System_String_"
+  },
+  {
+    "Key": "ExceptionHelper.Message",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.ExceptionHelper.html#IronSoftware_Exceptions_ExceptionHelper_Message_System_String_System_String_System_String_System_String_"
+  },
+  {
+    "Key": "IronPdfInputException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.IronPdfInputException.html"
+  },
+  {
+    "Key": "IronSoftwareAssemblyLoadException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.IronSoftwareAssemblyLoadException.html"
+  },
+  {
+    "Key": "IronSoftwareAssemblyMissingException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.IronSoftwareAssemblyMissingException.html"
+  },
+  {
+    "Key": "IronSoftwareAssemblyVersionMismatchException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.IronSoftwareAssemblyVersionMismatchException.html"
+  },
+  {
+    "Key": "IronSoftwareDeploymentConfigurationMissingException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException.html"
+  },
+  {
+    "Key": "IronSoftwareDeploymentException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.IronSoftwareDeploymentException.html"
+  },
+  {
+    "Key": "IronSoftwareDeploymentNotSupportedException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.IronSoftwareDeploymentNotSupportedException.html"
+  },
+  {
+    "Key": "IronSoftwareDownloadException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.IronSoftwareDownloadException.html"
+  },
+  {
+    "Key": "IronSoftwareEmbeddedDeploymentException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.IronSoftwareEmbeddedDeploymentException.html"
+  },
+  {
+    "Key": "IronSoftwareEmbeddedDeploymentMissingException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.IronSoftwareEmbeddedDeploymentMissingException.html"
+  },
+  {
+    "Key": "IronSoftwareNativeException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.IronSoftwareNativeException.html"
+  },
+  {
+    "Key": "LicensingException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.LicensingException.html"
+  }
+]
