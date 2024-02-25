@@ -30,25 +30,25 @@ namespace ContentEdit.Core
         //   {"ImageToPdfConverter", "/object-reference/api/IronPdf.ImageToPdfConverter.html"},
         //   {"ImageToPdf", "/object-reference/api/IronPdf.ImageToPdfConverter.html#IronPdf_ImageToPdfConverter_ImageToPdf_IronSoftware_Drawing_AnyBitmap_IronPdf_Imaging_ImageBehavior_IronPdf_ChromePdfRenderOptions_"}
         // }},
-        { TaskType.IronOCR, new Dictionary<string, string> {
-          { "IronTesseract", "/csharp/ocr/object-reference/api/IronOcr.IronTesseract.html"},
-          { "OcrInput", "/csharp/ocr/object-reference/api/IronOcr.OcrInput.html"},
-          { "OcrResult", "/csharp/ocr/object-reference/api/IronOcr.OcrResult.html"},
-          { "Read", "/csharp/ocr/object-reference/api/IronOcr.IronTesseract.html#IronOcr_IronTesseract_Read_IronOcr_OcrInputBase_"},
-          { "LoadImage", "/csharp/ocr/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_LoadImage_IronSoftware_Drawing_AnyBitmap_IronSoftware_Drawing_Rectangle_"},
-          { "LoadPdf", "/csharp/ocr/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_LoadPdf_System_Byte___System_Int32_System_Boolean_IronSoftware_Drawing_Rectangle_System_String_"},
-        }},
-        { TaskType.IronXL, new Dictionary<string, string> {
-          {"WorkBook", "/csharp/excel/object-reference/api/IronXL.WorkBook.html"},
-          {"WorkSheet", "/csharp/excel/object-reference/api/IronXL.WorkSheet.html"},
-          { "Load", "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Load_System_String_"},
-          {"LoadCSV", "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_LoadCSV_System_String_IronXL_ExcelFileFormat_System_String_System_Boolean_"},
-          { "SaveAs", "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAs_System_String_"},
-          { "SaveAsCSV", "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAsCsv_System_String_System_String_"},
-          { "GetRange", "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetRange_System_String_"},
-          {"GetRow", "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetRow_System_Int32_"},
-          {"GetColumn", "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetColumn_System_Int32_"}
-        }},
+        // { TaskType.IronOCR, new Dictionary<string, string> {
+        //   { "IronTesseract", "/csharp/ocr/object-reference/api/IronOcr.IronTesseract.html"},
+        //   { "OcrInput", "/csharp/ocr/object-reference/api/IronOcr.OcrInput.html"},
+        //   { "OcrResult", "/csharp/ocr/object-reference/api/IronOcr.OcrResult.html"},
+        //   { "Read", "/csharp/ocr/object-reference/api/IronOcr.IronTesseract.html#IronOcr_IronTesseract_Read_IronOcr_OcrInputBase_"},
+        //   { "LoadImage", "/csharp/ocr/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_LoadImage_IronSoftware_Drawing_AnyBitmap_IronSoftware_Drawing_Rectangle_"},
+        //   { "LoadPdf", "/csharp/ocr/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_LoadPdf_System_Byte___System_Int32_System_Boolean_IronSoftware_Drawing_Rectangle_System_String_"},
+        // }},
+        // { TaskType.IronXL, new Dictionary<string, string> {
+        //   {"WorkBook", "/csharp/excel/object-reference/api/IronXL.WorkBook.html"},
+        //   {"WorkSheet", "/csharp/excel/object-reference/api/IronXL.WorkSheet.html"},
+        //   { "Load", "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Load_System_String_"},
+        //   {"LoadCSV", "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_LoadCSV_System_String_IronXL_ExcelFileFormat_System_String_System_Boolean_"},
+        //   { "SaveAs", "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAs_System_String_"},
+        //   { "SaveAsCSV", "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAsCsv_System_String_System_String_"},
+        //   { "GetRange", "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetRange_System_String_"},
+        //   {"GetRow", "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetRow_System_Int32_"},
+        //   {"GetColumn", "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetColumn_System_Int32_"}
+        // }},
         { TaskType.IronBarcode, new Dictionary<string, string> {
           //reader
           {"BarcodeReader", "/csharp/barcode/object-reference/api/IronBarCode.BarcodeReader.html"},
@@ -78,9 +78,16 @@ namespace ContentEdit.Core
       // read from file
       var metaFiles = new[] {
         new {
-
-        Type = TaskType.IronPDF,
-        FileName = "data/ironpdf-api-link.json"
+          Type = TaskType.IronPDF,
+          FileName = "data/ironpdf-api-link.json"
+        },
+        new {
+          Type = TaskType.IronOCR,
+          FileName = "data/ironocr-api-link.json"
+        },
+        new {
+          Type = TaskType.IronXL,
+          FileName = "data/ironxl-api-link.json"
         }
       };
       foreach (var metaFile in metaFiles)
@@ -103,6 +110,8 @@ namespace ContentEdit.Core
       {
         markdownContent = markdownContent.Replace($"**{replacePair.Key}**", $"`{replacePair.Key}`", StringComparison.OrdinalIgnoreCase);
         markdownContent = markdownContent.Replace($"`{replacePair.Key}`", $"`{replacePair.Key}`", StringComparison.OrdinalIgnoreCase);
+        markdownContent = markdownContent.Replace($"**{replacePair.Key}()**", $"`{replacePair.Key}`", StringComparison.OrdinalIgnoreCase);
+        markdownContent = markdownContent.Replace($"`{replacePair.Key}()`", $"`{replacePair.Key}`", StringComparison.OrdinalIgnoreCase);
         if (Regex.IsMatch(markdownContent, $"\\[`{replacePair.Key}`\\]"))
         {
           continue;

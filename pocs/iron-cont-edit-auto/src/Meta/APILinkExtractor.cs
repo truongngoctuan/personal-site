@@ -51,47 +51,62 @@ namespace ContentEdit.Meta
   {
     public static async Task Extract()
     {
-      string jsonString = File.ReadAllText("data/ironpdf-api.json");
-      var apiFile = JsonSerializer.Deserialize<APIFile>(jsonString);
-      var methods = apiFile?.References;
-      // .Where(t => t.Uid.Contains("PdfDocument"));
-      var results = new List<APILink>();
-      var dict = new Dictionary<string, bool>();
+      var libraries = new string[]{
+        "ironpdf",
+        "ironocr",
+        "ironxl"
+      };
 
-      if (methods == null) return;
-
-      foreach (var method in methods)
+      foreach (var libraryName in libraries)
       {
-        if (!(method.CommentId.StartsWith(APIOBjectType.Type) || method.CommentId.StartsWith(APIOBjectType.Method))) continue;
-        if (method.CommentId.StartsWith(APIOBjectType.Method) && method.Uid.Contains("#ctor")) continue;
+        string jsonString = File.ReadAllText($"data/{libraryName}-api.json");
+        var apiFile = JsonSerializer.Deserialize<APIFile>(jsonString);
+        var methods = apiFile?.References;
+        // .Where(t => t.Uid.Contains("PdfDocument"));
+        var results = new List<APILink>();
+        var dict = new Dictionary<string, bool>();
 
-        var methodName = Regex.Replace(method.Name, """^([a-z,A-Z,0-9]+)\(.*\)""", "$1");
-        var methodNameWithType = Regex.Replace(method.NameWithType, """^([a-z,A-Z,0-9,\.]+)\(.*\)""", "$1");
-        if (methodName == "ToString") continue;
-        if (dict.ContainsKey(methodName)) continue;
+        if (methods == null) return;
 
-        Console.WriteLine($"{methodNameWithType} | {methodName} | {method.Href}");
-        results.Add(new APILink
+        foreach (var method in methods)
         {
-          Key = methodName,
-          Href = "/object-reference/" + method.Href
-        });
-        if (methodName != methodNameWithType)
-        {
+          if (!(method.CommentId.StartsWith(APIOBjectType.Type) || method.CommentId.StartsWith(APIOBjectType.Method))) continue;
+          if (method.CommentId.StartsWith(APIOBjectType.Method) && method.Uid.Contains("#ctor")) continue;
+
+          var methodName = Regex.Replace(method.Name, """^([a-z,A-Z,0-9,_]+)\(.*\)""", "$1");
+          var methodNameWithType = Regex.Replace(method.NameWithType, """^([a-z,A-Z,0-9,_,\.]+)\(.*\)""", "$1");
+          methodName = methodName.Replace("<TType>", "");
+          methodNameWithType = methodNameWithType.Replace("<TType>", "");
+          methodName = Regex.Replace(methodName, """^([a-z,A-Z,0-9,_]+)\(.*\)""", "$1");
+          methodNameWithType = Regex.Replace(methodNameWithType, """^([a-z,A-Z,0-9,_,\.]+)\(.*\)""", "$1");
+
+          if (methodName == "ToString") continue;
+          if (dict.ContainsKey(methodName)) continue;
+
+          Console.WriteLine($"{methodNameWithType} | {methodName} | {method.Href}");
           results.Add(new APILink
           {
-            Key = methodNameWithType,
+            Key = methodName,
             Href = "/object-reference/" + method.Href
           });
+          if (methodName != methodNameWithType)
+          {
+            results.Add(new APILink
+            {
+              Key = methodNameWithType,
+              Href = "/object-reference/" + method.Href
+            });
+          }
+
+          dict.Add(methodName, true);
+
         }
 
-        dict.Add(methodName, true);
-
+        string fileName = $"data/{libraryName}-api-link.json";
+        await using FileStream createStream = File.Create(fileName);
+        await JsonSerializer.SerializeAsync(createStream, results, new JsonSerializerOptions { WriteIndented = true });
       }
 
-      string fileName = "data/ironpdf-api-link.json";
-      await using FileStream createStream = File.Create(fileName);
-      await JsonSerializer.SerializeAsync(createStream, results, new JsonSerializerOptions { WriteIndented = true });
     }
   }
 }

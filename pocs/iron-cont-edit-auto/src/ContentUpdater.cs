@@ -40,11 +40,12 @@ namespace ContentEdit.Core
       result = result.Replace("visual studio 2022", "Visual Studio", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("Window form", "Windows Forms", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("C#.NET", "C# .NET", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("dot net", ".NET", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("dotnet core", ".NET Core", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("dot net core", ".NET Core", StringComparison.OrdinalIgnoreCase);
       // result = result.Replace("dotnet ", ".NET ", StringComparison.OrdinalIgnoreCase);
       result = result.Replace(".net core", ".NET Core", StringComparison.OrdinalIgnoreCase);
-      result = result.Replace(" net", " .NET");
+      // result = result.Replace(" net", " .NET");
       // result = result.Replace("net ", ".NET ");
       result = result.Replace(".Net", ".NET");
       result = result.Replace("asp mvc", "ASP.NET MVC", StringComparison.OrdinalIgnoreCase);

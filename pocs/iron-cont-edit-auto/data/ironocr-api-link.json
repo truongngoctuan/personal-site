@@ -1,0 +1,874 @@
+[
+  {
+    "Key": "OcrProgressEventsArgs",
+    "Href": "/object-reference/api/IronOcr.Events.OcrProgressEventsArgs.html"
+  },
+  {
+    "Key": "IronOcrAssemblyVersionMismatchException",
+    "Href": "/object-reference/api/IronOcr.Exceptions.IronOcrAssemblyVersionMismatchException.html"
+  },
+  {
+    "Key": "IronOcrDictionaryException",
+    "Href": "/object-reference/api/IronOcr.Exceptions.IronOcrDictionaryException.html"
+  },
+  {
+    "Key": "IronOcrInstallationException",
+    "Href": "/object-reference/api/IronOcr.Exceptions.IronOcrInstallationException.html"
+  },
+  {
+    "Key": "IronOcrLicensingException",
+    "Href": "/object-reference/api/IronOcr.Exceptions.IronOcrLicensingException.html"
+  },
+  {
+    "Key": "IronOcrNativeException",
+    "Href": "/object-reference/api/IronOcr.Exceptions.IronOcrNativeException.html"
+  },
+  {
+    "Key": "IronOcrProductException",
+    "Href": "/object-reference/api/IronOcr.Exceptions.IronOcrProductException.html"
+  },
+  {
+    "Key": "LanguagePackException",
+    "Href": "/object-reference/api/IronOcr.Exceptions.LanguagePackException.html"
+  },
+  {
+    "Key": "Installation",
+    "Href": "/object-reference/api/IronOcr.Installation.html"
+  },
+  {
+    "Key": "ClearLogFiles",
+    "Href": "/object-reference/api/IronOcr.Installation.html#IronOcr_Installation_ClearLogFiles"
+  },
+  {
+    "Key": "Installation.ClearLogFiles",
+    "Href": "/object-reference/api/IronOcr.Installation.html#IronOcr_Installation_ClearLogFiles"
+  },
+  {
+    "Key": "IsValidLicense",
+    "Href": "/object-reference/api/IronOcr.Installation.html#IronOcr_Installation_IsValidLicense_System_String_"
+  },
+  {
+    "Key": "Installation.IsValidLicense",
+    "Href": "/object-reference/api/IronOcr.Installation.html#IronOcr_Installation_IsValidLicense_System_String_"
+  },
+  {
+    "Key": "Installation.LoggingModes",
+    "Href": "/object-reference/api/IronOcr.Installation.LoggingModes.html"
+  },
+  {
+    "Key": "IOcrInput",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html"
+  },
+  {
+    "Key": "AdaptiveThreshold",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_AdaptiveThreshold_System_Nullable_System_Single__"
+  },
+  {
+    "Key": "IOcrInput.AdaptiveThreshold",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_AdaptiveThreshold_System_Nullable_System_Single__"
+  },
+  {
+    "Key": "ApplyMultipleFilters",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_ApplyMultipleFilters_IronOcr_OcrFilters_System_Double_System_Int32_System_Int32_System_Int32_System_Boolean_System_Nullable_System_Int32__"
+  },
+  {
+    "Key": "IOcrInput.ApplyMultipleFilters",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_ApplyMultipleFilters_IronOcr_OcrFilters_System_Double_System_Int32_System_Int32_System_Int32_System_Boolean_System_Nullable_System_Int32__"
+  },
+  {
+    "Key": "Binarize",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Binarize"
+  },
+  {
+    "Key": "IOcrInput.Binarize",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Binarize"
+  },
+  {
+    "Key": "Close",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Close_System_Boolean_"
+  },
+  {
+    "Key": "IOcrInput.Close",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Close_System_Boolean_"
+  },
+  {
+    "Key": "Contrast",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Contrast_System_Single_"
+  },
+  {
+    "Key": "IOcrInput.Contrast",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Contrast_System_Single_"
+  },
+  {
+    "Key": "DeNoise",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_DeNoise_System_Boolean_"
+  },
+  {
+    "Key": "IOcrInput.DeNoise",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_DeNoise_System_Boolean_"
+  },
+  {
+    "Key": "Deskew",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Deskew_System_Int32_"
+  },
+  {
+    "Key": "IOcrInput.Deskew",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Deskew_System_Int32_"
+  },
+  {
+    "Key": "Despeckle",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Despeckle_System_Boolean_"
+  },
+  {
+    "Key": "IOcrInput.Despeckle",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Despeckle_System_Boolean_"
+  },
+  {
+    "Key": "Dilate",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Dilate_System_Boolean_"
+  },
+  {
+    "Key": "IOcrInput.Dilate",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Dilate_System_Boolean_"
+  },
+  {
+    "Key": "EnhanceResolution",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_EnhanceResolution_System_Int32_"
+  },
+  {
+    "Key": "IOcrInput.EnhanceResolution",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_EnhanceResolution_System_Int32_"
+  },
+  {
+    "Key": "Erode",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Erode_System_Boolean_"
+  },
+  {
+    "Key": "IOcrInput.Erode",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Erode_System_Boolean_"
+  },
+  {
+    "Key": "FindMultipleTextRegions",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_FindMultipleTextRegions_System_Double_System_Int32_System_Boolean_System_Boolean_"
+  },
+  {
+    "Key": "IOcrInput.FindMultipleTextRegions",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_FindMultipleTextRegions_System_Double_System_Int32_System_Boolean_System_Boolean_"
+  },
+  {
+    "Key": "FindTextRegion",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_FindTextRegion_System_Double_System_Int32_System_Boolean_System_Boolean_"
+  },
+  {
+    "Key": "IOcrInput.FindTextRegion",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_FindTextRegion_System_Double_System_Int32_System_Boolean_System_Boolean_"
+  },
+  {
+    "Key": "GetPages",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_GetPages"
+  },
+  {
+    "Key": "IOcrInput.GetPages",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_GetPages"
+  },
+  {
+    "Key": "HighlightTextAndSaveAsImages",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_HighlightTextAndSaveAsImages_IronOcr_IronTesseract_System_String_IronOcr_ResultHighlightType_"
+  },
+  {
+    "Key": "IOcrInput.HighlightTextAndSaveAsImages",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_HighlightTextAndSaveAsImages_IronOcr_IronTesseract_System_String_IronOcr_ResultHighlightType_"
+  },
+  {
+    "Key": "HoughTransformStraighten",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_HoughTransformStraighten_System_Int32_"
+  },
+  {
+    "Key": "IOcrInput.HoughTransformStraighten",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_HoughTransformStraighten_System_Int32_"
+  },
+  {
+    "Key": "Invert",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Invert_System_Boolean_"
+  },
+  {
+    "Key": "IOcrInput.Invert",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Invert_System_Boolean_"
+  },
+  {
+    "Key": "Open",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Open_System_Boolean_"
+  },
+  {
+    "Key": "IOcrInput.Open",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Open_System_Boolean_"
+  },
+  {
+    "Key": "PageCount",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_PageCount"
+  },
+  {
+    "Key": "IOcrInput.PageCount",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_PageCount"
+  },
+  {
+    "Key": "RemovePage",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_RemovePage_System_Int32_"
+  },
+  {
+    "Key": "IOcrInput.RemovePage",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_RemovePage_System_Int32_"
+  },
+  {
+    "Key": "RemovePages",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_RemovePages_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "IOcrInput.RemovePages",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_RemovePages_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "ReplaceColor",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_ReplaceColor_IronSoftware_Drawing_Color_IronSoftware_Drawing_Color_System_Int32_"
+  },
+  {
+    "Key": "IOcrInput.ReplaceColor",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_ReplaceColor_IronSoftware_Drawing_Color_IronSoftware_Drawing_Color_System_Int32_"
+  },
+  {
+    "Key": "Rotate",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Rotate_System_Double_"
+  },
+  {
+    "Key": "IOcrInput.Rotate",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Rotate_System_Double_"
+  },
+  {
+    "Key": "SaveAsImages",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_SaveAsImages_System_String_IronOcr_OcrInput_ImageType_"
+  },
+  {
+    "Key": "IOcrInput.SaveAsImages",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_SaveAsImages_System_String_IronOcr_OcrInput_ImageType_"
+  },
+  {
+    "Key": "Scale",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Scale_System_Int32_System_Boolean_"
+  },
+  {
+    "Key": "IOcrInput.Scale",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Scale_System_Int32_System_Boolean_"
+  },
+  {
+    "Key": "SelectTextColor",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_SelectTextColor_IronSoftware_Drawing_Color_System_Int32_"
+  },
+  {
+    "Key": "IOcrInput.SelectTextColor",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_SelectTextColor_IronSoftware_Drawing_Color_System_Int32_"
+  },
+  {
+    "Key": "SelectTextColors",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_SelectTextColors_System_Collections_Generic_IEnumerable_IronSoftware_Drawing_Color__System_Int32_"
+  },
+  {
+    "Key": "IOcrInput.SelectTextColors",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_SelectTextColors_System_Collections_Generic_IEnumerable_IronSoftware_Drawing_Color__System_Int32_"
+  },
+  {
+    "Key": "Sharpen",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Sharpen"
+  },
+  {
+    "Key": "IOcrInput.Sharpen",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_Sharpen"
+  },
+  {
+    "Key": "StampCropRectangleAndSaveAs",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_StampCropRectangleAndSaveAs_IronSoftware_Drawing_CropRectangle_IronSoftware_Drawing_Color_System_String_IronOcr_OcrInput_ImageType_"
+  },
+  {
+    "Key": "IOcrInput.StampCropRectangleAndSaveAs",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_StampCropRectangleAndSaveAs_IronSoftware_Drawing_CropRectangle_IronSoftware_Drawing_Color_System_String_IronOcr_OcrInput_ImageType_"
+  },
+  {
+    "Key": "ToGrayScale",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_ToGrayScale"
+  },
+  {
+    "Key": "IOcrInput.ToGrayScale",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_ToGrayScale"
+  },
+  {
+    "Key": "WithTitle",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_WithTitle_System_String_"
+  },
+  {
+    "Key": "IOcrInput.WithTitle",
+    "Href": "/object-reference/api/IronOcr.IOcrInput.html#IronOcr_IOcrInput_WithTitle_System_String_"
+  },
+  {
+    "Key": "IronTesseract",
+    "Href": "/object-reference/api/IronOcr.IronTesseract.html"
+  },
+  {
+    "Key": "AddSecondaryLanguage",
+    "Href": "/object-reference/api/IronOcr.IronTesseract.html#IronOcr_IronTesseract_AddSecondaryLanguage_IronOcr_OcrLanguage_"
+  },
+  {
+    "Key": "IronTesseract.AddSecondaryLanguage",
+    "Href": "/object-reference/api/IronOcr.IronTesseract.html#IronOcr_IronTesseract_AddSecondaryLanguage_IronOcr_OcrLanguage_"
+  },
+  {
+    "Key": "ClearSecondaryLanguages",
+    "Href": "/object-reference/api/IronOcr.IronTesseract.html#IronOcr_IronTesseract_ClearSecondaryLanguages"
+  },
+  {
+    "Key": "IronTesseract.ClearSecondaryLanguages",
+    "Href": "/object-reference/api/IronOcr.IronTesseract.html#IronOcr_IronTesseract_ClearSecondaryLanguages"
+  },
+  {
+    "Key": "ConvertToSearchablePdf",
+    "Href": "/object-reference/api/IronOcr.IronTesseract.html#IronOcr_IronTesseract_ConvertToSearchablePdf_System_Byte___System_String_"
+  },
+  {
+    "Key": "IronTesseract.ConvertToSearchablePdf",
+    "Href": "/object-reference/api/IronOcr.IronTesseract.html#IronOcr_IronTesseract_ConvertToSearchablePdf_System_Byte___System_String_"
+  },
+  {
+    "Key": "Read",
+    "Href": "/object-reference/api/IronOcr.IronTesseract.html#IronOcr_IronTesseract_Read_IronOcr_OcrInputBase_"
+  },
+  {
+    "Key": "IronTesseract.Read",
+    "Href": "/object-reference/api/IronOcr.IronTesseract.html#IronOcr_IronTesseract_Read_IronOcr_OcrInputBase_"
+  },
+  {
+    "Key": "ReadAsync",
+    "Href": "/object-reference/api/IronOcr.IronTesseract.html#IronOcr_IronTesseract_ReadAsync_IronOcr_OcrInputBase_System_Int32_"
+  },
+  {
+    "Key": "IronTesseract.ReadAsync",
+    "Href": "/object-reference/api/IronOcr.IronTesseract.html#IronOcr_IronTesseract_ReadAsync_IronOcr_OcrInputBase_System_Int32_"
+  },
+  {
+    "Key": "ReadImagesFromPdf",
+    "Href": "/object-reference/api/IronOcr.IronTesseract.html#IronOcr_IronTesseract_ReadImagesFromPdf_System_Byte___System_String_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "IronTesseract.ReadImagesFromPdf",
+    "Href": "/object-reference/api/IronOcr.IronTesseract.html#IronOcr_IronTesseract_ReadImagesFromPdf_System_Byte___System_String_System_Collections_Generic_IEnumerable_System_Int32__"
+  },
+  {
+    "Key": "UseCustomTesseractLanguageFile",
+    "Href": "/object-reference/api/IronOcr.IronTesseract.html#IronOcr_IronTesseract_UseCustomTesseractLanguageFile_System_String_"
+  },
+  {
+    "Key": "IronTesseract.UseCustomTesseractLanguageFile",
+    "Href": "/object-reference/api/IronOcr.IronTesseract.html#IronOcr_IronTesseract_UseCustomTesseractLanguageFile_System_String_"
+  },
+  {
+    "Key": "License",
+    "Href": "/object-reference/api/IronOcr.License.html"
+  },
+  {
+    "Key": "OcrFilters",
+    "Href": "/object-reference/api/IronOcr.OcrFilters.html"
+  },
+  {
+    "Key": "OcrImageInput",
+    "Href": "/object-reference/api/IronOcr.OcrImageInput.html"
+  },
+  {
+    "Key": "OcrInput",
+    "Href": "/object-reference/api/IronOcr.OcrInput.html"
+  },
+  {
+    "Key": "Add",
+    "Href": "/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_Add_IronOcr_OcrInput_IronSoftware_Drawing_CropRectangle_"
+  },
+  {
+    "Key": "OcrInput.Add",
+    "Href": "/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_Add_IronOcr_OcrInput_IronSoftware_Drawing_CropRectangle_"
+  },
+  {
+    "Key": "AddFrameFromTiff",
+    "Href": "/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_AddFrameFromTiff_System_Byte___System_Int32_IronSoftware_Drawing_CropRectangle_"
+  },
+  {
+    "Key": "OcrInput.AddFrameFromTiff",
+    "Href": "/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_AddFrameFromTiff_System_Byte___System_Int32_IronSoftware_Drawing_CropRectangle_"
+  },
+  {
+    "Key": "AddImage",
+    "Href": "/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_AddImage_IronSoftware_Drawing_AnyBitmap_"
+  },
+  {
+    "Key": "OcrInput.AddImage",
+    "Href": "/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_AddImage_IronSoftware_Drawing_AnyBitmap_"
+  },
+  {
+    "Key": "AddMultiFrameTiff",
+    "Href": "/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_AddMultiFrameTiff_System_Byte___"
+  },
+  {
+    "Key": "OcrInput.AddMultiFrameTiff",
+    "Href": "/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_AddMultiFrameTiff_System_Byte___"
+  },
+  {
+    "Key": "AddPdf",
+    "Href": "/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_AddPdf_System_Byte___System_String_IronSoftware_Drawing_CropRectangle_System_Nullable_System_Int32__"
+  },
+  {
+    "Key": "OcrInput.AddPdf",
+    "Href": "/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_AddPdf_System_Byte___System_String_IronSoftware_Drawing_CropRectangle_System_Nullable_System_Int32__"
+  },
+  {
+    "Key": "AddPdfPage",
+    "Href": "/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_AddPdfPage_System_Byte___System_Int32_System_String_IronSoftware_Drawing_CropRectangle_System_Nullable_System_Int32__"
+  },
+  {
+    "Key": "OcrInput.AddPdfPage",
+    "Href": "/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_AddPdfPage_System_Byte___System_Int32_System_String_IronSoftware_Drawing_CropRectangle_System_Nullable_System_Int32__"
+  },
+  {
+    "Key": "AddPdfPages",
+    "Href": "/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_AddPdfPages_System_Byte___System_Collections_Generic_IEnumerable_System_Int32__System_String_IronSoftware_Drawing_CropRectangle_System_Nullable_System_Int32__System_Boolean_"
+  },
+  {
+    "Key": "OcrInput.AddPdfPages",
+    "Href": "/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_AddPdfPages_System_Byte___System_Collections_Generic_IEnumerable_System_Int32__System_String_IronSoftware_Drawing_CropRectangle_System_Nullable_System_Int32__System_Boolean_"
+  },
+  {
+    "Key": "FromPdf",
+    "Href": "/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_FromPdf_System_Byte___System_String_IronSoftware_Drawing_CropRectangle_System_Nullable_System_Int32__System_Boolean_"
+  },
+  {
+    "Key": "OcrInput.FromPdf",
+    "Href": "/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_FromPdf_System_Byte___System_String_IronSoftware_Drawing_CropRectangle_System_Nullable_System_Int32__System_Boolean_"
+  },
+  {
+    "Key": "FromPdfPage",
+    "Href": "/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_FromPdfPage_System_Byte___System_Int32_System_String_IronSoftware_Drawing_CropRectangle_System_Nullable_System_Int32__System_Boolean_"
+  },
+  {
+    "Key": "OcrInput.FromPdfPage",
+    "Href": "/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_FromPdfPage_System_Byte___System_Int32_System_String_IronSoftware_Drawing_CropRectangle_System_Nullable_System_Int32__System_Boolean_"
+  },
+  {
+    "Key": "FromPdfPages",
+    "Href": "/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_FromPdfPages_System_Byte___System_Collections_Generic_IEnumerable_System_Int32__System_String_IronSoftware_Drawing_CropRectangle_System_Nullable_System_Int32__System_Boolean_"
+  },
+  {
+    "Key": "OcrInput.FromPdfPages",
+    "Href": "/object-reference/api/IronOcr.OcrInput.html#IronOcr_OcrInput_FromPdfPages_System_Byte___System_Collections_Generic_IEnumerable_System_Int32__System_String_IronSoftware_Drawing_CropRectangle_System_Nullable_System_Int32__System_Boolean_"
+  },
+  {
+    "Key": "OcrInput.ImageType",
+    "Href": "/object-reference/api/IronOcr.OcrInput.ImageType.html"
+  },
+  {
+    "Key": "OcrInput.Page",
+    "Href": "/object-reference/api/IronOcr.OcrInput.Page.html"
+  },
+  {
+    "Key": "OcrInputBase",
+    "Href": "/object-reference/api/IronOcr.OcrInputBase.html"
+  },
+  {
+    "Key": "Combine_HOCR",
+    "Href": "/object-reference/api/IronOcr.OcrInputBase.html#IronOcr_OcrInputBase_Combine_HOCR_IronOcr_OcrResult_IronOcr_OcrResult___"
+  },
+  {
+    "Key": "OcrInputBase.Combine_HOCR",
+    "Href": "/object-reference/api/IronOcr.OcrInputBase.html#IronOcr_OcrInputBase_Combine_HOCR_IronOcr_OcrResult_IronOcr_OcrResult___"
+  },
+  {
+    "Key": "Dispose",
+    "Href": "/object-reference/api/IronOcr.OcrInputBase.html#IronOcr_OcrInputBase_Dispose"
+  },
+  {
+    "Key": "OcrInputBase.Dispose",
+    "Href": "/object-reference/api/IronOcr.OcrInputBase.html#IronOcr_OcrInputBase_Dispose"
+  },
+  {
+    "Key": "Finalize",
+    "Href": "/object-reference/api/IronOcr.OcrInputBase.html#IronOcr_OcrInputBase_Finalize"
+  },
+  {
+    "Key": "OcrInputBase.Finalize",
+    "Href": "/object-reference/api/IronOcr.OcrInputBase.html#IronOcr_OcrInputBase_Finalize"
+  },
+  {
+    "Key": "FinalizePdfLegacy",
+    "Href": "/object-reference/api/IronOcr.OcrInputBase.html#IronOcr_OcrInputBase_FinalizePdfLegacy_IronOcr_OcrResult_IronOcr_OcrResult___System_Collections_Generic_List____"
+  },
+  {
+    "Key": "OcrInputBase.FinalizePdfLegacy",
+    "Href": "/object-reference/api/IronOcr.OcrInputBase.html#IronOcr_OcrInputBase_FinalizePdfLegacy_IronOcr_OcrResult_IronOcr_OcrResult___System_Collections_Generic_List____"
+  },
+  {
+    "Key": "FinalizePdfOnlyImages",
+    "Href": "/object-reference/api/IronOcr.OcrInputBase.html#IronOcr_OcrInputBase_FinalizePdfOnlyImages_IronOcr_OcrResult_IronOcr_OcrResult___System_Byte___"
+  },
+  {
+    "Key": "OcrInputBase.FinalizePdfOnlyImages",
+    "Href": "/object-reference/api/IronOcr.OcrInputBase.html#IronOcr_OcrInputBase_FinalizePdfOnlyImages_IronOcr_OcrResult_IronOcr_OcrResult___System_Byte___"
+  },
+  {
+    "Key": "OcrInputFilterWizard",
+    "Href": "/object-reference/api/IronOcr.OcrInputFilterWizard.html"
+  },
+  {
+    "Key": "Run",
+    "Href": "/object-reference/api/IronOcr.OcrInputFilterWizard.html#IronOcr_OcrInputFilterWizard_Run_System_String_IronOcr_IronTesseract_"
+  },
+  {
+    "Key": "OcrInputFilterWizard.Run",
+    "Href": "/object-reference/api/IronOcr.OcrInputFilterWizard.html#IronOcr_OcrInputFilterWizard_Run_System_String_IronOcr_IronTesseract_"
+  },
+  {
+    "Key": "OcrInputPage",
+    "Href": "/object-reference/api/IronOcr.OcrInputPage.html"
+  },
+  {
+    "Key": "DrawRectangleOnPage",
+    "Href": "/object-reference/api/IronOcr.OcrInputPage.html#IronOcr_OcrInputPage_DrawRectangleOnPage_IronSoftware_Drawing_CropRectangle_IronSoftware_Drawing_Color_"
+  },
+  {
+    "Key": "OcrInputPage.DrawRectangleOnPage",
+    "Href": "/object-reference/api/IronOcr.OcrInputPage.html#IronOcr_OcrInputPage_DrawRectangleOnPage_IronSoftware_Drawing_CropRectangle_IronSoftware_Drawing_Color_"
+  },
+  {
+    "Key": "GetCropRectangleImage",
+    "Href": "/object-reference/api/IronOcr.OcrInputPage.html#IronOcr_OcrInputPage_GetCropRectangleImage"
+  },
+  {
+    "Key": "OcrInputPage.GetCropRectangleImage",
+    "Href": "/object-reference/api/IronOcr.OcrInputPage.html#IronOcr_OcrInputPage_GetCropRectangleImage"
+  },
+  {
+    "Key": "GetTextRegions",
+    "Href": "/object-reference/api/IronOcr.OcrInputPage.html#IronOcr_OcrInputPage_GetTextRegions_System_Double_System_Int32_System_Boolean_System_Boolean_"
+  },
+  {
+    "Key": "OcrInputPage.GetTextRegions",
+    "Href": "/object-reference/api/IronOcr.OcrInputPage.html#IronOcr_OcrInputPage_GetTextRegions_System_Double_System_Int32_System_Boolean_System_Boolean_"
+  },
+  {
+    "Key": "SaveAsImage",
+    "Href": "/object-reference/api/IronOcr.OcrInputPage.html#IronOcr_OcrInputPage_SaveAsImage_System_String_"
+  },
+  {
+    "Key": "OcrInputPage.SaveAsImage",
+    "Href": "/object-reference/api/IronOcr.OcrInputPage.html#IronOcr_OcrInputPage_SaveAsImage_System_String_"
+  },
+  {
+    "Key": "ToBitmap",
+    "Href": "/object-reference/api/IronOcr.OcrInputPage.html#IronOcr_OcrInputPage_ToBitmap"
+  },
+  {
+    "Key": "OcrInputPage.ToBitmap",
+    "Href": "/object-reference/api/IronOcr.OcrInputPage.html#IronOcr_OcrInputPage_ToBitmap"
+  },
+  {
+    "Key": "OcrLanguage",
+    "Href": "/object-reference/api/IronOcr.OcrLanguage.html"
+  },
+  {
+    "Key": "OcrPdfInput",
+    "Href": "/object-reference/api/IronOcr.OcrPdfInput.html"
+  },
+  {
+    "Key": "OcrReadTask",
+    "Href": "/object-reference/api/IronOcr.OcrReadTask.html"
+  },
+  {
+    "Key": "Cancel",
+    "Href": "/object-reference/api/IronOcr.OcrReadTask.html#IronOcr_OcrReadTask_Cancel"
+  },
+  {
+    "Key": "OcrReadTask.Cancel",
+    "Href": "/object-reference/api/IronOcr.OcrReadTask.html#IronOcr_OcrReadTask_Cancel"
+  },
+  {
+    "Key": "OcrResult",
+    "Href": "/object-reference/api/IronOcr.OcrResult.html"
+  },
+  {
+    "Key": "OcrResult.Barcode",
+    "Href": "/object-reference/api/IronOcr.OcrResult.Barcode.html"
+  },
+  {
+    "Key": "OcrResult.BarcodeEncoding",
+    "Href": "/object-reference/api/IronOcr.OcrResult.BarcodeEncoding.html"
+  },
+  {
+    "Key": "OcrResult.Block",
+    "Href": "/object-reference/api/IronOcr.OcrResult.Block.html"
+  },
+  {
+    "Key": "OcrResult.Character",
+    "Href": "/object-reference/api/IronOcr.OcrResult.Character.html"
+  },
+  {
+    "Key": "ToChar",
+    "Href": "/object-reference/api/IronOcr.OcrResult.Character.html#IronOcr_OcrResult_Character_ToChar"
+  },
+  {
+    "Key": "OcrResult.Character.ToChar",
+    "Href": "/object-reference/api/IronOcr.OcrResult.Character.html#IronOcr_OcrResult_Character_ToChar"
+  },
+  {
+    "Key": "OcrResult.Choice",
+    "Href": "/object-reference/api/IronOcr.OcrResult.Choice.html"
+  },
+  {
+    "Key": "FromJson",
+    "Href": "/object-reference/api/IronOcr.OcrResult.html#IronOcr_OcrResult_FromJson_System_String_"
+  },
+  {
+    "Key": "OcrResult.FromJson",
+    "Href": "/object-reference/api/IronOcr.OcrResult.html#IronOcr_OcrResult_FromJson_System_String_"
+  },
+  {
+    "Key": "FromJsonFile",
+    "Href": "/object-reference/api/IronOcr.OcrResult.html#IronOcr_OcrResult_FromJsonFile_System_String_"
+  },
+  {
+    "Key": "OcrResult.FromJsonFile",
+    "Href": "/object-reference/api/IronOcr.OcrResult.html#IronOcr_OcrResult_FromJsonFile_System_String_"
+  },
+  {
+    "Key": "OcrResult.Line",
+    "Href": "/object-reference/api/IronOcr.OcrResult.Line.html"
+  },
+  {
+    "Key": "OcrResult.OcrFont",
+    "Href": "/object-reference/api/IronOcr.OcrResult.OcrFont.html"
+  },
+  {
+    "Key": "OcrResult.OcrResultElement",
+    "Href": "/object-reference/api/IronOcr.OcrResult.OcrResultElement.html"
+  },
+  {
+    "Key": "OcrResult.OcrResultTextElement",
+    "Href": "/object-reference/api/IronOcr.OcrResult.OcrResultTextElement.html"
+  },
+  {
+    "Key": "OcrResult.Page",
+    "Href": "/object-reference/api/IronOcr.OcrResult.Page.html"
+  },
+  {
+    "Key": "ContentAreaToBitmap",
+    "Href": "/object-reference/api/IronOcr.OcrResult.Page.html#IronOcr_OcrResult_Page_ContentAreaToBitmap_IronOcr_OcrInput_"
+  },
+  {
+    "Key": "OcrResult.Page.ContentAreaToBitmap",
+    "Href": "/object-reference/api/IronOcr.OcrResult.Page.html#IronOcr_OcrResult_Page_ContentAreaToBitmap_IronOcr_OcrInput_"
+  },
+  {
+    "Key": "OcrResult.Paragraph",
+    "Href": "/object-reference/api/IronOcr.OcrResult.Paragraph.html"
+  },
+  {
+    "Key": "SaveAsHocrFile",
+    "Href": "/object-reference/api/IronOcr.OcrResult.html#IronOcr_OcrResult_SaveAsHocrFile_System_String_"
+  },
+  {
+    "Key": "OcrResult.SaveAsHocrFile",
+    "Href": "/object-reference/api/IronOcr.OcrResult.html#IronOcr_OcrResult_SaveAsHocrFile_System_String_"
+  },
+  {
+    "Key": "SaveAsHocrString",
+    "Href": "/object-reference/api/IronOcr.OcrResult.html#IronOcr_OcrResult_SaveAsHocrString"
+  },
+  {
+    "Key": "OcrResult.SaveAsHocrString",
+    "Href": "/object-reference/api/IronOcr.OcrResult.html#IronOcr_OcrResult_SaveAsHocrString"
+  },
+  {
+    "Key": "SaveAsSearchablePdf",
+    "Href": "/object-reference/api/IronOcr.OcrResult.html#IronOcr_OcrResult_SaveAsSearchablePdf_System_String_"
+  },
+  {
+    "Key": "OcrResult.SaveAsSearchablePdf",
+    "Href": "/object-reference/api/IronOcr.OcrResult.html#IronOcr_OcrResult_SaveAsSearchablePdf_System_String_"
+  },
+  {
+    "Key": "SaveAsSearchablePdfBytes",
+    "Href": "/object-reference/api/IronOcr.OcrResult.html#IronOcr_OcrResult_SaveAsSearchablePdfBytes"
+  },
+  {
+    "Key": "OcrResult.SaveAsSearchablePdfBytes",
+    "Href": "/object-reference/api/IronOcr.OcrResult.html#IronOcr_OcrResult_SaveAsSearchablePdfBytes"
+  },
+  {
+    "Key": "SaveAsSearchablePdfStream",
+    "Href": "/object-reference/api/IronOcr.OcrResult.html#IronOcr_OcrResult_SaveAsSearchablePdfStream"
+  },
+  {
+    "Key": "OcrResult.SaveAsSearchablePdfStream",
+    "Href": "/object-reference/api/IronOcr.OcrResult.html#IronOcr_OcrResult_SaveAsSearchablePdfStream"
+  },
+  {
+    "Key": "SaveAsTextFile",
+    "Href": "/object-reference/api/IronOcr.OcrResult.html#IronOcr_OcrResult_SaveAsTextFile_System_String_"
+  },
+  {
+    "Key": "OcrResult.SaveAsTextFile",
+    "Href": "/object-reference/api/IronOcr.OcrResult.html#IronOcr_OcrResult_SaveAsTextFile_System_String_"
+  },
+  {
+    "Key": "SaveJsonAs",
+    "Href": "/object-reference/api/IronOcr.OcrResult.html#IronOcr_OcrResult_SaveJsonAs_System_String_"
+  },
+  {
+    "Key": "OcrResult.SaveJsonAs",
+    "Href": "/object-reference/api/IronOcr.OcrResult.html#IronOcr_OcrResult_SaveJsonAs_System_String_"
+  },
+  {
+    "Key": "OcrResult.Table",
+    "Href": "/object-reference/api/IronOcr.OcrResult.Table.html"
+  },
+  {
+    "Key": "OcrResult.TextFlow",
+    "Href": "/object-reference/api/IronOcr.OcrResult.TextFlow.html"
+  },
+  {
+    "Key": "ToJson",
+    "Href": "/object-reference/api/IronOcr.OcrResult.html#IronOcr_OcrResult_ToJson"
+  },
+  {
+    "Key": "OcrResult.ToJson",
+    "Href": "/object-reference/api/IronOcr.OcrResult.html#IronOcr_OcrResult_ToJson"
+  },
+  {
+    "Key": "OcrResult.Word",
+    "Href": "/object-reference/api/IronOcr.OcrResult.Word.html"
+  },
+  {
+    "Key": "OpenCvClient",
+    "Href": "/object-reference/api/IronOcr.OpenCvClient.html"
+  },
+  {
+    "Key": "FindTextRegions",
+    "Href": "/object-reference/api/IronOcr.OpenCvClient.html#IronOcr_OpenCvClient_FindTextRegions_SixLabors_ImageSharp_Image_System_Double_System_Int32_System_Boolean_System_Boolean_"
+  },
+  {
+    "Key": "OpenCvClient.FindTextRegions",
+    "Href": "/object-reference/api/IronOcr.OpenCvClient.html#IronOcr_OpenCvClient_FindTextRegions_SixLabors_ImageSharp_Image_System_Double_System_Int32_System_Boolean_System_Boolean_"
+  },
+  {
+    "Key": "OpenCvClientInit",
+    "Href": "/object-reference/api/IronOcr.OpenCvClient.html#IronOcr_OpenCvClient_OpenCvClientInit"
+  },
+  {
+    "Key": "OpenCvClient.OpenCvClientInit",
+    "Href": "/object-reference/api/IronOcr.OpenCvClient.html#IronOcr_OpenCvClient_OpenCvClientInit"
+  },
+  {
+    "Key": "OrientationConfidence",
+    "Href": "/object-reference/api/IronOcr.OrientationConfidence.html"
+  },
+  {
+    "Key": "PdfContents",
+    "Href": "/object-reference/api/IronOcr.PdfContents.html"
+  },
+  {
+    "Key": "ResultHighlightType",
+    "Href": "/object-reference/api/IronOcr.ResultHighlightType.html"
+  },
+  {
+    "Key": "TesseractConfiguration",
+    "Href": "/object-reference/api/IronOcr.TesseractConfiguration.html"
+  },
+  {
+    "Key": "Clone",
+    "Href": "/object-reference/api/IronOcr.TesseractConfiguration.html#IronOcr_TesseractConfiguration_Clone"
+  },
+  {
+    "Key": "TesseractConfiguration.Clone",
+    "Href": "/object-reference/api/IronOcr.TesseractConfiguration.html#IronOcr_TesseractConfiguration_Clone"
+  },
+  {
+    "Key": "TrySaveAllTesseractVariablesToFile",
+    "Href": "/object-reference/api/IronOcr.TesseractConfiguration.html#IronOcr_TesseractConfiguration_TrySaveAllTesseractVariablesToFile_System_String_"
+  },
+  {
+    "Key": "TesseractConfiguration.TrySaveAllTesseractVariablesToFile",
+    "Href": "/object-reference/api/IronOcr.TesseractConfiguration.html#IronOcr_TesseractConfiguration_TrySaveAllTesseractVariablesToFile_System_String_"
+  },
+  {
+    "Key": "TesseractEngineMode",
+    "Href": "/object-reference/api/IronOcr.TesseractEngineMode.html"
+  },
+  {
+    "Key": "TesseractPageSegmentationMode",
+    "Href": "/object-reference/api/IronOcr.TesseractPageSegmentationMode.html"
+  },
+  {
+    "Key": "TesseractVersion",
+    "Href": "/object-reference/api/IronOcr.TesseractVersion.html"
+  },
+  {
+    "Key": "ExceptionHelper",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.ExceptionHelper.html"
+  },
+  {
+    "Key": "Message",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.ExceptionHelper.html#IronSoftware_Exceptions_ExceptionHelper_Message_System_String_System_String_System_String_System_String_"
+  },
+  {
+    "Key": "ExceptionHelper.Message",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.ExceptionHelper.html#IronSoftware_Exceptions_ExceptionHelper_Message_System_String_System_String_System_String_System_String_"
+  },
+  {
+    "Key": "IronPdfInputException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.IronPdfInputException.html"
+  },
+  {
+    "Key": "IronSoftwareAssemblyLoadException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.IronSoftwareAssemblyLoadException.html"
+  },
+  {
+    "Key": "IronSoftwareAssemblyMissingException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.IronSoftwareAssemblyMissingException.html"
+  },
+  {
+    "Key": "IronSoftwareAssemblyVersionMismatchException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.IronSoftwareAssemblyVersionMismatchException.html"
+  },
+  {
+    "Key": "IronSoftwareDeploymentConfigurationMissingException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException.html"
+  },
+  {
+    "Key": "IronSoftwareDeploymentException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.IronSoftwareDeploymentException.html"
+  },
+  {
+    "Key": "IronSoftwareDeploymentNotSupportedException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.IronSoftwareDeploymentNotSupportedException.html"
+  },
+  {
+    "Key": "IronSoftwareDownloadException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.IronSoftwareDownloadException.html"
+  },
+  {
+    "Key": "IronSoftwareEmbeddedDeploymentException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.IronSoftwareEmbeddedDeploymentException.html"
+  },
+  {
+    "Key": "IronSoftwareEmbeddedDeploymentMissingException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.IronSoftwareEmbeddedDeploymentMissingException.html"
+  },
+  {
+    "Key": "IronSoftwareNativeException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.IronSoftwareNativeException.html"
+  },
+  {
+    "Key": "LicensingException",
+    "Href": "/object-reference/api/IronSoftware.Exceptions.LicensingException.html"
+  }
+]
