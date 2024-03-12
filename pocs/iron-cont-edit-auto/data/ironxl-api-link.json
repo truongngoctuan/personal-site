@@ -1,2482 +1,2482 @@
 [
   {
     "Key": "Cell",
-    "Href": "/object-reference/api/IronXL.Cell.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Cell.html"
   },
   {
     "Key": "Copy",
-    "Href": "/object-reference/api/IronXL.Cell.html#IronXL_Cell_Copy_IronXL_WorkSheet_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Cell.html#IronXL_Cell_Copy_IronXL_WorkSheet_System_String_"
   },
   {
     "Key": "Cell.Copy",
-    "Href": "/object-reference/api/IronXL.Cell.html#IronXL_Cell_Copy_IronXL_WorkSheet_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Cell.html#IronXL_Cell_Copy_IronXL_WorkSheet_System_String_"
   },
   {
     "Key": "Evaluate",
-    "Href": "/object-reference/api/IronXL.Cell.html#IronXL_Cell_Evaluate"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Cell.html#IronXL_Cell_Evaluate"
   },
   {
     "Key": "Cell.Evaluate",
-    "Href": "/object-reference/api/IronXL.Cell.html#IronXL_Cell_Evaluate"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Cell.html#IronXL_Cell_Evaluate"
   },
   {
     "Key": "GetValue",
-    "Href": "/object-reference/api/IronXL.Cell.html#IronXL_Cell_GetValue__1"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Cell.html#IronXL_Cell_GetValue__1"
   },
   {
     "Key": "Cell.GetValue",
-    "Href": "/object-reference/api/IronXL.Cell.html#IronXL_Cell_GetValue__1"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Cell.html#IronXL_Cell_GetValue__1"
   },
   {
     "Key": "SetDateTimeValue",
-    "Href": "/object-reference/api/IronXL.Cell.html#IronXL_Cell_SetDateTimeValue_System_DateTime_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Cell.html#IronXL_Cell_SetDateTimeValue_System_DateTime_System_String_"
   },
   {
     "Key": "Cell.SetDateTimeValue",
-    "Href": "/object-reference/api/IronXL.Cell.html#IronXL_Cell_SetDateTimeValue_System_DateTime_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Cell.html#IronXL_Cell_SetDateTimeValue_System_DateTime_System_String_"
   },
   {
     "Key": "TryGetValue",
-    "Href": "/object-reference/api/IronXL.Cell.html#IronXL_Cell_TryGetValue__1___0__"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Cell.html#IronXL_Cell_TryGetValue__1___0__"
   },
   {
     "Key": "Cell.TryGetValue",
-    "Href": "/object-reference/api/IronXL.Cell.html#IronXL_Cell_TryGetValue__1___0__"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Cell.html#IronXL_Cell_TryGetValue__1___0__"
   },
   {
     "Key": "AnchorType",
-    "Href": "/object-reference/api/IronXL.Drawing.AnchorType.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Drawing.AnchorType.html"
   },
   {
     "Key": "ChartType",
-    "Href": "/object-reference/api/IronXL.Drawing.Charts.ChartType.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Drawing.Charts.ChartType.html"
   },
   {
     "Key": "IChart",
-    "Href": "/object-reference/api/IronXL.Drawing.Charts.IChart.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Drawing.Charts.IChart.html"
   },
   {
     "Key": "AddSeries",
-    "Href": "/object-reference/api/IronXL.Drawing.Charts.IChart.html#IronXL_Drawing_Charts_IChart_AddSeries_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Drawing.Charts.IChart.html#IronXL_Drawing_Charts_IChart_AddSeries_System_String_"
   },
   {
     "Key": "IChart.AddSeries",
-    "Href": "/object-reference/api/IronXL.Drawing.Charts.IChart.html#IronXL_Drawing_Charts_IChart_AddSeries_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Drawing.Charts.IChart.html#IronXL_Drawing_Charts_IChart_AddSeries_System_String_"
   },
   {
     "Key": "Plot",
-    "Href": "/object-reference/api/IronXL.Drawing.Charts.IChart.html#IronXL_Drawing_Charts_IChart_Plot"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Drawing.Charts.IChart.html#IronXL_Drawing_Charts_IChart_Plot"
   },
   {
     "Key": "IChart.Plot",
-    "Href": "/object-reference/api/IronXL.Drawing.Charts.IChart.html#IronXL_Drawing_Charts_IChart_Plot"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Drawing.Charts.IChart.html#IronXL_Drawing_Charts_IChart_Plot"
   },
   {
     "Key": "SetLegendPosition",
-    "Href": "/object-reference/api/IronXL.Drawing.Charts.IChart.html#IronXL_Drawing_Charts_IChart_SetLegendPosition_IronXL_Drawing_Charts_LegendPosition_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Drawing.Charts.IChart.html#IronXL_Drawing_Charts_IChart_SetLegendPosition_IronXL_Drawing_Charts_LegendPosition_"
   },
   {
     "Key": "IChart.SetLegendPosition",
-    "Href": "/object-reference/api/IronXL.Drawing.Charts.IChart.html#IronXL_Drawing_Charts_IChart_SetLegendPosition_IronXL_Drawing_Charts_LegendPosition_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Drawing.Charts.IChart.html#IronXL_Drawing_Charts_IChart_SetLegendPosition_IronXL_Drawing_Charts_LegendPosition_"
   },
   {
     "Key": "SetTitle",
-    "Href": "/object-reference/api/IronXL.Drawing.Charts.IChart.html#IronXL_Drawing_Charts_IChart_SetTitle_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Drawing.Charts.IChart.html#IronXL_Drawing_Charts_IChart_SetTitle_System_String_"
   },
   {
     "Key": "IChart.SetTitle",
-    "Href": "/object-reference/api/IronXL.Drawing.Charts.IChart.html#IronXL_Drawing_Charts_IChart_SetTitle_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Drawing.Charts.IChart.html#IronXL_Drawing_Charts_IChart_SetTitle_System_String_"
   },
   {
     "Key": "IChartSeries",
-    "Href": "/object-reference/api/IronXL.Drawing.Charts.IChartSeries.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Drawing.Charts.IChartSeries.html"
   },
   {
     "Key": "LegendPosition",
-    "Href": "/object-reference/api/IronXL.Drawing.Charts.LegendPosition.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Drawing.Charts.LegendPosition.html"
   },
   {
     "Key": "IImage",
-    "Href": "/object-reference/api/IronXL.Drawing.Images.IImage.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Drawing.Images.IImage.html"
   },
   {
     "Key": "Resize",
-    "Href": "/object-reference/api/IronXL.Drawing.Images.IImage.html#IronXL_Drawing_Images_IImage_Resize"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Drawing.Images.IImage.html#IronXL_Drawing_Images_IImage_Resize"
   },
   {
     "Key": "IImage.Resize",
-    "Href": "/object-reference/api/IronXL.Drawing.Images.IImage.html#IronXL_Drawing_Images_IImage_Resize"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Drawing.Images.IImage.html#IronXL_Drawing_Images_IImage_Resize"
   },
   {
     "Key": "ToAnyBitmap",
-    "Href": "/object-reference/api/IronXL.Drawing.Images.IImage.html#IronXL_Drawing_Images_IImage_ToAnyBitmap"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Drawing.Images.IImage.html#IronXL_Drawing_Images_IImage_ToAnyBitmap"
   },
   {
     "Key": "IImage.ToAnyBitmap",
-    "Href": "/object-reference/api/IronXL.Drawing.Images.IImage.html#IronXL_Drawing_Images_IImage_ToAnyBitmap"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Drawing.Images.IImage.html#IronXL_Drawing_Images_IImage_ToAnyBitmap"
   },
   {
     "Key": "ToImage",
-    "Href": "/object-reference/api/IronXL.Drawing.Images.IImage.html#IronXL_Drawing_Images_IImage_ToImage"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Drawing.Images.IImage.html#IronXL_Drawing_Images_IImage_ToImage"
   },
   {
     "Key": "IImage.ToImage",
-    "Href": "/object-reference/api/IronXL.Drawing.Images.IImage.html#IronXL_Drawing_Images_IImage_ToImage"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Drawing.Images.IImage.html#IronXL_Drawing_Images_IImage_ToImage"
   },
   {
     "Key": "ImageFormat",
-    "Href": "/object-reference/api/IronXL.Drawing.Images.ImageFormat.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Drawing.Images.ImageFormat.html"
   },
   {
     "Key": "Position",
-    "Href": "/object-reference/api/IronXL.Drawing.Position.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Drawing.Position.html"
   },
   {
     "Key": "ExcelFileFormat",
-    "Href": "/object-reference/api/IronXL.ExcelFileFormat.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.ExcelFileFormat.html"
   },
   {
     "Key": "BuiltinFormats",
-    "Href": "/object-reference/api/IronXL.Formatting.BuiltinFormats.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.BuiltinFormats.html"
   },
   {
     "Key": "ConditionalFormatting",
-    "Href": "/object-reference/api/IronXL.Formatting.ConditionalFormatting.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ConditionalFormatting.html"
   },
   {
     "Key": "AddRule",
-    "Href": "/object-reference/api/IronXL.Formatting.ConditionalFormatting.html#IronXL_Formatting_ConditionalFormatting_AddRule_IronXL_Formatting_ConditionalFormattingRule_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ConditionalFormatting.html#IronXL_Formatting_ConditionalFormatting_AddRule_IronXL_Formatting_ConditionalFormattingRule_"
   },
   {
     "Key": "ConditionalFormatting.AddRule",
-    "Href": "/object-reference/api/IronXL.Formatting.ConditionalFormatting.html#IronXL_Formatting_ConditionalFormatting_AddRule_IronXL_Formatting_ConditionalFormattingRule_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ConditionalFormatting.html#IronXL_Formatting_ConditionalFormatting_AddRule_IronXL_Formatting_ConditionalFormattingRule_"
   },
   {
     "Key": "GetFormattingRanges",
-    "Href": "/object-reference/api/IronXL.Formatting.ConditionalFormatting.html#IronXL_Formatting_ConditionalFormatting_GetFormattingRanges"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ConditionalFormatting.html#IronXL_Formatting_ConditionalFormatting_GetFormattingRanges"
   },
   {
     "Key": "ConditionalFormatting.GetFormattingRanges",
-    "Href": "/object-reference/api/IronXL.Formatting.ConditionalFormatting.html#IronXL_Formatting_ConditionalFormatting_GetFormattingRanges"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ConditionalFormatting.html#IronXL_Formatting_ConditionalFormatting_GetFormattingRanges"
   },
   {
     "Key": "GetRule",
-    "Href": "/object-reference/api/IronXL.Formatting.ConditionalFormatting.html#IronXL_Formatting_ConditionalFormatting_GetRule_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ConditionalFormatting.html#IronXL_Formatting_ConditionalFormatting_GetRule_System_Int32_"
   },
   {
     "Key": "ConditionalFormatting.GetRule",
-    "Href": "/object-reference/api/IronXL.Formatting.ConditionalFormatting.html#IronXL_Formatting_ConditionalFormatting_GetRule_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ConditionalFormatting.html#IronXL_Formatting_ConditionalFormatting_GetRule_System_Int32_"
   },
   {
     "Key": "SetRule",
-    "Href": "/object-reference/api/IronXL.Formatting.ConditionalFormatting.html#IronXL_Formatting_ConditionalFormatting_SetRule_System_Int32_IronXL_Formatting_ConditionalFormattingRule_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ConditionalFormatting.html#IronXL_Formatting_ConditionalFormatting_SetRule_System_Int32_IronXL_Formatting_ConditionalFormattingRule_"
   },
   {
     "Key": "ConditionalFormatting.SetRule",
-    "Href": "/object-reference/api/IronXL.Formatting.ConditionalFormatting.html#IronXL_Formatting_ConditionalFormatting_SetRule_System_Int32_IronXL_Formatting_ConditionalFormattingRule_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ConditionalFormatting.html#IronXL_Formatting_ConditionalFormatting_SetRule_System_Int32_IronXL_Formatting_ConditionalFormattingRule_"
   },
   {
     "Key": "ConditionalFormattingRule",
-    "Href": "/object-reference/api/IronXL.Formatting.ConditionalFormattingRule.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ConditionalFormattingRule.html"
   },
   {
     "Key": "ConditionType",
-    "Href": "/object-reference/api/IronXL.Formatting.ConditionType.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ConditionType.html"
   },
   {
     "Key": "Equals",
-    "Href": "/object-reference/api/IronXL.Formatting.ConditionType.html#IronXL_Formatting_ConditionType_Equals_System_Object_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ConditionType.html#IronXL_Formatting_ConditionType_Equals_System_Object_"
   },
   {
     "Key": "ConditionType.Equals",
-    "Href": "/object-reference/api/IronXL.Formatting.ConditionType.html#IronXL_Formatting_ConditionType_Equals_System_Object_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ConditionType.html#IronXL_Formatting_ConditionType_Equals_System_Object_"
   },
   {
     "Key": "ForId",
-    "Href": "/object-reference/api/IronXL.Formatting.ConditionType.html#IronXL_Formatting_ConditionType_ForId_System_Byte_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ConditionType.html#IronXL_Formatting_ConditionType_ForId_System_Byte_"
   },
   {
     "Key": "ConditionType.ForId",
-    "Href": "/object-reference/api/IronXL.Formatting.ConditionType.html#IronXL_Formatting_ConditionType_ForId_System_Byte_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ConditionType.html#IronXL_Formatting_ConditionType_ForId_System_Byte_"
   },
   {
     "Key": "GetHashCode",
-    "Href": "/object-reference/api/IronXL.Formatting.ConditionType.html#IronXL_Formatting_ConditionType_GetHashCode"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ConditionType.html#IronXL_Formatting_ConditionType_GetHashCode"
   },
   {
     "Key": "ConditionType.GetHashCode",
-    "Href": "/object-reference/api/IronXL.Formatting.ConditionType.html#IronXL_Formatting_ConditionType_GetHashCode"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ConditionType.html#IronXL_Formatting_ConditionType_GetHashCode"
   },
   {
     "Key": "Explicit",
-    "Href": "/object-reference/api/IronXL.Formatting.ConditionType.html#IronXL_Formatting_ConditionType_op_Explicit_IronXL_Formatting_ConditionType__NPOI_SS_UserModel__b1e1f265_1df1_4b26_ad56_c3c1f3d34b7f_ConditionType"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ConditionType.html#IronXL_Formatting_ConditionType_op_Explicit_IronXL_Formatting_ConditionType__NPOI_SS_UserModel__b1e1f265_1df1_4b26_ad56_c3c1f3d34b7f_ConditionType"
   },
   {
     "Key": "ConditionType.Explicit",
-    "Href": "/object-reference/api/IronXL.Formatting.ConditionType.html#IronXL_Formatting_ConditionType_op_Explicit_IronXL_Formatting_ConditionType__NPOI_SS_UserModel__b1e1f265_1df1_4b26_ad56_c3c1f3d34b7f_ConditionType"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ConditionType.html#IronXL_Formatting_ConditionType_op_Explicit_IronXL_Formatting_ConditionType__NPOI_SS_UserModel__b1e1f265_1df1_4b26_ad56_c3c1f3d34b7f_ConditionType"
   },
   {
     "Key": "ComparisonOperator",
-    "Href": "/object-reference/api/IronXL.Formatting.Enums.ComparisonOperator.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.Enums.ComparisonOperator.html"
   },
   {
     "Key": "IBorderFormatting",
-    "Href": "/object-reference/api/IronXL.Formatting.IBorderFormatting.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.IBorderFormatting.html"
   },
   {
     "Key": "IFontFormatting",
-    "Href": "/object-reference/api/IronXL.Formatting.IFontFormatting.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.IFontFormatting.html"
   },
   {
     "Key": "IPatternFormatting",
-    "Href": "/object-reference/api/IronXL.Formatting.IPatternFormatting.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.IPatternFormatting.html"
   },
   {
     "Key": "ISheetConditionalFormatting",
-    "Href": "/object-reference/api/IronXL.Formatting.ISheetConditionalFormatting.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ISheetConditionalFormatting.html"
   },
   {
     "Key": "AddConditionalFormatting",
-    "Href": "/object-reference/api/IronXL.Formatting.ISheetConditionalFormatting.html#IronXL_Formatting_ISheetConditionalFormatting_AddConditionalFormatting_IronXL_Formatting_ConditionalFormatting_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ISheetConditionalFormatting.html#IronXL_Formatting_ISheetConditionalFormatting_AddConditionalFormatting_IronXL_Formatting_ConditionalFormatting_"
   },
   {
     "Key": "ISheetConditionalFormatting.AddConditionalFormatting",
-    "Href": "/object-reference/api/IronXL.Formatting.ISheetConditionalFormatting.html#IronXL_Formatting_ISheetConditionalFormatting_AddConditionalFormatting_IronXL_Formatting_ConditionalFormatting_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ISheetConditionalFormatting.html#IronXL_Formatting_ISheetConditionalFormatting_AddConditionalFormatting_IronXL_Formatting_ConditionalFormatting_"
   },
   {
     "Key": "CreateConditionalFormattingRule",
-    "Href": "/object-reference/api/IronXL.Formatting.ISheetConditionalFormatting.html#IronXL_Formatting_ISheetConditionalFormatting_CreateConditionalFormattingRule_IronXL_Formatting_Enums_ComparisonOperator_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ISheetConditionalFormatting.html#IronXL_Formatting_ISheetConditionalFormatting_CreateConditionalFormattingRule_IronXL_Formatting_Enums_ComparisonOperator_System_String_"
   },
   {
     "Key": "ISheetConditionalFormatting.CreateConditionalFormattingRule",
-    "Href": "/object-reference/api/IronXL.Formatting.ISheetConditionalFormatting.html#IronXL_Formatting_ISheetConditionalFormatting_CreateConditionalFormattingRule_IronXL_Formatting_Enums_ComparisonOperator_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ISheetConditionalFormatting.html#IronXL_Formatting_ISheetConditionalFormatting_CreateConditionalFormattingRule_IronXL_Formatting_Enums_ComparisonOperator_System_String_"
   },
   {
     "Key": "GetConditionalFormattingAt",
-    "Href": "/object-reference/api/IronXL.Formatting.ISheetConditionalFormatting.html#IronXL_Formatting_ISheetConditionalFormatting_GetConditionalFormattingAt_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ISheetConditionalFormatting.html#IronXL_Formatting_ISheetConditionalFormatting_GetConditionalFormattingAt_System_Int32_"
   },
   {
     "Key": "ISheetConditionalFormatting.GetConditionalFormattingAt",
-    "Href": "/object-reference/api/IronXL.Formatting.ISheetConditionalFormatting.html#IronXL_Formatting_ISheetConditionalFormatting_GetConditionalFormattingAt_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ISheetConditionalFormatting.html#IronXL_Formatting_ISheetConditionalFormatting_GetConditionalFormattingAt_System_Int32_"
   },
   {
     "Key": "RemoveConditionalFormatting",
-    "Href": "/object-reference/api/IronXL.Formatting.ISheetConditionalFormatting.html#IronXL_Formatting_ISheetConditionalFormatting_RemoveConditionalFormatting_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ISheetConditionalFormatting.html#IronXL_Formatting_ISheetConditionalFormatting_RemoveConditionalFormatting_System_Int32_"
   },
   {
     "Key": "ISheetConditionalFormatting.RemoveConditionalFormatting",
-    "Href": "/object-reference/api/IronXL.Formatting.ISheetConditionalFormatting.html#IronXL_Formatting_ISheetConditionalFormatting_RemoveConditionalFormatting_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Formatting.ISheetConditionalFormatting.html#IronXL_Formatting_ISheetConditionalFormatting_RemoveConditionalFormatting_System_Int32_"
   },
   {
     "Key": "IFooter",
-    "Href": "/object-reference/api/IronXL.Layout.IFooter.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Layout.IFooter.html"
   },
   {
     "Key": "IHeader",
-    "Href": "/object-reference/api/IronXL.Layout.IHeader.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Layout.IHeader.html"
   },
   {
     "Key": "IHeaderFooter",
-    "Href": "/object-reference/api/IronXL.Layout.IHeaderFooter.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Layout.IHeaderFooter.html"
   },
   {
     "Key": "License",
-    "Href": "/object-reference/api/IronXL.License.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.License.html"
   },
   {
     "Key": "IsValidLicense",
-    "Href": "/object-reference/api/IronXL.License.html#IronXL_License_IsValidLicense_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.License.html#IronXL_License_IsValidLicense_System_String_"
   },
   {
     "Key": "License.IsValidLicense",
-    "Href": "/object-reference/api/IronXL.License.html#IronXL_License_IsValidLicense_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.License.html#IronXL_License_IsValidLicense_System_String_"
   },
   {
     "Key": "Logger",
-    "Href": "/object-reference/api/IronXL.Logging.Logger.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Logging.Logger.html"
   },
   {
     "Key": "ClearLogFiles",
-    "Href": "/object-reference/api/IronXL.Logging.Logger.html#IronXL_Logging_Logger_ClearLogFiles"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Logging.Logger.html#IronXL_Logging_Logger_ClearLogFiles"
   },
   {
     "Key": "Logger.ClearLogFiles",
-    "Href": "/object-reference/api/IronXL.Logging.Logger.html#IronXL_Logging_Logger_ClearLogFiles"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Logging.Logger.html#IronXL_Logging_Logger_ClearLogFiles"
   },
   {
     "Key": "Logger.LoggingModes",
-    "Href": "/object-reference/api/IronXL.Logging.Logger.LoggingModes.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Logging.Logger.LoggingModes.html"
   },
   {
     "Key": "ICustomProperties",
-    "Href": "/object-reference/api/IronXL.Metadata.ICustomProperties.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Metadata.ICustomProperties.html"
   },
   {
     "Key": "AddProperty",
-    "Href": "/object-reference/api/IronXL.Metadata.ICustomProperties.html#IronXL_Metadata_ICustomProperties_AddProperty_System_String_System_Object_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Metadata.ICustomProperties.html#IronXL_Metadata_ICustomProperties_AddProperty_System_String_System_Object_"
   },
   {
     "Key": "ICustomProperties.AddProperty",
-    "Href": "/object-reference/api/IronXL.Metadata.ICustomProperties.html#IronXL_Metadata_ICustomProperties_AddProperty_System_String_System_Object_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Metadata.ICustomProperties.html#IronXL_Metadata_ICustomProperties_AddProperty_System_String_System_Object_"
   },
   {
     "Key": "Contains",
-    "Href": "/object-reference/api/IronXL.Metadata.ICustomProperties.html#IronXL_Metadata_ICustomProperties_Contains_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Metadata.ICustomProperties.html#IronXL_Metadata_ICustomProperties_Contains_System_String_"
   },
   {
     "Key": "ICustomProperties.Contains",
-    "Href": "/object-reference/api/IronXL.Metadata.ICustomProperties.html#IronXL_Metadata_ICustomProperties_Contains_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Metadata.ICustomProperties.html#IronXL_Metadata_ICustomProperties_Contains_System_String_"
   },
   {
     "Key": "GetValue\u003CT\u003E(String)",
-    "Href": "/object-reference/api/IronXL.Metadata.ICustomProperties.html#IronXL_Metadata_ICustomProperties_GetValue__1_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Metadata.ICustomProperties.html#IronXL_Metadata_ICustomProperties_GetValue__1_System_String_"
   },
   {
     "Key": "ICustomProperties.GetValue\u003CT\u003E(String)",
-    "Href": "/object-reference/api/IronXL.Metadata.ICustomProperties.html#IronXL_Metadata_ICustomProperties_GetValue__1_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Metadata.ICustomProperties.html#IronXL_Metadata_ICustomProperties_GetValue__1_System_String_"
   },
   {
     "Key": "Remove",
-    "Href": "/object-reference/api/IronXL.Metadata.ICustomProperties.html#IronXL_Metadata_ICustomProperties_Remove_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Metadata.ICustomProperties.html#IronXL_Metadata_ICustomProperties_Remove_System_String_"
   },
   {
     "Key": "ICustomProperties.Remove",
-    "Href": "/object-reference/api/IronXL.Metadata.ICustomProperties.html#IronXL_Metadata_ICustomProperties_Remove_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Metadata.ICustomProperties.html#IronXL_Metadata_ICustomProperties_Remove_System_String_"
   },
   {
     "Key": "TryGetValue\u003CT\u003E(String, out T)",
-    "Href": "/object-reference/api/IronXL.Metadata.ICustomProperties.html#IronXL_Metadata_ICustomProperties_TryGetValue__1_System_String___0__"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Metadata.ICustomProperties.html#IronXL_Metadata_ICustomProperties_TryGetValue__1_System_String___0__"
   },
   {
     "Key": "ICustomProperties.TryGetValue\u003CT\u003E(String, out T)",
-    "Href": "/object-reference/api/IronXL.Metadata.ICustomProperties.html#IronXL_Metadata_ICustomProperties_TryGetValue__1_System_String___0__"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Metadata.ICustomProperties.html#IronXL_Metadata_ICustomProperties_TryGetValue__1_System_String___0__"
   },
   {
     "Key": "IMetadata",
-    "Href": "/object-reference/api/IronXL.Metadata.IMetadata.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Metadata.IMetadata.html"
   },
   {
     "Key": "CreatingOptions",
-    "Href": "/object-reference/api/IronXL.Options.CreatingOptions.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Options.CreatingOptions.html"
   },
   {
     "Key": "HiddenState",
-    "Href": "/object-reference/api/IronXL.Options.HiddenState.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Options.HiddenState.html"
   },
   {
     "Key": "HtmlExportOptions",
-    "Href": "/object-reference/api/IronXL.Options.HtmlExportOptions.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Options.HtmlExportOptions.html"
   },
   {
     "Key": "LoadingOptions",
-    "Href": "/object-reference/api/IronXL.Options.LoadingOptions.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Options.LoadingOptions.html"
   },
   {
     "Key": "PanePosition",
-    "Href": "/object-reference/api/IronXL.Options.PanePosition.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Options.PanePosition.html"
   },
   {
     "Key": "SavingOptions",
-    "Href": "/object-reference/api/IronXL.Options.SavingOptions.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Options.SavingOptions.html"
   },
   {
     "Key": "IPrintSetup",
-    "Href": "/object-reference/api/IronXL.Printing.IPrintSetup.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Printing.IPrintSetup.html"
   },
   {
     "Key": "PaperSize",
-    "Href": "/object-reference/api/IronXL.Printing.PaperSize.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Printing.PaperSize.html"
   },
   {
     "Key": "PrintOrientation",
-    "Href": "/object-reference/api/IronXL.Printing.PrintOrientation.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Printing.PrintOrientation.html"
   },
   {
     "Key": "Range",
-    "Href": "/object-reference/api/IronXL.Range.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html"
   },
   {
     "Key": "AddRange",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_AddRange_IronXL_Range_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_AddRange_IronXL_Range_"
   },
   {
     "Key": "Range.AddRange",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_AddRange_IronXL_Range_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_AddRange_IronXL_Range_"
   },
   {
     "Key": "Avg",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_Avg"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_Avg"
   },
   {
     "Key": "Range.Avg",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_Avg"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_Avg"
   },
   {
     "Key": "ClearContents",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_ClearContents"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_ClearContents"
   },
   {
     "Key": "Range.ClearContents",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_ClearContents"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_ClearContents"
   },
   {
     "Key": "Column",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_Column_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_Column_System_Int32_"
   },
   {
     "Key": "Range.Column",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_Column_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_Column_System_Int32_"
   },
   {
     "Key": "GetEnumerator",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_GetEnumerator"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_GetEnumerator"
   },
   {
     "Key": "Range.GetEnumerator",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_GetEnumerator"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_GetEnumerator"
   },
   {
     "Key": "InsertColumn",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_InsertColumn_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_InsertColumn_System_Int32_"
   },
   {
     "Key": "Range.InsertColumn",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_InsertColumn_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_InsertColumn_System_Int32_"
   },
   {
     "Key": "InsertColumns",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_InsertColumns_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_InsertColumns_System_Int32_System_Int32_"
   },
   {
     "Key": "Range.InsertColumns",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_InsertColumns_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_InsertColumns_System_Int32_System_Int32_"
   },
   {
     "Key": "InsertRow",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_InsertRow_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_InsertRow_System_Int32_"
   },
   {
     "Key": "Range.InsertRow",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_InsertRow_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_InsertRow_System_Int32_"
   },
   {
     "Key": "InsertRows",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_InsertRows_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_InsertRows_System_Int32_System_Int32_"
   },
   {
     "Key": "Range.InsertRows",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_InsertRows_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_InsertRows_System_Int32_System_Int32_"
   },
   {
     "Key": "Max",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_Max"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_Max"
   },
   {
     "Key": "Range.Max",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_Max"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_Max"
   },
   {
     "Key": "Min",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_Min"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_Min"
   },
   {
     "Key": "Range.Min",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_Min"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_Min"
   },
   {
     "Key": "Addition",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_op_Addition_IronXL_Range_IronXL_Range_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_op_Addition_IronXL_Range_IronXL_Range_"
   },
   {
     "Key": "Range.Addition",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_op_Addition_IronXL_Range_IronXL_Range_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_op_Addition_IronXL_Range_IronXL_Range_"
   },
   {
     "Key": "Subtraction",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_op_Subtraction_IronXL_Range_IronXL_Range_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_op_Subtraction_IronXL_Range_IronXL_Range_"
   },
   {
     "Key": "Range.Subtraction",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_op_Subtraction_IronXL_Range_IronXL_Range_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_op_Subtraction_IronXL_Range_IronXL_Range_"
   },
   {
     "Key": "RemoveColumn",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_RemoveColumn_IronXL_RangeColumn_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_RemoveColumn_IronXL_RangeColumn_"
   },
   {
     "Key": "Range.RemoveColumn",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_RemoveColumn_IronXL_RangeColumn_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_RemoveColumn_IronXL_RangeColumn_"
   },
   {
     "Key": "RemoveRow",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_RemoveRow_IronXL_RangeRow_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_RemoveRow_IronXL_RangeRow_"
   },
   {
     "Key": "Range.RemoveRow",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_RemoveRow_IronXL_RangeRow_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_RemoveRow_IronXL_RangeRow_"
   },
   {
     "Key": "Replace",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_Replace_System_String_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_Replace_System_String_System_String_"
   },
   {
     "Key": "Range.Replace",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_Replace_System_String_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_Replace_System_String_System_String_"
   },
   {
     "Key": "Row",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_Row_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_Row_System_Int32_"
   },
   {
     "Key": "Range.Row",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_Row_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_Row_System_Int32_"
   },
   {
     "Key": "SaveAsNamedRange",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_SaveAsNamedRange_System_String_System_Boolean_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_SaveAsNamedRange_System_String_System_Boolean_"
   },
   {
     "Key": "Range.SaveAsNamedRange",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_SaveAsNamedRange_System_String_System_Boolean_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_SaveAsNamedRange_System_String_System_Boolean_"
   },
   {
     "Key": "SaveAsNamedTable",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_SaveAsNamedTable_System_String_System_Boolean_IronXL_Styles_TableStyle_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_SaveAsNamedTable_System_String_System_Boolean_IronXL_Styles_TableStyle_"
   },
   {
     "Key": "Range.SaveAsNamedTable",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_SaveAsNamedTable_System_String_System_Boolean_IronXL_Styles_TableStyle_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_SaveAsNamedTable_System_String_System_Boolean_IronXL_Styles_TableStyle_"
   },
   {
     "Key": "SetCellValue",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_SetCellValue_System_Int32_System_Int32_System_Object_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_SetCellValue_System_Int32_System_Int32_System_Object_"
   },
   {
     "Key": "Range.SetCellValue",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_SetCellValue_System_Int32_System_Int32_System_Object_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_SetCellValue_System_Int32_System_Int32_System_Object_"
   },
   {
     "Key": "SortAscending",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_SortAscending"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_SortAscending"
   },
   {
     "Key": "Range.SortAscending",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_SortAscending"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_SortAscending"
   },
   {
     "Key": "SortByColumn",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_SortByColumn_System_Int32_IronXL_SortOrder_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_SortByColumn_System_Int32_IronXL_SortOrder_"
   },
   {
     "Key": "Range.SortByColumn",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_SortByColumn_System_Int32_IronXL_SortOrder_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_SortByColumn_System_Int32_IronXL_SortOrder_"
   },
   {
     "Key": "SortDescending",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_SortDescending"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_SortDescending"
   },
   {
     "Key": "Range.SortDescending",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_SortDescending"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_SortDescending"
   },
   {
     "Key": "SubtractRange",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_SubtractRange_IronXL_Range_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_SubtractRange_IronXL_Range_"
   },
   {
     "Key": "Range.SubtractRange",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_SubtractRange_IronXL_Range_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_SubtractRange_IronXL_Range_"
   },
   {
     "Key": "Sum",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_Sum"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_Sum"
   },
   {
     "Key": "Range.Sum",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_Sum"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_Sum"
   },
   {
     "Key": "ToArray",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_ToArray"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_ToArray"
   },
   {
     "Key": "Range.ToArray",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_ToArray"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_ToArray"
   },
   {
     "Key": "ToDataTable",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_ToDataTable_System_Boolean_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_ToDataTable_System_Boolean_"
   },
   {
     "Key": "Range.ToDataTable",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_ToDataTable_System_Boolean_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_ToDataTable_System_Boolean_"
   },
   {
     "Key": "Trim",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_Trim"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_Trim"
   },
   {
     "Key": "Range.Trim",
-    "Href": "/object-reference/api/IronXL.Range.html#IronXL_Range_Trim"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Range.html#IronXL_Range_Trim"
   },
   {
     "Key": "RangeAddress",
-    "Href": "/object-reference/api/IronXL.RangeAddress.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.RangeAddress.html"
   },
   {
     "Key": "Extend",
-    "Href": "/object-reference/api/IronXL.RangeAddress.html#IronXL_RangeAddress_Extend_IronXL_RangeAddress_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.RangeAddress.html#IronXL_RangeAddress_Extend_IronXL_RangeAddress_"
   },
   {
     "Key": "RangeAddress.Extend",
-    "Href": "/object-reference/api/IronXL.RangeAddress.html#IronXL_RangeAddress_Extend_IronXL_RangeAddress_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.RangeAddress.html#IronXL_RangeAddress_Extend_IronXL_RangeAddress_"
   },
   {
     "Key": "GetIntersection",
-    "Href": "/object-reference/api/IronXL.RangeAddress.html#IronXL_RangeAddress_GetIntersection_IronXL_RangeAddress_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.RangeAddress.html#IronXL_RangeAddress_GetIntersection_IronXL_RangeAddress_"
   },
   {
     "Key": "RangeAddress.GetIntersection",
-    "Href": "/object-reference/api/IronXL.RangeAddress.html#IronXL_RangeAddress_GetIntersection_IronXL_RangeAddress_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.RangeAddress.html#IronXL_RangeAddress_GetIntersection_IronXL_RangeAddress_"
   },
   {
     "Key": "Includes",
-    "Href": "/object-reference/api/IronXL.RangeAddress.html#IronXL_RangeAddress_Includes_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.RangeAddress.html#IronXL_RangeAddress_Includes_System_Int32_System_Int32_"
   },
   {
     "Key": "RangeAddress.Includes",
-    "Href": "/object-reference/api/IronXL.RangeAddress.html#IronXL_RangeAddress_Includes_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.RangeAddress.html#IronXL_RangeAddress_Includes_System_Int32_System_Int32_"
   },
   {
     "Key": "IsEqual",
-    "Href": "/object-reference/api/IronXL.RangeAddress.html#IronXL_RangeAddress_IsEqual_IronXL_RangeAddress_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.RangeAddress.html#IronXL_RangeAddress_IsEqual_IronXL_RangeAddress_"
   },
   {
     "Key": "RangeAddress.IsEqual",
-    "Href": "/object-reference/api/IronXL.RangeAddress.html#IronXL_RangeAddress_IsEqual_IronXL_RangeAddress_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.RangeAddress.html#IronXL_RangeAddress_IsEqual_IronXL_RangeAddress_"
   },
   {
     "Key": "RangeColumn",
-    "Href": "/object-reference/api/IronXL.RangeColumn.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.RangeColumn.html"
   },
   {
     "Key": "AutoSizeColumn",
-    "Href": "/object-reference/api/IronXL.RangeColumn.html#IronXL_RangeColumn_AutoSizeColumn"
+    "Href": "/csharp/excel/object-reference/api/IronXL.RangeColumn.html#IronXL_RangeColumn_AutoSizeColumn"
   },
   {
     "Key": "RangeColumn.AutoSizeColumn",
-    "Href": "/object-reference/api/IronXL.RangeColumn.html#IronXL_RangeColumn_AutoSizeColumn"
+    "Href": "/csharp/excel/object-reference/api/IronXL.RangeColumn.html#IronXL_RangeColumn_AutoSizeColumn"
   },
   {
     "Key": "RangeRow",
-    "Href": "/object-reference/api/IronXL.RangeRow.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.RangeRow.html"
   },
   {
     "Key": "AutoSizeRow",
-    "Href": "/object-reference/api/IronXL.RangeRow.html#IronXL_RangeRow_AutoSizeRow"
+    "Href": "/csharp/excel/object-reference/api/IronXL.RangeRow.html#IronXL_RangeRow_AutoSizeRow"
   },
   {
     "Key": "RangeRow.AutoSizeRow",
-    "Href": "/object-reference/api/IronXL.RangeRow.html#IronXL_RangeRow_AutoSizeRow"
+    "Href": "/csharp/excel/object-reference/api/IronXL.RangeRow.html#IronXL_RangeRow_AutoSizeRow"
   },
   {
     "Key": "SortOrder",
-    "Href": "/object-reference/api/IronXL.SortOrder.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.SortOrder.html"
   },
   {
     "Key": "BorderType",
-    "Href": "/object-reference/api/IronXL.Styles.BorderType.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Styles.BorderType.html"
   },
   {
     "Key": "DiagonalBorderDirection",
-    "Href": "/object-reference/api/IronXL.Styles.DiagonalBorderDirection.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Styles.DiagonalBorderDirection.html"
   },
   {
     "Key": "FillPattern",
-    "Href": "/object-reference/api/IronXL.Styles.FillPattern.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Styles.FillPattern.html"
   },
   {
     "Key": "FontScript",
-    "Href": "/object-reference/api/IronXL.Styles.FontScript.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Styles.FontScript.html"
   },
   {
     "Key": "FontUnderlineType",
-    "Href": "/object-reference/api/IronXL.Styles.FontUnderlineType.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Styles.FontUnderlineType.html"
   },
   {
     "Key": "HorizontalAlignment",
-    "Href": "/object-reference/api/IronXL.Styles.HorizontalAlignment.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Styles.HorizontalAlignment.html"
   },
   {
     "Key": "IBorder",
-    "Href": "/object-reference/api/IronXL.Styles.IBorder.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Styles.IBorder.html"
   },
   {
     "Key": "SetBorderStyle",
-    "Href": "/object-reference/api/IronXL.Styles.IBorder.html#IronXL_Styles_IBorder_SetBorderStyle_IronSoftware_Drawing_Color_IronXL_Styles_BorderType_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Styles.IBorder.html#IronXL_Styles_IBorder_SetBorderStyle_IronSoftware_Drawing_Color_IronXL_Styles_BorderType_"
   },
   {
     "Key": "IBorder.SetBorderStyle",
-    "Href": "/object-reference/api/IronXL.Styles.IBorder.html#IronXL_Styles_IBorder_SetBorderStyle_IronSoftware_Drawing_Color_IronXL_Styles_BorderType_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Styles.IBorder.html#IronXL_Styles_IBorder_SetBorderStyle_IronSoftware_Drawing_Color_IronXL_Styles_BorderType_"
   },
   {
     "Key": "SetColor",
-    "Href": "/object-reference/api/IronXL.Styles.IBorder.html#IronXL_Styles_IBorder_SetColor_IronSoftware_Drawing_Color_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Styles.IBorder.html#IronXL_Styles_IBorder_SetColor_IronSoftware_Drawing_Color_"
   },
   {
     "Key": "IBorder.SetColor",
-    "Href": "/object-reference/api/IronXL.Styles.IBorder.html#IronXL_Styles_IBorder_SetColor_IronSoftware_Drawing_Color_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Styles.IBorder.html#IronXL_Styles_IBorder_SetColor_IronSoftware_Drawing_Color_"
   },
   {
     "Key": "IFont",
-    "Href": "/object-reference/api/IronXL.Styles.IFont.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Styles.IFont.html"
   },
   {
     "Key": "IStylable",
-    "Href": "/object-reference/api/IronXL.Styles.IStylable.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Styles.IStylable.html"
   },
   {
     "Key": "IStyle",
-    "Href": "/object-reference/api/IronXL.Styles.IStyle.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Styles.IStyle.html"
   },
   {
     "Key": "SetBackgroundColor",
-    "Href": "/object-reference/api/IronXL.Styles.IStyle.html#IronXL_Styles_IStyle_SetBackgroundColor_IronSoftware_Drawing_Color_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Styles.IStyle.html#IronXL_Styles_IStyle_SetBackgroundColor_IronSoftware_Drawing_Color_"
   },
   {
     "Key": "IStyle.SetBackgroundColor",
-    "Href": "/object-reference/api/IronXL.Styles.IStyle.html#IronXL_Styles_IStyle_SetBackgroundColor_IronSoftware_Drawing_Color_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Styles.IStyle.html#IronXL_Styles_IStyle_SetBackgroundColor_IronSoftware_Drawing_Color_"
   },
   {
     "Key": "TableStyle",
-    "Href": "/object-reference/api/IronXL.Styles.TableStyle.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Styles.TableStyle.html"
   },
   {
     "Key": "VerticalAlignment",
-    "Href": "/object-reference/api/IronXL.Styles.VerticalAlignment.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.Styles.VerticalAlignment.html"
   },
   {
     "Key": "WorkBook",
-    "Href": "/object-reference/api/IronXL.WorkBook.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html"
   },
   {
     "Key": "Close",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Close"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Close"
   },
   {
     "Key": "WorkBook.Close",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Close"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Close"
   },
   {
     "Key": "Create",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Create"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Create"
   },
   {
     "Key": "WorkBook.Create",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Create"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Create"
   },
   {
     "Key": "CreateWorkSheet",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_CreateWorkSheet_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_CreateWorkSheet_System_String_"
   },
   {
     "Key": "WorkBook.CreateWorkSheet",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_CreateWorkSheet_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_CreateWorkSheet_System_String_"
   },
   {
     "Key": "Decrypt",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Decrypt_System_IO_Stream_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Decrypt_System_IO_Stream_System_String_"
   },
   {
     "Key": "WorkBook.Decrypt",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Decrypt_System_IO_Stream_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Decrypt_System_IO_Stream_System_String_"
   },
   {
     "Key": "Encrypt",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Encrypt_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Encrypt_System_String_"
   },
   {
     "Key": "WorkBook.Encrypt",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Encrypt_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Encrypt_System_String_"
   },
   {
     "Key": "EvaluateAll",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_EvaluateAll"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_EvaluateAll"
   },
   {
     "Key": "WorkBook.EvaluateAll",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_EvaluateAll"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_EvaluateAll"
   },
   {
     "Key": "ExportToHtml",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ExportToHtml_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ExportToHtml_System_String_"
   },
   {
     "Key": "WorkBook.ExportToHtml",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ExportToHtml_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ExportToHtml_System_String_"
   },
   {
     "Key": "ExportToHtmlString",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ExportToHtmlString_IronXL_Options_HtmlExportOptions_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ExportToHtmlString_IronXL_Options_HtmlExportOptions_"
   },
   {
     "Key": "WorkBook.ExportToHtmlString",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ExportToHtmlString_IronXL_Options_HtmlExportOptions_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ExportToHtmlString_IronXL_Options_HtmlExportOptions_"
   },
   {
     "Key": "FromByteArray",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_FromByteArray_System_Byte___"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_FromByteArray_System_Byte___"
   },
   {
     "Key": "WorkBook.FromByteArray",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_FromByteArray_System_Byte___"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_FromByteArray_System_Byte___"
   },
   {
     "Key": "FromStream",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_FromStream_System_IO_Stream_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_FromStream_System_IO_Stream_"
   },
   {
     "Key": "WorkBook.FromStream",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_FromStream_System_IO_Stream_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_FromStream_System_IO_Stream_"
   },
   {
     "Key": "GetWorkSheet",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_GetWorkSheet_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_GetWorkSheet_System_String_"
   },
   {
     "Key": "WorkBook.GetWorkSheet",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_GetWorkSheet_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_GetWorkSheet_System_String_"
   },
   {
     "Key": "Import",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Import_System_String_IronXL_ExcelFileFormat_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Import_System_String_IronXL_ExcelFileFormat_"
   },
   {
     "Key": "WorkBook.Import",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Import_System_String_IronXL_ExcelFileFormat_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Import_System_String_IronXL_ExcelFileFormat_"
   },
   {
     "Key": "Load",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Load_System_Byte___"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Load_System_Byte___"
   },
   {
     "Key": "WorkBook.Load",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Load_System_Byte___"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Load_System_Byte___"
   },
   {
     "Key": "LoadCSV",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_LoadCSV_System_String_IronXL_ExcelFileFormat_System_String_System_Boolean_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_LoadCSV_System_String_IronXL_ExcelFileFormat_System_String_System_Boolean_"
   },
   {
     "Key": "WorkBook.LoadCSV",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_LoadCSV_System_String_IronXL_ExcelFileFormat_System_String_System_Boolean_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_LoadCSV_System_String_IronXL_ExcelFileFormat_System_String_System_Boolean_"
   },
   {
     "Key": "LoadExcel",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_LoadExcel_System_Byte___"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_LoadExcel_System_Byte___"
   },
   {
     "Key": "WorkBook.LoadExcel",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_LoadExcel_System_Byte___"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_LoadExcel_System_Byte___"
   },
   {
     "Key": "LoadWorkSheet",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_LoadWorkSheet_System_Data_DataTable_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_LoadWorkSheet_System_Data_DataTable_"
   },
   {
     "Key": "WorkBook.LoadWorkSheet",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_LoadWorkSheet_System_Data_DataTable_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_LoadWorkSheet_System_Data_DataTable_"
   },
   {
     "Key": "LoadWorkSheetsFromDataSet",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_LoadWorkSheetsFromDataSet_System_Data_DataSet_IronXL_WorkBook_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_LoadWorkSheetsFromDataSet_System_Data_DataSet_IronXL_WorkBook_"
   },
   {
     "Key": "WorkBook.LoadWorkSheetsFromDataSet",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_LoadWorkSheetsFromDataSet_System_Data_DataSet_IronXL_WorkBook_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_LoadWorkSheetsFromDataSet_System_Data_DataSet_IronXL_WorkBook_"
   },
   {
     "Key": "RemoveWorkSheet",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_RemoveWorkSheet_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_RemoveWorkSheet_System_Int32_"
   },
   {
     "Key": "WorkBook.RemoveWorkSheet",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_RemoveWorkSheet_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_RemoveWorkSheet_System_Int32_"
   },
   {
     "Key": "Save",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Save"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Save"
   },
   {
     "Key": "WorkBook.Save",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Save"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_Save"
   },
   {
     "Key": "SaveAs",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAs_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAs_System_String_"
   },
   {
     "Key": "WorkBook.SaveAs",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAs_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAs_System_String_"
   },
   {
     "Key": "SaveAsCsv",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAsCsv_System_String_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAsCsv_System_String_System_String_"
   },
   {
     "Key": "WorkBook.SaveAsCsv",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAsCsv_System_String_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAsCsv_System_String_System_String_"
   },
   {
     "Key": "SaveAsJson",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAsJson_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAsJson_System_String_"
   },
   {
     "Key": "WorkBook.SaveAsJson",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAsJson_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAsJson_System_String_"
   },
   {
     "Key": "SaveAsWithCustomDelimiter",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAsWithCustomDelimiter_System_String_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAsWithCustomDelimiter_System_String_System_String_"
   },
   {
     "Key": "WorkBook.SaveAsWithCustomDelimiter",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAsWithCustomDelimiter_System_String_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAsWithCustomDelimiter_System_String_System_String_"
   },
   {
     "Key": "SaveAsXml",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAsXml_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAsXml_System_String_"
   },
   {
     "Key": "WorkBook.SaveAsXml",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAsXml_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SaveAsXml_System_String_"
   },
   {
     "Key": "SetActiveTab",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SetActiveTab_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SetActiveTab_System_Int32_"
   },
   {
     "Key": "WorkBook.SetActiveTab",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SetActiveTab_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SetActiveTab_System_Int32_"
   },
   {
     "Key": "SetSheetPosition",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SetSheetPosition_System_String_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SetSheetPosition_System_String_System_Int32_"
   },
   {
     "Key": "WorkBook.SetSheetPosition",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SetSheetPosition_System_String_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_SetSheetPosition_System_String_System_Int32_"
   },
   {
     "Key": "ToBinary",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ToBinary"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ToBinary"
   },
   {
     "Key": "WorkBook.ToBinary",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ToBinary"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ToBinary"
   },
   {
     "Key": "ToByteArray",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ToByteArray"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ToByteArray"
   },
   {
     "Key": "WorkBook.ToByteArray",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ToByteArray"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ToByteArray"
   },
   {
     "Key": "ToDataSet",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ToDataSet_System_Boolean_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ToDataSet_System_Boolean_"
   },
   {
     "Key": "WorkBook.ToDataSet",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ToDataSet_System_Boolean_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ToDataSet_System_Boolean_"
   },
   {
     "Key": "ToStream",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ToStream"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ToStream"
   },
   {
     "Key": "WorkBook.ToStream",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ToStream"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_ToStream"
   },
   {
     "Key": "TryLoad",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_TryLoad_System_String_IronXL_WorkBook__"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_TryLoad_System_String_IronXL_WorkBook__"
   },
   {
     "Key": "WorkBook.TryLoad",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_TryLoad_System_String_IronXL_WorkBook__"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_TryLoad_System_String_IronXL_WorkBook__"
   },
   {
     "Key": "TryLoadExcel",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_TryLoadExcel_System_String_IronXL_WorkBook__"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_TryLoadExcel_System_String_IronXL_WorkBook__"
   },
   {
     "Key": "WorkBook.TryLoadExcel",
-    "Href": "/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_TryLoadExcel_System_String_IronXL_WorkBook__"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkBook.html#IronXL_WorkBook_TryLoadExcel_System_String_IronXL_WorkBook__"
   },
   {
     "Key": "WorkSheet",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html"
   },
   {
     "Key": "AddNamedRange",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_AddNamedRange_System_String_IronXL_Range_System_Boolean_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_AddNamedRange_System_String_IronXL_Range_System_Boolean_"
   },
   {
     "Key": "WorkSheet.AddNamedRange",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_AddNamedRange_System_String_IronXL_Range_System_Boolean_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_AddNamedRange_System_String_IronXL_Range_System_Boolean_"
   },
   {
     "Key": "AddNamedTable",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_AddNamedTable_System_String_IronXL_Range_System_Boolean_IronXL_Styles_TableStyle_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_AddNamedTable_System_String_IronXL_Range_System_Boolean_IronXL_Styles_TableStyle_"
   },
   {
     "Key": "WorkSheet.AddNamedTable",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_AddNamedTable_System_String_IronXL_Range_System_Boolean_IronXL_Styles_TableStyle_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_AddNamedTable_System_String_IronXL_Range_System_Boolean_IronXL_Styles_TableStyle_"
   },
   {
     "Key": "CopySheet",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_CopySheet_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_CopySheet_System_String_"
   },
   {
     "Key": "WorkSheet.CopySheet",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_CopySheet_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_CopySheet_System_String_"
   },
   {
     "Key": "CopyTo",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_CopyTo_IronXL_WorkBook_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_CopyTo_IronXL_WorkBook_System_String_"
   },
   {
     "Key": "WorkSheet.CopyTo",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_CopyTo_IronXL_WorkBook_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_CopyTo_IronXL_WorkBook_System_String_"
   },
   {
     "Key": "CreateChart",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_CreateChart_IronXL_Drawing_Charts_ChartType_System_Int32_System_Int32_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_CreateChart_IronXL_Drawing_Charts_ChartType_System_Int32_System_Int32_System_Int32_System_Int32_"
   },
   {
     "Key": "WorkSheet.CreateChart",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_CreateChart_IronXL_Drawing_Charts_ChartType_System_Int32_System_Int32_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_CreateChart_IronXL_Drawing_Charts_ChartType_System_Int32_System_Int32_System_Int32_System_Int32_"
   },
   {
     "Key": "CreateFreezePane",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_CreateFreezePane_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_CreateFreezePane_System_Int32_System_Int32_"
   },
   {
     "Key": "WorkSheet.CreateFreezePane",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_CreateFreezePane_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_CreateFreezePane_System_Int32_System_Int32_"
   },
   {
     "Key": "CreateSplitPane",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_CreateSplitPane_System_Int32_System_Int32_System_Int32_System_Int32_IronXL_Options_PanePosition_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_CreateSplitPane_System_Int32_System_Int32_System_Int32_System_Int32_IronXL_Options_PanePosition_"
   },
   {
     "Key": "WorkSheet.CreateSplitPane",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_CreateSplitPane_System_Int32_System_Int32_System_Int32_System_Int32_IronXL_Options_PanePosition_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_CreateSplitPane_System_Int32_System_Int32_System_Int32_System_Int32_IronXL_Options_PanePosition_"
   },
   {
     "Key": "FindNamedRange",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_FindNamedRange_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_FindNamedRange_System_String_"
   },
   {
     "Key": "WorkSheet.FindNamedRange",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_FindNamedRange_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_FindNamedRange_System_String_"
   },
   {
     "Key": "GetCellAt",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetCellAt_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetCellAt_System_Int32_System_Int32_"
   },
   {
     "Key": "WorkSheet.GetCellAt",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetCellAt_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetCellAt_System_Int32_System_Int32_"
   },
   {
     "Key": "GetColumn",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetColumn_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetColumn_System_Int32_"
   },
   {
     "Key": "WorkSheet.GetColumn",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetColumn_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetColumn_System_Int32_"
   },
   {
     "Key": "GetMergedRegions",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetMergedRegions"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetMergedRegions"
   },
   {
     "Key": "WorkSheet.GetMergedRegions",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetMergedRegions"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetMergedRegions"
   },
   {
     "Key": "GetNamedRanges",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetNamedRanges"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetNamedRanges"
   },
   {
     "Key": "WorkSheet.GetNamedRanges",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetNamedRanges"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetNamedRanges"
   },
   {
     "Key": "GetNamedTableNames",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetNamedTableNames"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetNamedTableNames"
   },
   {
     "Key": "WorkSheet.GetNamedTableNames",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetNamedTableNames"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetNamedTableNames"
   },
   {
     "Key": "GetRange",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetRange_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetRange_System_String_"
   },
   {
     "Key": "WorkSheet.GetRange",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetRange_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetRange_System_String_"
   },
   {
     "Key": "GetRow",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetRow_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetRow_System_Int32_"
   },
   {
     "Key": "WorkSheet.GetRow",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetRow_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetRow_System_Int32_"
   },
   {
     "Key": "GroupColumns",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GroupColumns_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GroupColumns_System_Int32_System_Int32_"
   },
   {
     "Key": "WorkSheet.GroupColumns",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GroupColumns_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GroupColumns_System_Int32_System_Int32_"
   },
   {
     "Key": "GroupRows",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GroupRows_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GroupRows_System_Int32_System_Int32_"
   },
   {
     "Key": "WorkSheet.GroupRows",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GroupRows_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GroupRows_System_Int32_System_Int32_"
   },
   {
     "Key": "InsertImage",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_InsertImage_System_Byte___IronXL_Drawing_Images_ImageFormat_System_Int32_System_Int32_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_InsertImage_System_Byte___IronXL_Drawing_Images_ImageFormat_System_Int32_System_Int32_System_Int32_System_Int32_"
   },
   {
     "Key": "WorkSheet.InsertImage",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_InsertImage_System_Byte___IronXL_Drawing_Images_ImageFormat_System_Int32_System_Int32_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_InsertImage_System_Byte___IronXL_Drawing_Images_ImageFormat_System_Int32_System_Int32_System_Int32_System_Int32_"
   },
   {
     "Key": "Merge",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_Merge_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_Merge_System_String_"
   },
   {
     "Key": "WorkSheet.Merge",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_Merge_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_Merge_System_String_"
   },
   {
     "Key": "ProtectSheet",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_ProtectSheet_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_ProtectSheet_System_String_"
   },
   {
     "Key": "WorkSheet.ProtectSheet",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_ProtectSheet_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_ProtectSheet_System_String_"
   },
   {
     "Key": "RemoveChart",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveChart_IronXL_Drawing_Charts_IChart_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveChart_IronXL_Drawing_Charts_IChart_"
   },
   {
     "Key": "WorkSheet.RemoveChart",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveChart_IronXL_Drawing_Charts_IChart_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveChart_IronXL_Drawing_Charts_IChart_"
   },
   {
     "Key": "RemoveColumnBreak",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveColumnBreak_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveColumnBreak_System_Int32_"
   },
   {
     "Key": "WorkSheet.RemoveColumnBreak",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveColumnBreak_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveColumnBreak_System_Int32_"
   },
   {
     "Key": "RemoveImage",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveImage_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveImage_System_Int32_"
   },
   {
     "Key": "WorkSheet.RemoveImage",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveImage_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveImage_System_Int32_"
   },
   {
     "Key": "RemoveNamedRange",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveNamedRange_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveNamedRange_System_String_"
   },
   {
     "Key": "WorkSheet.RemoveNamedRange",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveNamedRange_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveNamedRange_System_String_"
   },
   {
     "Key": "RemovePane",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemovePane"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemovePane"
   },
   {
     "Key": "WorkSheet.RemovePane",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemovePane"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemovePane"
   },
   {
     "Key": "RemoveRepeatingColumns",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveRepeatingColumns"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveRepeatingColumns"
   },
   {
     "Key": "WorkSheet.RemoveRepeatingColumns",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveRepeatingColumns"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveRepeatingColumns"
   },
   {
     "Key": "RemoveRepeatingRows",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveRepeatingRows"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveRepeatingRows"
   },
   {
     "Key": "WorkSheet.RemoveRepeatingRows",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveRepeatingRows"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveRepeatingRows"
   },
   {
     "Key": "RemoveRowBreak",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveRowBreak_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveRowBreak_System_Int32_"
   },
   {
     "Key": "WorkSheet.RemoveRowBreak",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveRowBreak_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_RemoveRowBreak_System_Int32_"
   },
   {
     "Key": "SaveAsNewExcelFile",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SaveAsNewExcelFile_System_String_IronXL_ExcelFileFormat_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SaveAsNewExcelFile_System_String_IronXL_ExcelFileFormat_"
   },
   {
     "Key": "WorkSheet.SaveAsNewExcelFile",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SaveAsNewExcelFile_System_String_IronXL_ExcelFileFormat_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SaveAsNewExcelFile_System_String_IronXL_ExcelFileFormat_"
   },
   {
     "Key": "SetAutoFilter",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetAutoFilter_System_Int32_System_Int32_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetAutoFilter_System_Int32_System_Int32_System_Int32_System_Int32_"
   },
   {
     "Key": "WorkSheet.SetAutoFilter",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetAutoFilter_System_Int32_System_Int32_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetAutoFilter_System_Int32_System_Int32_System_Int32_System_Int32_"
   },
   {
     "Key": "SetColumnBreak",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetColumnBreak_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetColumnBreak_System_Int32_"
   },
   {
     "Key": "WorkSheet.SetColumnBreak",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetColumnBreak_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetColumnBreak_System_Int32_"
   },
   {
     "Key": "SetPrintArea",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetPrintArea_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetPrintArea_System_String_"
   },
   {
     "Key": "WorkSheet.SetPrintArea",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetPrintArea_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetPrintArea_System_String_"
   },
   {
     "Key": "SetRepeatingColumns",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetRepeatingColumns_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetRepeatingColumns_System_Int32_System_Int32_"
   },
   {
     "Key": "WorkSheet.SetRepeatingColumns",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetRepeatingColumns_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetRepeatingColumns_System_Int32_System_Int32_"
   },
   {
     "Key": "SetRepeatingRows",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetRepeatingRows_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetRepeatingRows_System_Int32_System_Int32_"
   },
   {
     "Key": "WorkSheet.SetRepeatingRows",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetRepeatingRows_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetRepeatingRows_System_Int32_System_Int32_"
   },
   {
     "Key": "SetRowBreak",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetRowBreak_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetRowBreak_System_Int32_"
   },
   {
     "Key": "WorkSheet.SetRowBreak",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetRowBreak_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetRowBreak_System_Int32_"
   },
   {
     "Key": "SetZoom",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetZoom_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetZoom_System_Int32_"
   },
   {
     "Key": "WorkSheet.SetZoom",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetZoom_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_SetZoom_System_Int32_"
   },
   {
     "Key": "ToMultiDimensionalArray",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_ToMultiDimensionalArray"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_ToMultiDimensionalArray"
   },
   {
     "Key": "WorkSheet.ToMultiDimensionalArray",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_ToMultiDimensionalArray"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_ToMultiDimensionalArray"
   },
   {
     "Key": "UngroupColumn",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_UngroupColumn_System_String_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_UngroupColumn_System_String_System_String_"
   },
   {
     "Key": "WorkSheet.UngroupColumn",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_UngroupColumn_System_String_System_String_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_UngroupColumn_System_String_System_String_"
   },
   {
     "Key": "UngroupColumns",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_UngroupColumns_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_UngroupColumns_System_Int32_System_Int32_"
   },
   {
     "Key": "WorkSheet.UngroupColumns",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_UngroupColumns_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_UngroupColumns_System_Int32_System_Int32_"
   },
   {
     "Key": "UngroupRows",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_UngroupRows_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_UngroupRows_System_Int32_System_Int32_"
   },
   {
     "Key": "WorkSheet.UngroupRows",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_UngroupRows_System_Int32_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_UngroupRows_System_Int32_System_Int32_"
   },
   {
     "Key": "Unmerge",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_Unmerge_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_Unmerge_System_Int32_"
   },
   {
     "Key": "WorkSheet.Unmerge",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_Unmerge_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_Unmerge_System_Int32_"
   },
   {
     "Key": "UnprotectSheet",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_UnprotectSheet"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_UnprotectSheet"
   },
   {
     "Key": "WorkSheet.UnprotectSheet",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_UnprotectSheet"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_UnprotectSheet"
   },
   {
     "Key": "UnsetAutoFilter",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_UnsetAutoFilter"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_UnsetAutoFilter"
   },
   {
     "Key": "WorkSheet.UnsetAutoFilter",
-    "Href": "/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_UnsetAutoFilter"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_UnsetAutoFilter"
   },
   {
     "Key": "WorksheetsCollection",
-    "Href": "/object-reference/api/IronXL.WorksheetsCollection.html"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorksheetsCollection.html"
   },
   {
     "Key": "Add",
-    "Href": "/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_Add_IronXL_WorkSheet_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_Add_IronXL_WorkSheet_"
   },
   {
     "Key": "WorksheetsCollection.Add",
-    "Href": "/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_Add_IronXL_WorkSheet_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_Add_IronXL_WorkSheet_"
   },
   {
     "Key": "Clear",
-    "Href": "/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_Clear"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_Clear"
   },
   {
     "Key": "WorksheetsCollection.Clear",
-    "Href": "/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_Clear"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_Clear"
   },
   {
     "Key": "FindIndex",
-    "Href": "/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_FindIndex_System_Predicate_IronXL_WorkSheet__"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_FindIndex_System_Predicate_IronXL_WorkSheet__"
   },
   {
     "Key": "WorksheetsCollection.FindIndex",
-    "Href": "/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_FindIndex_System_Predicate_IronXL_WorkSheet__"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_FindIndex_System_Predicate_IronXL_WorkSheet__"
   },
   {
     "Key": "IndexOf",
-    "Href": "/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_IndexOf_IronXL_WorkSheet_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_IndexOf_IronXL_WorkSheet_"
   },
   {
     "Key": "WorksheetsCollection.IndexOf",
-    "Href": "/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_IndexOf_IronXL_WorkSheet_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_IndexOf_IronXL_WorkSheet_"
   },
   {
     "Key": "Insert",
-    "Href": "/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_Insert_System_Int32_IronXL_WorkSheet_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_Insert_System_Int32_IronXL_WorkSheet_"
   },
   {
     "Key": "WorksheetsCollection.Insert",
-    "Href": "/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_Insert_System_Int32_IronXL_WorkSheet_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_Insert_System_Int32_IronXL_WorkSheet_"
   },
   {
     "Key": "RemoveAt",
-    "Href": "/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_RemoveAt_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_RemoveAt_System_Int32_"
   },
   {
     "Key": "WorksheetsCollection.RemoveAt",
-    "Href": "/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_RemoveAt_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_RemoveAt_System_Int32_"
   },
   {
     "Key": "SetSheetIndex",
-    "Href": "/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_SetSheetIndex_IronXL_WorkSheet_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_SetSheetIndex_IronXL_WorkSheet_System_Int32_"
   },
   {
     "Key": "WorksheetsCollection.SetSheetIndex",
-    "Href": "/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_SetSheetIndex_IronXL_WorkSheet_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/IronXL.WorksheetsCollection.html#IronXL_WorksheetsCollection_SetSheetIndex_IronXL_WorkSheet_System_Int32_"
   },
   {
     "Key": "ColorFontSupport",
-    "Href": "/object-reference/api/SixLabors.Fonts.ColorFontSupport.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.ColorFontSupport.html"
   },
   {
     "Key": "Font",
-    "Href": "/object-reference/api/SixLabors.Fonts.Font.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Font.html"
   },
   {
     "Key": "TryGetGlyphs",
-    "Href": "/object-reference/api/SixLabors.Fonts.Font.html#SixLabors_Fonts_Font_TryGetGlyphs_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_ColorFontSupport_System_Collections_Generic_IReadOnlyList_SixLabors_Fonts_Glyph___"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Font.html#SixLabors_Fonts_Font_TryGetGlyphs_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_ColorFontSupport_System_Collections_Generic_IReadOnlyList_SixLabors_Fonts_Glyph___"
   },
   {
     "Key": "Font.TryGetGlyphs",
-    "Href": "/object-reference/api/SixLabors.Fonts.Font.html#SixLabors_Fonts_Font_TryGetGlyphs_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_ColorFontSupport_System_Collections_Generic_IReadOnlyList_SixLabors_Fonts_Glyph___"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Font.html#SixLabors_Fonts_Font_TryGetGlyphs_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_ColorFontSupport_System_Collections_Generic_IReadOnlyList_SixLabors_Fonts_Glyph___"
   },
   {
     "Key": "TryGetKerningOffset",
-    "Href": "/object-reference/api/SixLabors.Fonts.Font.html#SixLabors_Fonts_Font_TryGetKerningOffset_SixLabors_Fonts_Glyph_SixLabors_Fonts_Glyph_System_Single_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Font.html#SixLabors_Fonts_Font_TryGetKerningOffset_SixLabors_Fonts_Glyph_SixLabors_Fonts_Glyph_System_Single_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2__"
   },
   {
     "Key": "Font.TryGetKerningOffset",
-    "Href": "/object-reference/api/SixLabors.Fonts.Font.html#SixLabors_Fonts_Font_TryGetKerningOffset_SixLabors_Fonts_Glyph_SixLabors_Fonts_Glyph_System_Single_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Font.html#SixLabors_Fonts_Font_TryGetKerningOffset_SixLabors_Fonts_Glyph_SixLabors_Fonts_Glyph_System_Single_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2__"
   },
   {
     "Key": "TryGetPath",
-    "Href": "/object-reference/api/SixLabors.Fonts.Font.html#SixLabors_Fonts_Font_TryGetPath_System_String__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Font.html#SixLabors_Fonts_Font_TryGetPath_System_String__"
   },
   {
     "Key": "Font.TryGetPath",
-    "Href": "/object-reference/api/SixLabors.Fonts.Font.html#SixLabors_Fonts_Font_TryGetPath_System_String__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Font.html#SixLabors_Fonts_Font_TryGetPath_System_String__"
   },
   {
     "Key": "FontCollection",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontCollection.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontCollection.html"
   },
   {
     "Key": "AddCollection",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontCollection.html#SixLabors_Fonts_FontCollection_AddCollection_System_IO_Stream_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontCollection.html#SixLabors_Fonts_FontCollection_AddCollection_System_IO_Stream_"
   },
   {
     "Key": "FontCollection.AddCollection",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontCollection.html#SixLabors_Fonts_FontCollection_AddCollection_System_IO_Stream_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontCollection.html#SixLabors_Fonts_FontCollection_AddCollection_System_IO_Stream_"
   },
   {
     "Key": "Get",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontCollection.html#SixLabors_Fonts_FontCollection_Get_System_String_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontCollection.html#SixLabors_Fonts_FontCollection_Get_System_String_"
   },
   {
     "Key": "FontCollection.Get",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontCollection.html#SixLabors_Fonts_FontCollection_Get_System_String_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontCollection.html#SixLabors_Fonts_FontCollection_Get_System_String_"
   },
   {
     "Key": "GetByCulture",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontCollection.html#SixLabors_Fonts_FontCollection_GetByCulture_System_Globalization_CultureInfo_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontCollection.html#SixLabors_Fonts_FontCollection_GetByCulture_System_Globalization_CultureInfo_"
   },
   {
     "Key": "FontCollection.GetByCulture",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontCollection.html#SixLabors_Fonts_FontCollection_GetByCulture_System_Globalization_CultureInfo_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontCollection.html#SixLabors_Fonts_FontCollection_GetByCulture_System_Globalization_CultureInfo_"
   },
   {
     "Key": "TryGet",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontCollection.html#SixLabors_Fonts_FontCollection_TryGet_System_String_SixLabors_Fonts_FontFamily__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontCollection.html#SixLabors_Fonts_FontCollection_TryGet_System_String_SixLabors_Fonts_FontFamily__"
   },
   {
     "Key": "FontCollection.TryGet",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontCollection.html#SixLabors_Fonts_FontCollection_TryGet_System_String_SixLabors_Fonts_FontFamily__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontCollection.html#SixLabors_Fonts_FontCollection_TryGet_System_String_SixLabors_Fonts_FontFamily__"
   },
   {
     "Key": "FontCollectionExtensions",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontCollectionExtensions.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontCollectionExtensions.html"
   },
   {
     "Key": "AddSystemFonts",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontCollectionExtensions.html#SixLabors_Fonts_FontCollectionExtensions_AddSystemFonts_SixLabors_Fonts_FontCollection_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontCollectionExtensions.html#SixLabors_Fonts_FontCollectionExtensions_AddSystemFonts_SixLabors_Fonts_FontCollection_"
   },
   {
     "Key": "FontCollectionExtensions.AddSystemFonts",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontCollectionExtensions.html#SixLabors_Fonts_FontCollectionExtensions_AddSystemFonts_SixLabors_Fonts_FontCollection_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontCollectionExtensions.html#SixLabors_Fonts_FontCollectionExtensions_AddSystemFonts_SixLabors_Fonts_FontCollection_"
   },
   {
     "Key": "FontDescription",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontDescription.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontDescription.html"
   },
   {
     "Key": "FontFamily",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_FontFamily_System_Globalization_CultureInfo_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_FontFamily_System_Globalization_CultureInfo_"
   },
   {
     "Key": "FontDescription.FontFamily",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_FontFamily_System_Globalization_CultureInfo_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_FontFamily_System_Globalization_CultureInfo_"
   },
   {
     "Key": "FontName",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_FontName_System_Globalization_CultureInfo_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_FontName_System_Globalization_CultureInfo_"
   },
   {
     "Key": "FontDescription.FontName",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_FontName_System_Globalization_CultureInfo_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_FontName_System_Globalization_CultureInfo_"
   },
   {
     "Key": "FontSubFamilyName",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_FontSubFamilyName_System_Globalization_CultureInfo_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_FontSubFamilyName_System_Globalization_CultureInfo_"
   },
   {
     "Key": "FontDescription.FontSubFamilyName",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_FontSubFamilyName_System_Globalization_CultureInfo_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_FontSubFamilyName_System_Globalization_CultureInfo_"
   },
   {
     "Key": "GetNameById",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_GetNameById_System_Globalization_CultureInfo_SixLabors_Fonts_WellKnownIds_KnownNameIds_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_GetNameById_System_Globalization_CultureInfo_SixLabors_Fonts_WellKnownIds_KnownNameIds_"
   },
   {
     "Key": "FontDescription.GetNameById",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_GetNameById_System_Globalization_CultureInfo_SixLabors_Fonts_WellKnownIds_KnownNameIds_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_GetNameById_System_Globalization_CultureInfo_SixLabors_Fonts_WellKnownIds_KnownNameIds_"
   },
   {
     "Key": "LoadDescription",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_LoadDescription_System_IO_Stream_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_LoadDescription_System_IO_Stream_"
   },
   {
     "Key": "FontDescription.LoadDescription",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_LoadDescription_System_IO_Stream_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_LoadDescription_System_IO_Stream_"
   },
   {
     "Key": "LoadFontCollectionDescriptions",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_LoadFontCollectionDescriptions_System_IO_Stream_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_LoadFontCollectionDescriptions_System_IO_Stream_"
   },
   {
     "Key": "FontDescription.LoadFontCollectionDescriptions",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_LoadFontCollectionDescriptions_System_IO_Stream_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontDescription.html#SixLabors_Fonts_FontDescription_LoadFontCollectionDescriptions_System_IO_Stream_"
   },
   {
     "Key": "FontException",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontException.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontException.html"
   },
   {
     "Key": "CreateFont",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_CreateFont_System_Single_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_CreateFont_System_Single_"
   },
   {
     "Key": "FontFamily.CreateFont",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_CreateFont_System_Single_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_CreateFont_System_Single_"
   },
   {
     "Key": "GetAvailableStyles",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_GetAvailableStyles"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_GetAvailableStyles"
   },
   {
     "Key": "FontFamily.GetAvailableStyles",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_GetAvailableStyles"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_GetAvailableStyles"
   },
   {
     "Key": "Equality",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_op_Equality_SixLabors_Fonts_FontFamily_SixLabors_Fonts_FontFamily_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_op_Equality_SixLabors_Fonts_FontFamily_SixLabors_Fonts_FontFamily_"
   },
   {
     "Key": "FontFamily.Equality",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_op_Equality_SixLabors_Fonts_FontFamily_SixLabors_Fonts_FontFamily_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_op_Equality_SixLabors_Fonts_FontFamily_SixLabors_Fonts_FontFamily_"
   },
   {
     "Key": "Inequality",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_op_Inequality_SixLabors_Fonts_FontFamily_SixLabors_Fonts_FontFamily_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_op_Inequality_SixLabors_Fonts_FontFamily_SixLabors_Fonts_FontFamily_"
   },
   {
     "Key": "FontFamily.Inequality",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_op_Inequality_SixLabors_Fonts_FontFamily_SixLabors_Fonts_FontFamily_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_op_Inequality_SixLabors_Fonts_FontFamily_SixLabors_Fonts_FontFamily_"
   },
   {
     "Key": "TryGetMetrics",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_TryGetMetrics_SixLabors_Fonts_FontStyle_SixLabors_Fonts_FontMetrics__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_TryGetMetrics_SixLabors_Fonts_FontStyle_SixLabors_Fonts_FontMetrics__"
   },
   {
     "Key": "FontFamily.TryGetMetrics",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_TryGetMetrics_SixLabors_Fonts_FontStyle_SixLabors_Fonts_FontMetrics__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_TryGetMetrics_SixLabors_Fonts_FontStyle_SixLabors_Fonts_FontMetrics__"
   },
   {
     "Key": "TryGetPaths",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_TryGetPaths_System_Collections_Generic_IEnumerable_System_String___"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_TryGetPaths_System_Collections_Generic_IEnumerable_System_String___"
   },
   {
     "Key": "FontFamily.TryGetPaths",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_TryGetPaths_System_Collections_Generic_IEnumerable_System_String___"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontFamily.html#SixLabors_Fonts_FontFamily_TryGetPaths_System_Collections_Generic_IEnumerable_System_String___"
   },
   {
     "Key": "FontFamilyNotFoundException",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontFamilyNotFoundException.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontFamilyNotFoundException.html"
   },
   {
     "Key": "FontMetrics",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontMetrics.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontMetrics.html"
   },
   {
     "Key": "TryGetGlyphMetrics",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontMetrics.html#SixLabors_Fonts_FontMetrics_TryGetGlyphMetrics_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_TextAttributes_SixLabors_Fonts_TextDecorations_SixLabors_Fonts_LayoutMode_SixLabors_Fonts_ColorFontSupport_System_Collections_Generic_IReadOnlyList_SixLabors_Fonts_GlyphMetrics___"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontMetrics.html#SixLabors_Fonts_FontMetrics_TryGetGlyphMetrics_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_TextAttributes_SixLabors_Fonts_TextDecorations_SixLabors_Fonts_LayoutMode_SixLabors_Fonts_ColorFontSupport_System_Collections_Generic_IReadOnlyList_SixLabors_Fonts_GlyphMetrics___"
   },
   {
     "Key": "FontMetrics.TryGetGlyphMetrics",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontMetrics.html#SixLabors_Fonts_FontMetrics_TryGetGlyphMetrics_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_TextAttributes_SixLabors_Fonts_TextDecorations_SixLabors_Fonts_LayoutMode_SixLabors_Fonts_ColorFontSupport_System_Collections_Generic_IReadOnlyList_SixLabors_Fonts_GlyphMetrics___"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontMetrics.html#SixLabors_Fonts_FontMetrics_TryGetGlyphMetrics_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_TextAttributes_SixLabors_Fonts_TextDecorations_SixLabors_Fonts_LayoutMode_SixLabors_Fonts_ColorFontSupport_System_Collections_Generic_IReadOnlyList_SixLabors_Fonts_GlyphMetrics___"
   },
   {
     "Key": "FontRectangle",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html"
   },
   {
     "Key": "Center",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Center_SixLabors_Fonts_FontRectangle__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Center_SixLabors_Fonts_FontRectangle__"
   },
   {
     "Key": "FontRectangle.Center",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Center_SixLabors_Fonts_FontRectangle__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Center_SixLabors_Fonts_FontRectangle__"
   },
   {
     "Key": "Deconstruct",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Deconstruct_System_Single__System_Single__System_Single__System_Single__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Deconstruct_System_Single__System_Single__System_Single__System_Single__"
   },
   {
     "Key": "FontRectangle.Deconstruct",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Deconstruct_System_Single__System_Single__System_Single__System_Single__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Deconstruct_System_Single__System_Single__System_Single__System_Single__"
   },
   {
     "Key": "FromLTRB",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_FromLTRB_System_Single_System_Single_System_Single_System_Single_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_FromLTRB_System_Single_System_Single_System_Single_System_Single_"
   },
   {
     "Key": "FontRectangle.FromLTRB",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_FromLTRB_System_Single_System_Single_System_Single_System_Single_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_FromLTRB_System_Single_System_Single_System_Single_System_Single_"
   },
   {
     "Key": "Inflate",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Inflate_SixLabors_Fonts_FontRectangle__System_Single_System_Single_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Inflate_SixLabors_Fonts_FontRectangle__System_Single_System_Single_"
   },
   {
     "Key": "FontRectangle.Inflate",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Inflate_SixLabors_Fonts_FontRectangle__System_Single_System_Single_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Inflate_SixLabors_Fonts_FontRectangle__System_Single_System_Single_"
   },
   {
     "Key": "Intersect",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Intersect_SixLabors_Fonts_FontRectangle__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Intersect_SixLabors_Fonts_FontRectangle__"
   },
   {
     "Key": "FontRectangle.Intersect",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Intersect_SixLabors_Fonts_FontRectangle__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Intersect_SixLabors_Fonts_FontRectangle__"
   },
   {
     "Key": "IntersectsWith",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_IntersectsWith_SixLabors_Fonts_FontRectangle__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_IntersectsWith_SixLabors_Fonts_FontRectangle__"
   },
   {
     "Key": "FontRectangle.IntersectsWith",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_IntersectsWith_SixLabors_Fonts_FontRectangle__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_IntersectsWith_SixLabors_Fonts_FontRectangle__"
   },
   {
     "Key": "Offset",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Offset_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Offset_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_"
   },
   {
     "Key": "FontRectangle.Offset",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Offset_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Offset_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_"
   },
   {
     "Key": "op_Equality",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_op_Equality_SixLabors_Fonts_FontRectangle__SixLabors_Fonts_FontRectangle__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_op_Equality_SixLabors_Fonts_FontRectangle__SixLabors_Fonts_FontRectangle__"
   },
   {
     "Key": "FontRectangle.op_Equality",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_op_Equality_SixLabors_Fonts_FontRectangle__SixLabors_Fonts_FontRectangle__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_op_Equality_SixLabors_Fonts_FontRectangle__SixLabors_Fonts_FontRectangle__"
   },
   {
     "Key": "op_Inequality",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_op_Inequality_SixLabors_Fonts_FontRectangle__SixLabors_Fonts_FontRectangle__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_op_Inequality_SixLabors_Fonts_FontRectangle__SixLabors_Fonts_FontRectangle__"
   },
   {
     "Key": "FontRectangle.op_Inequality",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_op_Inequality_SixLabors_Fonts_FontRectangle__SixLabors_Fonts_FontRectangle__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_op_Inequality_SixLabors_Fonts_FontRectangle__SixLabors_Fonts_FontRectangle__"
   },
   {
     "Key": "Transform",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Transform_SixLabors_Fonts_FontRectangle__System_Numerics__3780fbef_6c2d_48b8_a590_132f8f803459_Matrix3x2_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Transform_SixLabors_Fonts_FontRectangle__System_Numerics__3780fbef_6c2d_48b8_a590_132f8f803459_Matrix3x2_"
   },
   {
     "Key": "FontRectangle.Transform",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Transform_SixLabors_Fonts_FontRectangle__System_Numerics__3780fbef_6c2d_48b8_a590_132f8f803459_Matrix3x2_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Transform_SixLabors_Fonts_FontRectangle__System_Numerics__3780fbef_6c2d_48b8_a590_132f8f803459_Matrix3x2_"
   },
   {
     "Key": "Union",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Union_SixLabors_Fonts_FontRectangle__SixLabors_Fonts_FontRectangle__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Union_SixLabors_Fonts_FontRectangle__SixLabors_Fonts_FontRectangle__"
   },
   {
     "Key": "FontRectangle.Union",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Union_SixLabors_Fonts_FontRectangle__SixLabors_Fonts_FontRectangle__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontRectangle.html#SixLabors_Fonts_FontRectangle_Union_SixLabors_Fonts_FontRectangle__SixLabors_Fonts_FontRectangle__"
   },
   {
     "Key": "FontStyle",
-    "Href": "/object-reference/api/SixLabors.Fonts.FontStyle.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.FontStyle.html"
   },
   {
     "Key": "Glyph",
-    "Href": "/object-reference/api/SixLabors.Fonts.Glyph.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Glyph.html"
   },
   {
     "Key": "BoundingBox",
-    "Href": "/object-reference/api/SixLabors.Fonts.Glyph.html#SixLabors_Fonts_Glyph_BoundingBox_SixLabors_Fonts_GlyphLayoutMode_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Single_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Glyph.html#SixLabors_Fonts_Glyph_BoundingBox_SixLabors_Fonts_GlyphLayoutMode_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Single_"
   },
   {
     "Key": "Glyph.BoundingBox",
-    "Href": "/object-reference/api/SixLabors.Fonts.Glyph.html#SixLabors_Fonts_Glyph_BoundingBox_SixLabors_Fonts_GlyphLayoutMode_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Single_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Glyph.html#SixLabors_Fonts_Glyph_BoundingBox_SixLabors_Fonts_GlyphLayoutMode_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Single_"
   },
   {
     "Key": "GlyphBounds",
-    "Href": "/object-reference/api/SixLabors.Fonts.GlyphBounds.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.GlyphBounds.html"
   },
   {
     "Key": "GlyphColor",
-    "Href": "/object-reference/api/SixLabors.Fonts.GlyphColor.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.GlyphColor.html"
   },
   {
     "Key": "GlyphLayoutMode",
-    "Href": "/object-reference/api/SixLabors.Fonts.GlyphLayoutMode.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.GlyphLayoutMode.html"
   },
   {
     "Key": "GlyphMetrics",
-    "Href": "/object-reference/api/SixLabors.Fonts.GlyphMetrics.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.GlyphMetrics.html"
   },
   {
     "Key": "ShouldSkipGlyphRendering",
-    "Href": "/object-reference/api/SixLabors.Fonts.GlyphMetrics.html#SixLabors_Fonts_GlyphMetrics_ShouldSkipGlyphRendering_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.GlyphMetrics.html#SixLabors_Fonts_GlyphMetrics_ShouldSkipGlyphRendering_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "GlyphMetrics.ShouldSkipGlyphRendering",
-    "Href": "/object-reference/api/SixLabors.Fonts.GlyphMetrics.html#SixLabors_Fonts_GlyphMetrics_ShouldSkipGlyphRendering_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.GlyphMetrics.html#SixLabors_Fonts_GlyphMetrics_ShouldSkipGlyphRendering_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "GlyphMissingException",
-    "Href": "/object-reference/api/SixLabors.Fonts.GlyphMissingException.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.GlyphMissingException.html"
   },
   {
     "Key": "GlyphRendererParameters",
-    "Href": "/object-reference/api/SixLabors.Fonts.GlyphRendererParameters.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.GlyphRendererParameters.html"
   },
   {
     "Key": "GlyphType",
-    "Href": "/object-reference/api/SixLabors.Fonts.GlyphType.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.GlyphType.html"
   },
   {
     "Key": "HintingMode",
-    "Href": "/object-reference/api/SixLabors.Fonts.HintingMode.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.HintingMode.html"
   },
   {
     "Key": "HorizontalMetrics",
-    "Href": "/object-reference/api/SixLabors.Fonts.HorizontalMetrics.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.HorizontalMetrics.html"
   },
   {
     "Key": "IColorGlyphRenderer",
-    "Href": "/object-reference/api/SixLabors.Fonts.IColorGlyphRenderer.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IColorGlyphRenderer.html"
   },
   {
     "Key": "IFontCollection",
-    "Href": "/object-reference/api/SixLabors.Fonts.IFontCollection.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IFontCollection.html"
   },
   {
     "Key": "IGlyphRenderer",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html"
   },
   {
     "Key": "BeginFigure",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_BeginFigure"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_BeginFigure"
   },
   {
     "Key": "IGlyphRenderer.BeginFigure",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_BeginFigure"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_BeginFigure"
   },
   {
     "Key": "BeginGlyph",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_BeginGlyph_SixLabors_Fonts_FontRectangle__SixLabors_Fonts_GlyphRendererParameters__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_BeginGlyph_SixLabors_Fonts_FontRectangle__SixLabors_Fonts_GlyphRendererParameters__"
   },
   {
     "Key": "IGlyphRenderer.BeginGlyph",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_BeginGlyph_SixLabors_Fonts_FontRectangle__SixLabors_Fonts_GlyphRendererParameters__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_BeginGlyph_SixLabors_Fonts_FontRectangle__SixLabors_Fonts_GlyphRendererParameters__"
   },
   {
     "Key": "BeginText",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_BeginText_SixLabors_Fonts_FontRectangle__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_BeginText_SixLabors_Fonts_FontRectangle__"
   },
   {
     "Key": "IGlyphRenderer.BeginText",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_BeginText_SixLabors_Fonts_FontRectangle__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_BeginText_SixLabors_Fonts_FontRectangle__"
   },
   {
     "Key": "CubicBezierTo",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_CubicBezierTo_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_CubicBezierTo_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_"
   },
   {
     "Key": "IGlyphRenderer.CubicBezierTo",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_CubicBezierTo_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_CubicBezierTo_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_"
   },
   {
     "Key": "EnabledDecorations",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_EnabledDecorations"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_EnabledDecorations"
   },
   {
     "Key": "IGlyphRenderer.EnabledDecorations",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_EnabledDecorations"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_EnabledDecorations"
   },
   {
     "Key": "EndFigure",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_EndFigure"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_EndFigure"
   },
   {
     "Key": "IGlyphRenderer.EndFigure",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_EndFigure"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_EndFigure"
   },
   {
     "Key": "EndGlyph",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_EndGlyph"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_EndGlyph"
   },
   {
     "Key": "IGlyphRenderer.EndGlyph",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_EndGlyph"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_EndGlyph"
   },
   {
     "Key": "EndText",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_EndText"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_EndText"
   },
   {
     "Key": "IGlyphRenderer.EndText",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_EndText"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_EndText"
   },
   {
     "Key": "LineTo",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_LineTo_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_LineTo_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_"
   },
   {
     "Key": "IGlyphRenderer.LineTo",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_LineTo_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_LineTo_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_"
   },
   {
     "Key": "MoveTo",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_MoveTo_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_MoveTo_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_"
   },
   {
     "Key": "IGlyphRenderer.MoveTo",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_MoveTo_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_MoveTo_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_"
   },
   {
     "Key": "QuadraticBezierTo",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_QuadraticBezierTo_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_QuadraticBezierTo_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_"
   },
   {
     "Key": "IGlyphRenderer.QuadraticBezierTo",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_QuadraticBezierTo_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_QuadraticBezierTo_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_"
   },
   {
     "Key": "SetDecoration",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_SetDecoration_SixLabors_Fonts_TextDecorations_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Single_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_SetDecoration_SixLabors_Fonts_TextDecorations_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Single_"
   },
   {
     "Key": "IGlyphRenderer.SetDecoration",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_SetDecoration_SixLabors_Fonts_TextDecorations_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Single_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRenderer.html#SixLabors_Fonts_IGlyphRenderer_SetDecoration_SixLabors_Fonts_TextDecorations_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Numerics__97166269_a6ac_4e8d_87ce_f146222703fd_Vector2_System_Single_"
   },
   {
     "Key": "IGlyphRendererExtensions",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRendererExtensions.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRendererExtensions.html"
   },
   {
     "Key": "Render",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRendererExtensions.html#SixLabors_Fonts_IGlyphRendererExtensions_Render_SixLabors_Fonts_IGlyphRenderer_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRendererExtensions.html#SixLabors_Fonts_IGlyphRendererExtensions_Render_SixLabors_Fonts_IGlyphRenderer_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
   },
   {
     "Key": "IGlyphRendererExtensions.Render",
-    "Href": "/object-reference/api/SixLabors.Fonts.IGlyphRendererExtensions.html#SixLabors_Fonts_IGlyphRendererExtensions_Render_SixLabors_Fonts_IGlyphRenderer_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IGlyphRendererExtensions.html#SixLabors_Fonts_IGlyphRendererExtensions_Render_SixLabors_Fonts_IGlyphRenderer_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
   },
   {
     "Key": "IMetricsHeader",
-    "Href": "/object-reference/api/SixLabors.Fonts.IMetricsHeader.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IMetricsHeader.html"
   },
   {
     "Key": "InvalidFontFileException",
-    "Href": "/object-reference/api/SixLabors.Fonts.InvalidFontFileException.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.InvalidFontFileException.html"
   },
   {
     "Key": "InvalidFontTableException",
-    "Href": "/object-reference/api/SixLabors.Fonts.InvalidFontTableException.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.InvalidFontTableException.html"
   },
   {
     "Key": "IReadOnlyFontCollection",
-    "Href": "/object-reference/api/SixLabors.Fonts.IReadOnlyFontCollection.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IReadOnlyFontCollection.html"
   },
   {
     "Key": "IReadOnlySystemFontCollection",
-    "Href": "/object-reference/api/SixLabors.Fonts.IReadOnlySystemFontCollection.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.IReadOnlySystemFontCollection.html"
   },
   {
     "Key": "KerningMode",
-    "Href": "/object-reference/api/SixLabors.Fonts.KerningMode.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.KerningMode.html"
   },
   {
     "Key": "LayoutMode",
-    "Href": "/object-reference/api/SixLabors.Fonts.LayoutMode.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.LayoutMode.html"
   },
   {
     "Key": "LayoutModeExtensions",
-    "Href": "/object-reference/api/SixLabors.Fonts.LayoutModeExtensions.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.LayoutModeExtensions.html"
   },
   {
     "Key": "IsHorizontal",
-    "Href": "/object-reference/api/SixLabors.Fonts.LayoutModeExtensions.html#SixLabors_Fonts_LayoutModeExtensions_IsHorizontal_SixLabors_Fonts_LayoutMode_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.LayoutModeExtensions.html#SixLabors_Fonts_LayoutModeExtensions_IsHorizontal_SixLabors_Fonts_LayoutMode_"
   },
   {
     "Key": "LayoutModeExtensions.IsHorizontal",
-    "Href": "/object-reference/api/SixLabors.Fonts.LayoutModeExtensions.html#SixLabors_Fonts_LayoutModeExtensions_IsHorizontal_SixLabors_Fonts_LayoutMode_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.LayoutModeExtensions.html#SixLabors_Fonts_LayoutModeExtensions_IsHorizontal_SixLabors_Fonts_LayoutMode_"
   },
   {
     "Key": "IsVertical",
-    "Href": "/object-reference/api/SixLabors.Fonts.LayoutModeExtensions.html#SixLabors_Fonts_LayoutModeExtensions_IsVertical_SixLabors_Fonts_LayoutMode_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.LayoutModeExtensions.html#SixLabors_Fonts_LayoutModeExtensions_IsVertical_SixLabors_Fonts_LayoutMode_"
   },
   {
     "Key": "LayoutModeExtensions.IsVertical",
-    "Href": "/object-reference/api/SixLabors.Fonts.LayoutModeExtensions.html#SixLabors_Fonts_LayoutModeExtensions_IsVertical_SixLabors_Fonts_LayoutMode_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.LayoutModeExtensions.html#SixLabors_Fonts_LayoutModeExtensions_IsVertical_SixLabors_Fonts_LayoutMode_"
   },
   {
     "Key": "IsVerticalMixed",
-    "Href": "/object-reference/api/SixLabors.Fonts.LayoutModeExtensions.html#SixLabors_Fonts_LayoutModeExtensions_IsVerticalMixed_SixLabors_Fonts_LayoutMode_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.LayoutModeExtensions.html#SixLabors_Fonts_LayoutModeExtensions_IsVerticalMixed_SixLabors_Fonts_LayoutMode_"
   },
   {
     "Key": "LayoutModeExtensions.IsVerticalMixed",
-    "Href": "/object-reference/api/SixLabors.Fonts.LayoutModeExtensions.html#SixLabors_Fonts_LayoutModeExtensions_IsVerticalMixed_SixLabors_Fonts_LayoutMode_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.LayoutModeExtensions.html#SixLabors_Fonts_LayoutModeExtensions_IsVerticalMixed_SixLabors_Fonts_LayoutMode_"
   },
   {
     "Key": "MissingFontTableException",
-    "Href": "/object-reference/api/SixLabors.Fonts.MissingFontTableException.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.MissingFontTableException.html"
   },
   {
     "Key": "SystemFonts",
-    "Href": "/object-reference/api/SixLabors.Fonts.SystemFonts.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.SystemFonts.html"
   },
   {
     "Key": "FeatureTags",
-    "Href": "/object-reference/api/SixLabors.Fonts.Tables.AdvancedTypographic.FeatureTags.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Tables.AdvancedTypographic.FeatureTags.html"
   },
   {
     "Key": "GlyphClassDef",
-    "Href": "/object-reference/api/SixLabors.Fonts.Tables.AdvancedTypographic.GlyphClassDef.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Tables.AdvancedTypographic.GlyphClassDef.html"
   },
   {
     "Key": "Tag",
-    "Href": "/object-reference/api/SixLabors.Fonts.Tables.AdvancedTypographic.Tag.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Tables.AdvancedTypographic.Tag.html"
   },
   {
     "Key": "Implicit",
-    "Href": "/object-reference/api/SixLabors.Fonts.Tables.AdvancedTypographic.Tag.html#SixLabors_Fonts_Tables_AdvancedTypographic_Tag_op_Implicit_SixLabors_Fonts_Tables_AdvancedTypographic_FeatureTags__SixLabors_Fonts_Tables_AdvancedTypographic_Tag"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Tables.AdvancedTypographic.Tag.html#SixLabors_Fonts_Tables_AdvancedTypographic_Tag_op_Implicit_SixLabors_Fonts_Tables_AdvancedTypographic_FeatureTags__SixLabors_Fonts_Tables_AdvancedTypographic_Tag"
   },
   {
     "Key": "Tag.Implicit",
-    "Href": "/object-reference/api/SixLabors.Fonts.Tables.AdvancedTypographic.Tag.html#SixLabors_Fonts_Tables_AdvancedTypographic_Tag_op_Implicit_SixLabors_Fonts_Tables_AdvancedTypographic_FeatureTags__SixLabors_Fonts_Tables_AdvancedTypographic_Tag"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Tables.AdvancedTypographic.Tag.html#SixLabors_Fonts_Tables_AdvancedTypographic_Tag_op_Implicit_SixLabors_Fonts_Tables_AdvancedTypographic_FeatureTags__SixLabors_Fonts_Tables_AdvancedTypographic_Tag"
   },
   {
     "Key": "Parse",
-    "Href": "/object-reference/api/SixLabors.Fonts.Tables.AdvancedTypographic.Tag.html#SixLabors_Fonts_Tables_AdvancedTypographic_Tag_Parse_System_String_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Tables.AdvancedTypographic.Tag.html#SixLabors_Fonts_Tables_AdvancedTypographic_Tag_Parse_System_String_"
   },
   {
     "Key": "Tag.Parse",
-    "Href": "/object-reference/api/SixLabors.Fonts.Tables.AdvancedTypographic.Tag.html#SixLabors_Fonts_Tables_AdvancedTypographic_Tag_Parse_System_String_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Tables.AdvancedTypographic.Tag.html#SixLabors_Fonts_Tables_AdvancedTypographic_Tag_Parse_System_String_"
   },
   {
     "Key": "TrueTypeGlyphMetrics",
-    "Href": "/object-reference/api/SixLabors.Fonts.Tables.TrueType.TrueTypeGlyphMetrics.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Tables.TrueType.TrueTypeGlyphMetrics.html"
   },
   {
     "Key": "TextAlignment",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextAlignment.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextAlignment.html"
   },
   {
     "Key": "TextAttributes",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextAttributes.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextAttributes.html"
   },
   {
     "Key": "TextDecorations",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextDecorations.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextDecorations.html"
   },
   {
     "Key": "TextDirection",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextDirection.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextDirection.html"
   },
   {
     "Key": "TextJustification",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextJustification.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextJustification.html"
   },
   {
     "Key": "TextMeasurer",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextMeasurer.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextMeasurer.html"
   },
   {
     "Key": "CountLines",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_CountLines_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_CountLines_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
   },
   {
     "Key": "TextMeasurer.CountLines",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_CountLines_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_CountLines_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
   },
   {
     "Key": "MeasureAdvance",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_MeasureAdvance_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_MeasureAdvance_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
   },
   {
     "Key": "TextMeasurer.MeasureAdvance",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_MeasureAdvance_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_MeasureAdvance_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
   },
   {
     "Key": "MeasureBounds",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_MeasureBounds_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_MeasureBounds_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
   },
   {
     "Key": "TextMeasurer.MeasureBounds",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_MeasureBounds_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_MeasureBounds_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
   },
   {
     "Key": "MeasureSize",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_MeasureSize_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_MeasureSize_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
   },
   {
     "Key": "TextMeasurer.MeasureSize",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_MeasureSize_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_MeasureSize_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
   },
   {
     "Key": "TryMeasureCharacterAdvances",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_TryMeasureCharacterAdvances_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_SixLabors_Fonts_GlyphBounds___"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_TryMeasureCharacterAdvances_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_SixLabors_Fonts_GlyphBounds___"
   },
   {
     "Key": "TextMeasurer.TryMeasureCharacterAdvances",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_TryMeasureCharacterAdvances_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_SixLabors_Fonts_GlyphBounds___"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_TryMeasureCharacterAdvances_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_SixLabors_Fonts_GlyphBounds___"
   },
   {
     "Key": "TryMeasureCharacterBounds",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_TryMeasureCharacterBounds_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_SixLabors_Fonts_GlyphBounds___"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_TryMeasureCharacterBounds_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_SixLabors_Fonts_GlyphBounds___"
   },
   {
     "Key": "TextMeasurer.TryMeasureCharacterBounds",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_TryMeasureCharacterBounds_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_SixLabors_Fonts_GlyphBounds___"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_TryMeasureCharacterBounds_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_SixLabors_Fonts_GlyphBounds___"
   },
   {
     "Key": "TryMeasureCharacterSizes",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_TryMeasureCharacterSizes_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_SixLabors_Fonts_GlyphBounds___"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_TryMeasureCharacterSizes_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_SixLabors_Fonts_GlyphBounds___"
   },
   {
     "Key": "TextMeasurer.TryMeasureCharacterSizes",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_TryMeasureCharacterSizes_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_SixLabors_Fonts_GlyphBounds___"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextMeasurer.html#SixLabors_Fonts_TextMeasurer_TryMeasureCharacterSizes_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_SixLabors_Fonts_GlyphBounds___"
   },
   {
     "Key": "TextOptions",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextOptions.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextOptions.html"
   },
   {
     "Key": "TextRenderer",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextRenderer.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextRenderer.html"
   },
   {
     "Key": "RenderText",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextRenderer.html#SixLabors_Fonts_TextRenderer_RenderText_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextRenderer.html#SixLabors_Fonts_TextRenderer_RenderText_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
   },
   {
     "Key": "TextRenderer.RenderText",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextRenderer.html#SixLabors_Fonts_TextRenderer_RenderText_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextRenderer.html#SixLabors_Fonts_TextRenderer_RenderText_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
   },
   {
     "Key": "RenderTextTo",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextRenderer.html#SixLabors_Fonts_TextRenderer_RenderTextTo_SixLabors_Fonts_IGlyphRenderer_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextRenderer.html#SixLabors_Fonts_TextRenderer_RenderTextTo_SixLabors_Fonts_IGlyphRenderer_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
   },
   {
     "Key": "TextRenderer.RenderTextTo",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextRenderer.html#SixLabors_Fonts_TextRenderer_RenderTextTo_SixLabors_Fonts_IGlyphRenderer_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextRenderer.html#SixLabors_Fonts_TextRenderer_RenderTextTo_SixLabors_Fonts_IGlyphRenderer_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__SixLabors_Fonts_TextOptions_"
   },
   {
     "Key": "TextRun",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextRun.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextRun.html"
   },
   {
     "Key": "Slice",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextRun.html#SixLabors_Fonts_TextRun_Slice_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextRun.html#SixLabors_Fonts_TextRun_Slice_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__"
   },
   {
     "Key": "TextRun.Slice",
-    "Href": "/object-reference/api/SixLabors.Fonts.TextRun.html#SixLabors_Fonts_TextRun_Slice_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.TextRun.html#SixLabors_Fonts_TextRun_Slice_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__"
   },
   {
     "Key": "ArabicJoiningClass",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.ArabicJoiningClass.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.ArabicJoiningClass.html"
   },
   {
     "Key": "ArabicJoiningGroup",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.ArabicJoiningGroup.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.ArabicJoiningGroup.html"
   },
   {
     "Key": "ArabicJoiningType",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.ArabicJoiningType.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.ArabicJoiningType.html"
   },
   {
     "Key": "BidiCharacterType",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.BidiCharacterType.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.BidiCharacterType.html"
   },
   {
     "Key": "BidiClass",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.BidiClass.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.BidiClass.html"
   },
   {
     "Key": "TryGetPairedBracket",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.BidiClass.html#SixLabors_Fonts_Unicode_BidiClass_TryGetPairedBracket_SixLabors_Fonts_Unicode_CodePoint__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.BidiClass.html#SixLabors_Fonts_Unicode_BidiClass_TryGetPairedBracket_SixLabors_Fonts_Unicode_CodePoint__"
   },
   {
     "Key": "BidiClass.TryGetPairedBracket",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.BidiClass.html#SixLabors_Fonts_Unicode_BidiClass_TryGetPairedBracket_SixLabors_Fonts_Unicode_CodePoint__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.BidiClass.html#SixLabors_Fonts_Unicode_BidiClass_TryGetPairedBracket_SixLabors_Fonts_Unicode_CodePoint__"
   },
   {
     "Key": "BidiPairedBracketType",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.BidiPairedBracketType.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.BidiPairedBracketType.html"
   },
   {
     "Key": "CodePoint",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html"
   },
   {
     "Key": "CompareTo",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_CompareTo_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_CompareTo_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.CompareTo",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_CompareTo_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_CompareTo_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "GetBidiClass",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetBidiClass_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetBidiClass_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.GetBidiClass",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetBidiClass_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetBidiClass_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "GetCodePointCount",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetCodePointCount_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetCodePointCount_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__"
   },
   {
     "Key": "CodePoint.GetCodePointCount",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetCodePointCount_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetCodePointCount_System__ca447e5d_251c_4902_9f79_b5de86c2277f_ReadOnlySpan_System_Char__"
   },
   {
     "Key": "GetGeneralCategory",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetGeneralCategory_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetGeneralCategory_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.GetGeneralCategory",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetGeneralCategory_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetGeneralCategory_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "GetGraphemeClusterClass",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetGraphemeClusterClass_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetGraphemeClusterClass_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.GetGraphemeClusterClass",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetGraphemeClusterClass_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetGraphemeClusterClass_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "GetLineBreakClass",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetLineBreakClass_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetLineBreakClass_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.GetLineBreakClass",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetLineBreakClass_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetLineBreakClass_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "GetVerticalOrientationType",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetVerticalOrientationType_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetVerticalOrientationType_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.GetVerticalOrientationType",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetVerticalOrientationType_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_GetVerticalOrientationType_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "IsControl",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsControl_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsControl_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.IsControl",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsControl_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsControl_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "IsDigit",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsDigit_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsDigit_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.IsDigit",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsDigit_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsDigit_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "IsLetter",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsLetter_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsLetter_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.IsLetter",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsLetter_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsLetter_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "IsLetterOrDigit",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsLetterOrDigit_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsLetterOrDigit_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.IsLetterOrDigit",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsLetterOrDigit_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsLetterOrDigit_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "IsLower",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsLower_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsLower_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.IsLower",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsLower_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsLower_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "IsMark",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsMark_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsMark_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.IsMark",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsMark_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsMark_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "IsNewLine",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsNewLine_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsNewLine_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.IsNewLine",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsNewLine_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsNewLine_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "IsNonBreakingSpace",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsNonBreakingSpace_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsNonBreakingSpace_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.IsNonBreakingSpace",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsNonBreakingSpace_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsNonBreakingSpace_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "IsNumber",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsNumber_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsNumber_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.IsNumber",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsNumber_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsNumber_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "IsPunctuation",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsPunctuation_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsPunctuation_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.IsPunctuation",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsPunctuation_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsPunctuation_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "IsSeparator",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsSeparator_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsSeparator_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.IsSeparator",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsSeparator_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsSeparator_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "IsSymbol",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsSymbol_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsSymbol_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.IsSymbol",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsSymbol_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsSymbol_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "IsTabulation",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsTabulation_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsTabulation_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.IsTabulation",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsTabulation_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsTabulation_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "IsUpper",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsUpper_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsUpper_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.IsUpper",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsUpper_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsUpper_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "IsValid",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsValid_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsValid_System_Int32_"
   },
   {
     "Key": "CodePoint.IsValid",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsValid_System_Int32_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsValid_System_Int32_"
   },
   {
     "Key": "IsVariationSelector",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsVariationSelector_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsVariationSelector_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.IsVariationSelector",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsVariationSelector_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsVariationSelector_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "IsWhiteSpace",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsWhiteSpace_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsWhiteSpace_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.IsWhiteSpace",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsWhiteSpace_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsWhiteSpace_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "IsZeroWidthJoiner",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsZeroWidthJoiner_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsZeroWidthJoiner_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.IsZeroWidthJoiner",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsZeroWidthJoiner_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsZeroWidthJoiner_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "IsZeroWidthNonJoiner",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsZeroWidthNonJoiner_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsZeroWidthNonJoiner_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.IsZeroWidthNonJoiner",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsZeroWidthNonJoiner_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_IsZeroWidthNonJoiner_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "GreaterThan",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_op_GreaterThan_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_op_GreaterThan_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.GreaterThan",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_op_GreaterThan_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_op_GreaterThan_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "GreaterThanOrEqual",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_op_GreaterThanOrEqual_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_op_GreaterThanOrEqual_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.GreaterThanOrEqual",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_op_GreaterThanOrEqual_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_op_GreaterThanOrEqual_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "LessThan",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_op_LessThan_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_op_LessThan_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.LessThan",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_op_LessThan_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_op_LessThan_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "LessThanOrEqual",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_op_LessThanOrEqual_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_op_LessThanOrEqual_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "CodePoint.LessThanOrEqual",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_op_LessThanOrEqual_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint_"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_op_LessThanOrEqual_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint_"
   },
   {
     "Key": "TryGetBidiMirror",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_TryGetBidiMirror_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_TryGetBidiMirror_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint__"
   },
   {
     "Key": "CodePoint.TryGetBidiMirror",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_TryGetBidiMirror_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_TryGetBidiMirror_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint__"
   },
   {
     "Key": "TryGetVerticalMirror",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_TryGetVerticalMirror_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_TryGetVerticalMirror_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint__"
   },
   {
     "Key": "CodePoint.TryGetVerticalMirror",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_TryGetVerticalMirror_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.CodePoint.html#SixLabors_Fonts_Unicode_CodePoint_TryGetVerticalMirror_SixLabors_Fonts_Unicode_CodePoint_SixLabors_Fonts_Unicode_CodePoint__"
   },
   {
     "Key": "GraphemeClusterClass",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.GraphemeClusterClass.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.GraphemeClusterClass.html"
   },
   {
     "Key": "IndicPositionalCategory",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.IndicPositionalCategory.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.IndicPositionalCategory.html"
   },
   {
     "Key": "IndicSyllabicCategory",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.IndicSyllabicCategory.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.IndicSyllabicCategory.html"
   },
   {
     "Key": "LineBreakClass",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.LineBreakClass.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.LineBreakClass.html"
   },
   {
     "Key": "MemoryExtensions",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.MemoryExtensions.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.MemoryExtensions.html"
   },
   {
     "Key": "EnumerateCodePoints",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.MemoryExtensions.html#SixLabors_Fonts_Unicode_MemoryExtensions_EnumerateCodePoints_System__7818ecd8_73d6_481e_b664_29659d5d18e1_Span_System_Char__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.MemoryExtensions.html#SixLabors_Fonts_Unicode_MemoryExtensions_EnumerateCodePoints_System__7818ecd8_73d6_481e_b664_29659d5d18e1_Span_System_Char__"
   },
   {
     "Key": "MemoryExtensions.EnumerateCodePoints",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.MemoryExtensions.html#SixLabors_Fonts_Unicode_MemoryExtensions_EnumerateCodePoints_System__7818ecd8_73d6_481e_b664_29659d5d18e1_Span_System_Char__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.MemoryExtensions.html#SixLabors_Fonts_Unicode_MemoryExtensions_EnumerateCodePoints_System__7818ecd8_73d6_481e_b664_29659d5d18e1_Span_System_Char__"
   },
   {
     "Key": "EnumerateGraphemes",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.MemoryExtensions.html#SixLabors_Fonts_Unicode_MemoryExtensions_EnumerateGraphemes_System__7818ecd8_73d6_481e_b664_29659d5d18e1_Span_System_Char__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.MemoryExtensions.html#SixLabors_Fonts_Unicode_MemoryExtensions_EnumerateGraphemes_System__7818ecd8_73d6_481e_b664_29659d5d18e1_Span_System_Char__"
   },
   {
     "Key": "MemoryExtensions.EnumerateGraphemes",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.MemoryExtensions.html#SixLabors_Fonts_Unicode_MemoryExtensions_EnumerateGraphemes_System__7818ecd8_73d6_481e_b664_29659d5d18e1_Span_System_Char__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.MemoryExtensions.html#SixLabors_Fonts_Unicode_MemoryExtensions_EnumerateGraphemes_System__7818ecd8_73d6_481e_b664_29659d5d18e1_Span_System_Char__"
   },
   {
     "Key": "GetGraphemeCount",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.MemoryExtensions.html#SixLabors_Fonts_Unicode_MemoryExtensions_GetGraphemeCount_System__7818ecd8_73d6_481e_b664_29659d5d18e1_Span_System_Char__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.MemoryExtensions.html#SixLabors_Fonts_Unicode_MemoryExtensions_GetGraphemeCount_System__7818ecd8_73d6_481e_b664_29659d5d18e1_Span_System_Char__"
   },
   {
     "Key": "MemoryExtensions.GetGraphemeCount",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.MemoryExtensions.html#SixLabors_Fonts_Unicode_MemoryExtensions_GetGraphemeCount_System__7818ecd8_73d6_481e_b664_29659d5d18e1_Span_System_Char__"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.MemoryExtensions.html#SixLabors_Fonts_Unicode_MemoryExtensions_GetGraphemeCount_System__7818ecd8_73d6_481e_b664_29659d5d18e1_Span_System_Char__"
   },
   {
     "Key": "ScriptClass",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.ScriptClass.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.ScriptClass.html"
   },
   {
     "Key": "SpanCodePointEnumerator",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.SpanCodePointEnumerator.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.SpanCodePointEnumerator.html"
   },
   {
     "Key": "MoveNext",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.SpanCodePointEnumerator.html#SixLabors_Fonts_Unicode_SpanCodePointEnumerator_MoveNext"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.SpanCodePointEnumerator.html#SixLabors_Fonts_Unicode_SpanCodePointEnumerator_MoveNext"
   },
   {
     "Key": "SpanCodePointEnumerator.MoveNext",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.SpanCodePointEnumerator.html#SixLabors_Fonts_Unicode_SpanCodePointEnumerator_MoveNext"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.SpanCodePointEnumerator.html#SixLabors_Fonts_Unicode_SpanCodePointEnumerator_MoveNext"
   },
   {
     "Key": "SpanGraphemeEnumerator",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.SpanGraphemeEnumerator.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.SpanGraphemeEnumerator.html"
   },
   {
     "Key": "VerticalOrientationType",
-    "Href": "/object-reference/api/SixLabors.Fonts.Unicode.VerticalOrientationType.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.Unicode.VerticalOrientationType.html"
   },
   {
     "Key": "VerticalMetrics",
-    "Href": "/object-reference/api/SixLabors.Fonts.VerticalMetrics.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.VerticalMetrics.html"
   },
   {
     "Key": "KnownNameIds",
-    "Href": "/object-reference/api/SixLabors.Fonts.WellKnownIds.KnownNameIds.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.WellKnownIds.KnownNameIds.html"
   },
   {
     "Key": "WordBreaking",
-    "Href": "/object-reference/api/SixLabors.Fonts.WordBreaking.html"
+    "Href": "/csharp/excel/object-reference/api/SixLabors.Fonts.WordBreaking.html"
   }
 ]

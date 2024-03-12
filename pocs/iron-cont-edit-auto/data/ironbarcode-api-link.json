@@ -1,0 +1,630 @@
+[
+  {
+    "Key": "AdaptiveThresholdFilter",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.AdaptiveThresholdFilter.html"
+  },
+  {
+    "Key": "BarCodeAspectSide",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarCodeAspectSide.html"
+  },
+  {
+    "Key": "BarcodeEncoding",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeEncoding.html"
+  },
+  {
+    "Key": "BarcodeOrientation",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeOrientation.html"
+  },
+  {
+    "Key": "BarcodeReader",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeReader.html"
+  },
+  {
+    "Key": "Read",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeReader.html#IronBarCode_BarcodeReader_Read_IronSoftware_Drawing_AnyBitmap_IronBarCode_BarcodeReaderOptions_"
+  },
+  {
+    "Key": "BarcodeReader.Read",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeReader.html#IronBarCode_BarcodeReader_Read_IronSoftware_Drawing_AnyBitmap_IronBarCode_BarcodeReaderOptions_"
+  },
+  {
+    "Key": "ReadAsync",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeReader.html#IronBarCode_BarcodeReader_ReadAsync_IronSoftware_Drawing_AnyBitmap_IronBarCode_BarcodeReaderOptions_"
+  },
+  {
+    "Key": "BarcodeReader.ReadAsync",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeReader.html#IronBarCode_BarcodeReader_ReadAsync_IronSoftware_Drawing_AnyBitmap_IronBarCode_BarcodeReaderOptions_"
+  },
+  {
+    "Key": "ReadPdf",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeReader.html#IronBarCode_BarcodeReader_ReadPdf_System_Byte___IronBarCode_PdfBarcodeReaderOptions_"
+  },
+  {
+    "Key": "BarcodeReader.ReadPdf",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeReader.html#IronBarCode_BarcodeReader_ReadPdf_System_Byte___IronBarCode_PdfBarcodeReaderOptions_"
+  },
+  {
+    "Key": "ReadPdfAsync",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeReader.html#IronBarCode_BarcodeReader_ReadPdfAsync_System_Collections_Generic_IEnumerable_System_Byte____IronBarCode_PdfBarcodeReaderOptions_"
+  },
+  {
+    "Key": "BarcodeReader.ReadPdfAsync",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeReader.html#IronBarCode_BarcodeReader_ReadPdfAsync_System_Collections_Generic_IEnumerable_System_Byte____IronBarCode_PdfBarcodeReaderOptions_"
+  },
+  {
+    "Key": "BarcodeReaderOptions",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeReaderOptions.html"
+  },
+  {
+    "Key": "BarcodeResult",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeResult.html"
+  },
+  {
+    "Key": "BarcodeResults",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeResults.html"
+  },
+  {
+    "Key": "ExportFilterImagesToDisk",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeResults.html#IronBarCode_BarcodeResults_ExportFilterImagesToDisk_System_String_"
+  },
+  {
+    "Key": "BarcodeResults.ExportFilterImagesToDisk",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeResults.html#IronBarCode_BarcodeResults_ExportFilterImagesToDisk_System_String_"
+  },
+  {
+    "Key": "FilterImages",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeResults.html#IronBarCode_BarcodeResults_FilterImages"
+  },
+  {
+    "Key": "BarcodeResults.FilterImages",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeResults.html#IronBarCode_BarcodeResults_FilterImages"
+  },
+  {
+    "Key": "GetEnumerator",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeResults.html#IronBarCode_BarcodeResults_GetEnumerator"
+  },
+  {
+    "Key": "BarcodeResults.GetEnumerator",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeResults.html#IronBarCode_BarcodeResults_GetEnumerator"
+  },
+  {
+    "Key": "Values",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeResults.html#IronBarCode_BarcodeResults_Values"
+  },
+  {
+    "Key": "BarcodeResults.Values",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeResults.html#IronBarCode_BarcodeResults_Values"
+  },
+  {
+    "Key": "BarcodeWriter",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeWriter.html"
+  },
+  {
+    "Key": "CreateBarcode",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeWriter.html#IronBarCode_BarcodeWriter_CreateBarcode_System_Byte___IronBarCode_BarcodeEncoding_"
+  },
+  {
+    "Key": "BarcodeWriter.CreateBarcode",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeWriter.html#IronBarCode_BarcodeWriter_CreateBarcode_System_Byte___IronBarCode_BarcodeEncoding_"
+  },
+  {
+    "Key": "BarcodeWriterEncoding",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BarcodeWriterEncoding.html"
+  },
+  {
+    "Key": "BinaryThresholdFilter",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BinaryThresholdFilter.html"
+  },
+  {
+    "Key": "BrightnessFilter",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.BrightnessFilter.html"
+  },
+  {
+    "Key": "ContrastFilter",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.ContrastFilter.html"
+  },
+  {
+    "Key": "DataMatrixWriter",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.DataMatrixWriter.html"
+  },
+  {
+    "Key": "CreateDataMatrix",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.DataMatrixWriter.html#IronBarCode_DataMatrixWriter_CreateDataMatrix_System_Byte___IronBarCode_DataMatrixWriter_DataMatrixShape_System_Int32_System_Int32_"
+  },
+  {
+    "Key": "DataMatrixWriter.CreateDataMatrix",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.DataMatrixWriter.html#IronBarCode_DataMatrixWriter_CreateDataMatrix_System_Byte___IronBarCode_DataMatrixWriter_DataMatrixShape_System_Int32_System_Int32_"
+  },
+  {
+    "Key": "DataMatrixWriter.DataMatrixShape",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.DataMatrixWriter.DataMatrixShape.html"
+  },
+  {
+    "Key": "IronBarCodeContentTooLongEncodingException",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.Exceptions.IronBarCodeContentTooLongEncodingException.html"
+  },
+  {
+    "Key": "IronBarCodeEncodingException",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.Exceptions.IronBarCodeEncodingException.html"
+  },
+  {
+    "Key": "IronBarCodeException",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.Exceptions.IronBarCodeException.html"
+  },
+  {
+    "Key": "IronBarCodeFileException",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.Exceptions.IronBarCodeFileException.html"
+  },
+  {
+    "Key": "IronBarCodeFormatOnlyAcceptsNumericValuesEncodingException",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.Exceptions.IronBarCodeFormatOnlyAcceptsNumericValuesEncodingException.html"
+  },
+  {
+    "Key": "IronBarCodePdfPasswordException",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.Exceptions.IronBarCodePdfPasswordException.html"
+  },
+  {
+    "Key": "IronBarCodeUnsupportedException",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.Exceptions.IronBarCodeUnsupportedException.html"
+  },
+  {
+    "Key": "IronBarCodeUnsupportedRendererEncodingException",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.Exceptions.IronBarCodeUnsupportedRendererEncodingException.html"
+  },
+  {
+    "Key": "GeneratedBarcode",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html"
+  },
+  {
+    "Key": "AddAnnotationTextAboveBarcode",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_AddAnnotationTextAboveBarcode_System_String_"
+  },
+  {
+    "Key": "GeneratedBarcode.AddAnnotationTextAboveBarcode",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_AddAnnotationTextAboveBarcode_System_String_"
+  },
+  {
+    "Key": "AddAnnotationTextBelowBarcode",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_AddAnnotationTextBelowBarcode_System_String_"
+  },
+  {
+    "Key": "GeneratedBarcode.AddAnnotationTextBelowBarcode",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_AddAnnotationTextBelowBarcode_System_String_"
+  },
+  {
+    "Key": "AddBarcodeValueTextAboveBarcode",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_AddBarcodeValueTextAboveBarcode"
+  },
+  {
+    "Key": "GeneratedBarcode.AddBarcodeValueTextAboveBarcode",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_AddBarcodeValueTextAboveBarcode"
+  },
+  {
+    "Key": "AddBarcodeValueTextBelowBarcode",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_AddBarcodeValueTextBelowBarcode"
+  },
+  {
+    "Key": "GeneratedBarcode.AddBarcodeValueTextBelowBarcode",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_AddBarcodeValueTextBelowBarcode"
+  },
+  {
+    "Key": "ChangeBackgroundColor",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ChangeBackgroundColor_IronSoftware_Drawing_Color_"
+  },
+  {
+    "Key": "GeneratedBarcode.ChangeBackgroundColor",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ChangeBackgroundColor_IronSoftware_Drawing_Color_"
+  },
+  {
+    "Key": "ChangeBarCodeColor",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ChangeBarCodeColor_IronSoftware_Drawing_Color_System_Boolean_"
+  },
+  {
+    "Key": "GeneratedBarcode.ChangeBarCodeColor",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ChangeBarCodeColor_IronSoftware_Drawing_Color_System_Boolean_"
+  },
+  {
+    "Key": "KeepAspectRatio",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_KeepAspectRatio_System_Boolean_IronBarCode_BarCodeAspectSide_"
+  },
+  {
+    "Key": "GeneratedBarcode.KeepAspectRatio",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_KeepAspectRatio_System_Boolean_IronBarCode_BarCodeAspectSide_"
+  },
+  {
+    "Key": "ResizeTo",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ResizeTo_System_Int32_System_Int32_"
+  },
+  {
+    "Key": "GeneratedBarcode.ResizeTo",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ResizeTo_System_Int32_System_Int32_"
+  },
+  {
+    "Key": "ResizeToMil",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ResizeToMil_System_Double_System_Double_System_Int32_"
+  },
+  {
+    "Key": "GeneratedBarcode.ResizeToMil",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ResizeToMil_System_Double_System_Double_System_Int32_"
+  },
+  {
+    "Key": "SaveAsGif",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SaveAsGif_System_String_"
+  },
+  {
+    "Key": "GeneratedBarcode.SaveAsGif",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SaveAsGif_System_String_"
+  },
+  {
+    "Key": "SaveAsHtmlFile",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SaveAsHtmlFile_System_String_"
+  },
+  {
+    "Key": "GeneratedBarcode.SaveAsHtmlFile",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SaveAsHtmlFile_System_String_"
+  },
+  {
+    "Key": "SaveAsImage",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SaveAsImage_System_String_"
+  },
+  {
+    "Key": "GeneratedBarcode.SaveAsImage",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SaveAsImage_System_String_"
+  },
+  {
+    "Key": "SaveAsJpeg",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SaveAsJpeg_System_String_"
+  },
+  {
+    "Key": "GeneratedBarcode.SaveAsJpeg",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SaveAsJpeg_System_String_"
+  },
+  {
+    "Key": "SaveAsPdf",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SaveAsPdf_System_String_"
+  },
+  {
+    "Key": "GeneratedBarcode.SaveAsPdf",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SaveAsPdf_System_String_"
+  },
+  {
+    "Key": "SaveAsPng",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SaveAsPng_System_String_"
+  },
+  {
+    "Key": "GeneratedBarcode.SaveAsPng",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SaveAsPng_System_String_"
+  },
+  {
+    "Key": "SaveAsTiff",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SaveAsTiff_System_String_"
+  },
+  {
+    "Key": "GeneratedBarcode.SaveAsTiff",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SaveAsTiff_System_String_"
+  },
+  {
+    "Key": "SaveAsWindowsBitmap",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SaveAsWindowsBitmap_System_String_"
+  },
+  {
+    "Key": "GeneratedBarcode.SaveAsWindowsBitmap",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SaveAsWindowsBitmap_System_String_"
+  },
+  {
+    "Key": "SetMargins",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SetMargins_System_Int32_"
+  },
+  {
+    "Key": "GeneratedBarcode.SetMargins",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SetMargins_System_Int32_"
+  },
+  {
+    "Key": "StampToExistingPdfPage",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_StampToExistingPdfPage_System_String_System_Int32_System_Int32_System_Int32_System_String_"
+  },
+  {
+    "Key": "GeneratedBarcode.StampToExistingPdfPage",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_StampToExistingPdfPage_System_String_System_Int32_System_Int32_System_Int32_System_String_"
+  },
+  {
+    "Key": "StampToExistingPdfPages",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_StampToExistingPdfPages_System_String_System_Int32_System_Int32_System_Collections_Generic_IEnumerable_System_Int32__System_String_"
+  },
+  {
+    "Key": "GeneratedBarcode.StampToExistingPdfPages",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_StampToExistingPdfPages_System_String_System_Int32_System_Int32_System_Collections_Generic_IEnumerable_System_Int32__System_String_"
+  },
+  {
+    "Key": "ToBitmap",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToBitmap"
+  },
+  {
+    "Key": "GeneratedBarcode.ToBitmap",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToBitmap"
+  },
+  {
+    "Key": "ToDataUrl",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToDataUrl"
+  },
+  {
+    "Key": "GeneratedBarcode.ToDataUrl",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToDataUrl"
+  },
+  {
+    "Key": "ToGifBinaryData",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToGifBinaryData"
+  },
+  {
+    "Key": "GeneratedBarcode.ToGifBinaryData",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToGifBinaryData"
+  },
+  {
+    "Key": "ToGifStream",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToGifStream"
+  },
+  {
+    "Key": "GeneratedBarcode.ToGifStream",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToGifStream"
+  },
+  {
+    "Key": "ToHtmlTag",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToHtmlTag"
+  },
+  {
+    "Key": "GeneratedBarcode.ToHtmlTag",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToHtmlTag"
+  },
+  {
+    "Key": "ToImage",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToImage"
+  },
+  {
+    "Key": "GeneratedBarcode.ToImage",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToImage"
+  },
+  {
+    "Key": "ToJpegBinaryData",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToJpegBinaryData"
+  },
+  {
+    "Key": "GeneratedBarcode.ToJpegBinaryData",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToJpegBinaryData"
+  },
+  {
+    "Key": "ToJpegStream",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToJpegStream"
+  },
+  {
+    "Key": "GeneratedBarcode.ToJpegStream",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToJpegStream"
+  },
+  {
+    "Key": "ToPdfBinaryData",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToPdfBinaryData"
+  },
+  {
+    "Key": "GeneratedBarcode.ToPdfBinaryData",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToPdfBinaryData"
+  },
+  {
+    "Key": "ToPdfStream",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToPdfStream"
+  },
+  {
+    "Key": "GeneratedBarcode.ToPdfStream",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToPdfStream"
+  },
+  {
+    "Key": "ToPngBinaryData",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToPngBinaryData"
+  },
+  {
+    "Key": "GeneratedBarcode.ToPngBinaryData",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToPngBinaryData"
+  },
+  {
+    "Key": "ToPngStream",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToPngStream"
+  },
+  {
+    "Key": "GeneratedBarcode.ToPngStream",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToPngStream"
+  },
+  {
+    "Key": "ToStream",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToStream"
+  },
+  {
+    "Key": "GeneratedBarcode.ToStream",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToStream"
+  },
+  {
+    "Key": "ToTiffBinaryData",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToTiffBinaryData"
+  },
+  {
+    "Key": "GeneratedBarcode.ToTiffBinaryData",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToTiffBinaryData"
+  },
+  {
+    "Key": "ToTiffStream",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToTiffStream"
+  },
+  {
+    "Key": "GeneratedBarcode.ToTiffStream",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToTiffStream"
+  },
+  {
+    "Key": "ToWindowsBitmapBinaryData",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToWindowsBitmapBinaryData"
+  },
+  {
+    "Key": "GeneratedBarcode.ToWindowsBitmapBinaryData",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToWindowsBitmapBinaryData"
+  },
+  {
+    "Key": "ToWindowsBitmapStream",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToWindowsBitmapStream"
+  },
+  {
+    "Key": "GeneratedBarcode.ToWindowsBitmapStream",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ToWindowsBitmapStream"
+  },
+  {
+    "Key": "Verify",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_Verify_System_String_"
+  },
+  {
+    "Key": "GeneratedBarcode.Verify",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_Verify_System_String_"
+  },
+  {
+    "Key": "IImageFilter",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.IImageFilter.html"
+  },
+  {
+    "Key": "ImageFilterCollection",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.ImageFilterCollection.html"
+  },
+  {
+    "Key": "Installation",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.Installation.html"
+  },
+  {
+    "Key": "InvertFilter",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.InvertFilter.html"
+  },
+  {
+    "Key": "License",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.License.html"
+  },
+  {
+    "Key": "IsValidLicense",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.License.html#IronBarCode_License_IsValidLicense_System_String_"
+  },
+  {
+    "Key": "License.IsValidLicense",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.License.html#IronBarCode_License_IsValidLicense_System_String_"
+  },
+  {
+    "Key": "Logger",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.Logging.Logger.html"
+  },
+  {
+    "Key": "ClearLogFiles",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.Logging.Logger.html#IronBarCode_Logging_Logger_ClearLogFiles"
+  },
+  {
+    "Key": "Logger.ClearLogFiles",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.Logging.Logger.html#IronBarCode_Logging_Logger_ClearLogFiles"
+  },
+  {
+    "Key": "Logger.LoggingModes",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.Logging.Logger.LoggingModes.html"
+  },
+  {
+    "Key": "PageOrientation",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.PageOrientation.html"
+  },
+  {
+    "Key": "PdfBarcodeReaderOptions",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.PdfBarcodeReaderOptions.html"
+  },
+  {
+    "Key": "QRCodeLogo",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.QRCodeLogo.html"
+  },
+  {
+    "Key": "QRCodeWriter",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.QRCodeWriter.html"
+  },
+  {
+    "Key": "CreateQrCode",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.QRCodeWriter.html#IronBarCode_QRCodeWriter_CreateQrCode_System_Byte___System_Int32_IronBarCode_QRCodeWriter_QrErrorCorrectionLevel_System_Int32_"
+  },
+  {
+    "Key": "QRCodeWriter.CreateQrCode",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.QRCodeWriter.html#IronBarCode_QRCodeWriter_CreateQrCode_System_Byte___System_Int32_IronBarCode_QRCodeWriter_QrErrorCorrectionLevel_System_Int32_"
+  },
+  {
+    "Key": "CreateQrCodeWithLogo",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.QRCodeWriter.html#IronBarCode_QRCodeWriter_CreateQrCodeWithLogo_System_Byte___IronBarCode_QRCodeLogo_System_Int32_System_Int32_"
+  },
+  {
+    "Key": "QRCodeWriter.CreateQrCodeWithLogo",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.QRCodeWriter.html#IronBarCode_QRCodeWriter_CreateQrCodeWithLogo_System_Byte___IronBarCode_QRCodeLogo_System_Int32_System_Int32_"
+  },
+  {
+    "Key": "QRCodeWriter.QrErrorCorrectionLevel",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.QRCodeWriter.QrErrorCorrectionLevel.html"
+  },
+  {
+    "Key": "ReadingSpeed",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.ReadingSpeed.html"
+  },
+  {
+    "Key": "SharpenFilter",
+    "Href": "/csharp/barcode/object-reference/api/IronBarCode.SharpenFilter.html"
+  },
+  {
+    "Key": "ExceptionHelper",
+    "Href": "/csharp/barcode/object-reference/api/IronSoftware.Exceptions.ExceptionHelper.html"
+  },
+  {
+    "Key": "Message",
+    "Href": "/csharp/barcode/object-reference/api/IronSoftware.Exceptions.ExceptionHelper.html#IronSoftware_Exceptions_ExceptionHelper_Message_System_String_System_String_System_String_System_String_"
+  },
+  {
+    "Key": "ExceptionHelper.Message",
+    "Href": "/csharp/barcode/object-reference/api/IronSoftware.Exceptions.ExceptionHelper.html#IronSoftware_Exceptions_ExceptionHelper_Message_System_String_System_String_System_String_System_String_"
+  },
+  {
+    "Key": "IronPdfInputException",
+    "Href": "/csharp/barcode/object-reference/api/IronSoftware.Exceptions.IronPdfInputException.html"
+  },
+  {
+    "Key": "IronSoftwareAssemblyLoadException",
+    "Href": "/csharp/barcode/object-reference/api/IronSoftware.Exceptions.IronSoftwareAssemblyLoadException.html"
+  },
+  {
+    "Key": "IronSoftwareAssemblyMissingException",
+    "Href": "/csharp/barcode/object-reference/api/IronSoftware.Exceptions.IronSoftwareAssemblyMissingException.html"
+  },
+  {
+    "Key": "IronSoftwareAssemblyVersionMismatchException",
+    "Href": "/csharp/barcode/object-reference/api/IronSoftware.Exceptions.IronSoftwareAssemblyVersionMismatchException.html"
+  },
+  {
+    "Key": "IronSoftwareDeploymentConfigurationMissingException",
+    "Href": "/csharp/barcode/object-reference/api/IronSoftware.Exceptions.IronSoftwareDeploymentConfigurationMissingException.html"
+  },
+  {
+    "Key": "IronSoftwareDeploymentException",
+    "Href": "/csharp/barcode/object-reference/api/IronSoftware.Exceptions.IronSoftwareDeploymentException.html"
+  },
+  {
+    "Key": "IronSoftwareDeploymentNotSupportedException",
+    "Href": "/csharp/barcode/object-reference/api/IronSoftware.Exceptions.IronSoftwareDeploymentNotSupportedException.html"
+  },
+  {
+    "Key": "IronSoftwareDownloadException",
+    "Href": "/csharp/barcode/object-reference/api/IronSoftware.Exceptions.IronSoftwareDownloadException.html"
+  },
+  {
+    "Key": "IronSoftwareEmbeddedDeploymentException",
+    "Href": "/csharp/barcode/object-reference/api/IronSoftware.Exceptions.IronSoftwareEmbeddedDeploymentException.html"
+  },
+  {
+    "Key": "IronSoftwareEmbeddedDeploymentMissingException",
+    "Href": "/csharp/barcode/object-reference/api/IronSoftware.Exceptions.IronSoftwareEmbeddedDeploymentMissingException.html"
+  },
+  {
+    "Key": "IronSoftwareNativeException",
+    "Href": "/csharp/barcode/object-reference/api/IronSoftware.Exceptions.IronSoftwareNativeException.html"
+  },
+  {
+    "Key": "LicensingException",
+    "Href": "/csharp/barcode/object-reference/api/IronSoftware.Exceptions.LicensingException.html"
+  }
+]

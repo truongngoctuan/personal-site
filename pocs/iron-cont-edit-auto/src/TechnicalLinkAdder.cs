@@ -49,30 +49,30 @@ namespace ContentEdit.Core
         //   {"GetRow", "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetRow_System_Int32_"},
         //   {"GetColumn", "/csharp/excel/object-reference/api/IronXL.WorkSheet.html#IronXL_WorkSheet_GetColumn_System_Int32_"}
         // }},
-        { TaskType.IronBarcode, new Dictionary<string, string> {
-          //reader
-          {"BarcodeReader", "/csharp/barcode/object-reference/api/IronBarCode.BarcodeReader.html"},
-          {"Read", "/csharp/barcode/object-reference/api/IronBarCode.BarcodeReader.html#IronBarCode_BarcodeReader_Read_IronSoftware_Drawing_AnyBitmap_IronBarCode_BarcodeReaderOptions_"},
-          {"ReadPdf", "/csharp/barcode/object-reference/api/IronBarCode.BarcodeReader.html#IronBarCode_BarcodeReader_ReadPdf_System_Byte___IronBarCode_PdfBarcodeReaderOptions_"},
-          { "ReadAsync", "/csharp/barcode/object-reference/api/IronBarCode.BarcodeReader.html#IronBarCode_BarcodeReader_ReadAsync_IronSoftware_Drawing_AnyBitmap_IronBarCode_BarcodeReaderOptions_"},
-          { "BarcodeResult", "/csharp/barcode/object-reference/api/IronBarCode.BarcodeResult.html"},
-          
-          // writer
-          {"QRCodeWriter", "/csharp/barcode/object-reference/api/IronBarCode.QRCodeWriter.html"},
-          {"BarcodeWriter", "/csharp/barcode/object-reference/api/IronBarCode.BarcodeWriter.html"},
-          {"CreateBarcode","/csharp/barcode/object-reference/api/IronBarCode.BarcodeWriter.html#IronBarCode_BarcodeWriter_CreateBarcode_System_Byte___IronBarCode_BarcodeEncoding_"},
-          { "CreateQrCode", "/csharp/barcode/object-reference/api/IronBarCode.QRCodeWriter.html#IronBarCode_QRCodeWriter_CreateQrCode_System_Byte___System_Int32_IronBarCode_QRCodeWriter_QrErrorCorrectionLevel_System_Int32_"},
-          {"CreateQrCodeWithLogo", "/csharp/barcode/object-reference/api/IronBarCode.QRCodeWriter.html#IronBarCode_QRCodeWriter_CreateQrCodeWithLogo_System_Byte___IronBarCode_QRCodeLogo_System_Int32_System_Int32_"},
-          { "GeneratedBarcode", "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html"},
-          {"SaveAsPdf", "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SaveAsPdf_System_String_"},
-          {"SaveAsHtmlFile", "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SaveAsHtmlFile_System_String_"},
-          {"SaveAsPng", "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SaveAsPng_System_String_"},
-          {"ChangeBarCodeColor", "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ChangeBarCodeColor_IronSoftware_Drawing_Color_System_Boolean_"},
-          { "AddAnnotationTextAboveBarcode", "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_AddAnnotationTextAboveBarcode_System_String_IronSoftware_Drawing_Font_IronSoftware_Drawing_Color_"},
-          { "AddAnnotationTextBelowBarcode", "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_AddAnnotationTextBelowBarcode_System_String_"},
-          { "BarcodeEncoding", "/csharp/barcode/object-reference/api/IronBarCode.BarcodeEncoding.html"},
-          { "ResizeTo", "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ResizeTo_System_Int32_System_Int32_"}
-        }},
+        // { TaskType.IronBarcode, new Dictionary<string, string> {
+        //   //reader
+        //   {"BarcodeReader", "/csharp/barcode/object-reference/api/IronBarCode.BarcodeReader.html"},
+        //   {"Read", "/csharp/barcode/object-reference/api/IronBarCode.BarcodeReader.html#IronBarCode_BarcodeReader_Read_IronSoftware_Drawing_AnyBitmap_IronBarCode_BarcodeReaderOptions_"},
+        //   {"ReadPdf", "/csharp/barcode/object-reference/api/IronBarCode.BarcodeReader.html#IronBarCode_BarcodeReader_ReadPdf_System_Byte___IronBarCode_PdfBarcodeReaderOptions_"},
+        //   { "ReadAsync", "/csharp/barcode/object-reference/api/IronBarCode.BarcodeReader.html#IronBarCode_BarcodeReader_ReadAsync_IronSoftware_Drawing_AnyBitmap_IronBarCode_BarcodeReaderOptions_"},
+        //   { "BarcodeResult", "/csharp/barcode/object-reference/api/IronBarCode.BarcodeResult.html"},
+
+        //   // writer
+        //   {"QRCodeWriter", "/csharp/barcode/object-reference/api/IronBarCode.QRCodeWriter.html"},
+        //   {"BarcodeWriter", "/csharp/barcode/object-reference/api/IronBarCode.BarcodeWriter.html"},
+        //   {"CreateBarcode","/csharp/barcode/object-reference/api/IronBarCode.BarcodeWriter.html#IronBarCode_BarcodeWriter_CreateBarcode_System_Byte___IronBarCode_BarcodeEncoding_"},
+        //   { "CreateQrCode", "/csharp/barcode/object-reference/api/IronBarCode.QRCodeWriter.html#IronBarCode_QRCodeWriter_CreateQrCode_System_Byte___System_Int32_IronBarCode_QRCodeWriter_QrErrorCorrectionLevel_System_Int32_"},
+        //   {"CreateQrCodeWithLogo", "/csharp/barcode/object-reference/api/IronBarCode.QRCodeWriter.html#IronBarCode_QRCodeWriter_CreateQrCodeWithLogo_System_Byte___IronBarCode_QRCodeLogo_System_Int32_System_Int32_"},
+        //   { "GeneratedBarcode", "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html"},
+        //   {"SaveAsPdf", "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SaveAsPdf_System_String_"},
+        //   {"SaveAsHtmlFile", "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SaveAsHtmlFile_System_String_"},
+        //   {"SaveAsPng", "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_SaveAsPng_System_String_"},
+        //   {"ChangeBarCodeColor", "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ChangeBarCodeColor_IronSoftware_Drawing_Color_System_Boolean_"},
+        //   { "AddAnnotationTextAboveBarcode", "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_AddAnnotationTextAboveBarcode_System_String_IronSoftware_Drawing_Font_IronSoftware_Drawing_Color_"},
+        //   { "AddAnnotationTextBelowBarcode", "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_AddAnnotationTextBelowBarcode_System_String_"},
+        //   { "BarcodeEncoding", "/csharp/barcode/object-reference/api/IronBarCode.BarcodeEncoding.html"},
+        //   { "ResizeTo", "/csharp/barcode/object-reference/api/IronBarCode.GeneratedBarcode.html#IronBarCode_GeneratedBarcode_ResizeTo_System_Int32_System_Int32_"}
+        // }},
       };
 
       // read from file
@@ -88,6 +88,10 @@ namespace ContentEdit.Core
         new {
           Type = TaskType.IronXL,
           FileName = "data/ironxl-api-link.json"
+        },
+        new {
+          Type = TaskType.IronBarcode,
+          FileName = "data/ironbarcode-api-link.json"
         }
       };
       foreach (var metaFile in metaFiles)
@@ -108,6 +112,9 @@ namespace ContentEdit.Core
       var replaceStringsByType = replaceStringsByTypes[taskDesc.TaskType];
       foreach (var replacePair in replaceStringsByType)
       {
+        if (markdownContent.Contains($"{replacePair.Key} button", StringComparison.CurrentCultureIgnoreCase) ||
+        markdownContent.Contains($"**{replacePair.Key}** button", StringComparison.CurrentCultureIgnoreCase)) continue;
+
         markdownContent = markdownContent.Replace($"**{replacePair.Key}**", $"`{replacePair.Key}`", StringComparison.OrdinalIgnoreCase);
         markdownContent = markdownContent.Replace($"`{replacePair.Key}`", $"`{replacePair.Key}`", StringComparison.OrdinalIgnoreCase);
         markdownContent = markdownContent.Replace($"**{replacePair.Key}()**", $"`{replacePair.Key}`", StringComparison.OrdinalIgnoreCase);

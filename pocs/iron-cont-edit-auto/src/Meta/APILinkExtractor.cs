@@ -54,7 +54,8 @@ namespace ContentEdit.Meta
       var libraries = new string[]{
         "ironpdf",
         "ironocr",
-        "ironxl"
+        "ironxl",
+        "ironbarcode"
       };
 
       foreach (var libraryName in libraries)
@@ -84,17 +85,31 @@ namespace ContentEdit.Meta
           if (dict.ContainsKey(methodName)) continue;
 
           Console.WriteLine($"{methodNameWithType} | {methodName} | {method.Href}");
+          var linkPrefix = "";
+          if (libraryName == "ironocr")
+          {
+            linkPrefix = "/csharp/ocr";
+          }
+          if (libraryName == "ironxl")
+          {
+            linkPrefix = "/csharp/excel";
+          }
+          if (libraryName == "ironbarcode")
+          {
+            linkPrefix = "/csharp/barcode";
+          }
+
           results.Add(new APILink
           {
             Key = methodName,
-            Href = "/object-reference/" + method.Href
+            Href = linkPrefix + "/object-reference/" + method.Href
           });
           if (methodName != methodNameWithType)
           {
             results.Add(new APILink
             {
               Key = methodNameWithType,
-              Href = "/object-reference/" + method.Href
+              Href = linkPrefix + "/object-reference/" + method.Href
             });
           }
 
