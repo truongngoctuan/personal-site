@@ -1,5 +1,6 @@
 ﻿using System.Text.Json;
 using ContentEdit.Core;
+using ContentEdit.FixBugs;
 using ContentEdit.Meta;
 
 namespace HelloWorld
@@ -10,12 +11,15 @@ namespace HelloWorld
     static void Main(string[] args)
     {
       // process articles
-      processTasks();
+      // processTasks();
 
       //meta processing steps
       // extract API urls and build up a database for API links, then insert in each article, check TechnicalLinkAdder.cs
       // var t = APILinkExtractor.Extract();
       // Task.WaitAll(t);
+
+      // fix bugs
+      UpdateUrlsAdded.ReplaceAPIUrls();
     }
 
     static void processTasks()

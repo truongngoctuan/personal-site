@@ -6,7 +6,9 @@ namespace ContentEdit.Core
     {
       var tasks = File.ReadAllText(url).Split("\n");
 
-      return tasks.Select(t =>
+      return tasks
+      .Where(t => !t.StartsWith("#"))
+      .Select(t =>
       {
         var urlSplits = t.Split("/");
         var slug = urlSplits[urlSplits.Length - 2];
