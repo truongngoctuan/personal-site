@@ -115,6 +115,7 @@ namespace ContentEdit.Core
         if (markdownContent.Contains($"{replacePair.Key} button", StringComparison.CurrentCultureIgnoreCase) ||
         markdownContent.Contains($"**{replacePair.Key}** button", StringComparison.CurrentCultureIgnoreCase)) continue;
 
+        markdownContent = markdownContent.Replace($"`**{replacePair.Key}**`", $"`{replacePair.Key}`", StringComparison.OrdinalIgnoreCase);
         markdownContent = markdownContent.Replace($"**{replacePair.Key}**", $"`{replacePair.Key}`", StringComparison.OrdinalIgnoreCase);
         markdownContent = markdownContent.Replace($"`{replacePair.Key}`", $"`{replacePair.Key}`", StringComparison.OrdinalIgnoreCase);
         markdownContent = markdownContent.Replace($"**{replacePair.Key}()**", $"`{replacePair.Key}`", StringComparison.OrdinalIgnoreCase);

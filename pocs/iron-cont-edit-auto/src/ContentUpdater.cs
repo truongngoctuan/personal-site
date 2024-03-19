@@ -36,8 +36,8 @@ namespace ContentEdit.Core
 
       // replace common technical terms
       result = result.Replace("visual studio", "Visual Studio", StringComparison.OrdinalIgnoreCase);
-      result = result.Replace("visual studio 2020", "Visual Studio", StringComparison.OrdinalIgnoreCase);
-      result = result.Replace("visual studio 2022", "Visual Studio", StringComparison.OrdinalIgnoreCase);
+      // result = result.Replace("visual studio 2020", "Visual Studio", StringComparison.OrdinalIgnoreCase);
+      // result = result.Replace("visual studio 2022", "Visual Studio", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("Window form", "Windows Forms", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("C#.NET", "C# .NET", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("dot net", ".NET", StringComparison.OrdinalIgnoreCase);
@@ -54,6 +54,7 @@ namespace ContentEdit.Core
       result = result.Replace("Web application", "Web Application", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("Windows application", "Windows Application", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("Web forms", "Web Forms", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("windows forms", "Windows Forms", StringComparison.OrdinalIgnoreCase);
       result = result.Replace(".NET framework", ".NET Framework", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("Core Framework", "Core Framework", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("-> ", "> ");
@@ -74,6 +75,17 @@ namespace ContentEdit.Core
       result = result.Replace("Pdf file", "PDF file");
       result = result.Replace("pdf document", "PDF document");
       result = result.Replace("Pdf document", "PDF document");
+      result = result.Replace("xlsx file", "XLSX file", StringComparison.CurrentCultureIgnoreCase);
+      result = result.Replace("xls file", "XLS file", StringComparison.CurrentCultureIgnoreCase);
+      // result = result.Replace("excel file", "Excel file", StringComparison.CurrentCultureIgnoreCase);
+      result = result.Replace("excel ", "Excel ");
+      result = result.Replace(" excel", " Excel");
+      result = result.Replace("MS Excel", "Microsoft Excel");
+      result = result.Replace("csv ", "CSV ", StringComparison.CurrentCultureIgnoreCase);
+      result = result.Replace(" csv", " CSV", StringComparison.CurrentCultureIgnoreCase);
+
+      result = result.Replace("word file", "Word file", StringComparison.CurrentCultureIgnoreCase);
+      result = result.Replace("word document", "Word document", StringComparison.CurrentCultureIgnoreCase);
 
       result = result.Replace("\"Next\" button", "**Next** button", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("Next button", "**Next** button", StringComparison.OrdinalIgnoreCase);
@@ -88,9 +100,15 @@ namespace ContentEdit.Core
       result = result.Replace("Windows Form ", "Windows Forms ", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("Window Form ", "Windows Forms ", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("Window Forms ", "Windows Forms ", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("blazor ", "Blazor ", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace(" blazor", " Blazor", StringComparison.OrdinalIgnoreCase);
+
 
       result = result.Replace("Iron Barcode", "IronBarcode", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("Iron OCR", "IronOCR", StringComparison.OrdinalIgnoreCase);
+
+      result = result.Replace("\"Program.cs\"", "`Program.cs`");
+
 
       // result = result.Replace("IronBarCode", "IronBarcode");
 
@@ -124,6 +142,22 @@ namespace ContentEdit.Core
       //         <p class="content__image-caption">Creating a New Project in Visual Studio</p>
       //     </div>
       // </div>
+      // with space in unordered list
+      var imgPattern6 = """<div (.+?)(\n)      <img src="(.+?)(\d{1,2})(.{4,5})" alt="(.*?)"(.*?)>(\n)      <p (.+?)(\n)  </div>""";
+      var imgReplacement6 = $"![{matchedPost.PostHeader}, Figure $4: $6]($3$4$5)\n  **$6**";
+      result = Regex.Replace(result, imgPattern6, imgReplacement6);
+
+      var imgPattern7 = """<div (.+?)(\n)        <img src="(.+?)(\d{1,2})(.{4,5})" alt="(.*?)"(.*?)>(\n)        <p (.+?)(\n)    </div>""";
+      var imgReplacement7 = $"![{matchedPost.PostHeader}, Figure $4: $6]($3$4$5)\n    **$6**";
+      result = Regex.Replace(result, imgPattern7, imgReplacement7);
+
+      var imgPattern8 = """<div (.+?)(\n)            <img src="(.+?)(\d{1,2})(.{4,5})" alt="(.*?)"(.*?)>(\n)            <p (.+?)(\n)        </div>""";
+      var imgReplacement8 = $"![{matchedPost.PostHeader}, Figure $4: $6]($3$4$5)\n        **$6**";
+      result = Regex.Replace(result, imgPattern8, imgReplacement8);
+
+      var imgPattern9 = """<div (.+?)(\n)                <img src="(.+?)(\d{1,2})(.{4,5})" alt="(.*?)"(.*?)>(\n)                <p (.+?)(\n)            </div>""";
+      var imgReplacement9 = $"![{matchedPost.PostHeader}, Figure $4: $6]($3$4$5)\n            **$6**";
+      result = Regex.Replace(result, imgPattern9, imgReplacement9);
 
 
       // replace with markdown urls
