@@ -26,7 +26,8 @@ namespace ContentEdit.Trello
   {
     public static void Extract()
     {
-      string jsonString = File.ReadAllText($"data/trello-task4.json");
+      string taskName = "task8";
+      string jsonString = File.ReadAllText($"data/trello-{taskName}.json");
       var trelloTask = JsonSerializer.Deserialize<TrelloTask>(jsonString);
       if (trelloTask == null) return;
 
@@ -44,7 +45,7 @@ namespace ContentEdit.Trello
         var taskLinkSplits = taskLink.Split("/");
         dataSlugs += taskLinkSplits.SkipLast(1).Last() + "\n";
 
-        File.WriteAllText("data/task4.txt", data + dataSlugs);
+        File.WriteAllText($"data/{taskName}.txt", data + dataSlugs);
       }
     }
   }

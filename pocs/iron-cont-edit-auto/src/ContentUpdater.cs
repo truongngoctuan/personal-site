@@ -48,7 +48,11 @@ namespace ContentEdit.Core
       // result = result.Replace(" net", " .NET");
       // result = result.Replace("net ", ".NET ");
       result = result.Replace(".Net", ".NET");
+      result = result.Replace(" NET Core", " .NET Core");
+
       result = result.Replace("asp mvc", "ASP.NET MVC", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("VB .NET", "VB.NET");
+
       result = result.Replace("nuget ", "NuGet ", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("console application", "Console Application");
       result = result.Replace("Web application", "Web Application", StringComparison.OrdinalIgnoreCase);
@@ -108,6 +112,8 @@ namespace ContentEdit.Core
       result = result.Replace("Iron OCR", "IronOCR", StringComparison.OrdinalIgnoreCase);
 
       result = result.Replace("\"Program.cs\"", "`Program.cs`");
+
+      result = result.Replace("```cs  ", "```cs");
 
 
       // result = result.Replace("IronBarCode", "IronBarcode");
@@ -173,15 +179,27 @@ namespace ContentEdit.Core
       for (int i = 1; i < 15; i++)
       {
         result = result.Replace($"{matchedPost.PostHeader}, Figure {i}: {matchedPost.PostHeader}, Figure {i}",
-        $"{matchedPost.PostHeader}, Figure {i}");
+        $"{matchedPost.PostHeader}, Figure {i}", StringComparison.CurrentCultureIgnoreCase);
         result = result.Replace($"**{matchedPost.PostHeader}, Figure {i}: ", "**");
+        result = result.Replace($"{matchedPost.PostHeader}: Figure {i} - ", $"{matchedPost.PostHeader}, Figure {i}: ", StringComparison.CurrentCultureIgnoreCase);
+        result = result.Replace($"{matchedPost.PostHeader}: Figure {i}- ", $"{matchedPost.PostHeader}, Figure {i}: ", StringComparison.CurrentCultureIgnoreCase);
+        result = result.Replace($"{matchedPost.PostHeader}: Figure {i}]", $"{matchedPost.PostHeader}, Figure {i}: ]", StringComparison.CurrentCultureIgnoreCase);
       }
-      // var urlPattern10 = $"{matchedPost.PostHeader}, Figure (\\d)\\: {matchedPost.PostHeader}, Figure (\\d+)";
-      // var urlReplacement10 = $"{matchedPost.PostHeader}, Figure $1:";
-      // result = Regex.Replace(result, urlPattern10, urlReplacement10);
+
+      // adding empty **** line after image if missing one
+      var urlPattern10 = """    \!\[(.+)\]\((.+)\)\n\n""";
+      var urlReplacement10 = "    ![$1]($2)\n    ****\n\n";
+      result = Regex.Replace(result, urlPattern10, urlReplacement10);
+
+      var urlPattern11 = """\!\[(.+)\]\((.+)\)\n\n""";
+      var urlReplacement11 = "![$1]($2)\n****\n\n";
+      result = Regex.Replace(result, urlPattern11, urlReplacement11);
 
       // ![How to Generate an Excel File on Razor Pages, Figure 2: 
       // **How to Generate an Excel File in Razor Pages, Figure 2: 
+      var urlPattern12 = """\!\[(.+)\:\s(.+)\]\((.+)\)\n\*\*\*\*\n""";
+      var urlReplacement12 = "![$1: $2]($3)\n**$2**\n\n";
+      result = Regex.Replace(result, urlPattern12, urlReplacement12);
 
       // remove special characters
       result = result.Replace(" ", " ");
