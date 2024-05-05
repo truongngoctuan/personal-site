@@ -64,6 +64,7 @@ namespace ContentEdit.Core
       result = result.Replace("-> ", "> ");
       result = result.Replace("Tools>", "**Tools** >", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("Tools >", "**Tools** >", StringComparison.OrdinalIgnoreCase);
+      result = result.Replace("Solution explorer", "Solution Explorer", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("NuGet Package manager", "NuGet Package Manager", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("package manager console", "Package Manager Console", StringComparison.OrdinalIgnoreCase);
       result = result.Replace("Manage NuGet Packages manager for Solution", "Manage NuGet Packages for Solution", StringComparison.OrdinalIgnoreCase);
@@ -79,11 +80,13 @@ namespace ContentEdit.Core
       result = result.Replace("Pdf file", "PDF file");
       result = result.Replace("pdf document", "PDF document");
       result = result.Replace("Pdf document", "PDF document");
-      result = result.Replace("xlsx file", "XLSX file", StringComparison.CurrentCultureIgnoreCase);
-      result = result.Replace("xls file", "XLS file", StringComparison.CurrentCultureIgnoreCase);
+      result = result.Replace("xlsx file", "XLSX file");
+      result = result.Replace("xls file", "XLS file");
+      result = result.Replace("xlsx File", "XLSX File");
+      result = result.Replace("xls File", "XLS File");
       // result = result.Replace("excel file", "Excel file", StringComparison.CurrentCultureIgnoreCase);
       result = result.Replace("excel ", "Excel ");
-      result = result.Replace(" excel", " Excel");
+      // result = result.Replace(" excel", " Excel");
       result = result.Replace("MS Excel", "Microsoft Excel");
       result = result.Replace("csv ", "CSV ", StringComparison.CurrentCultureIgnoreCase);
       result = result.Replace(" csv", " CSV", StringComparison.CurrentCultureIgnoreCase);
@@ -181,9 +184,9 @@ namespace ContentEdit.Core
         result = result.Replace($"{matchedPost.PostHeader}, Figure {i}: {matchedPost.PostHeader}, Figure {i}",
         $"{matchedPost.PostHeader}, Figure {i}", StringComparison.CurrentCultureIgnoreCase);
         result = result.Replace($"**{matchedPost.PostHeader}, Figure {i}: ", "**");
-        result = result.Replace($"{matchedPost.PostHeader}: Figure {i} - ", $"{matchedPost.PostHeader}, Figure {i}: ", StringComparison.CurrentCultureIgnoreCase);
-        result = result.Replace($"{matchedPost.PostHeader}: Figure {i}- ", $"{matchedPost.PostHeader}, Figure {i}: ", StringComparison.CurrentCultureIgnoreCase);
-        result = result.Replace($"{matchedPost.PostHeader}: Figure {i}]", $"{matchedPost.PostHeader}, Figure {i}: ]", StringComparison.CurrentCultureIgnoreCase);
+        result = result.Replace($"{matchedPost.PostHeader}: Figure {i} - ", $"{matchedPost.PostHeader}, Figure {i}: ");
+        result = result.Replace($"{matchedPost.PostHeader}: Figure {i}- ", $"{matchedPost.PostHeader}, Figure {i}: ");
+        result = result.Replace($"{matchedPost.PostHeader}: Figure {i}]", $"{matchedPost.PostHeader}, Figure {i}: ]");
       }
 
       // adding empty **** line after image if missing one
@@ -200,6 +203,10 @@ namespace ContentEdit.Core
       var urlPattern12 = """\!\[(.+)\:\s(.+)\]\((.+)\)\n\*\*\*\*\n""";
       var urlReplacement12 = "![$1: $2]($3)\n**$2**\n\n";
       result = Regex.Replace(result, urlPattern12, urlReplacement12);
+
+      var urlPattern13 = """\s{4}\!\[(.+)\:\s(.+)\]\((.+)\)\n\s{4}\*\*\*\*\n""";
+      var urlReplacement13 = "    ![$1: $2]($3)\n    **$2**\n\n";
+      result = Regex.Replace(result, urlPattern13, urlReplacement13);
 
       // remove special characters
       result = result.Replace(" ", " ");
