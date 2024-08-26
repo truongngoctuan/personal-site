@@ -10,8 +10,16 @@ namespace ContentEdit.Core
     IronXL,
   }
 
+  public enum ProgrammingLanguage
+  {
+    CSharp,
+    Java,
+    Python,
+  }
+
   public class TaskDesc
   {
+    public required ProgrammingLanguage ProgrammingLanguage { get; set; }
     public required TaskType TaskType { get; set; }
     public required string Site { get; set; }
     public required string Slug { get; set; }

@@ -4,50 +4,53 @@ using ContentEdit.FixBugs;
 using ContentEdit.Meta;
 using ContentEdit.Trello;
 
-namespace HelloWorld
+namespace HelloWorld;
+
+class Program
 {
-  class Program
-  {
 
     static void Main(string[] args)
     {
-      // process articles
-      processTasks();
+        // process articles
+        processTasks();
 
-      //meta processing steps
-      // extract API urls and build up a database for API links, then insert in each article, check TechnicalLinkAdder.cs
-      // var t = APILinkExtractor.Extract();
-      // Task.WaitAll(t);
+        //meta processing steps
+        // extract API urls and build up a database for API links, then insert in each article, check TechnicalLinkAdder.cs
+        // var t = APILinkExtractor.Extract();
+        // Task.WaitAll(t);
 
-      // fix bugs
-      // UpdateUrlsAdded.ReplaceAPIUrls();
+        // fix bugs
+        // UpdateUrlsAdded.ReplaceAPIUrls();
 
-      //trello related tasks
-      // TaskLinkExtractor.Extract();
+        //trello related tasks
+        // TaskLinkExtractor.Extract();
     }
 
     static void processTasks()
     {
-      var tasks = TaskDeserializer.TaskDeserialize("tasks.txt");
+        var tasks = TaskDeserializer.TaskDeserialize("tasks.txt");
 
-      foreach (var task in tasks)
-      {
-        var jsonString = File.ReadAllText(Path.Join(
-       StringFolder.PROJECT_REPOSITORY,
-       StringFolder.RELATIVE_FOLDER,
-       task.RelativePathBlogIndexJsonFile));
-
-        var blogIndexes =
-                JsonSerializer.Deserialize<BlogIndex>(jsonString);
-        var posts = blogIndexes?.Categories.SelectMany(s => s.CategoryPosts);
-        if (posts == null)
+        foreach (var task in tasks)
         {
-          Console.WriteLine("Posts NOT FOUND");
-          return;
-        }
+            Console.WriteLine("----------------------------------------------------------------------------------");
+            Console.WriteLine($"{task.Site} | {task.ProgrammingLanguage} | {task.RelativePathBlogIndexJsonFile}");
+            var jsonString = File.ReadAllText(Path.Join(
+            StringFolder.PROJECT_REPOSITORY,
+            StringFolder.RELATIVE_FOLDER,
+            task.RelativePathBlogIndexJsonFile));
 
-        ContentUpdater.Update(task, posts);
-      }
+            var blogIndexes = JsonSerializer.Deserialize<BlogIndex>(jsonString);
+            var posts = blogIndexes?.Categories.SelectMany(s => s.CategoryPosts);
+            if (posts == null)
+            {
+                Console.WriteLine("Posts NOT FOUND");
+                return;
+            }
+
+            ContentUpdater.Update(task, posts);
+
+            Console.WriteLine("");
+        }
     }
-  }
 }
+
