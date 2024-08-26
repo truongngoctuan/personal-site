@@ -5,7 +5,7 @@ import Tome from "../../../components/organisms/Tome/Tome";
 export default function Post({ slug }) {
   const { tomes, isLoading } = useNovelChapters(slug);
   return (
-    <Layout>
+    <Layout home="/">
       <>
         {tomes.map((tome) => (
           <Tome key={tome.title} novelSlug={slug} data={tome}></Tome>

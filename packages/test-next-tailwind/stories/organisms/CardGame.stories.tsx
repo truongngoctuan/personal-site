@@ -1,6 +1,6 @@
 import React from "react";
 import { Meta } from "@storybook/react";
-import CardGame from "../../components/organisms/CardGame/CardGame";
+import CardGame from "../../../next-radix-tailwind/src/components/organisms/CardGame/CardGame";
 
 export default {
   component: CardGame,

@@ -2,5 +2,13 @@
   "name": "iron-cont-edit-auto",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "remark-parse": "^11.0.0",
+    "remark-stringify": "^11.0.0",
+    "unified": "^11.0.4"
+  },
+  "scripts": {
+    "run": "node index.js"
+  }
 }
