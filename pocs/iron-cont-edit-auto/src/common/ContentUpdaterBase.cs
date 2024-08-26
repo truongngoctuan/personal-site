@@ -11,51 +11,6 @@ public class ContentUpdaterBase : IContentUpdater
         var result = raw;
         var isCRLF = result.Contains("\r\n");
 
-        // replace header
-        result = Regex.Replace(result, """(\n#+.*)(C#)(.*)""", "$1C&num;$3");
-
-        // replace common technical terms
-        result = result.Replace("visual studio", "Visual Studio", StringComparison.OrdinalIgnoreCase);
-        // result = result.Replace("visual studio 2020", "Visual Studio", StringComparison.OrdinalIgnoreCase);
-        // result = result.Replace("visual studio 2022", "Visual Studio", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("Window form", "Windows Forms", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("C#.NET", "C# .NET", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("dot net", ".NET", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("dotnet core", ".NET Core", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("dot net core", ".NET Core", StringComparison.OrdinalIgnoreCase);
-        // result = result.Replace("dotnet ", ".NET ", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace(".net core", ".NET Core", StringComparison.OrdinalIgnoreCase);
-        // result = result.Replace(" net", " .NET");
-        // result = result.Replace("net ", ".NET ");
-        result = result.Replace(".Net", ".NET");
-        result = result.Replace(" NET Core", " .NET Core");
-
-        result = result.Replace("asp mvc", "ASP.NET MVC", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("VB .NET", "VB.NET");
-
-        result = result.Replace("nuget ", "NuGet ", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("console application", "Console Application");
-        result = result.Replace("Web application", "Web Application", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("Windows application", "Windows Application", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("Web forms", "Web Forms", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("windows forms", "Windows Forms", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace(".NET framework", ".NET Framework", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("Core Framework", "Core Framework", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("-> ", "> ");
-        result = result.Replace("Tools>", "**Tools** >", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("Tools >", "**Tools** >", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("Solution explorer", "Solution Explorer", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("NuGet Package manager", "NuGet Package Manager", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("package manager console", "Package Manager Console", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("Manage NuGet Packages manager for Solution", "Manage NuGet Packages for Solution", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("Manage NuGet Package manager for Solution", "Manage NuGet Packages for Solution", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("NuGet Packages manager for Solution", "Manage NuGet Packages for Solution", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("NuGet Package manager for Solution", "Manage NuGet Packages for Solution", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("> Manage NuGet Packages for Solution", "> **Manage NuGet Packages for Solution**", StringComparison.OrdinalIgnoreCase);
-        result = Regex.Replace(result, """> Manage NuGet(.+)Solution""", "> **Manage NuGet Packages for Solution**");
-        result = result.Replace("> NuGet Package manager", "> **NuGet Package Manager**", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("> Package Manager Console", "> **Package Manager Console**", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("** => **", "** > **");
         result = result.Replace("pdf file", "PDF file");
         result = result.Replace("Pdf file", "PDF file");
         result = result.Replace("pdf document", "PDF document");
@@ -81,25 +36,9 @@ public class ContentUpdaterBase : IContentUpdater
         result = result.Replace("__Create__ button", "**Create** button", StringComparison.OrdinalIgnoreCase);
 
         result = result.Replace("javascript", "JavaScript", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("Web Forms Applications", "Web Forms Applications", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("Web Form Applications", "Web Forms Applications", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("Console Application", "Console Application", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("Windows Form ", "Windows Forms ", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("Window Form ", "Windows Forms ", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("Window Forms ", "Windows Forms ", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace("blazor ", "Blazor ", StringComparison.OrdinalIgnoreCase);
-        result = result.Replace(" blazor", " Blazor", StringComparison.OrdinalIgnoreCase);
-
 
         result = result.Replace("Iron Barcode", "IronBarcode", StringComparison.OrdinalIgnoreCase);
         result = result.Replace("Iron OCR", "IronOCR", StringComparison.OrdinalIgnoreCase);
-
-        result = result.Replace("\"Program.cs\"", "`Program.cs`");
-
-        result = result.Replace("```cs  ", "```cs");
-
-        result = result.Replace("heets [", "heets[");
-        result = result.Replace("ws [", "ws[");
 
         // result = result.Replace("IronBarCode", "IronBarcode");
 
@@ -111,28 +50,42 @@ public class ContentUpdaterBase : IContentUpdater
         // result = Regex.Replace(result, heading2Pattern, heading2Replacement);
 
         // replace with markdown img and description
-        //handle warpper
-        var imgPattern3 = """<div (.+?)>(\n)(\s*)(.+?)?(\s*)<img src="(.+?)(\d{1,2})(.{4,5})" alt="(.*?)"(.*?)>(\n)(\s*)(.+?)?\n</div>""";
-        var imgReplacement3 = $"![{matchedPost.PostHeader}, Figure $7: $9]($6$7$8)\n**$9**";
-        result = Regex.Replace(result, imgPattern3, imgReplacement3);
 
-        var imgPattern5 = """<div (.+?)(\n)    <img src="(.+?)(\d{1,2})(.{3,5})" alt="(.*?)"(.*?)>(\n)</div>""";
-        var imgReplacement5 = $"![{matchedPost.PostHeader}, Figure $4: $6]($3$4$5)\n**$6**";
-        result = Regex.Replace(result, imgPattern5, imgReplacement5);
+        // handle hard-tab
+        var imgPattern11 = """<div (.+?)(\n)\t<div (.+?)(\n)\t\t<a (.+?)<img src="(.+?)(\d{1,2})(.{4,5})" alt="(.*?)"(.*?)>(\n)\t</div>(\n)</div>""";
+        var imgReplacement11 = $"![{matchedPost.PostHeader}, Figure $7: $9]($6$7$8)\n**$9**";
+        result = imgReplacementRegex(result, imgPattern11, imgReplacement11, "handle warpper tab 11 - div>div>a>img");
 
-        var imgPattern1 = """<div (.+?)\n(\s*)<img src="(.+?)(\d{1,2})(.{4,5})" alt="(.*?)"(.*?)>(.|\n*?)</div>""";
-        var imgReplacement1 = $"![{matchedPost.PostHeader}, Figure $4: $6]($3$4$5)\n**$6**";
-        result = Regex.Replace(result, imgPattern1, imgReplacement1);
+        // handle hard-tab
+        var imgPattern10 = """<div (.+?)(\n)\t<div (.+?)(\n)\t\t<img src="(.+?)(\d{1,2})(.{4,5})" alt="(.*?)"(.*?)>(\n)\t</div>(\n)</div>""";
+        var imgReplacement10 = $"![{matchedPost.PostHeader}, Figure $6: $8]($5$6$7)\n**$8**";
+        result = imgReplacementRegex(result, imgPattern10, imgReplacement10, "handle warpper tab 10 - div>div>img");
 
-        var imgPattern4 = """<div (.+?)(\n)    <div (.+?)(\n)        <img src="(.+?)(\d{1,2})(.{4,5})" alt="(.*?)"(.*?)>(\n)        <p (.+?)(\n)    </div>(\n)</div>""";
-        var imgReplacement4 = $"![{matchedPost.PostHeader}, Figure $6: $8]($5$6$7)\n**$8**";
-        result = Regex.Replace(result, imgPattern4, imgReplacement4);
         //       < div class="content-img-align-center">
         //     <div class="center-image-wrapper">
         //         <img src = "/static-assets/ocr/blog/ocr-screenshot-csharp-tutorial/ocr-screenshot-csharp-tutorial-1.webp" alt="How to OCR Get Text From Screenshot in C#, Figure 1: New Project" class="img-responsive add-shadow">
         //         <p class="content__image-caption">Creating a New Project in Visual Studio</p>
         //     </div>
         // </div>
+        var imgPattern4 = """<div (.+?)(\n)    <div (.+?)(\n)        <img src="(.+?)(\d{1,2})(.{4,5})" alt="(.*?)"(.*?)>(\n)        <p (.+?)(\n)    </div>(\n)</div>""";
+        var imgReplacement4 = $"![{matchedPost.PostHeader}, Figure $6: $8]($5$6$7)\n**$8**";
+        result = imgReplacementRegex(result, imgPattern4, imgReplacement4, "handle warpper 4 - div>div>img&p");
+
+
+        //handle warpper
+        var imgPattern3 = """<div (.+?)>(\n)(\s*)(.+?)?(\s*)<img src="(.+?)(\d{1,2})(.{4,5})" alt="(.*?)"(.*?)>(\n)(\s*)(.+?)?\n</div>""";
+        var imgReplacement3 = $"![{matchedPost.PostHeader}, Figure $7: $9]($6$7$8)\n**$9**";
+        result = imgReplacementRegex(result, imgPattern3, imgReplacement3, "handle warpper 3 - div>img");
+
+        var imgPattern5 = """<div (.+?)(\n)    <img src="(.+?)(\d{1,2})(.{3,5})" alt="(.*?)"(.*?)>(\n)</div>""";
+        var imgReplacement5 = $"![{matchedPost.PostHeader}, Figure $4: $6]($3$4$5)\n**$6**";
+        result = imgReplacementRegex(result, imgPattern5, imgReplacement5, "5");
+
+        var imgPattern1 = """<div (.+?)\n(\s*)<img src="(.+?)(\d{1,2})(.{4,5})" alt="(.*?)"(.*?)>(.|\n*?)</div>""";
+        var imgReplacement1 = $"![{matchedPost.PostHeader}, Figure $4: $6]($3$4$5)\n**$6**";
+        result = imgReplacementRegex(result, imgPattern1, imgReplacement1, "1");
+
+
         // with space in unordered list
         var imgPattern6 = """<div (.+?)(\n)      <img src="(.+?)(\d{1,2})(.{4,5})" alt="(.*?)"(.*?)>(\n)      <p (.+?)(\n)  </div>""";
         var imgReplacement6 = $"![{matchedPost.PostHeader}, Figure $4: $6]($3$4$5)\n  **$6**";
@@ -225,6 +178,16 @@ public class ContentUpdaterBase : IContentUpdater
         }
 
         return result;
+    }
+
+    string imgReplacementRegex(string input, string pattern, string replacement, string patternName)
+    {
+        if (Regex.IsMatch(input, pattern))
+        {
+            Console.WriteLine($"IMG matched pattern: {patternName}");
+            return Regex.Replace(input, pattern, replacement);
+        }
+        return input;
     }
 }
 

@@ -34,7 +34,9 @@ namespace ContentEdit.Core
 
       // imgs png to webp, updating image url as well
       result = ImagesUpdater.Update(taskDesc, result);
-      result = TechnicalLinkAdder.Update(taskDesc, result);
+
+      var linkAdder = new TechnicalLinkAdderFactory().CreateInstant(taskDesc.ProgrammingLanguage);
+      result = linkAdder.Update(taskDesc, matchedPost, result);
 
       File.WriteAllText(markdownFilePath, result);
     }
