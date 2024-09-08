@@ -113,6 +113,10 @@ public class ContentUpdaterBase : IContentUpdater
         var urlReplacement2 = "[$1](trial-license)";
         result = Regex.Replace(result, urlPattern2, urlReplacement2);
 
+        var urlPattern3 = """<a class="js-modal-open" data-modal-id="trial-license" href="#trial-license">(.+?)</a>""";
+        var urlReplacement3 = "[$1](trial-license)";
+        result = Regex.Replace(result, urlPattern3, urlReplacement3);
+
         // replace images annotation with duplicated information
         for (int i = 1; i < 15; i++)
         {
