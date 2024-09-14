@@ -25,6 +25,15 @@ public class JavaTechnicalLinkAdder : IContentUpdater
               {"fromImage", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#fromImage(java.util.List)"},
               {"extractAllText", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#extractAllText()"},
               {"getSignature", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#getSignature()"},
+              {"addBackgroundPdf", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#addBackgroundPdf(com.ironsoftware.ironpdf.PdfDocument)"},
+              {"addForegroundPdf", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#addForegroundPdf(com.ironsoftware.ironpdf.PdfDocument)"},
+              {"compressImages", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#compressImages(int)"},
+              {"print", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#print()"},
+              {"extractAllImages", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#extractAllImages()"},
+              {"copyPage", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#copyPage(int)"},
+              {"copyPages", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#copyPages(int,int)"},
+              
+              //   {"", ""},
               {"PdfDocument.fromFile", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#fromFile(java.nio.file.Path)"},
               {"PdfDocument.renderHtmlAsPdf", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#renderHtmlAsPdf(java.lang.String)"},
               {"PdfDocument.renderHtmlFileAsPdf", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#renderHtmlFileAsPdf(java.lang.String)"},
@@ -33,18 +42,39 @@ public class JavaTechnicalLinkAdder : IContentUpdater
               {"PdfDocument.fromImage", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#fromImage(java.util.List)"},
               {"PdfDocument.extractAllText", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#extractAllText()"},
               {"PdfDocument.getSignature", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#getSignature()"},
-            //   {"", ""},
+              {"PdfDocument.addBackgroundPdf", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#addBackgroundPdf(com.ironsoftware.ironpdf.PdfDocument)"},
+              {"PdfDocument.addForegroundPdf", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#addForegroundPdf(com.ironsoftware.ironpdf.PdfDocument)"},
+              {"PdfDocument.compressImages", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#compressImages(int)"},
+              {"PdfDocument.print", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#print()"},
+              {"PdfDocument.extractAllImages", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#extractAllImages()"},
+              {"PdfDocument.copyPage", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#copyPage(int)"},
+              {"PdfDocument.copyPages", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#copyPages(int,int)"},
             //   {"", ""},
 
             // ChromePdfRenderOptions
             {"ChromePdfRenderOptions", "/java/object-reference/api/com/ironsoftware/ironpdf/render/ChromePdfRenderOptions.html"},
 
+            {"HtmlHeaderFooter", "/java/object-reference/api/com/ironsoftware/ironpdf/headerfooter/HtmlHeaderFooter.html"},
+
+            {"TextHeaderFooter", "/java/object-reference/api/com/ironsoftware/ironpdf/headerfooter/TextHeaderFooter.html"},
+
+            {"BookmarkManager", "/java/object-reference/api/com/ironsoftware/ironpdf/bookmark/BookmarkManager.html"},
+
+            {"AnnotationManager", "/java/object-reference/api/com/ironsoftware/ironpdf/annotation/AnnotationManager.html"},
+            {"addTextAnnotation", "/java/object-reference/api/com/ironsoftware/ironpdf/annotation/AnnotationManager.html#addTextAnnotation(com.ironsoftware.ironpdf.annotation.AnnotationOptions,int)"},
+            {"AnnotationManager.addTextAnnotation", "/java/object-reference/api/com/ironsoftware/ironpdf/annotation/AnnotationManager.html#addTextAnnotation(com.ironsoftware.ironpdf.annotation.AnnotationOptions,int)"},
+
+            {"AnnotationOptions", "/java/object-reference/api/com/ironsoftware/ironpdf/annotation/AnnotationOptions.html"},
+
             // SignatureManager
             {"SignatureManager", "/java/object-reference/api/com/ironsoftware/ironpdf/signature/SignatureManager.html"},
-            {"SignPdfWithSignature", "/java/object-reference/api/com/ironsoftware/ironpdf/signature/SignatureManager.html#SignPdfWithSignature(com.ironsoftware.ironpdf.signature.Signature)"}
-            //   // ImageToPdfConverter
-            //   {"ImageToPdfConverter", "/object-reference/api/IronPdf.ImageToPdfConverter.html"},
-            //   {"ImageToPdf", "/object-reference/api/IronPdf.ImageToPdfConverter.html#IronPdf_ImageToPdfConverter_ImageToPdf_IronSoftware_Drawing_AnyBitmap_IronPdf_Imaging_ImageBehavior_IronPdf_ChromePdfRenderOptions_"}
+            {"SignPdfWithSignature", "/java/object-reference/api/com/ironsoftware/ironpdf/signature/SignatureManager.html#SignPdfWithSignature(com.ironsoftware.ironpdf.signature.Signature)"},
+
+            {"MetadataManager", "/java/object-reference/api/com/ironsoftware/ironpdf/metadata/MetadataManager.html"},
+
+            {"FormManager", "/java/object-reference/api/com/ironsoftware/ironpdf/form/FormManager.html"},
+            {"setFieldValue", "/java/object-reference/api/com/ironsoftware/ironpdf/form/FormManager.html#setFieldValue(java.lang.String,java.lang.String)"},
+            {"FormManager.setFieldValue", "/java/object-reference/api/com/ironsoftware/ironpdf/form/FormManager.html#setFieldValue(java.lang.String,java.lang.String)"},
             }},
         };
 

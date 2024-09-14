@@ -13,7 +13,21 @@ public class JavaContentUpdater : ContentUpdaterBase
 
         result = result.Replace("pom.xml file.", "`pom.xml` file.");
         result = result.Replace("pom.xml file,", "`pom.xml` file,");
+        result = result.Replace("pom.xml file:", "`pom.xml` file:");
         result = result.Replace("**pom.xml** file", "`pom.xml` file");
+        result = result.Replace("the pom.xml file ", "the `pom.xml` file ");
+
+
+        result = result.Replace("Netbeans", "NetBeans", StringComparison.CurrentCultureIgnoreCase);
+        result = result.Replace("IntelliJ", "IntelliJ", StringComparison.CurrentCultureIgnoreCase);
+        result = result.Replace("IntelliJ IDEA", "IntelliJ IDEA", StringComparison.CurrentCultureIgnoreCase);
+
+        result = result.Replace(" JetBrains", " JetBrains", StringComparison.CurrentCultureIgnoreCase);
+        result = result.Replace("JetBrains ", "JetBrains ", StringComparison.CurrentCultureIgnoreCase);
+        result = result.Replace("JetBrain ", "JetBrains ", StringComparison.CurrentCultureIgnoreCase);
+
+        result = result.Replace("String [] ", "String[] ");
+
 
         return result;
     }
