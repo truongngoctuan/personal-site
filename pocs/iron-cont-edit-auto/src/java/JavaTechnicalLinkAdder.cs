@@ -32,6 +32,8 @@ public class JavaTechnicalLinkAdder : IContentUpdater
               {"extractAllImages", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#extractAllImages()"},
               {"copyPage", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#copyPage(int)"},
               {"copyPages", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#copyPages(int,int)"},
+              {"applyStamp", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#applyStamp(com.ironsoftware.ironpdf.stamp.Stamper)"},
+              
               
               //   {"", ""},
               {"PdfDocument.fromFile", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#fromFile(java.nio.file.Path)"},
@@ -49,6 +51,7 @@ public class JavaTechnicalLinkAdder : IContentUpdater
               {"PdfDocument.extractAllImages", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#extractAllImages()"},
               {"PdfDocument.copyPage", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#copyPage(int)"},
               {"PdfDocument.copyPages", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#copyPages(int,int)"},
+              {"PdfDocument.applyStamp", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#applyStamp(com.ironsoftware.ironpdf.stamp.Stamper)"},
             //   {"", ""},
 
             // ChromePdfRenderOptions
@@ -75,6 +78,30 @@ public class JavaTechnicalLinkAdder : IContentUpdater
             {"FormManager", "/java/object-reference/api/com/ironsoftware/ironpdf/form/FormManager.html"},
             {"setFieldValue", "/java/object-reference/api/com/ironsoftware/ironpdf/form/FormManager.html#setFieldValue(java.lang.String,java.lang.String)"},
             {"FormManager.setFieldValue", "/java/object-reference/api/com/ironsoftware/ironpdf/form/FormManager.html#setFieldValue(java.lang.String,java.lang.String)"},
+
+            {"SecurityManager", "/java/object-reference/api/com/ironsoftware/ironpdf/security/SecurityManager.html"},
+            {"removePasswordsAndEncryption", "/java/object-reference/api/com/ironsoftware/ironpdf/security/SecurityManager.html#removePasswordsAndEncryption()"},
+            {"setPassword", "/java/object-reference/api/com/ironsoftware/ironpdf/security/SecurityManager.html#setPassword(java.lang.String)"},
+
+            {"SecurityOptions", "/java/object-reference/api/com/ironsoftware/ironpdf/security/SecurityOptions.html"},
+            {"setAllowUserPrinting", "/java/object-reference/api/com/ironsoftware/ironpdf/security/SecurityOptions.html#setAllowUserPrinting(com.ironsoftware.ironpdf.security.PdfPrintSecurity)"},
+            {"setAllowUserEdits", "/java/object-reference/api/com/ironsoftware/ironpdf/security/SecurityOptions.html#setAllowUserEdits(com.ironsoftware.ironpdf.security.PdfEditSecurity)"},
+            {"setAllowUserCopyPasteContent", "/java/object-reference/api/com/ironsoftware/ironpdf/security/SecurityOptions.html#setAllowUserCopyPasteContent(java.lang.Boolean)"},
+            {"setAllowUserAnnotations", "/java/object-reference/api/com/ironsoftware/ironpdf/security/SecurityOptions.html#setAllowUserAnnotations(java.lang.Boolean)"},
+            {"setUserPassword", "/java/object-reference/api/com/ironsoftware/ironpdf/security/SecurityOptions.html#setUserPassword(java.lang.String)"},
+            {"setAllowUserFormData", "/java/object-reference/api/com/ironsoftware/ironpdf/security/SecurityOptions.html#setAllowUserFormData(java.lang.Boolean)"},
+            
+            {"BarcodeStamper", "/java/object-reference/api/com/ironsoftware/ironpdf/stamp/BarcodeStamper.html"},
+            {"HtmlStamper", "/java/object-reference/api/com/ironsoftware/ironpdf/stamp/HtmlStamper.html"},
+            {"ImageStamper", "/java/object-reference/api/com/ironsoftware/ironpdf/stamp/ImageStamper.html"},
+            {"TextStamper", "/java/object-reference/api/com/ironsoftware/ironpdf/stamp/TextStamper.html"},
+            {"PageSelection", "/java/object-reference/api/com/ironsoftware/ironpdf/edit/PageSelection.html"},
+            //Stamper class
+            {"Stamper", "/java/object-reference/api/com/ironsoftware/ironpdf/stamp/Stamper.html"},
+            {"setHtml", "/java/object-reference/api/com/ironsoftware/ironpdf/stamp/Stamper.html#setHtml(java.lang.String)"},
+            {"setVerticalAlignment", "/java/object-reference/api/com/ironsoftware/ironpdf/stamp/Stamper.html#setVerticalAlignment(com.ironsoftware.ironpdf.stamp.VerticalAlignment)"},
+            {"setHorizontalAlignment", "/java/object-reference/api/com/ironsoftware/ironpdf/stamp/Stamper.html#setHorizontalAlignment(com.ironsoftware.ironpdf.stamp.HorizontalAlignment)"},
+            
             }},
         };
 
