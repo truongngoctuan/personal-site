@@ -20,6 +20,7 @@ public class JavaTechnicalLinkAdder : IContentUpdater
               {"fromFile", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#fromFile(java.nio.file.Path)"},
               {"renderHtmlAsPdf", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#renderHtmlAsPdf(java.lang.String)"},
               {"renderHtmlFileAsPdf", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#renderHtmlFileAsPdf(java.lang.String)"},
+              {"renderRtfAsPdf", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#renderRtfAsPdf(java.lang.String)"},
               {"renderUrlAsPdf", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#renderUrlAsPdf(java.lang.String)"},
               {"saveAs", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#saveAs(java.lang.String)"},
               {"fromImage", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#fromImage(java.util.List)"},
@@ -33,6 +34,8 @@ public class JavaTechnicalLinkAdder : IContentUpdater
               {"copyPage", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#copyPage(int)"},
               {"copyPages", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#copyPages(int,int)"},
               {"applyStamp", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#applyStamp(com.ironsoftware.ironpdf.stamp.Stamper)"},
+              {"applyWatermark", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#applyWatermark(java.lang.String)"},
+              {"getMetadata", "/java/object-reference/api/com/ironsoftware/ironpdf/PdfDocument.html#getMetadata()"},
               
               
               //   {"", ""},
@@ -74,6 +77,7 @@ public class JavaTechnicalLinkAdder : IContentUpdater
             {"SignPdfWithSignature", "/java/object-reference/api/com/ironsoftware/ironpdf/signature/SignatureManager.html#SignPdfWithSignature(com.ironsoftware.ironpdf.signature.Signature)"},
 
             {"MetadataManager", "/java/object-reference/api/com/ironsoftware/ironpdf/metadata/MetadataManager.html"},
+            {"getAuthor", "/java/object-reference/api/com/ironsoftware/ironpdf/metadata/MetadataManager.html#getAuthor()"},
 
             {"FormManager", "/java/object-reference/api/com/ironsoftware/ironpdf/form/FormManager.html"},
             {"setFieldValue", "/java/object-reference/api/com/ironsoftware/ironpdf/form/FormManager.html#setFieldValue(java.lang.String,java.lang.String)"},

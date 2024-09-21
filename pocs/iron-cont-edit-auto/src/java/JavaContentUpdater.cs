@@ -11,6 +11,7 @@ public class JavaContentUpdater : ContentUpdaterBase
         result = result.Replace(" java,", " Java,", StringComparison.CurrentCultureIgnoreCase);
         result = result.Replace("IronPDF Java", "IronPDF for Java");
         
+        result = result.Replace(" maven", " Maven", StringComparison.CurrentCultureIgnoreCase);
 
 
         result = result.Replace("pom.xml file.", "`pom.xml` file.");
