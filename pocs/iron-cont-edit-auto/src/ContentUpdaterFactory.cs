@@ -10,6 +10,8 @@ public class ContentUpdaterFactory
         {
             case ProgrammingLanguage.Java:
                 return new JavaContentUpdater();
+            case ProgrammingLanguage.Python:
+                return new PythonContentUpdater();
             default:
                 return new CSharpContentUpdater();
         }

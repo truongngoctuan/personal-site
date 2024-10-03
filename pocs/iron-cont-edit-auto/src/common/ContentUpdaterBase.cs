@@ -156,8 +156,7 @@ public class ContentUpdaterBase : IContentUpdater
         result = result.Replace("”", "\"");
         result = result.Replace("“", "\"");
         result = result.Replace("”", "\"");
-
-
+        result = result.Replace("–", "-");
 
         //remove spaces after paragraph end
         if (isCRLF)
