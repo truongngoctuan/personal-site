@@ -1,1 +1,10 @@
-ironpdf.com/java/blog/using-ironpdf-for-java/pdf-creator-java-tutorial/
+ironpdf.com/nodejs/blog/using-ironpdf-for-nodejs/sign-pdf-node-js-tutorial/
+ironpdf.com/nodejs/blog/using-ironpdf-for-nodejs/node-js-pdf-generator/
+ironpdf.com/nodejs/blog/using-ironpdf-for-nodejs/html-to-pdf-in-nodejs-without-puppeteer/
+ironpdf.com/nodejs/blog/using-ironpdf-for-nodejs/nodejs-pdf-reader-tutorial/
+ironpdf.com/nodejs/blog/using-ironpdf-for-nodejs/node-pdf-sdk-tutorial/
+ironpdf.com/nodejs/blog/using-ironpdf-for-nodejs/nodejs-generate-pdf-from-template-tutorial/
+ironpdf.com/nodejs/blog/using-ironpdf-for-nodejs/nodejs-download-pdf-from-url-tutorial/
+ironpdf.com/nodejs/blog/using-ironpdf-for-nodejs/pdf-parser-node-tutorial/
+ironpdf.com/nodejs/blog/using-ironpdf-for-nodejs/compress-pdf-node-tutorial/
+ironpdf.com/nodejs/blog/using-ironpdf-for-nodejs/split-pdf-node-tutorial/

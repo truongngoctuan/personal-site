@@ -7,15 +7,15 @@ ironpdf.com/python/blog/using-ironpdf-for-python/python-write-pdf-tutorial/
 ironpdf.com/python/blog/using-ironpdf-for-python/pdf-to-pdfa-python-tutorial/
 ironpdf.com/python/blog/using-ironpdf-for-python/flatten-pdf-python-tutorial/
 ironpdf.com/python/blog/using-ironpdf-for-python/extract-specific-text-from-pdf-python-tutorial/
-ironpdf.com/python/blog/using-ironpdf-for-python/pdf-to-pdfa-python-tutorial/
-ironpdf.com/python/blog/using-ironpdf-for-python/flatten-pdf-python-tutorial/
-ironpdf.com/python/blog/using-ironpdf-for-python/extract-specific-text-from-pdf-python-tutorial/
+ironpdf.com/python/blog/using-ironpdf-for-python/pdf-to-pdfa-python-tutorial/ -duplicate
+ironpdf.com/python/blog/using-ironpdf-for-python/flatten-pdf-python-tutorial/ -duplicate
+ironpdf.com/python/blog/using-ironpdf-for-python/extract-specific-text-from-pdf-python-tutorial/ -duplicate
 ironpdf.com/python/blog/using-ironpdf-for-python/python-pdf-editor-tutorial/
 ironpdf.com/python/blog/using-ironpdf-for-python/generating-pdf-forms-in-python/
 ironpdf.com/python/blog/using-ironpdf-for-python/python-generate-pdf-from-template-tutorial/
 ironpdf.com/python/blog/using-ironpdf-for-python/image-to-pdf-python-tutorial/
 ironpdf.com/python/blog/using-ironpdf-for-python/extract-invoice-data-from-pdf-python/
-ironpdf.com/python/blog/using-ironpdf-for-python/python-parse-pdf-tutorial/
+ironpdf.com/python/blog/using-ironpdf-for-python/python-parse-pdf-tutorial/ -duplicate
 ironpdf.com/python/blog/using-ironpdf-for-python/python-parse-pdf-tutorial/
 ironpdf.com/python/blog/using-ironpdf-for-python/add-or-remove-pdf-pages-python/
 ironpdf.com/python/blog/using-ironpdf-for-python/pdf-annotate-python-tutorial/

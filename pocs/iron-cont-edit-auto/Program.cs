@@ -16,7 +16,7 @@ class Program
 
         //meta processing steps
         // extract API urls and build up a database for API links, then insert in each article, check TechnicalLinkAdder.cs
-        // var t = APILinkExtractor.Extract();
+        // var t = NodeJsAPILinkExtractor.Extract();
         // Task.WaitAll(t);
 
         // fix bugs

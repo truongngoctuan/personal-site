@@ -12,6 +12,8 @@ public class ContentUpdaterFactory
                 return new JavaContentUpdater();
             case ProgrammingLanguage.Python:
                 return new PythonContentUpdater();
+            case ProgrammingLanguage.NodeJs:
+                return new NodeJsContentUpdater();
             default:
                 return new CSharpContentUpdater();
         }

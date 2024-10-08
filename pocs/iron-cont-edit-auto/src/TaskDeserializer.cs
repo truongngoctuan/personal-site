@@ -57,6 +57,8 @@ namespace ContentEdit.Core
           return ProgrammingLanguage.Java;
         case "python":
           return ProgrammingLanguage.Python;
+          case "nodejs":
+          return ProgrammingLanguage.NodeJs;
         default:
           return ProgrammingLanguage.CSharp;
       }

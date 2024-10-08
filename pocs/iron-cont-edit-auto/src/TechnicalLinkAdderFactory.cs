@@ -12,6 +12,8 @@ public class TechnicalLinkAdderFactory
                 return new JavaTechnicalLinkAdder();
             case ProgrammingLanguage.Python:
                 return new PythonTechnicalLinkAdder();
+                case ProgrammingLanguage.NodeJs:
+                return new NodeJsTechnicalLinkAdder();
             default:
                 return new CSharpTechnicalLinkAdder();
         }

@@ -15,6 +15,7 @@ namespace ContentEdit.Core
     CSharp,
     Java,
     Python,
+    NodeJs,
   }
 
   public class TaskDesc

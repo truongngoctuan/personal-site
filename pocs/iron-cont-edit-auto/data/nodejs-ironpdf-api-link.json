@@ -1,0 +1,714 @@
+[
+  {
+    "Key": "AffixFonts",
+    "Href": "/nodejs/object-reference/api/enums/AffixFonts.html"
+  },
+  {
+    "Key": "BarcodeType",
+    "Href": "/nodejs/object-reference/api/enums/BarcodeType.html"
+  },
+  {
+    "Key": "CssMediaType",
+    "Href": "/nodejs/object-reference/api/enums/CssMediaType.html"
+  },
+  {
+    "Key": "FitToPaperModes",
+    "Href": "/nodejs/object-reference/api/enums/FitToPaperModes.html"
+  },
+  {
+    "Key": "HorizontalAlignment",
+    "Href": "/nodejs/object-reference/api/enums/HorizontalAlignment.html"
+  },
+  {
+    "Key": "ImageBehavior",
+    "Href": "/nodejs/object-reference/api/enums/ImageBehavior.html"
+  },
+  {
+    "Key": "ImageType",
+    "Href": "/nodejs/object-reference/api/enums/ImageType.html"
+  },
+  {
+    "Key": "MeasurementUnit",
+    "Href": "/nodejs/object-reference/api/enums/MeasurementUnit.html"
+  },
+  {
+    "Key": "PaperSize",
+    "Href": "/nodejs/object-reference/api/enums/PaperSize.html"
+  },
+  {
+    "Key": "PaperSizeUnit",
+    "Href": "/nodejs/object-reference/api/enums/PaperSizeUnit.html"
+  },
+  {
+    "Key": "PdfPaperOrientation",
+    "Href": "/nodejs/object-reference/api/enums/PdfPaperOrientation.html"
+  },
+  {
+    "Key": "UseMargins",
+    "Href": "/nodejs/object-reference/api/enums/UseMargins.html"
+  },
+  {
+    "Key": "VerticalAlignment",
+    "Href": "/nodejs/object-reference/api/enums/VerticalAlignment.html"
+  },
+  {
+    "Key": "WaitForType",
+    "Href": "/nodejs/object-reference/api/enums/WaitForType.html"
+  },
+  {
+    "Key": "IronPdfGlobalConfig",
+    "Href": "/nodejs/object-reference/api/classes/IronPdfGlobalConfig.html"
+  },
+  {
+    "Key": "ironPdfEngineVersion",
+    "Href": "/nodejs/object-reference/api//classes/IronPdfGlobalConfig.html#ironPdfEngineVersion"
+  },
+  {
+    "Key": "IronPdfGlobalConfig.ironPdfEngineVersion",
+    "Href": "/nodejs/object-reference/api//classes/IronPdfGlobalConfig.html#ironPdfEngineVersion"
+  },
+  {
+    "Key": "getConfig",
+    "Href": "/nodejs/object-reference/api//classes/IronPdfGlobalConfig.html#getConfig"
+  },
+  {
+    "Key": "IronPdfGlobalConfig.getConfig",
+    "Href": "/nodejs/object-reference/api//classes/IronPdfGlobalConfig.html#getConfig"
+  },
+  {
+    "Key": "getInstance",
+    "Href": "/nodejs/object-reference/api//classes/IronPdfGlobalConfig.html#getInstance"
+  },
+  {
+    "Key": "IronPdfGlobalConfig.getInstance",
+    "Href": "/nodejs/object-reference/api//classes/IronPdfGlobalConfig.html#getInstance"
+  },
+  {
+    "Key": "setConfig",
+    "Href": "/nodejs/object-reference/api//classes/IronPdfGlobalConfig.html#setConfig"
+  },
+  {
+    "Key": "IronPdfGlobalConfig.setConfig",
+    "Href": "/nodejs/object-reference/api//classes/IronPdfGlobalConfig.html#setConfig"
+  },
+  {
+    "Key": "PdfDocument",
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html"
+  },
+  {
+    "Key": "addBackgroundFromAnotherPdf",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addBackgroundFromAnotherPdf"
+  },
+  {
+    "Key": "PdfDocument.addBackgroundFromAnotherPdf",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addBackgroundFromAnotherPdf"
+  },
+  {
+    "Key": "addForegroundFromAnotherPdf",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addForegroundFromAnotherPdf"
+  },
+  {
+    "Key": "PdfDocument.addForegroundFromAnotherPdf",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addForegroundFromAnotherPdf"
+  },
+  {
+    "Key": "addHtmlFooter",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addHtmlFooter"
+  },
+  {
+    "Key": "PdfDocument.addHtmlFooter",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addHtmlFooter"
+  },
+  {
+    "Key": "addHtmlHeader",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addHtmlHeader"
+  },
+  {
+    "Key": "PdfDocument.addHtmlHeader",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addHtmlHeader"
+  },
+  {
+    "Key": "addOrUpdateMetadata",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addOrUpdateMetadata"
+  },
+  {
+    "Key": "PdfDocument.addOrUpdateMetadata",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addOrUpdateMetadata"
+  },
+  {
+    "Key": "addTextFooter",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addTextFooter"
+  },
+  {
+    "Key": "PdfDocument.addTextFooter",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addTextFooter"
+  },
+  {
+    "Key": "addTextHeader",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addTextHeader"
+  },
+  {
+    "Key": "PdfDocument.addTextHeader",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addTextHeader"
+  },
+  {
+    "Key": "appendAnotherPdf",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#appendAnotherPdf"
+  },
+  {
+    "Key": "PdfDocument.appendAnotherPdf",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#appendAnotherPdf"
+  },
+  {
+    "Key": "close",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#close"
+  },
+  {
+    "Key": "PdfDocument.close",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#close"
+  },
+  {
+    "Key": "compressSize",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#compressSize"
+  },
+  {
+    "Key": "PdfDocument.compressSize",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#compressSize"
+  },
+  {
+    "Key": "convertToPdfA",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#convertToPdfA"
+  },
+  {
+    "Key": "PdfDocument.convertToPdfA",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#convertToPdfA"
+  },
+  {
+    "Key": "convertToPdfUA",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#convertToPdfUA"
+  },
+  {
+    "Key": "PdfDocument.convertToPdfUA",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#convertToPdfUA"
+  },
+  {
+    "Key": "duplicate",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#duplicate"
+  },
+  {
+    "Key": "PdfDocument.duplicate",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#duplicate"
+  },
+  {
+    "Key": "extractRawImages",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#extractRawImages"
+  },
+  {
+    "Key": "PdfDocument.extractRawImages",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#extractRawImages"
+  },
+  {
+    "Key": "extractText",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#extractText"
+  },
+  {
+    "Key": "PdfDocument.extractText",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#extractText"
+  },
+  {
+    "Key": "getMetadata",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#getMetadata"
+  },
+  {
+    "Key": "PdfDocument.getMetadata",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#getMetadata"
+  },
+  {
+    "Key": "getPageCount",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#getPageCount"
+  },
+  {
+    "Key": "PdfDocument.getPageCount",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#getPageCount"
+  },
+  {
+    "Key": "getPagesInfo",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#getPagesInfo"
+  },
+  {
+    "Key": "PdfDocument.getPagesInfo",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#getPagesInfo"
+  },
+  {
+    "Key": "getPermission",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#getPermission"
+  },
+  {
+    "Key": "PdfDocument.getPermission",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#getPermission"
+  },
+  {
+    "Key": "insertPagesFromAnotherPdf",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#insertPagesFromAnotherPdf"
+  },
+  {
+    "Key": "PdfDocument.insertPagesFromAnotherPdf",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#insertPagesFromAnotherPdf"
+  },
+  {
+    "Key": "isSigned",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#isSigned"
+  },
+  {
+    "Key": "PdfDocument.isSigned",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#isSigned"
+  },
+  {
+    "Key": "makePdfDocumentReadOnly",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#makePdfDocumentReadOnly"
+  },
+  {
+    "Key": "PdfDocument.makePdfDocumentReadOnly",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#makePdfDocumentReadOnly"
+  },
+  {
+    "Key": "overrideMetadata",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#overrideMetadata"
+  },
+  {
+    "Key": "PdfDocument.overrideMetadata",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#overrideMetadata"
+  },
+  {
+    "Key": "prependAnotherPdf",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#prependAnotherPdf"
+  },
+  {
+    "Key": "PdfDocument.prependAnotherPdf",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#prependAnotherPdf"
+  },
+  {
+    "Key": "rasterizeToImageBuffers",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#rasterizeToImageBuffers"
+  },
+  {
+    "Key": "PdfDocument.rasterizeToImageBuffers",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#rasterizeToImageBuffers"
+  },
+  {
+    "Key": "rasterizeToImageFiles",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#rasterizeToImageFiles"
+  },
+  {
+    "Key": "PdfDocument.rasterizeToImageFiles",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#rasterizeToImageFiles"
+  },
+  {
+    "Key": "removeMetadata",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#removeMetadata"
+  },
+  {
+    "Key": "PdfDocument.removeMetadata",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#removeMetadata"
+  },
+  {
+    "Key": "removePage",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#removePage"
+  },
+  {
+    "Key": "PdfDocument.removePage",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#removePage"
+  },
+  {
+    "Key": "removePasswordsAndEncryption",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#removePasswordsAndEncryption"
+  },
+  {
+    "Key": "PdfDocument.removePasswordsAndEncryption",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#removePasswordsAndEncryption"
+  },
+  {
+    "Key": "replaceText",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#replaceText"
+  },
+  {
+    "Key": "PdfDocument.replaceText",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#replaceText"
+  },
+  {
+    "Key": "resize",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#resize"
+  },
+  {
+    "Key": "PdfDocument.resize",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#resize"
+  },
+  {
+    "Key": "saveAs",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#saveAs"
+  },
+  {
+    "Key": "PdfDocument.saveAs",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#saveAs"
+  },
+  {
+    "Key": "saveAsBuffer",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#saveAsBuffer"
+  },
+  {
+    "Key": "PdfDocument.saveAsBuffer",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#saveAsBuffer"
+  },
+  {
+    "Key": "setOwnerPassword",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#setOwnerPassword"
+  },
+  {
+    "Key": "PdfDocument.setOwnerPassword",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#setOwnerPassword"
+  },
+  {
+    "Key": "setPermission",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#setPermission"
+  },
+  {
+    "Key": "PdfDocument.setPermission",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#setPermission"
+  },
+  {
+    "Key": "setRotation",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#setRotation"
+  },
+  {
+    "Key": "PdfDocument.setRotation",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#setRotation"
+  },
+  {
+    "Key": "setUserPassword",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#setUserPassword"
+  },
+  {
+    "Key": "PdfDocument.setUserPassword",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#setUserPassword"
+  },
+  {
+    "Key": "signDigitalSignature",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#signDigitalSignature"
+  },
+  {
+    "Key": "PdfDocument.signDigitalSignature",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#signDigitalSignature"
+  },
+  {
+    "Key": "signatureCount",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#signatureCount"
+  },
+  {
+    "Key": "PdfDocument.signatureCount",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#signatureCount"
+  },
+  {
+    "Key": "stampBarcode",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#stampBarcode"
+  },
+  {
+    "Key": "PdfDocument.stampBarcode",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#stampBarcode"
+  },
+  {
+    "Key": "stampHtml",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#stampHtml"
+  },
+  {
+    "Key": "PdfDocument.stampHtml",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#stampHtml"
+  },
+  {
+    "Key": "stampImage",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#stampImage"
+  },
+  {
+    "Key": "PdfDocument.stampImage",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#stampImage"
+  },
+  {
+    "Key": "stampText",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#stampText"
+  },
+  {
+    "Key": "PdfDocument.stampText",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#stampText"
+  },
+  {
+    "Key": "fromFile",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#fromFile"
+  },
+  {
+    "Key": "PdfDocument.fromFile",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#fromFile"
+  },
+  {
+    "Key": "fromHtml",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#fromHtml"
+  },
+  {
+    "Key": "PdfDocument.fromHtml",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#fromHtml"
+  },
+  {
+    "Key": "fromImage",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#fromImage"
+  },
+  {
+    "Key": "PdfDocument.fromImage",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#fromImage"
+  },
+  {
+    "Key": "fromUrl",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#fromUrl"
+  },
+  {
+    "Key": "PdfDocument.fromUrl",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#fromUrl"
+  },
+  {
+    "Key": "fromZip",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#fromZip"
+  },
+  {
+    "Key": "PdfDocument.fromZip",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#fromZip"
+  },
+  {
+    "Key": "mergePdf",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#mergePdf"
+  },
+  {
+    "Key": "PdfDocument.mergePdf",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#mergePdf"
+  },
+  {
+    "Key": "open",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#open"
+  },
+  {
+    "Key": "PdfDocument.open",
+    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#open"
+  },
+  {
+    "Key": "PdfGenerator",
+    "Href": "/nodejs/object-reference/api/classes/PdfGenerator.html"
+  },
+  {
+    "Key": "htmlToPdf",
+    "Href": "/nodejs/object-reference/api//classes/PdfGenerator.html#htmlToPdf"
+  },
+  {
+    "Key": "PdfGenerator.htmlToPdf",
+    "Href": "/nodejs/object-reference/api//classes/PdfGenerator.html#htmlToPdf"
+  },
+  {
+    "Key": "htmlZipFileToPdf",
+    "Href": "/nodejs/object-reference/api//classes/PdfGenerator.html#htmlZipFileToPdf"
+  },
+  {
+    "Key": "PdfGenerator.htmlZipFileToPdf",
+    "Href": "/nodejs/object-reference/api//classes/PdfGenerator.html#htmlZipFileToPdf"
+  },
+  {
+    "Key": "imageToPdf",
+    "Href": "/nodejs/object-reference/api//classes/PdfGenerator.html#imageToPdf"
+  },
+  {
+    "Key": "PdfGenerator.imageToPdf",
+    "Href": "/nodejs/object-reference/api//classes/PdfGenerator.html#imageToPdf"
+  },
+  {
+    "Key": "mergePdf",
+    "Href": "/nodejs/object-reference/api//classes/PdfGenerator.html#mergePdf"
+  },
+  {
+    "Key": "PdfGenerator.mergePdf",
+    "Href": "/nodejs/object-reference/api//classes/PdfGenerator.html#mergePdf"
+  },
+  {
+    "Key": "urlToPdf",
+    "Href": "/nodejs/object-reference/api//classes/PdfGenerator.html#urlToPdf"
+  },
+  {
+    "Key": "PdfGenerator.urlToPdf",
+    "Href": "/nodejs/object-reference/api//classes/PdfGenerator.html#urlToPdf"
+  },
+  {
+    "Key": "BarcodeStampOptions",
+    "Href": "/nodejs/object-reference/api/interfaces/BarcodeStampOptions.html"
+  },
+  {
+    "Key": "BaseStampOptions",
+    "Href": "/nodejs/object-reference/api/interfaces/BaseStampOptions.html"
+  },
+  {
+    "Key": "ChromePdfRenderOptions",
+    "Href": "/nodejs/object-reference/api/interfaces/ChromePdfRenderOptions.html"
+  },
+  {
+    "Key": "CustomPaperSize",
+    "Href": "/nodejs/object-reference/api/interfaces/CustomPaperSize.html"
+  },
+  {
+    "Key": "DigitalSignature",
+    "Href": "/nodejs/object-reference/api/interfaces/DigitalSignature.html"
+  },
+  {
+    "Key": "HtmlAffix",
+    "Href": "/nodejs/object-reference/api/interfaces/HtmlAffix.html"
+  },
+  {
+    "Key": "HtmlStampOptions",
+    "Href": "/nodejs/object-reference/api/interfaces/HtmlStampOptions.html"
+  },
+  {
+    "Key": "HttpLoginCredentials",
+    "Href": "/nodejs/object-reference/api/interfaces/HttpLoginCredentials.html"
+  },
+  {
+    "Key": "ImageToPdfOptions",
+    "Href": "/nodejs/object-reference/api/interfaces/ImageToPdfOptions.html"
+  },
+  {
+    "Key": "IronPdfConfig",
+    "Href": "/nodejs/object-reference/api/interfaces/IronPdfConfig.html"
+  },
+  {
+    "Key": "Length",
+    "Href": "/nodejs/object-reference/api/interfaces/Length.html"
+  },
+  {
+    "Key": "MarginConfig",
+    "Href": "/nodejs/object-reference/api/interfaces/MarginConfig.html"
+  },
+  {
+    "Key": "PageInfo",
+    "Href": "/nodejs/object-reference/api/interfaces/PageInfo.html"
+  },
+  {
+    "Key": "PdfPermission",
+    "Href": "/nodejs/object-reference/api/interfaces/PdfPermission.html"
+  },
+  {
+    "Key": "SaveOptions",
+    "Href": "/nodejs/object-reference/api/interfaces/SaveOptions.html"
+  },
+  {
+    "Key": "SignatureImage",
+    "Href": "/nodejs/object-reference/api/interfaces/SignatureImage.html"
+  },
+  {
+    "Key": "TextAffix",
+    "Href": "/nodejs/object-reference/api/interfaces/TextAffix.html"
+  },
+  {
+    "Key": "TextStampOptions",
+    "Href": "/nodejs/object-reference/api/interfaces/TextStampOptions.html"
+  },
+  {
+    "Key": "WaitForHtmlQuerySelector",
+    "Href": "/nodejs/object-reference/api/interfaces/WaitForHtmlQuerySelector.html"
+  },
+  {
+    "Key": "WaitForJavaScript",
+    "Href": "/nodejs/object-reference/api/interfaces/WaitForJavaScript.html"
+  },
+  {
+    "Key": "WaitForNetworkIdle0",
+    "Href": "/nodejs/object-reference/api/interfaces/WaitForNetworkIdle0.html"
+  },
+  {
+    "Key": "WaitForNetworkIdle2",
+    "Href": "/nodejs/object-reference/api/interfaces/WaitForNetworkIdle2.html"
+  },
+  {
+    "Key": "WaitForNetworkIdleN",
+    "Href": "/nodejs/object-reference/api/interfaces/WaitForNetworkIdleN.html"
+  },
+  {
+    "Key": "WaitForPageLoad",
+    "Href": "/nodejs/object-reference/api/interfaces/WaitForPageLoad.html"
+  },
+  {
+    "Key": "WaitForRenderDelay",
+    "Href": "/nodejs/object-reference/api/interfaces/WaitForRenderDelay.html"
+  },
+  {
+    "Key": "HtmlFilePath",
+    "Href": "/nodejs/object-reference/api/types/HtmlFilePath.html"
+  },
+  {
+    "Key": "HtmlString",
+    "Href": "/nodejs/object-reference/api/types/HtmlString.html"
+  },
+  {
+    "Key": "ImageBuffer",
+    "Href": "/nodejs/object-reference/api/types/ImageBuffer.html"
+  },
+  {
+    "Key": "ImageFilePath",
+    "Href": "/nodejs/object-reference/api/types/ImageFilePath.html"
+  },
+  {
+    "Key": "ImageStampOptions",
+    "Href": "/nodejs/object-reference/api/types/ImageStampOptions.html"
+  },
+  {
+    "Key": "PageRotation",
+    "Href": "/nodejs/object-reference/api/types/PageRotation.html"
+  },
+  {
+    "Key": "PdfFilePath",
+    "Href": "/nodejs/object-reference/api/types/PdfFilePath.html"
+  },
+  {
+    "Key": "PdfInput",
+    "Href": "/nodejs/object-reference/api/types/PdfInput.html"
+  },
+  {
+    "Key": "PdfPageSelection",
+    "Href": "/nodejs/object-reference/api/types/PdfPageSelection.html"
+  },
+  {
+    "Key": "PdfPaperSize",
+    "Href": "/nodejs/object-reference/api/types/PdfPaperSize.html"
+  },
+  {
+    "Key": "PdfPassword",
+    "Href": "/nodejs/object-reference/api/types/PdfPassword.html"
+  },
+  {
+    "Key": "UrlString",
+    "Href": "/nodejs/object-reference/api/types/UrlString.html"
+  },
+  {
+    "Key": "WaitFor",
+    "Href": "/nodejs/object-reference/api/types/WaitFor.html"
+  },
+  {
+    "Key": "ZipFilePath",
+    "Href": "/nodejs/object-reference/api/types/ZipFilePath.html"
+  },
+  {
+    "Key": "cleanUp",
+    "Href": "/nodejs/object-reference/api/functions/cleanUp.html"
+  },
+  {
+    "Key": "config",
+    "Href": "/nodejs/object-reference/api/functions/config.html"
+  },
+  {
+    "Key": "defaultChromePdfRenderOptions",
+    "Href": "/nodejs/object-reference/api/functions/defaultChromePdfRenderOptions.html"
+  },
+  {
+    "Key": "forceShutdown",
+    "Href": "/nodejs/object-reference/api/functions/forceShutdown.html"
+  }
+]
