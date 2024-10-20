@@ -79,6 +79,7 @@ public static class NodeJsAPILinkExtractor
 
             foreach (var aDetailLink in aDetailLinks)
             {
+                
                 if (aDetailLink.GetAttributeValue("class", "").Contains("private"))
                 {
                     continue;
@@ -89,17 +90,21 @@ public static class NodeJsAPILinkExtractor
                 {
                     continue;
                 }
+
+                if (methodName == "PdfGenerator" && detailMethodName == "mergePdf") {
+                    continue;
+                }
                 Console.WriteLine("\t" + detailMethodName + ": " + detailRef);
                 results.Add(new APILink
                 {
                     Key = detailMethodName,
-                    Href = $"{linkPrefix}/{methodType}/{detailRef}"
+                    Href = $"{linkPrefix}{methodType}/{detailRef}"
                 });
 
                 results.Add(new APILink
                 {
                     Key = methodName + "." + detailMethodName,
-                    Href = $"{linkPrefix}/{methodType}/{detailRef}"
+                    Href = $"{linkPrefix}{methodType}/{detailRef}"
                 });
             }
 

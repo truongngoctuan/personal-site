@@ -61,35 +61,35 @@
   },
   {
     "Key": "ironPdfEngineVersion",
-    "Href": "/nodejs/object-reference/api//classes/IronPdfGlobalConfig.html#ironPdfEngineVersion"
+    "Href": "/nodejs/object-reference/api/classes/IronPdfGlobalConfig.html#ironPdfEngineVersion"
   },
   {
     "Key": "IronPdfGlobalConfig.ironPdfEngineVersion",
-    "Href": "/nodejs/object-reference/api//classes/IronPdfGlobalConfig.html#ironPdfEngineVersion"
+    "Href": "/nodejs/object-reference/api/classes/IronPdfGlobalConfig.html#ironPdfEngineVersion"
   },
   {
     "Key": "getConfig",
-    "Href": "/nodejs/object-reference/api//classes/IronPdfGlobalConfig.html#getConfig"
+    "Href": "/nodejs/object-reference/api/classes/IronPdfGlobalConfig.html#getConfig"
   },
   {
     "Key": "IronPdfGlobalConfig.getConfig",
-    "Href": "/nodejs/object-reference/api//classes/IronPdfGlobalConfig.html#getConfig"
+    "Href": "/nodejs/object-reference/api/classes/IronPdfGlobalConfig.html#getConfig"
   },
   {
     "Key": "getInstance",
-    "Href": "/nodejs/object-reference/api//classes/IronPdfGlobalConfig.html#getInstance"
+    "Href": "/nodejs/object-reference/api/classes/IronPdfGlobalConfig.html#getInstance"
   },
   {
     "Key": "IronPdfGlobalConfig.getInstance",
-    "Href": "/nodejs/object-reference/api//classes/IronPdfGlobalConfig.html#getInstance"
+    "Href": "/nodejs/object-reference/api/classes/IronPdfGlobalConfig.html#getInstance"
   },
   {
     "Key": "setConfig",
-    "Href": "/nodejs/object-reference/api//classes/IronPdfGlobalConfig.html#setConfig"
+    "Href": "/nodejs/object-reference/api/classes/IronPdfGlobalConfig.html#setConfig"
   },
   {
     "Key": "IronPdfGlobalConfig.setConfig",
-    "Href": "/nodejs/object-reference/api//classes/IronPdfGlobalConfig.html#setConfig"
+    "Href": "/nodejs/object-reference/api/classes/IronPdfGlobalConfig.html#setConfig"
   },
   {
     "Key": "PdfDocument",
@@ -97,403 +97,403 @@
   },
   {
     "Key": "addBackgroundFromAnotherPdf",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addBackgroundFromAnotherPdf"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#addBackgroundFromAnotherPdf"
   },
   {
     "Key": "PdfDocument.addBackgroundFromAnotherPdf",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addBackgroundFromAnotherPdf"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#addBackgroundFromAnotherPdf"
   },
   {
     "Key": "addForegroundFromAnotherPdf",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addForegroundFromAnotherPdf"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#addForegroundFromAnotherPdf"
   },
   {
     "Key": "PdfDocument.addForegroundFromAnotherPdf",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addForegroundFromAnotherPdf"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#addForegroundFromAnotherPdf"
   },
   {
     "Key": "addHtmlFooter",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addHtmlFooter"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#addHtmlFooter"
   },
   {
     "Key": "PdfDocument.addHtmlFooter",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addHtmlFooter"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#addHtmlFooter"
   },
   {
     "Key": "addHtmlHeader",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addHtmlHeader"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#addHtmlHeader"
   },
   {
     "Key": "PdfDocument.addHtmlHeader",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addHtmlHeader"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#addHtmlHeader"
   },
   {
     "Key": "addOrUpdateMetadata",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addOrUpdateMetadata"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#addOrUpdateMetadata"
   },
   {
     "Key": "PdfDocument.addOrUpdateMetadata",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addOrUpdateMetadata"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#addOrUpdateMetadata"
   },
   {
     "Key": "addTextFooter",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addTextFooter"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#addTextFooter"
   },
   {
     "Key": "PdfDocument.addTextFooter",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addTextFooter"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#addTextFooter"
   },
   {
     "Key": "addTextHeader",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addTextHeader"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#addTextHeader"
   },
   {
     "Key": "PdfDocument.addTextHeader",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#addTextHeader"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#addTextHeader"
   },
   {
     "Key": "appendAnotherPdf",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#appendAnotherPdf"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#appendAnotherPdf"
   },
   {
     "Key": "PdfDocument.appendAnotherPdf",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#appendAnotherPdf"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#appendAnotherPdf"
   },
   {
     "Key": "close",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#close"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#close"
   },
   {
     "Key": "PdfDocument.close",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#close"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#close"
   },
   {
     "Key": "compressSize",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#compressSize"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#compressSize"
   },
   {
     "Key": "PdfDocument.compressSize",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#compressSize"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#compressSize"
   },
   {
     "Key": "convertToPdfA",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#convertToPdfA"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#convertToPdfA"
   },
   {
     "Key": "PdfDocument.convertToPdfA",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#convertToPdfA"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#convertToPdfA"
   },
   {
     "Key": "convertToPdfUA",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#convertToPdfUA"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#convertToPdfUA"
   },
   {
     "Key": "PdfDocument.convertToPdfUA",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#convertToPdfUA"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#convertToPdfUA"
   },
   {
     "Key": "duplicate",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#duplicate"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#duplicate"
   },
   {
     "Key": "PdfDocument.duplicate",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#duplicate"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#duplicate"
   },
   {
     "Key": "extractRawImages",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#extractRawImages"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#extractRawImages"
   },
   {
     "Key": "PdfDocument.extractRawImages",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#extractRawImages"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#extractRawImages"
   },
   {
     "Key": "extractText",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#extractText"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#extractText"
   },
   {
     "Key": "PdfDocument.extractText",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#extractText"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#extractText"
   },
   {
     "Key": "getMetadata",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#getMetadata"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#getMetadata"
   },
   {
     "Key": "PdfDocument.getMetadata",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#getMetadata"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#getMetadata"
   },
   {
     "Key": "getPageCount",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#getPageCount"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#getPageCount"
   },
   {
     "Key": "PdfDocument.getPageCount",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#getPageCount"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#getPageCount"
   },
   {
     "Key": "getPagesInfo",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#getPagesInfo"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#getPagesInfo"
   },
   {
     "Key": "PdfDocument.getPagesInfo",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#getPagesInfo"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#getPagesInfo"
   },
   {
     "Key": "getPermission",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#getPermission"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#getPermission"
   },
   {
     "Key": "PdfDocument.getPermission",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#getPermission"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#getPermission"
   },
   {
     "Key": "insertPagesFromAnotherPdf",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#insertPagesFromAnotherPdf"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#insertPagesFromAnotherPdf"
   },
   {
     "Key": "PdfDocument.insertPagesFromAnotherPdf",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#insertPagesFromAnotherPdf"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#insertPagesFromAnotherPdf"
   },
   {
     "Key": "isSigned",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#isSigned"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#isSigned"
   },
   {
     "Key": "PdfDocument.isSigned",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#isSigned"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#isSigned"
   },
   {
     "Key": "makePdfDocumentReadOnly",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#makePdfDocumentReadOnly"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#makePdfDocumentReadOnly"
   },
   {
     "Key": "PdfDocument.makePdfDocumentReadOnly",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#makePdfDocumentReadOnly"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#makePdfDocumentReadOnly"
   },
   {
     "Key": "overrideMetadata",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#overrideMetadata"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#overrideMetadata"
   },
   {
     "Key": "PdfDocument.overrideMetadata",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#overrideMetadata"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#overrideMetadata"
   },
   {
     "Key": "prependAnotherPdf",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#prependAnotherPdf"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#prependAnotherPdf"
   },
   {
     "Key": "PdfDocument.prependAnotherPdf",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#prependAnotherPdf"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#prependAnotherPdf"
   },
   {
     "Key": "rasterizeToImageBuffers",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#rasterizeToImageBuffers"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#rasterizeToImageBuffers"
   },
   {
     "Key": "PdfDocument.rasterizeToImageBuffers",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#rasterizeToImageBuffers"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#rasterizeToImageBuffers"
   },
   {
     "Key": "rasterizeToImageFiles",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#rasterizeToImageFiles"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#rasterizeToImageFiles"
   },
   {
     "Key": "PdfDocument.rasterizeToImageFiles",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#rasterizeToImageFiles"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#rasterizeToImageFiles"
   },
   {
     "Key": "removeMetadata",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#removeMetadata"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#removeMetadata"
   },
   {
     "Key": "PdfDocument.removeMetadata",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#removeMetadata"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#removeMetadata"
   },
   {
     "Key": "removePage",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#removePage"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#removePage"
   },
   {
     "Key": "PdfDocument.removePage",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#removePage"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#removePage"
   },
   {
     "Key": "removePasswordsAndEncryption",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#removePasswordsAndEncryption"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#removePasswordsAndEncryption"
   },
   {
     "Key": "PdfDocument.removePasswordsAndEncryption",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#removePasswordsAndEncryption"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#removePasswordsAndEncryption"
   },
   {
     "Key": "replaceText",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#replaceText"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#replaceText"
   },
   {
     "Key": "PdfDocument.replaceText",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#replaceText"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#replaceText"
   },
   {
     "Key": "resize",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#resize"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#resize"
   },
   {
     "Key": "PdfDocument.resize",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#resize"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#resize"
   },
   {
     "Key": "saveAs",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#saveAs"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#saveAs"
   },
   {
     "Key": "PdfDocument.saveAs",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#saveAs"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#saveAs"
   },
   {
     "Key": "saveAsBuffer",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#saveAsBuffer"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#saveAsBuffer"
   },
   {
     "Key": "PdfDocument.saveAsBuffer",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#saveAsBuffer"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#saveAsBuffer"
   },
   {
     "Key": "setOwnerPassword",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#setOwnerPassword"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#setOwnerPassword"
   },
   {
     "Key": "PdfDocument.setOwnerPassword",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#setOwnerPassword"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#setOwnerPassword"
   },
   {
     "Key": "setPermission",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#setPermission"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#setPermission"
   },
   {
     "Key": "PdfDocument.setPermission",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#setPermission"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#setPermission"
   },
   {
     "Key": "setRotation",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#setRotation"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#setRotation"
   },
   {
     "Key": "PdfDocument.setRotation",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#setRotation"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#setRotation"
   },
   {
     "Key": "setUserPassword",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#setUserPassword"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#setUserPassword"
   },
   {
     "Key": "PdfDocument.setUserPassword",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#setUserPassword"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#setUserPassword"
   },
   {
     "Key": "signDigitalSignature",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#signDigitalSignature"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#signDigitalSignature"
   },
   {
     "Key": "PdfDocument.signDigitalSignature",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#signDigitalSignature"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#signDigitalSignature"
   },
   {
     "Key": "signatureCount",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#signatureCount"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#signatureCount"
   },
   {
     "Key": "PdfDocument.signatureCount",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#signatureCount"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#signatureCount"
   },
   {
     "Key": "stampBarcode",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#stampBarcode"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#stampBarcode"
   },
   {
     "Key": "PdfDocument.stampBarcode",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#stampBarcode"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#stampBarcode"
   },
   {
     "Key": "stampHtml",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#stampHtml"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#stampHtml"
   },
   {
     "Key": "PdfDocument.stampHtml",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#stampHtml"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#stampHtml"
   },
   {
     "Key": "stampImage",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#stampImage"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#stampImage"
   },
   {
     "Key": "PdfDocument.stampImage",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#stampImage"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#stampImage"
   },
   {
     "Key": "stampText",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#stampText"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#stampText"
   },
   {
     "Key": "PdfDocument.stampText",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#stampText"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#stampText"
   },
   {
     "Key": "fromFile",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#fromFile"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#fromFile"
   },
   {
     "Key": "PdfDocument.fromFile",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#fromFile"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#fromFile"
   },
   {
     "Key": "fromHtml",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#fromHtml"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#fromHtml"
   },
   {
     "Key": "PdfDocument.fromHtml",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#fromHtml"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#fromHtml"
   },
   {
     "Key": "fromImage",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#fromImage"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#fromImage"
   },
   {
     "Key": "PdfDocument.fromImage",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#fromImage"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#fromImage"
   },
   {
     "Key": "fromUrl",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#fromUrl"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#fromUrl"
   },
   {
     "Key": "PdfDocument.fromUrl",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#fromUrl"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#fromUrl"
   },
   {
     "Key": "fromZip",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#fromZip"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#fromZip"
   },
   {
     "Key": "PdfDocument.fromZip",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#fromZip"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#fromZip"
   },
   {
     "Key": "mergePdf",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#mergePdf"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#mergePdf"
   },
   {
     "Key": "PdfDocument.mergePdf",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#mergePdf"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#mergePdf"
   },
   {
     "Key": "open",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#open"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#open"
   },
   {
     "Key": "PdfDocument.open",
-    "Href": "/nodejs/object-reference/api//classes/PdfDocument.html#open"
+    "Href": "/nodejs/object-reference/api/classes/PdfDocument.html#open"
   },
   {
     "Key": "PdfGenerator",
@@ -501,43 +501,35 @@
   },
   {
     "Key": "htmlToPdf",
-    "Href": "/nodejs/object-reference/api//classes/PdfGenerator.html#htmlToPdf"
+    "Href": "/nodejs/object-reference/api/classes/PdfGenerator.html#htmlToPdf"
   },
   {
     "Key": "PdfGenerator.htmlToPdf",
-    "Href": "/nodejs/object-reference/api//classes/PdfGenerator.html#htmlToPdf"
+    "Href": "/nodejs/object-reference/api/classes/PdfGenerator.html#htmlToPdf"
   },
   {
     "Key": "htmlZipFileToPdf",
-    "Href": "/nodejs/object-reference/api//classes/PdfGenerator.html#htmlZipFileToPdf"
+    "Href": "/nodejs/object-reference/api/classes/PdfGenerator.html#htmlZipFileToPdf"
   },
   {
     "Key": "PdfGenerator.htmlZipFileToPdf",
-    "Href": "/nodejs/object-reference/api//classes/PdfGenerator.html#htmlZipFileToPdf"
+    "Href": "/nodejs/object-reference/api/classes/PdfGenerator.html#htmlZipFileToPdf"
   },
   {
     "Key": "imageToPdf",
-    "Href": "/nodejs/object-reference/api//classes/PdfGenerator.html#imageToPdf"
+    "Href": "/nodejs/object-reference/api/classes/PdfGenerator.html#imageToPdf"
   },
   {
     "Key": "PdfGenerator.imageToPdf",
-    "Href": "/nodejs/object-reference/api//classes/PdfGenerator.html#imageToPdf"
-  },
-  {
-    "Key": "mergePdf",
-    "Href": "/nodejs/object-reference/api//classes/PdfGenerator.html#mergePdf"
-  },
-  {
-    "Key": "PdfGenerator.mergePdf",
-    "Href": "/nodejs/object-reference/api//classes/PdfGenerator.html#mergePdf"
+    "Href": "/nodejs/object-reference/api/classes/PdfGenerator.html#imageToPdf"
   },
   {
     "Key": "urlToPdf",
-    "Href": "/nodejs/object-reference/api//classes/PdfGenerator.html#urlToPdf"
+    "Href": "/nodejs/object-reference/api/classes/PdfGenerator.html#urlToPdf"
   },
   {
     "Key": "PdfGenerator.urlToPdf",
-    "Href": "/nodejs/object-reference/api//classes/PdfGenerator.html#urlToPdf"
+    "Href": "/nodejs/object-reference/api/classes/PdfGenerator.html#urlToPdf"
   },
   {
     "Key": "BarcodeStampOptions",

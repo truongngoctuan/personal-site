@@ -35,7 +35,7 @@ public class ContentUpdaterBase : IContentUpdater
         result = result.Replace("Create button", "**Create** button", StringComparison.OrdinalIgnoreCase);
         result = result.Replace("__Create__ button", "**Create** button", StringComparison.OrdinalIgnoreCase);
 
-        result = result.Replace("javascript", "JavaScript", StringComparison.OrdinalIgnoreCase);
+        result = result.Replace(" javascript", " JavaScript", StringComparison.OrdinalIgnoreCase);
 
         result = result.Replace("Iron Barcode", "IronBarcode", StringComparison.OrdinalIgnoreCase);
         result = result.Replace("Iron OCR", "IronOCR", StringComparison.OrdinalIgnoreCase);

@@ -13,11 +13,12 @@ class Program
     {
         // process articles
         processTasks();
+        return;
 
         //meta processing steps
         // extract API urls and build up a database for API links, then insert in each article, check TechnicalLinkAdder.cs
-        // var t = NodeJsAPILinkExtractor.Extract();
-        // Task.WaitAll(t);
+        var t = NodeJsAPILinkExtractor.Extract();
+        Task.WaitAll(t);
 
         // fix bugs
         // UpdateUrlsAdded.ReplaceAPIUrls();
