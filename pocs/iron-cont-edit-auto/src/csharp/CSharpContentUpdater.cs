@@ -28,6 +28,7 @@ public class CSharpContentUpdater : ContentUpdaterBase
         // result = result.Replace("net ", ".NET ");
         result = result.Replace(".Net", ".NET");
         result = result.Replace(" NET Core", " .NET Core");
+        result = result.Replace("ASP .NET", "ASP.NET");
 
         result = result.Replace("asp mvc", "ASP.NET MVC", StringComparison.OrdinalIgnoreCase);
         result = result.Replace("VB .NET", "VB.NET");
@@ -73,6 +74,7 @@ public class CSharpContentUpdater : ContentUpdaterBase
 
         result = result.Replace("heets [", "heets[");
         result = result.Replace("ws [", "ws[");
+        result = result.Replace(".NET 7", ".NET 9");
 
 
         return result;
