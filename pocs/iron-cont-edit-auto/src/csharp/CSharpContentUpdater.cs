@@ -71,6 +71,7 @@ public class CSharpContentUpdater : ContentUpdaterBase
         result = result.Replace("\"Program.cs\"", "`Program.cs`");
 
         result = result.Replace("```cs  ", "```cs");
+        result = result.Replace("```cs ", "```cs");
 
         result = result.Replace("heets [", "heets[");
         result = result.Replace("ws [", "ws[");

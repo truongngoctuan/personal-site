@@ -8,6 +8,7 @@ public class ContentUpdaterBase : IContentUpdater
 {
     public virtual string Update(TaskDesc taskDesc, CategoryPost matchedPost, string raw)
     {
+        Console.WriteLine($"Title: {matchedPost.PostHeader}");
         var result = raw;
         var isCRLF = result.Contains("\r\n");
 
@@ -104,9 +105,9 @@ public class ContentUpdaterBase : IContentUpdater
         result = Regex.Replace(result, imgPattern9, imgReplacement9);
 
 
-        // replace with markdown urls
-        var urlPattern = """<a href="(.+?)"(.*?)>(.+?)</a>""";
-        var urlReplacement = "[$3]($1)";
+        // replace with markdown urls, remove pattern open in new tab
+        var urlPattern = """<a href="([a-zA-Z0-9\-:/\.#]+)">(.+?)</a>""";
+        var urlReplacement = "[$2]($1)";
         result = Regex.Replace(result, urlPattern, urlReplacement);
 
         var urlPattern2 = """<a class="js-modal-open" href="#trial-license" data-modal-id="trial-license">(.+?)</a>""";
@@ -128,6 +129,16 @@ public class ContentUpdaterBase : IContentUpdater
             result = result.Replace($"{matchedPost.PostHeader}: Figure {i}]", $"{matchedPost.PostHeader}, Figure {i}: ]");
         }
 
+        // adding imge title if missing one
+
+        result = Regex.Replace(result, @"!\[(.+)\]\((.+)-(\d+)(.{5})\)", $"![{matchedPost.PostHeader}, Figure $3: $1]($2-$3$4)");
+        for (int i = 1; i < 15; i++)
+        {
+            var captionTitlePrefix = $"{matchedPost.PostHeader}, Figure {i}: ";
+            result = result.Replace(captionTitlePrefix + captionTitlePrefix, captionTitlePrefix);
+        }
+
+
         // adding empty **** line after image if missing one
         var urlPattern10 = """    \!\[(.+)\]\((.+)\)\n\n""";
         var urlReplacement10 = "    ![$1]($2)\n    ****\n\n";
@@ -141,6 +152,10 @@ public class ContentUpdaterBase : IContentUpdater
         // **How to Generate an Excel File in Razor Pages, Figure 2: 
         var urlPattern12 = """\!\[(.+)\:\s(.+)\]\((.+)\)\n\*\*\*\*\n""";
         var urlReplacement12 = "![$1: $2]($3)\n**$2**\n\n";
+        if (Regex.IsMatch(result, urlPattern12))
+        {
+            Console.WriteLine("found empty line after image");
+        }
         result = Regex.Replace(result, urlPattern12, urlReplacement12);
 
         var urlPattern13 = """\s{4}\!\[(.+)\:\s(.+)\]\((.+)\)\n\s{4}\*\*\*\*\n""";

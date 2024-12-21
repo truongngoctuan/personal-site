@@ -19,7 +19,7 @@ namespace ContentEdit.Core
       }
 
       var imagePaths = Directory.GetFiles(imageFolder)
-      .Where(p => new string[] { ".png" }.Contains(Path.GetExtension(p)));
+      .Where(p => new string[] { ".png", ".jpg" }.Contains(Path.GetExtension(p)));
 
       foreach (var imagePath in imagePaths)
       {
